@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-type Health = { api: string; db: string };
+type Health = { status: string };
 
 function StatusRow({ label, ok, detail }: { label: string; ok: boolean; detail?: string }) {
   return (
@@ -17,7 +17,7 @@ export function Home() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch("/healthz")
+    fetch("/readyz")
       .then((res) => res.json())
       .then(setHealth)
       .catch((err) => setError(String(err)));
@@ -33,12 +33,8 @@ export function Home() {
       </p>
       <div className="space-y-3 rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
         <StatusRow label="Web" ok detail="running" />
-        <StatusRow label="API host" ok={health?.api === "ok"} detail={error ?? undefined} />
-        <StatusRow
-          label="Database"
-          ok={health?.db === "ok"}
-          detail={health && health.db !== "ok" ? health.db : undefined}
-        />
+        <StatusRow label="API host" ok={health?.status === "ok"} detail={error ?? undefined} />
+        <StatusRow label="Database" ok={health?.status === "ok"} detail={error ?? undefined} />
       </div>
       <p className="mt-6 text-sm text-slate-500">See README.md and docs/engineering/IMPLEMENTATION_PLAN.md to begin.</p>
     </main>

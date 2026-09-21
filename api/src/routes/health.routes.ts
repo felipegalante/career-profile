@@ -1,15 +1,21 @@
 import type { FastifyPluginAsync } from "fastify";
-import { pingDatabase } from "../db.js";
 
-export const healthRoutes: FastifyPluginAsync = async (app) => {
-  app.get("/healthz", async () => {
-    let db = "ok";
-    try {
-      await pingDatabase();
-    } catch (error) {
-      db = `error: ${error instanceof Error ? error.message : String(error)}`;
-    }
+export const healthRoutes = ({
+  ping,
+  verifyInstanceId,
+}: {
+  ping: () => Promise<void>;
+  verifyInstanceId?: string;
+}): FastifyPluginAsync =>
+  async (app) => {
+    app.get("/livez", async () => ({ status: "ok" }));
 
-    return { api: "ok", db };
-  });
-};
+    app.get("/readyz", async (_request, reply) => {
+      try {
+        await ping();
+        return { status: "ok", ...(verifyInstanceId ? { instanceId: verifyInstanceId } : {}) };
+      } catch {
+        return reply.status(503).send({ status: "unavailable" });
+      }
+    });
+  };
