@@ -2,10 +2,26 @@ import { createApp } from "./app.js";
 import { loadRuntimeConfig } from "./config.js";
 import { createDatabase, type AppDatabase } from "./db.js";
 
+type StartupStage = "application" | "configuration" | "database" | "listen";
+
+function startupFailureCode(stage: StartupStage): string {
+  switch (stage) {
+    case "configuration":
+      return "CONFIG_INVALID";
+    case "database":
+      return "DATABASE_INITIALIZATION_FAILED";
+    case "listen":
+      return "LISTEN_FAILED";
+    case "application":
+      return "APPLICATION_INITIALIZATION_FAILED";
+  }
+}
+
 async function startServer(): Promise<void> {
   let database: AppDatabase | undefined;
   let app: ReturnType<typeof createApp> | undefined;
   let shuttingDown = false;
+  let stage: StartupStage = "configuration";
 
   const shutdown = async (exitCode: number): Promise<void> => {
     if (shuttingDown) return;
@@ -17,7 +33,9 @@ async function startServer(): Promise<void> {
 
   try {
     const config = loadRuntimeConfig();
+    stage = "database";
     database = createDatabase(config.databaseUrl);
+    stage = "application";
     app = createApp({ database, verifyInstanceId: config.verifyInstanceId });
     for (const signal of ["SIGINT", "SIGTERM"] as const) {
       process.once(signal, () => {
@@ -25,13 +43,15 @@ async function startServer(): Promise<void> {
       });
     }
 
+    stage = "listen";
     await app.listen({ host: config.host, port: config.port });
     const address = app.server.address();
     const port = typeof address === "object" && address ? address.port : config.port;
     console.log(JSON.stringify({ event: "api-listening", port, verifyInstanceId: config.verifyInstanceId }));
   } catch {
-    app?.log.error({ safeErrorCode: "STARTUP_FAILED" }, "API startup failed");
-    console.error(JSON.stringify({ event: "api-startup-failed", safeErrorCode: "STARTUP_FAILED" }));
+    const safeErrorCode = startupFailureCode(stage);
+    app?.log.error({ safeErrorCode }, "API startup failed");
+    console.error(JSON.stringify({ event: "api-startup-failed", safeErrorCode }));
     await shutdown(1);
   }
 }

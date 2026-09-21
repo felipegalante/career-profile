@@ -15,6 +15,7 @@ export const healthRoutes = ({
         await ping();
         return { status: "ok", ...(verifyInstanceId ? { instanceId: verifyInstanceId } : {}) };
       } catch {
+        app.log.warn({ safeErrorCode: "DATABASE_UNAVAILABLE" }, "Database readiness check failed");
         return reply.status(503).send({ status: "unavailable" });
       }
     });
