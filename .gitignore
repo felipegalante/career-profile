@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+*.log
+
+.DS_Store
+
+# Local Codex instructions and workflows are intentionally not versioned.
+AGENTS.md
+.agents/
+.codex/
