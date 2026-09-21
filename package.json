@@ -3,17 +3,18 @@
   "private": true,
   "packageManager": "pnpm@12.4.2",
   "engines": {
-    "node": ">=24",
-    "pnpm": ">=12"
+    "node": ">=24.15.0 <25",
+    "pnpm": "12.4.2"
   },
   "scripts": {
     "dev": "concurrently -k -n api,web -c blue,magenta \"pnpm --filter api dev\" \"pnpm --filter web dev\"",
+    "build": "pnpm --filter api build && pnpm --filter web build",
     "db:up": "docker compose up -d",
     "db:down": "docker compose down",
-    "db:migrate": "node scripts/migrate.mjs",
+    "db:migrate": "pnpm --filter api db:migrate",
     "test": "pnpm --filter api test && pnpm --filter web test",
     "typecheck": "pnpm --filter api typecheck && pnpm --filter web typecheck",
-    "verify": "node scripts/verify.mjs"
+    "verify": "pnpm typecheck && pnpm test && pnpm build && pnpm --filter api verify"
   },
   "devDependencies": {
     "concurrently": "^10.0.5"

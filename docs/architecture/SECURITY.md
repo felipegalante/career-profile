@@ -34,6 +34,14 @@ Sessions:
 - normalize email/skill labels in a single shared implementation;
 - validate URLs/dates/enums server-side.
 
+## GraphQL transport
+
+- the foundation API accepts JSON POST requests only; batching and multipart requests are disabled;
+- same-origin hosting is the default and credentialed CORS remains disabled;
+- Phase 01 must validate trusted Origin and add a session-bound CSRF defense before cookie-authenticated mutations are enabled;
+- Fastify applies a 1 MiB body limit; depth, alias, execution, and statement limits are measured against real Profile operations before authenticated exposure;
+- request logs include a generated request ID, operation name, duration, and safe error code only. Cookies, authorization, passwords, grants, database URLs, and sensitive GraphQL variables are redacted or omitted.
+
 ## Data privacy
 
 User custom skills and profile records are private to their owner in initial scope. Search must not accidentally combine custom skills across users.

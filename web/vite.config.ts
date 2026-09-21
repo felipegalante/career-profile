@@ -6,7 +6,8 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
     proxy: {
-      "/healthz": "http://localhost:3001",
+      "/livez": "http://localhost:3001",
+      "/readyz": "http://localhost:3001",
       "/graphql": "http://localhost:3001",
     },
   },

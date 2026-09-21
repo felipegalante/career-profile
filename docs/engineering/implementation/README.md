@@ -1,6 +1,6 @@
 # Revised implementation plan
 
-Status: **PLANNED**. This plan is the output of the [architecture readiness review](../reviews/architecture-readiness.md); it supersedes the earlier delivery sequence in `../IMPLEMENTATION_PLAN.md`, not product requirements or accepted ADRs. **No phase has started.** All product implementation remains Not Started. Resume import and generation are planned initial-release phases, gated by Q10.
+Status: **IN PROGRESS**. This plan is the output of the [architecture readiness review](../reviews/architecture-readiness.md); it supersedes the earlier delivery sequence in `../IMPLEMENTATION_PLAN.md`, not product requirements or accepted ADRs. **Phase 00 is complete pending human review.** All product implementation remains Not Started. Resume import and generation are planned initial-release phases, gated by Q10.
 
 ## Read first
 
@@ -13,7 +13,7 @@ Status: **PLANNED**. This plan is the output of the [architecture readiness revi
 
 | Phase | Deliverable / independently reviewable slice | Status |
 | --- | --- | --- |
-| [00 Foundation](phase-00-foundation.md) | Reproducible runtime, safe verification and minimal Yoga/Drizzle wiring | PLANNED |
+| [00 Foundation](phase-00-foundation.md) | Reproducible runtime, safe verification and minimal Yoga/Drizzle wiring | IN REVIEW |
 | [01 Authentication](phase-01-authentication.md) | Separate session and approved password-setup slices | PLANNED; Q01 gate |
 | [02 Profile and shell](phase-02-profile-foundation.md) | Account/Profile, shell, and an early required-fields onboarding journey | PLANNED |
 | [03 Catalog skill slice](phase-03-catalog-infrastructure.md) | Search → add catalog skill → reload, with MANUAL provenance | PLANNED |

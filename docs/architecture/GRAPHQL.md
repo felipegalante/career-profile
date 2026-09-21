@@ -2,6 +2,14 @@
 
 The schema below is a planning contract, not final SDL. Naming may evolve during implementation while preserving product semantics.
 
+## Foundation transport contract
+
+Phase 00 exposes only `POST /graphql` with `application/json`, a 1 MiB request body limit, no multipart requests, and no batching. The temporary `Query.ping` field proves the Fastify/Yoga adapter; it is not product behavior. GraphiQL and Yoga's landing page are disabled.
+
+The API is same-origin by default and credentialed CORS is disabled. Phase 01 adds the session-aware Origin/CSRF guard before any authenticated mutation. Every GraphQL error carries a request ID and unexpected errors are masked as `INTERNAL`; transport logs retain only the operation name, duration, request ID, and safe error code.
+
+Depth/alias and execution/statement budgets must be measured against real Profile operations before the first authenticated release. Search defaults to 10 results with a maximum of 25; table pagination limits are introduced with the Admin table consumer rather than as foundation behavior.
+
 ## Viewer
 
 `viewer` returns the authenticated user or `null` when unauthenticated. Self-service mutations derive ownership from session context rather than accepting arbitrary user IDs.

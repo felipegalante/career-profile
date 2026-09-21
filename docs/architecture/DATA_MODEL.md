@@ -2,6 +2,12 @@
 
 This document defines the planned relational shape. Drizzle schema files will be the executable schema once implementation begins.
 
+## Database runtime conventions
+
+Database commands are owned by the API workspace. Drizzle Kit's journal is the sole migration history; the former `schema_migrations` no-op marker is retired only when it contains exactly `001_init.sql`.
+
+Application services start transactions at the workflow boundary and pass the resulting Drizzle transaction handle through repositories that participate in the same write. Domain migrations remain forward-only. PostgreSQL 16 is required; later catalog-search migrations may require a deployment role permitted to install `pg_trgm`, but Phase 00 installs no extensions or domain tables.
+
 ## Accounts
 
 ### users

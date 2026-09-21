@@ -36,7 +36,7 @@ Start with:
 
 ## Stack
 
-- **Node.js 24+**
+- **Node.js 24.15.0**
 - **TypeScript**
 - **Fastify 5**
 - **GraphQL Yoga** at `/graphql` (Phase 0 integration)
@@ -74,13 +74,14 @@ AGENTS.md                       Repository-wide Codex instructions
 
 Prerequisites:
 
-- Node.js 24+
+- Node.js 24.15.0 (see `.nvmrc`)
 - pnpm 12+
 - Docker with `docker compose`
 
 ```bash
+cp .env.example .env
 docker compose up -d
-pnpm install
+pnpm install --frozen-lockfile
 pnpm verify
 ```
 
@@ -92,10 +93,11 @@ pnpm dev
 
 - Web: `http://localhost:5173`
 - API host: `http://localhost:3001`
-- Operational health check: `http://localhost:3001/healthz`
-- GraphQL product API: `http://localhost:3001/graphql` after Phase 0
+- Liveness: `http://localhost:3001/livez`
+- Database readiness: `http://localhost:3001/readyz`
+- GraphQL foundation API: `http://localhost:3001/graphql`
 
-`pnpm install` will create `pnpm-lock.yaml`; commit that lockfile once dependencies are installed.
+`pnpm verify` creates and removes its own temporary database; it never migrates the database named in `DATABASE_URL`.
 
 ## Working with Codex
 
@@ -118,4 +120,4 @@ An ADR is not a place to store ordinary product requirements, UI choices, or acc
 
 ## Current state
 
-The repository contains the platform scaffold and planning material. Product features are intentionally not implemented yet. Fastify, GraphQL Yoga, Drizzle ORM, PostgreSQL, and pnpm are the accepted foundation for Phase 0.
+The repository contains the reviewed platform foundation and planning material. Product features are intentionally not implemented yet. Fastify, GraphQL Yoga, Drizzle ORM, PostgreSQL, and pnpm provide the foundation for later phases.
