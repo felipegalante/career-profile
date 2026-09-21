@@ -18,7 +18,7 @@ Fastify 5 + GraphQL Yoga
          PostgreSQL 16
 ```
 
-The application is a modular monolith. Product/domain HTTP behavior is GraphQL; `/healthz` is operational only.
+The application is a modular monolith. Product/domain HTTP behavior is GraphQL; `/livez` and `/readyz` are operational only.
 
 ## Backend modules
 
