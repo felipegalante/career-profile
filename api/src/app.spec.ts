@@ -96,4 +96,25 @@ describe("foundation API", () => {
       await app.close();
     }
   });
+
+  it("preserves safe validation codes while attaching the request ID", async () => {
+    const app = createApp({ ping: async () => {} });
+
+    try {
+      const response = await app.inject({
+        headers: { "content-type": "application/json" },
+        method: "POST",
+        payload: { query: "{ unknownField }" },
+        url: "/graphql",
+      });
+      const payload = response.json<{ errors: Array<{ extensions: { code: string; requestId: string } }> }>();
+
+      expect(payload.errors[0]?.extensions).toEqual({
+        code: "GRAPHQL_VALIDATION_FAILED",
+        requestId: response.headers["x-request-id"],
+      });
+    } finally {
+      await app.close();
+    }
+  });
 });

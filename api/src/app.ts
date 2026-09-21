@@ -127,7 +127,12 @@ function appendRequestId(body: string, requestId: string): string {
     if (!payload.errors) return body;
 
     for (const error of payload.errors) {
-      error.extensions = { ...error.extensions, code: "INTERNAL", requestId };
+      const originalCode = error.extensions?.code;
+      error.extensions = {
+        ...error.extensions,
+        code: originalCode && originalCode !== "INTERNAL_SERVER_ERROR" ? originalCode : "INTERNAL",
+        requestId,
+      };
     }
     return JSON.stringify(payload);
   } catch {
