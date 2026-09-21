@@ -101,7 +101,7 @@ async function runProcess(command: string, args: string[], environment: NodeJS.P
   }
 }
 
-async function startApi(databaseUrl: string, instanceId: string): Promise<{ child: ReturnType<typeof spawn>; port: number }> {
+export async function startApi(databaseUrl: string, instanceId: string): Promise<{ child: ReturnType<typeof spawn>; port: number }> {
   const serverPath = path.resolve(apiDirectory, "dist/server.js");
   if (!existsSync(serverPath)) {
     throw new Error("API build output is missing. Run pnpm build before pnpm verify.");
@@ -119,11 +119,23 @@ async function startApi(databaseUrl: string, instanceId: string): Promise<{ chil
     },
     stdio: ["ignore", "pipe", "pipe"],
   });
-  const port = await waitForListeningPort(child);
-  return { child, port };
+  return waitForApiStart(child);
 }
 
-async function waitForListeningPort(child: ReturnType<typeof spawn>): Promise<number> {
+export async function waitForApiStart(
+  child: ReturnType<typeof spawn>,
+  timeoutMs = 10_000
+): Promise<{ child: ReturnType<typeof spawn>; port: number }> {
+  try {
+    const port = await waitForListeningPort(child, timeoutMs);
+    return { child, port };
+  } catch (error) {
+    await stopApi(child);
+    throw error;
+  }
+}
+
+export async function waitForListeningPort(child: ReturnType<typeof spawn>, timeoutMs = 10_000): Promise<number> {
   return new Promise<number>((resolve, reject) => {
     const stdout = child.stdout;
     const stderr = child.stderr;
@@ -132,12 +144,15 @@ async function waitForListeningPort(child: ReturnType<typeof spawn>): Promise<nu
       return;
     }
     let output = "";
-    const timeout = setTimeout(() => reject(new Error("Timed out waiting for the verification API to start.")), 10_000);
+    let settled = false;
+    let timeout: NodeJS.Timeout | undefined;
     const finish = (callback: () => void) => {
+      if (settled) return;
+      settled = true;
       clearTimeout(timeout);
-      stdout.removeAllListeners("data");
-      stderr.removeAllListeners("data");
-      child.removeAllListeners("exit");
+      stdout.off("data", inspect);
+      stderr.off("data", inspect);
+      child.off("exit", onExit);
       callback();
     };
     const inspect = (chunk: Buffer) => {
@@ -155,20 +170,51 @@ async function waitForListeningPort(child: ReturnType<typeof spawn>): Promise<nu
         }
       }
     };
+    const onExit = (code: number | null) => {
+      finish(() => reject(new Error(`Verification API exited early (${code}): ${safeOutput(output)}`)));
+    };
     stdout.on("data", inspect);
     stderr.on("data", inspect);
-    child.once("exit", (code) => finish(() => reject(new Error(`Verification API exited early (${code}): ${safeOutput(output)}`))));
+    child.once("exit", onExit);
+    timeout = setTimeout(() => {
+      finish(() => reject(new Error("Timed out waiting for the verification API to start.")));
+    }, timeoutMs);
   });
 }
 
-async function stopApi(child: ReturnType<typeof spawn>): Promise<void> {
-  if (child.exitCode !== null) return;
+function hasExited(child: ReturnType<typeof spawn>): boolean {
+  return child.exitCode !== null || child.signalCode !== null;
+}
+
+async function waitForApiExit(child: ReturnType<typeof spawn>, timeoutMs: number): Promise<boolean> {
+  if (hasExited(child)) return true;
+
+  return new Promise<boolean>((resolve) => {
+    let settled = false;
+    const finish = (exited: boolean) => {
+      if (settled) return;
+      settled = true;
+      clearTimeout(timeout);
+      child.off("exit", onExit);
+      resolve(exited);
+    };
+    const onExit = () => finish(true);
+    const timeout = setTimeout(() => finish(false), timeoutMs);
+    child.once("exit", onExit);
+  });
+}
+
+export async function stopApi(child: ReturnType<typeof spawn>): Promise<void> {
+  if (hasExited(child)) return;
+  const terminated = waitForApiExit(child, 5_000);
   child.kill("SIGTERM");
-  await Promise.race([
-    once(child, "exit"),
-    new Promise<void>((resolve) => setTimeout(resolve, 5_000)),
-  ]);
-  if (child.exitCode === null) child.kill("SIGKILL");
+  if (await terminated) return;
+
+  const killed = waitForApiExit(child, 5_000);
+  child.kill("SIGKILL");
+  if (!(await killed)) {
+    throw new Error("Could not stop the verification API.");
+  }
 }
 
 async function smokeApi(port: number, instanceId: string): Promise<void> {
@@ -220,15 +266,20 @@ async function verify(): Promise<void> {
     await smokeApi(started.port, instanceId);
     console.log("Isolated verification passed.");
   } finally {
-    if (api) await stopApi(api);
-    await maintenancePool.query(`DROP DATABASE IF EXISTS ${databaseIdentifier(temporaryName)} WITH (FORCE)`).catch(() => {});
-    await maintenancePool.end();
+    try {
+      if (api) await stopApi(api);
+    } finally {
+      await maintenancePool.query(`DROP DATABASE IF EXISTS ${databaseIdentifier(temporaryName)} WITH (FORCE)`).catch(() => {});
+      await maintenancePool.end();
+    }
   }
 }
 
-try {
-  await verify();
-} catch (error) {
-  console.error(`Verification failed: ${safeOutput(error instanceof Error ? error.message : String(error))}`);
-  process.exitCode = 1;
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  try {
+    await verify();
+  } catch (error) {
+    console.error(`Verification failed: ${safeOutput(error instanceof Error ? error.message : String(error))}`);
+    process.exitCode = 1;
+  }
 }
