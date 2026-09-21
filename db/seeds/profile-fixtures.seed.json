@@ -1,0 +1,92 @@
+{
+  "alex": {
+    "professionalFocusSeedKeys": [
+      "software_engineering",
+      "cloud_infrastructure",
+      "product_management"
+    ],
+    "primaryFocusSeedKey": "software_engineering",
+    "workExperiences": [
+      {
+        "companySeedKey": "northstar_labs",
+        "jobTitleSeedKey": "software_engineer",
+        "employmentType": "FULL_TIME",
+        "startDate": "2022-04-01",
+        "isCurrent": true
+      },
+      {
+        "companySeedKey": "harbour_systems",
+        "jobTitleSeedKey": "software_test_engineer",
+        "employmentType": "FULL_TIME",
+        "startDate": "2020-01-01",
+        "endDate": "2022-03-01",
+        "isCurrent": false
+      }
+    ],
+    "education": [
+      {
+        "institutionSeedKey": "university_of_alberta",
+        "majorSeedKey": "computer_science",
+        "degreeTypeSeedKey": "bachelor_of_science",
+        "status": "COMPLETED",
+        "startYear": 2016,
+        "endYear": 2020,
+        "isCurrent": false
+      }
+    ],
+    "certifications": [
+      {
+        "boardSeedKey": "aws",
+        "certificationName": "AWS Certified Cloud Practitioner"
+      }
+    ],
+    "customCatalogExamples": {
+      "company": "Small Private Studio",
+      "focusArea": "Developer Productivity"
+    },
+    "skills": [
+      {
+        "label": "JavaScript",
+        "proficiency": "ADVANCED",
+        "source": "MANUAL"
+      },
+      {
+        "label": "TypeScript",
+        "proficiency": "ADVANCED",
+        "source": "MANUAL"
+      },
+      {
+        "label": "PostgreSQL",
+        "proficiency": "INTERMEDIATE",
+        "source": "MANUAL"
+      },
+      {
+        "label": "Communication",
+        "proficiency": "INTERMEDIATE",
+        "source": "MANUAL"
+      }
+    ]
+  },
+  "jordan": {
+    "professionalFocusSeedKeys": [
+      "data_ai",
+      "education_training"
+    ],
+    "primaryFocusSeedKey": "data_ai",
+    "workExperiences": [],
+    "education": [],
+    "certifications": [],
+    "skills": [
+      {
+        "label": "SQL",
+        "proficiency": "INTERMEDIATE",
+        "source": "MANUAL"
+      },
+      {
+        "label": "Problem Solving",
+        "proficiency": "INTERMEDIATE",
+        "source": "MANUAL"
+      }
+    ]
+  }
+}

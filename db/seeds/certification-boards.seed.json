@@ -1,0 +1,102 @@
+[
+  {
+    "seedKey": "aws",
+    "name": "Amazon Web Services",
+    "url": "https://aws.amazon.com/certification/"
+  },
+  {
+    "seedKey": "microsoft",
+    "name": "Microsoft",
+    "url": "https://learn.microsoft.com/credentials/"
+  },
+  {
+    "seedKey": "google_cloud",
+    "name": "Google Cloud",
+    "url": "https://cloud.google.com/learn/certification"
+  },
+  {
+    "seedKey": "comptia",
+    "name": "CompTIA",
+    "url": "https://www.comptia.org/certifications"
+  },
+  {
+    "seedKey": "pmi",
+    "name": "Project Management Institute",
+    "url": "https://www.pmi.org/certifications"
+  },
+  {
+    "seedKey": "scrum_alliance",
+    "name": "Scrum Alliance",
+    "url": "https://www.scrumalliance.org/"
+  },
+  {
+    "seedKey": "scrum_org",
+    "name": "Scrum.org",
+    "url": "https://www.scrum.org/"
+  },
+  {
+    "seedKey": "cisco",
+    "name": "Cisco",
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/index.html"
+  },
+  {
+    "seedKey": "isc2",
+    "name": "ISC2",
+    "url": "https://www.isc2.org/certifications"
+  },
+  {
+    "seedKey": "isaca",
+    "name": "ISACA",
+    "url": "https://www.isaca.org/credentialing"
+  },
+  {
+    "seedKey": "hashicorp",
+    "name": "HashiCorp",
+    "url": "https://developer.hashicorp.com/certifications"
+  },
+  {
+    "seedKey": "oracle",
+    "name": "Oracle",
+    "url": "https://education.oracle.com/"
+  },
+  {
+    "seedKey": "salesforce",
+    "name": "Salesforce",
+    "url": "https://trailhead.salesforce.com/credentials"
+  },
+  {
+    "seedKey": "red_hat",
+    "name": "Red Hat",
+    "url": "https://www.redhat.com/en/services/certification"
+  },
+  {
+    "seedKey": "linux_foundation",
+    "name": "Linux Foundation / CNCF",
+    "url": "https://training.linuxfoundation.org/certification/"
+  },
+  {
+    "seedKey": "github",
+    "name": "GitHub",
+    "url": "https://resources.github.com/learn/certifications/"
+  },
+  {
+    "seedKey": "snowflake",
+    "name": "Snowflake",
+    "url": "https://learn.snowflake.com/en/certifications/"
+  },
+  {
+    "seedKey": "databricks",
+    "name": "Databricks",
+    "url": "https://www.databricks.com/learn/certification"
+  },
+  {
+    "seedKey": "iiba",
+    "name": "IIBA",
+    "url": "https://www.iiba.org/business-analysis-certifications/"
+  },
+  {
+    "seedKey": "shrm",
+    "name": "SHRM",
+    "url": "https://www.shrm.org/credentials/certification"
+  }
+]

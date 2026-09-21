@@ -1,0 +1,1547 @@
+seed_key,label,category
+skill_0001,Active Listening,FOUNDATIONAL
+skill_0002,Adaptability,FOUNDATIONAL
+skill_0003,Analytical Thinking,FOUNDATIONAL
+skill_0004,Attention to Detail,FOUNDATIONAL
+skill_0005,Business Communication,FOUNDATIONAL
+skill_0006,Change Resilience,FOUNDATIONAL
+skill_0007,Collaboration,FOUNDATIONAL
+skill_0008,Conflict Resolution,FOUNDATIONAL
+skill_0009,Continuous Learning,FOUNDATIONAL
+skill_0010,Creative Thinking,FOUNDATIONAL
+skill_0011,Critical Thinking,FOUNDATIONAL
+skill_0012,Cross-Functional Collaboration,FOUNDATIONAL
+skill_0013,Customer Empathy,FOUNDATIONAL
+skill_0014,Decision Making,FOUNDATIONAL
+skill_0015,Dependability,FOUNDATIONAL
+skill_0016,Emotional Intelligence,FOUNDATIONAL
+skill_0017,Facilitation,FOUNDATIONAL
+skill_0018,Giving Feedback,FOUNDATIONAL
+skill_0019,Goal Setting,FOUNDATIONAL
+skill_0020,Growth Mindset,FOUNDATIONAL
+skill_0021,Initiative,FOUNDATIONAL
+skill_0022,Interpersonal Communication,FOUNDATIONAL
+skill_0023,Leadership,FOUNDATIONAL
+skill_0024,Mentoring,FOUNDATIONAL
+skill_0025,Negotiation,FOUNDATIONAL
+skill_0026,Organization,FOUNDATIONAL
+skill_0027,Ownership,FOUNDATIONAL
+skill_0028,Patience,FOUNDATIONAL
+skill_0029,Planning,FOUNDATIONAL
+skill_0030,Presentation Skills,FOUNDATIONAL
+skill_0031,Prioritization,FOUNDATIONAL
+skill_0032,Problem Solving,FOUNDATIONAL
+skill_0033,Professional Communication,FOUNDATIONAL
+skill_0034,Relationship Building,FOUNDATIONAL
+skill_0035,Reliability,FOUNDATIONAL
+skill_0036,Research,FOUNDATIONAL
+skill_0037,Resourcefulness,FOUNDATIONAL
+skill_0038,Self-Management,FOUNDATIONAL
+skill_0039,Self-Motivation,FOUNDATIONAL
+skill_0040,Stakeholder Communication,FOUNDATIONAL
+skill_0041,Strategic Thinking,FOUNDATIONAL
+skill_0042,Teamwork,FOUNDATIONAL
+skill_0043,Time Management,FOUNDATIONAL
+skill_0044,Verbal Communication,FOUNDATIONAL
+skill_0045,Written Communication,FOUNDATIONAL
+skill_0046,Workshop Facilitation,FOUNDATIONAL
+skill_0047,Coaching,FOUNDATIONAL
+skill_0048,Consensus Building,FOUNDATIONAL
+skill_0049,Curiosity,FOUNDATIONAL
+skill_0050,Delegation,FOUNDATIONAL
+skill_0051,Diplomacy,FOUNDATIONAL
+skill_0052,Documentation,FOUNDATIONAL
+skill_0053,Meeting Facilitation,FOUNDATIONAL
+skill_0054,Process Thinking,FOUNDATIONAL
+skill_0055,Risk Awareness,FOUNDATIONAL
+skill_0056,Systems Thinking,FOUNDATIONAL
+skill_0057,Work Ethic,FOUNDATIONAL
+skill_0058,Accountability,FOUNDATIONAL
+skill_0059,Cultural Awareness,FOUNDATIONAL
+skill_0060,Data-Informed Decision Making,FOUNDATIONAL
+skill_0061,Learning Agility,FOUNDATIONAL
+skill_0062,Service Orientation,FOUNDATIONAL
+skill_0063,Situational Awareness,FOUNDATIONAL
+skill_0064,Task Management,FOUNDATIONAL
+skill_0065,Troubleshooting Mindset,FOUNDATIONAL
+skill_0066,User Empathy,FOUNDATIONAL
+skill_0067,Attention Management,FOUNDATIONAL
+skill_0068,Business Acumen,FOUNDATIONAL
+skill_0069,Commercial Awareness,FOUNDATIONAL
+skill_0070,Ethical Judgment,FOUNDATIONAL
+skill_0071,Executive Communication,FOUNDATIONAL
+skill_0072,Influencing,FOUNDATIONAL
+skill_0073,Knowledge Sharing,FOUNDATIONAL
+skill_0074,Peer Review,FOUNDATIONAL
+skill_0075,Requirements Clarification,FOUNDATIONAL
+skill_0076,Scope Management,FOUNDATIONAL
+skill_0077,Structured Thinking,FOUNDATIONAL
+skill_0078,Technical Communication,FOUNDATIONAL
+skill_0079,Quality Mindset,FOUNDATIONAL
+skill_0080,Root Cause Thinking,FOUNDATIONAL
+skill_0081,Cross-Cultural Communication,FOUNDATIONAL
+skill_0082,Conflict Management,FOUNDATIONAL
+skill_0083,Coordination,FOUNDATIONAL
+skill_0084,Planning and Scheduling,FOUNDATIONAL
+skill_0085,Stakeholder Management,FOUNDATIONAL
+skill_0086,Team Coordination,FOUNDATIONAL
+skill_0087,Remote Collaboration,FOUNDATIONAL
+skill_0088,Interviewing,FOUNDATIONAL
+skill_0089,Information Synthesis,FOUNDATIONAL
+skill_0090,Writing,FOUNDATIONAL
+skill_0091,Reading Comprehension,FOUNDATIONAL
+skill_0092,Numeracy,FOUNDATIONAL
+skill_0093,Process Improvement,FOUNDATIONAL
+skill_0094,Continuous Improvement,FOUNDATIONAL
+skill_0095,Outcome Orientation,FOUNDATIONAL
+skill_0096,Results Orientation,FOUNDATIONAL
+skill_0097,Resilience,FOUNDATIONAL
+skill_0098,Self-Awareness,FOUNDATIONAL
+skill_0099,Learning from Feedback,FOUNDATIONAL
+skill_0100,Coaching Others,FOUNDATIONAL
+skill_0101,Public Speaking,FOUNDATIONAL
+skill_0102,Meeting Management,FOUNDATIONAL
+skill_0103,Expectation Management,FOUNDATIONAL
+skill_0104,Customer Communication,FOUNDATIONAL
+skill_0105,Partner Management,FOUNDATIONAL
+skill_0106,Vendor Communication,FOUNDATIONAL
+skill_0107,Community Engagement,FOUNDATIONAL
+skill_0108,Facilitating Decisions,FOUNDATIONAL
+skill_0109,Operational Discipline,FOUNDATIONAL
+skill_0110,Quality Awareness,FOUNDATIONAL
+skill_0111,Safety Awareness,FOUNDATIONAL
+skill_0112,Precision,FOUNDATIONAL
+skill_0113,Judgment,FOUNDATIONAL
+skill_0114,Problem Framing,FOUNDATIONAL
+skill_0115,Discovery Skills,FOUNDATIONAL
+skill_0116,Questioning Techniques,FOUNDATIONAL
+skill_0117,Storytelling,FOUNDATIONAL
+skill_0118,Visual Communication,FOUNDATIONAL
+skill_0119,Data Storytelling,FOUNDATIONAL
+skill_0120,Escalation Management,FOUNDATIONAL
+skill_0121,Incident Communication,FOUNDATIONAL
+skill_0122,Conflict De-escalation,FOUNDATIONAL
+skill_0123,Prioritization Under Pressure,FOUNDATIONAL
+skill_0124,Strategic Planning,FOUNDATIONAL
+skill_0125,JavaScript,TECHNICAL
+skill_0126,TypeScript,TECHNICAL
+skill_0127,Python,TECHNICAL
+skill_0128,Java,TECHNICAL
+skill_0129,C,TECHNICAL
+skill_0130,Go,TECHNICAL
+skill_0131,Rust,TECHNICAL
+skill_0132,Ruby,TECHNICAL
+skill_0133,PHP,TECHNICAL
+skill_0134,Kotlin,TECHNICAL
+skill_0135,Swift,TECHNICAL
+skill_0136,Scala,TECHNICAL
+skill_0137,R,TECHNICAL
+skill_0138,MATLAB,TECHNICAL
+skill_0139,Dart,TECHNICAL
+skill_0140,Elixir,TECHNICAL
+skill_0141,Erlang,TECHNICAL
+skill_0142,Haskell,TECHNICAL
+skill_0143,Lua,TECHNICAL
+skill_0144,Perl,TECHNICAL
+skill_0145,Bash,TECHNICAL
+skill_0146,PowerShell,TECHNICAL
+skill_0147,SQL,TECHNICAL
+skill_0148,HTML,TECHNICAL
+skill_0149,CSS,TECHNICAL
+skill_0150,Sass,TECHNICAL
+skill_0151,GraphQL,TECHNICAL
+skill_0152,WebAssembly,TECHNICAL
+skill_0153,Solidity,TECHNICAL
+skill_0154,Objective-C,TECHNICAL
+skill_0155,Groovy,TECHNICAL
+skill_0156,F#,TECHNICAL
+skill_0157,Visual Basic,TECHNICAL
+skill_0158,COBOL,TECHNICAL
+skill_0159,Fortran,TECHNICAL
+skill_0160,Julia,TECHNICAL
+skill_0161,Assembly Language,TECHNICAL
+skill_0162,React,TECHNICAL
+skill_0163,Next.js,TECHNICAL
+skill_0164,Vue.js,TECHNICAL
+skill_0165,Nuxt,TECHNICAL
+skill_0166,Angular,TECHNICAL
+skill_0167,Svelte,TECHNICAL
+skill_0168,SvelteKit,TECHNICAL
+skill_0169,Express.js,TECHNICAL
+skill_0170,Fastify,TECHNICAL
+skill_0171,NestJS,TECHNICAL
+skill_0172,Node.js,TECHNICAL
+skill_0173,Deno,TECHNICAL
+skill_0174,Bun,TECHNICAL
+skill_0175,Spring Boot,TECHNICAL
+skill_0176,ASP.NET Core,TECHNICAL
+skill_0177,Django,TECHNICAL
+skill_0178,Flask,TECHNICAL
+skill_0179,FastAPI,TECHNICAL
+skill_0180,Ruby on Rails,TECHNICAL
+skill_0181,Laravel,TECHNICAL
+skill_0182,Symfony,TECHNICAL
+skill_0183,Phoenix Framework,TECHNICAL
+skill_0184,React Native,TECHNICAL
+skill_0185,Flutter,TECHNICAL
+skill_0186,Electron,TECHNICAL
+skill_0187,Tauri,TECHNICAL
+skill_0188,jQuery,TECHNICAL
+skill_0189,Redux,TECHNICAL
+skill_0190,Zustand,TECHNICAL
+skill_0191,TanStack Query,TECHNICAL
+skill_0192,Apollo Client,TECHNICAL
+skill_0193,GraphQL Yoga,TECHNICAL
+skill_0194,gRPC,TECHNICAL
+skill_0195,REST API Design,TECHNICAL
+skill_0196,OpenAPI,TECHNICAL
+skill_0197,WebSockets,TECHNICAL
+skill_0198,Server-Sent Events,TECHNICAL
+skill_0199,PostgreSQL,TECHNICAL
+skill_0200,MySQL,TECHNICAL
+skill_0201,MariaDB,TECHNICAL
+skill_0202,SQLite,TECHNICAL
+skill_0203,Microsoft SQL Server,TECHNICAL
+skill_0204,Oracle Database,TECHNICAL
+skill_0205,MongoDB,TECHNICAL
+skill_0206,Redis,TECHNICAL
+skill_0207,DynamoDB,TECHNICAL
+skill_0208,Cassandra,TECHNICAL
+skill_0209,CockroachDB,TECHNICAL
+skill_0210,Neo4j,TECHNICAL
+skill_0211,Elasticsearch,TECHNICAL
+skill_0212,OpenSearch,TECHNICAL
+skill_0213,ClickHouse,TECHNICAL
+skill_0214,Snowflake,TECHNICAL
+skill_0215,BigQuery,TECHNICAL
+skill_0216,Redshift,TECHNICAL
+skill_0217,Databricks,TECHNICAL
+skill_0218,Firebase Firestore,TECHNICAL
+skill_0219,Supabase,TECHNICAL
+skill_0220,PlanetScale,TECHNICAL
+skill_0221,TimescaleDB,TECHNICAL
+skill_0222,InfluxDB,TECHNICAL
+skill_0223,DuckDB,TECHNICAL
+skill_0224,Database Design,TECHNICAL
+skill_0225,Database Administration,TECHNICAL
+skill_0226,Database Optimization,TECHNICAL
+skill_0227,Query Optimization,TECHNICAL
+skill_0228,Data Modeling,TECHNICAL
+skill_0229,Schema Design,TECHNICAL
+skill_0230,Database Migrations,TECHNICAL
+skill_0231,Transactional Systems,TECHNICAL
+skill_0232,Distributed Databases,TECHNICAL
+skill_0233,AWS,TECHNICAL
+skill_0234,Microsoft Azure,TECHNICAL
+skill_0235,Google Cloud Platform,TECHNICAL
+skill_0236,Docker,TECHNICAL
+skill_0237,Kubernetes,TECHNICAL
+skill_0238,Helm,TECHNICAL
+skill_0239,Terraform,TECHNICAL
+skill_0240,Pulumi,TECHNICAL
+skill_0241,Ansible,TECHNICAL
+skill_0242,Chef,TECHNICAL
+skill_0243,Puppet,TECHNICAL
+skill_0244,GitHub Actions,TECHNICAL
+skill_0245,GitLab CI,TECHNICAL
+skill_0246,Jenkins,TECHNICAL
+skill_0247,CircleCI,TECHNICAL
+skill_0248,Argo CD,TECHNICAL
+skill_0249,Flux CD,TECHNICAL
+skill_0250,Continuous Integration,TECHNICAL
+skill_0251,Continuous Delivery,TECHNICAL
+skill_0252,Infrastructure as Code,TECHNICAL
+skill_0253,Platform Engineering,TECHNICAL
+skill_0254,Site Reliability Engineering,TECHNICAL
+skill_0255,Linux Administration,TECHNICAL
+skill_0256,Unix Administration,TECHNICAL
+skill_0257,Nginx,TECHNICAL
+skill_0258,Apache HTTP Server,TECHNICAL
+skill_0259,HAProxy,TECHNICAL
+skill_0260,Cloud Architecture,TECHNICAL
+skill_0261,Cloud Security,TECHNICAL
+skill_0262,Cloud Cost Optimization,TECHNICAL
+skill_0263,Cloud Networking,TECHNICAL
+skill_0264,Load Balancing,TECHNICAL
+skill_0265,Auto Scaling,TECHNICAL
+skill_0266,Container Orchestration,TECHNICAL
+skill_0267,Service Mesh,TECHNICAL
+skill_0268,Istio,TECHNICAL
+skill_0269,Envoy,TECHNICAL
+skill_0270,Observability,TECHNICAL
+skill_0271,OpenTelemetry,TECHNICAL
+skill_0272,Prometheus,TECHNICAL
+skill_0273,Grafana,TECHNICAL
+skill_0274,Datadog,TECHNICAL
+skill_0275,New Relic,TECHNICAL
+skill_0276,Sentry,TECHNICAL
+skill_0277,PagerDuty,TECHNICAL
+skill_0278,Incident Management,TECHNICAL
+skill_0279,Release Engineering,TECHNICAL
+skill_0280,Build Engineering,TECHNICAL
+skill_0281,Artifact Management,TECHNICAL
+skill_0282,Feature Flags,TECHNICAL
+skill_0283,Software Architecture,TECHNICAL
+skill_0284,Systems Architecture,TECHNICAL
+skill_0285,Distributed Systems,TECHNICAL
+skill_0286,Event-Driven Architecture,TECHNICAL
+skill_0287,Microservices,TECHNICAL
+skill_0288,Modular Monoliths,TECHNICAL
+skill_0289,Domain-Driven Design,TECHNICAL
+skill_0290,CQRS,TECHNICAL
+skill_0291,Event Sourcing,TECHNICAL
+skill_0292,API Architecture,TECHNICAL
+skill_0293,Integration Architecture,TECHNICAL
+skill_0294,Solution Architecture,TECHNICAL
+skill_0295,Enterprise Architecture,TECHNICAL
+skill_0296,Scalability Engineering,TECHNICAL
+skill_0297,Performance Engineering,TECHNICAL
+skill_0298,Reliability Engineering,TECHNICAL
+skill_0299,High Availability,TECHNICAL
+skill_0300,Disaster Recovery,TECHNICAL
+skill_0301,Caching Strategies,TECHNICAL
+skill_0302,Message Queues,TECHNICAL
+skill_0303,Apache Kafka,TECHNICAL
+skill_0304,RabbitMQ,TECHNICAL
+skill_0305,Amazon SQS,TECHNICAL
+skill_0306,NATS,TECHNICAL
+skill_0307,Data Consistency,TECHNICAL
+skill_0308,Idempotency,TECHNICAL
+skill_0309,Concurrency Control,TECHNICAL
+skill_0310,State Machines,TECHNICAL
+skill_0311,Workflow Engines,TECHNICAL
+skill_0312,Background Jobs,TECHNICAL
+skill_0313,Rate Limiting,TECHNICAL
+skill_0314,Circuit Breakers,TECHNICAL
+skill_0315,Retry Strategies,TECHNICAL
+skill_0316,API Gateway Design,TECHNICAL
+skill_0317,Multi-Tenant Architecture,TECHNICAL
+skill_0318,Application Security,TECHNICAL
+skill_0319,Network Security,TECHNICAL
+skill_0320,Identity and Access Management,TECHNICAL
+skill_0321,OAuth 2.0,TECHNICAL
+skill_0322,OpenID Connect,TECHNICAL
+skill_0323,JWT,TECHNICAL
+skill_0324,Session Security,TECHNICAL
+skill_0325,Zero Trust Architecture,TECHNICAL
+skill_0326,Threat Modeling,TECHNICAL
+skill_0327,Secure Coding,TECHNICAL
+skill_0328,Vulnerability Management,TECHNICAL
+skill_0329,Penetration Testing,TECHNICAL
+skill_0330,Security Testing,TECHNICAL
+skill_0331,Static Application Security Testing,TECHNICAL
+skill_0332,Dynamic Application Security Testing,TECHNICAL
+skill_0333,Secrets Management,TECHNICAL
+skill_0334,Key Management,TECHNICAL
+skill_0335,Encryption,TECHNICAL
+skill_0336,Public Key Infrastructure,TECHNICAL
+skill_0337,TLS,TECHNICAL
+skill_0338,Web Application Firewalls,TECHNICAL
+skill_0339,SIEM,TECHNICAL
+skill_0340,Security Operations,TECHNICAL
+skill_0341,Incident Response,TECHNICAL
+skill_0342,Forensics,TECHNICAL
+skill_0343,Compliance Automation,TECHNICAL
+skill_0344,SOC 2,TECHNICAL
+skill_0345,ISO 27001,TECHNICAL
+skill_0346,PCI DSS,TECHNICAL
+skill_0347,GDPR,TECHNICAL
+skill_0348,Privacy Engineering,TECHNICAL
+skill_0349,Authentication Systems,TECHNICAL
+skill_0350,Authorization Systems,TECHNICAL
+skill_0351,Role-Based Access Control,TECHNICAL
+skill_0352,Attribute-Based Access Control,TECHNICAL
+skill_0353,OWASP Top 10,TECHNICAL
+skill_0354,Dependency Security,TECHNICAL
+skill_0355,Software Supply Chain Security,TECHNICAL
+skill_0356,Unit Testing,TECHNICAL
+skill_0357,Integration Testing,TECHNICAL
+skill_0358,End-to-End Testing,TECHNICAL
+skill_0359,Automated Testing,TECHNICAL
+skill_0360,Regression Testing,TECHNICAL
+skill_0361,Performance Testing,TECHNICAL
+skill_0362,Load Testing,TECHNICAL
+skill_0363,Stress Testing,TECHNICAL
+skill_0364,Contract Testing,TECHNICAL
+skill_0365,Property-Based Testing,TECHNICAL
+skill_0366,Mutation Testing,TECHNICAL
+skill_0367,Accessibility Testing,TECHNICAL
+skill_0368,Visual Regression Testing,TECHNICAL
+skill_0369,Test Automation,TECHNICAL
+skill_0370,Test Strategy,TECHNICAL
+skill_0371,Quality Assurance,TECHNICAL
+skill_0372,Quality Engineering,TECHNICAL
+skill_0373,Playwright,TECHNICAL
+skill_0374,Cypress,TECHNICAL
+skill_0375,Selenium,TECHNICAL
+skill_0376,Vitest,TECHNICAL
+skill_0377,Jest,TECHNICAL
+skill_0378,JUnit,TECHNICAL
+skill_0379,Pytest,TECHNICAL
+skill_0380,RSpec,TECHNICAL
+skill_0381,Postman,TECHNICAL
+skill_0382,API Testing,TECHNICAL
+skill_0383,Mobile Testing,TECHNICAL
+skill_0384,Cross-Browser Testing,TECHNICAL
+skill_0385,Test Data Management,TECHNICAL
+skill_0386,Data Engineering,TECHNICAL
+skill_0387,Data Analytics,TECHNICAL
+skill_0388,Data Science,TECHNICAL
+skill_0389,Machine Learning,TECHNICAL
+skill_0390,Deep Learning,TECHNICAL
+skill_0391,Natural Language Processing,TECHNICAL
+skill_0392,Computer Vision,TECHNICAL
+skill_0393,Generative AI,TECHNICAL
+skill_0394,Large Language Models,TECHNICAL
+skill_0395,Prompt Engineering,TECHNICAL
+skill_0396,Retrieval-Augmented Generation,TECHNICAL
+skill_0397,Vector Databases,TECHNICAL
+skill_0398,Embeddings,TECHNICAL
+skill_0399,Model Evaluation,TECHNICAL
+skill_0400,MLOps,TECHNICAL
+skill_0401,Feature Engineering,TECHNICAL
+skill_0402,Model Serving,TECHNICAL
+skill_0403,Data Pipelines,TECHNICAL
+skill_0404,ETL,TECHNICAL
+skill_0405,ELT,TECHNICAL
+skill_0406,Data Warehousing,TECHNICAL
+skill_0407,Data Lake Architecture,TECHNICAL
+skill_0408,Data Governance,TECHNICAL
+skill_0409,Data Quality,TECHNICAL
+skill_0410,Data Lineage,TECHNICAL
+skill_0411,Data Visualization,TECHNICAL
+skill_0412,Pandas,TECHNICAL
+skill_0413,NumPy,TECHNICAL
+skill_0414,SciPy,TECHNICAL
+skill_0415,scikit-learn,TECHNICAL
+skill_0416,TensorFlow,TECHNICAL
+skill_0417,PyTorch,TECHNICAL
+skill_0418,Keras,TECHNICAL
+skill_0419,Hugging Face Transformers,TECHNICAL
+skill_0420,Apache Spark,TECHNICAL
+skill_0421,Apache Airflow,TECHNICAL
+skill_0422,dbt,TECHNICAL
+skill_0423,Kafka Streams,TECHNICAL
+skill_0424,Stream Processing,TECHNICAL
+skill_0425,Batch Processing,TECHNICAL
+skill_0426,Business Intelligence,TECHNICAL
+skill_0427,Tableau,TECHNICAL
+skill_0428,Power BI,TECHNICAL
+skill_0429,Looker,TECHNICAL
+skill_0430,Product Management,TECHNICAL
+skill_0431,Product Discovery,TECHNICAL
+skill_0432,Product Analytics,TECHNICAL
+skill_0433,Product Strategy,TECHNICAL
+skill_0434,Roadmapping,TECHNICAL
+skill_0435,Backlog Management,TECHNICAL
+skill_0436,User Research,TECHNICAL
+skill_0437,Usability Testing,TECHNICAL
+skill_0438,UX Design,TECHNICAL
+skill_0439,UI Design,TECHNICAL
+skill_0440,Interaction Design,TECHNICAL
+skill_0441,Information Architecture,TECHNICAL
+skill_0442,Design Systems,TECHNICAL
+skill_0443,Prototyping,TECHNICAL
+skill_0444,Wireframing,TECHNICAL
+skill_0445,Figma,TECHNICAL
+skill_0446,Adobe XD,TECHNICAL
+skill_0447,Sketch,TECHNICAL
+skill_0448,Journey Mapping,TECHNICAL
+skill_0449,Service Design,TECHNICAL
+skill_0450,A/B Testing,TECHNICAL
+skill_0451,Experimentation,TECHNICAL
+skill_0452,Conversion Optimization,TECHNICAL
+skill_0453,Analytics Instrumentation,TECHNICAL
+skill_0454,Amplitude,TECHNICAL
+skill_0455,Mixpanel,TECHNICAL
+skill_0456,Google Analytics,TECHNICAL
+skill_0457,Requirements Analysis,TECHNICAL
+skill_0458,Business Analysis,TECHNICAL
+skill_0459,Process Mapping,TECHNICAL
+skill_0460,Technical Product Management,TECHNICAL
+skill_0461,Sales Operations,TECHNICAL
+skill_0462,Revenue Operations,TECHNICAL
+skill_0463,Marketing Operations,TECHNICAL
+skill_0464,Customer Success Operations,TECHNICAL
+skill_0465,Supply Chain Management,TECHNICAL
+skill_0466,Inventory Management,TECHNICAL
+skill_0467,Procurement,TECHNICAL
+skill_0468,Vendor Management,TECHNICAL
+skill_0469,Logistics,TECHNICAL
+skill_0470,Warehouse Operations,TECHNICAL
+skill_0471,Project Management,TECHNICAL
+skill_0472,Program Management,TECHNICAL
+skill_0473,Portfolio Management,TECHNICAL
+skill_0474,Agile Delivery,TECHNICAL
+skill_0475,Scrum,TECHNICAL
+skill_0476,Kanban,TECHNICAL
+skill_0477,Jira,TECHNICAL
+skill_0478,Confluence,TECHNICAL
+skill_0479,ServiceNow,TECHNICAL
+skill_0480,Salesforce,TECHNICAL
+skill_0481,HubSpot,TECHNICAL
+skill_0482,Microsoft Dynamics 365,TECHNICAL
+skill_0483,SAP,TECHNICAL
+skill_0484,Oracle ERP,TECHNICAL
+skill_0485,Workday,TECHNICAL
+skill_0486,NetSuite,TECHNICAL
+skill_0487,Financial Modeling,TECHNICAL
+skill_0488,Financial Analysis,TECHNICAL
+skill_0489,Accounting,TECHNICAL
+skill_0490,Bookkeeping,TECHNICAL
+skill_0491,Budgeting,TECHNICAL
+skill_0492,Forecasting,TECHNICAL
+skill_0493,Risk Management,TECHNICAL
+skill_0494,Internal Controls,TECHNICAL
+skill_0495,Payroll Administration,TECHNICAL
+skill_0496,Talent Acquisition,TECHNICAL
+skill_0497,Human Resources Information Systems,TECHNICAL
+skill_0498,Learning Management Systems,TECHNICAL
+skill_0499,Customer Relationship Management,TECHNICAL
+skill_0500,Computer Networking,TECHNICAL
+skill_0501,TCP/IP,TECHNICAL
+skill_0502,DNS,TECHNICAL
+skill_0503,DHCP,TECHNICAL
+skill_0504,BGP,TECHNICAL
+skill_0505,OSPF,TECHNICAL
+skill_0506,VLANs,TECHNICAL
+skill_0507,VPNs,TECHNICAL
+skill_0508,Firewalls,TECHNICAL
+skill_0509,Network Monitoring,TECHNICAL
+skill_0510,Network Automation,TECHNICAL
+skill_0511,Cisco IOS,TECHNICAL
+skill_0512,Juniper Networks,TECHNICAL
+skill_0513,Wireless Networking,TECHNICAL
+skill_0514,SD-WAN,TECHNICAL
+skill_0515,Network Architecture,TECHNICAL
+skill_0516,Network Troubleshooting,TECHNICAL
+skill_0517,Embedded Systems,TECHNICAL
+skill_0518,Firmware Development,TECHNICAL
+skill_0519,Internet of Things,TECHNICAL
+skill_0520,IoT Protocols,TECHNICAL
+skill_0521,MQTT,TECHNICAL
+skill_0522,Bluetooth Low Energy,TECHNICAL
+skill_0523,Raspberry Pi,TECHNICAL
+skill_0524,Arduino,TECHNICAL
+skill_0525,FPGA Development,TECHNICAL
+skill_0526,Digital Signal Processing,TECHNICAL
+skill_0527,Robotics,TECHNICAL
+skill_0528,Industrial Automation,TECHNICAL
+skill_0529,PLC Programming,TECHNICAL
+skill_0530,SCADA Systems,TECHNICAL
+skill_0531,Control Systems,TECHNICAL
+skill_0532,CAD,TECHNICAL
+skill_0533,AutoCAD,TECHNICAL
+skill_0534,SolidWorks,TECHNICAL
+skill_0535,CNC Programming,TECHNICAL
+skill_0536,3D Printing,TECHNICAL
+skill_0537,Electronic Health Records,TECHNICAL
+skill_0538,Healthcare Informatics,TECHNICAL
+skill_0539,Clinical Data Management,TECHNICAL
+skill_0540,Medical Coding,TECHNICAL
+skill_0541,Health Information Management,TECHNICAL
+skill_0542,Laboratory Information Systems,TECHNICAL
+skill_0543,Clinical Research,TECHNICAL
+skill_0544,Biostatistics,TECHNICAL
+skill_0545,Epidemiology,TECHNICAL
+skill_0546,Regulatory Affairs,TECHNICAL
+skill_0547,Good Clinical Practice,TECHNICAL
+skill_0548,Medical Device Quality,TECHNICAL
+skill_0549,Pharmacovigilance,TECHNICAL
+skill_0550,Bioinformatics,TECHNICAL
+skill_0551,Genomics,TECHNICAL
+skill_0552,Molecular Biology,TECHNICAL
+skill_0553,Cell Culture,TECHNICAL
+skill_0554,Laboratory Safety,TECHNICAL
+skill_0555,Statistical Analysis,TECHNICAL
+skill_0556,Scientific Computing,TECHNICAL
+skill_0557,Content Strategy,TECHNICAL
+skill_0558,Content Marketing,TECHNICAL
+skill_0559,Search Engine Optimization,TECHNICAL
+skill_0560,Search Engine Marketing,TECHNICAL
+skill_0561,Email Marketing,TECHNICAL
+skill_0562,Social Media Marketing,TECHNICAL
+skill_0563,Marketing Analytics,TECHNICAL
+skill_0564,Copywriting,TECHNICAL
+skill_0565,Technical Writing,TECHNICAL
+skill_0566,Editorial Strategy,TECHNICAL
+skill_0567,Digital Advertising,TECHNICAL
+skill_0568,Campaign Management,TECHNICAL
+skill_0569,Brand Management,TECHNICAL
+skill_0570,Market Research,TECHNICAL
+skill_0571,Competitive Analysis,TECHNICAL
+skill_0572,Public Relations,TECHNICAL
+skill_0573,Community Management,TECHNICAL
+skill_0574,Video Production,TECHNICAL
+skill_0575,Audio Production,TECHNICAL
+skill_0576,Graphic Design,TECHNICAL
+skill_0577,Motion Design,TECHNICAL
+skill_0578,Adobe Photoshop,TECHNICAL
+skill_0579,Adobe Illustrator,TECHNICAL
+skill_0580,Adobe Premiere Pro,TECHNICAL
+skill_0581,After Effects,TECHNICAL
+skill_0582,Occupational Health and Safety,TECHNICAL
+skill_0583,Quality Management Systems,TECHNICAL
+skill_0584,Lean Manufacturing,TECHNICAL
+skill_0585,Six Sigma,TECHNICAL
+skill_0586,Manufacturing Operations,TECHNICAL
+skill_0587,Production Planning,TECHNICAL
+skill_0588,Maintenance Planning,TECHNICAL
+skill_0589,Preventive Maintenance,TECHNICAL
+skill_0590,Root Cause Analysis,TECHNICAL
+skill_0591,Failure Mode and Effects Analysis,TECHNICAL
+skill_0592,Process Engineering,TECHNICAL
+skill_0593,Mechanical Engineering,TECHNICAL
+skill_0594,Electrical Engineering,TECHNICAL
+skill_0595,Civil Engineering,TECHNICAL
+skill_0596,Chemical Engineering,TECHNICAL
+skill_0597,Systems Engineering,TECHNICAL
+skill_0598,Building Information Modeling,TECHNICAL
+skill_0599,Geographic Information Systems,TECHNICAL
+skill_0600,ArcGIS,TECHNICAL
+skill_0601,Surveying,TECHNICAL
+skill_0602,Construction Management,TECHNICAL
+skill_0603,Facilities Management,TECHNICAL
+skill_0604,Energy Management,TECHNICAL
+skill_0605,Renewable Energy Systems,TECHNICAL
+skill_0606,Amazon EC2 Administration,TECHNICAL
+skill_0607,Amazon EC2 Architecture,TECHNICAL
+skill_0608,Amazon EC2 Automation,TECHNICAL
+skill_0609,Amazon EC2 Configuration,TECHNICAL
+skill_0610,Amazon EC2 Development,TECHNICAL
+skill_0611,Amazon EC2 Integration,TECHNICAL
+skill_0612,Amazon EC2 Migration,TECHNICAL
+skill_0613,Amazon EC2 Monitoring,TECHNICAL
+skill_0614,Amazon EC2 Operations,TECHNICAL
+skill_0615,Amazon EC2 Optimization,TECHNICAL
+skill_0616,Amazon EC2 Security,TECHNICAL
+skill_0617,Amazon EC2 Testing,TECHNICAL
+skill_0618,Amazon EC2 Troubleshooting,TECHNICAL
+skill_0619,Amazon S3 Administration,TECHNICAL
+skill_0620,Amazon S3 Architecture,TECHNICAL
+skill_0621,Amazon S3 Automation,TECHNICAL
+skill_0622,Amazon S3 Configuration,TECHNICAL
+skill_0623,Amazon S3 Development,TECHNICAL
+skill_0624,Amazon S3 Integration,TECHNICAL
+skill_0625,Amazon S3 Migration,TECHNICAL
+skill_0626,Amazon S3 Monitoring,TECHNICAL
+skill_0627,Amazon S3 Operations,TECHNICAL
+skill_0628,Amazon S3 Optimization,TECHNICAL
+skill_0629,Amazon S3 Security,TECHNICAL
+skill_0630,Amazon S3 Testing,TECHNICAL
+skill_0631,Amazon S3 Troubleshooting,TECHNICAL
+skill_0632,AWS Lambda Administration,TECHNICAL
+skill_0633,AWS Lambda Architecture,TECHNICAL
+skill_0634,AWS Lambda Automation,TECHNICAL
+skill_0635,AWS Lambda Configuration,TECHNICAL
+skill_0636,AWS Lambda Development,TECHNICAL
+skill_0637,AWS Lambda Integration,TECHNICAL
+skill_0638,AWS Lambda Migration,TECHNICAL
+skill_0639,AWS Lambda Monitoring,TECHNICAL
+skill_0640,AWS Lambda Operations,TECHNICAL
+skill_0641,AWS Lambda Optimization,TECHNICAL
+skill_0642,AWS Lambda Security,TECHNICAL
+skill_0643,AWS Lambda Testing,TECHNICAL
+skill_0644,AWS Lambda Troubleshooting,TECHNICAL
+skill_0645,Amazon RDS Administration,TECHNICAL
+skill_0646,Amazon RDS Architecture,TECHNICAL
+skill_0647,Amazon RDS Automation,TECHNICAL
+skill_0648,Amazon RDS Configuration,TECHNICAL
+skill_0649,Amazon RDS Development,TECHNICAL
+skill_0650,Amazon RDS Integration,TECHNICAL
+skill_0651,Amazon RDS Migration,TECHNICAL
+skill_0652,Amazon RDS Monitoring,TECHNICAL
+skill_0653,Amazon RDS Operations,TECHNICAL
+skill_0654,Amazon RDS Optimization,TECHNICAL
+skill_0655,Amazon RDS Security,TECHNICAL
+skill_0656,Amazon RDS Testing,TECHNICAL
+skill_0657,Amazon RDS Troubleshooting,TECHNICAL
+skill_0658,Amazon CloudFront Administration,TECHNICAL
+skill_0659,Amazon CloudFront Architecture,TECHNICAL
+skill_0660,Amazon CloudFront Automation,TECHNICAL
+skill_0661,Amazon CloudFront Configuration,TECHNICAL
+skill_0662,Amazon CloudFront Development,TECHNICAL
+skill_0663,Amazon CloudFront Integration,TECHNICAL
+skill_0664,Amazon CloudFront Migration,TECHNICAL
+skill_0665,Amazon CloudFront Monitoring,TECHNICAL
+skill_0666,Amazon CloudFront Operations,TECHNICAL
+skill_0667,Amazon CloudFront Optimization,TECHNICAL
+skill_0668,Amazon CloudFront Security,TECHNICAL
+skill_0669,Amazon CloudFront Testing,TECHNICAL
+skill_0670,Amazon CloudFront Troubleshooting,TECHNICAL
+skill_0671,Amazon CloudWatch Administration,TECHNICAL
+skill_0672,Amazon CloudWatch Architecture,TECHNICAL
+skill_0673,Amazon CloudWatch Automation,TECHNICAL
+skill_0674,Amazon CloudWatch Configuration,TECHNICAL
+skill_0675,Amazon CloudWatch Development,TECHNICAL
+skill_0676,Amazon CloudWatch Integration,TECHNICAL
+skill_0677,Amazon CloudWatch Migration,TECHNICAL
+skill_0678,Amazon CloudWatch Monitoring,TECHNICAL
+skill_0679,Amazon CloudWatch Operations,TECHNICAL
+skill_0680,Amazon CloudWatch Optimization,TECHNICAL
+skill_0681,Amazon CloudWatch Security,TECHNICAL
+skill_0682,Amazon CloudWatch Testing,TECHNICAL
+skill_0683,Amazon CloudWatch Troubleshooting,TECHNICAL
+skill_0684,AWS IAM Administration,TECHNICAL
+skill_0685,AWS IAM Architecture,TECHNICAL
+skill_0686,AWS IAM Automation,TECHNICAL
+skill_0687,AWS IAM Configuration,TECHNICAL
+skill_0688,AWS IAM Development,TECHNICAL
+skill_0689,AWS IAM Integration,TECHNICAL
+skill_0690,AWS IAM Migration,TECHNICAL
+skill_0691,AWS IAM Monitoring,TECHNICAL
+skill_0692,AWS IAM Operations,TECHNICAL
+skill_0693,AWS IAM Optimization,TECHNICAL
+skill_0694,AWS IAM Security,TECHNICAL
+skill_0695,AWS IAM Testing,TECHNICAL
+skill_0696,AWS IAM Troubleshooting,TECHNICAL
+skill_0697,Amazon EKS Administration,TECHNICAL
+skill_0698,Amazon EKS Architecture,TECHNICAL
+skill_0699,Amazon EKS Automation,TECHNICAL
+skill_0700,Amazon EKS Configuration,TECHNICAL
+skill_0701,Amazon EKS Development,TECHNICAL
+skill_0702,Amazon EKS Integration,TECHNICAL
+skill_0703,Amazon EKS Migration,TECHNICAL
+skill_0704,Amazon EKS Monitoring,TECHNICAL
+skill_0705,Amazon EKS Operations,TECHNICAL
+skill_0706,Amazon EKS Optimization,TECHNICAL
+skill_0707,Amazon EKS Security,TECHNICAL
+skill_0708,Amazon EKS Testing,TECHNICAL
+skill_0709,Amazon EKS Troubleshooting,TECHNICAL
+skill_0710,Amazon ECS Administration,TECHNICAL
+skill_0711,Amazon ECS Architecture,TECHNICAL
+skill_0712,Amazon ECS Automation,TECHNICAL
+skill_0713,Amazon ECS Configuration,TECHNICAL
+skill_0714,Amazon ECS Development,TECHNICAL
+skill_0715,Amazon ECS Integration,TECHNICAL
+skill_0716,Amazon ECS Migration,TECHNICAL
+skill_0717,Amazon ECS Monitoring,TECHNICAL
+skill_0718,Amazon ECS Operations,TECHNICAL
+skill_0719,Amazon ECS Optimization,TECHNICAL
+skill_0720,Amazon ECS Security,TECHNICAL
+skill_0721,Amazon ECS Testing,TECHNICAL
+skill_0722,Amazon ECS Troubleshooting,TECHNICAL
+skill_0723,Azure Functions Administration,TECHNICAL
+skill_0724,Azure Functions Architecture,TECHNICAL
+skill_0725,Azure Functions Automation,TECHNICAL
+skill_0726,Azure Functions Configuration,TECHNICAL
+skill_0727,Azure Functions Development,TECHNICAL
+skill_0728,Azure Functions Integration,TECHNICAL
+skill_0729,Azure Functions Migration,TECHNICAL
+skill_0730,Azure Functions Monitoring,TECHNICAL
+skill_0731,Azure Functions Operations,TECHNICAL
+skill_0732,Azure Functions Optimization,TECHNICAL
+skill_0733,Azure Functions Security,TECHNICAL
+skill_0734,Azure Functions Testing,TECHNICAL
+skill_0735,Azure Functions Troubleshooting,TECHNICAL
+skill_0736,Azure App Service Administration,TECHNICAL
+skill_0737,Azure App Service Architecture,TECHNICAL
+skill_0738,Azure App Service Automation,TECHNICAL
+skill_0739,Azure App Service Configuration,TECHNICAL
+skill_0740,Azure App Service Development,TECHNICAL
+skill_0741,Azure App Service Integration,TECHNICAL
+skill_0742,Azure App Service Migration,TECHNICAL
+skill_0743,Azure App Service Monitoring,TECHNICAL
+skill_0744,Azure App Service Operations,TECHNICAL
+skill_0745,Azure App Service Optimization,TECHNICAL
+skill_0746,Azure App Service Security,TECHNICAL
+skill_0747,Azure App Service Testing,TECHNICAL
+skill_0748,Azure App Service Troubleshooting,TECHNICAL
+skill_0749,Azure DevOps Administration,TECHNICAL
+skill_0750,Azure DevOps Architecture,TECHNICAL
+skill_0751,Azure DevOps Automation,TECHNICAL
+skill_0752,Azure DevOps Configuration,TECHNICAL
+skill_0753,Azure DevOps Development,TECHNICAL
+skill_0754,Azure DevOps Integration,TECHNICAL
+skill_0755,Azure DevOps Migration,TECHNICAL
+skill_0756,Azure DevOps Monitoring,TECHNICAL
+skill_0757,Azure DevOps Operations,TECHNICAL
+skill_0758,Azure DevOps Optimization,TECHNICAL
+skill_0759,Azure DevOps Security,TECHNICAL
+skill_0760,Azure DevOps Testing,TECHNICAL
+skill_0761,Azure DevOps Troubleshooting,TECHNICAL
+skill_0762,Azure Kubernetes Service Administration,TECHNICAL
+skill_0763,Azure Kubernetes Service Architecture,TECHNICAL
+skill_0764,Azure Kubernetes Service Automation,TECHNICAL
+skill_0765,Azure Kubernetes Service Configuration,TECHNICAL
+skill_0766,Azure Kubernetes Service Development,TECHNICAL
+skill_0767,Azure Kubernetes Service Integration,TECHNICAL
+skill_0768,Azure Kubernetes Service Migration,TECHNICAL
+skill_0769,Azure Kubernetes Service Monitoring,TECHNICAL
+skill_0770,Azure Kubernetes Service Operations,TECHNICAL
+skill_0771,Azure Kubernetes Service Optimization,TECHNICAL
+skill_0772,Azure Kubernetes Service Security,TECHNICAL
+skill_0773,Azure Kubernetes Service Testing,TECHNICAL
+skill_0774,Azure Kubernetes Service Troubleshooting,TECHNICAL
+skill_0775,Google Kubernetes Engine Administration,TECHNICAL
+skill_0776,Google Kubernetes Engine Architecture,TECHNICAL
+skill_0777,Google Kubernetes Engine Automation,TECHNICAL
+skill_0778,Google Kubernetes Engine Configuration,TECHNICAL
+skill_0779,Google Kubernetes Engine Development,TECHNICAL
+skill_0780,Google Kubernetes Engine Integration,TECHNICAL
+skill_0781,Google Kubernetes Engine Migration,TECHNICAL
+skill_0782,Google Kubernetes Engine Monitoring,TECHNICAL
+skill_0783,Google Kubernetes Engine Operations,TECHNICAL
+skill_0784,Google Kubernetes Engine Optimization,TECHNICAL
+skill_0785,Google Kubernetes Engine Security,TECHNICAL
+skill_0786,Google Kubernetes Engine Testing,TECHNICAL
+skill_0787,Google Kubernetes Engine Troubleshooting,TECHNICAL
+skill_0788,Google Cloud Run Administration,TECHNICAL
+skill_0789,Google Cloud Run Architecture,TECHNICAL
+skill_0790,Google Cloud Run Automation,TECHNICAL
+skill_0791,Google Cloud Run Configuration,TECHNICAL
+skill_0792,Google Cloud Run Development,TECHNICAL
+skill_0793,Google Cloud Run Integration,TECHNICAL
+skill_0794,Google Cloud Run Migration,TECHNICAL
+skill_0795,Google Cloud Run Monitoring,TECHNICAL
+skill_0796,Google Cloud Run Operations,TECHNICAL
+skill_0797,Google Cloud Run Optimization,TECHNICAL
+skill_0798,Google Cloud Run Security,TECHNICAL
+skill_0799,Google Cloud Run Testing,TECHNICAL
+skill_0800,Google Cloud Run Troubleshooting,TECHNICAL
+skill_0801,Google Cloud Functions Administration,TECHNICAL
+skill_0802,Google Cloud Functions Architecture,TECHNICAL
+skill_0803,Google Cloud Functions Automation,TECHNICAL
+skill_0804,Google Cloud Functions Configuration,TECHNICAL
+skill_0805,Google Cloud Functions Development,TECHNICAL
+skill_0806,Google Cloud Functions Integration,TECHNICAL
+skill_0807,Google Cloud Functions Migration,TECHNICAL
+skill_0808,Google Cloud Functions Monitoring,TECHNICAL
+skill_0809,Google Cloud Functions Operations,TECHNICAL
+skill_0810,Google Cloud Functions Optimization,TECHNICAL
+skill_0811,Google Cloud Functions Security,TECHNICAL
+skill_0812,Google Cloud Functions Testing,TECHNICAL
+skill_0813,Google Cloud Functions Troubleshooting,TECHNICAL
+skill_0814,Google Cloud Storage Administration,TECHNICAL
+skill_0815,Google Cloud Storage Architecture,TECHNICAL
+skill_0816,Google Cloud Storage Automation,TECHNICAL
+skill_0817,Google Cloud Storage Configuration,TECHNICAL
+skill_0818,Google Cloud Storage Development,TECHNICAL
+skill_0819,Google Cloud Storage Integration,TECHNICAL
+skill_0820,Google Cloud Storage Migration,TECHNICAL
+skill_0821,Google Cloud Storage Monitoring,TECHNICAL
+skill_0822,Google Cloud Storage Operations,TECHNICAL
+skill_0823,Google Cloud Storage Optimization,TECHNICAL
+skill_0824,Google Cloud Storage Security,TECHNICAL
+skill_0825,Google Cloud Storage Testing,TECHNICAL
+skill_0826,Google Cloud Storage Troubleshooting,TECHNICAL
+skill_0827,Git Administration,TECHNICAL
+skill_0828,Git Architecture,TECHNICAL
+skill_0829,Git Automation,TECHNICAL
+skill_0830,Git Configuration,TECHNICAL
+skill_0831,Git Development,TECHNICAL
+skill_0832,Git Integration,TECHNICAL
+skill_0833,Git Migration,TECHNICAL
+skill_0834,Git Monitoring,TECHNICAL
+skill_0835,Git Operations,TECHNICAL
+skill_0836,Git Optimization,TECHNICAL
+skill_0837,Git Security,TECHNICAL
+skill_0838,Git Testing,TECHNICAL
+skill_0839,Git Troubleshooting,TECHNICAL
+skill_0840,GitHub Administration,TECHNICAL
+skill_0841,GitHub Architecture,TECHNICAL
+skill_0842,GitHub Automation,TECHNICAL
+skill_0843,GitHub Configuration,TECHNICAL
+skill_0844,GitHub Development,TECHNICAL
+skill_0845,GitHub Integration,TECHNICAL
+skill_0846,GitHub Migration,TECHNICAL
+skill_0847,GitHub Monitoring,TECHNICAL
+skill_0848,GitHub Operations,TECHNICAL
+skill_0849,GitHub Optimization,TECHNICAL
+skill_0850,GitHub Security,TECHNICAL
+skill_0851,GitHub Testing,TECHNICAL
+skill_0852,GitHub Troubleshooting,TECHNICAL
+skill_0853,GitLab Administration,TECHNICAL
+skill_0854,GitLab Architecture,TECHNICAL
+skill_0855,GitLab Automation,TECHNICAL
+skill_0856,GitLab Configuration,TECHNICAL
+skill_0857,GitLab Development,TECHNICAL
+skill_0858,GitLab Integration,TECHNICAL
+skill_0859,GitLab Migration,TECHNICAL
+skill_0860,GitLab Monitoring,TECHNICAL
+skill_0861,GitLab Operations,TECHNICAL
+skill_0862,GitLab Optimization,TECHNICAL
+skill_0863,GitLab Security,TECHNICAL
+skill_0864,GitLab Testing,TECHNICAL
+skill_0865,GitLab Troubleshooting,TECHNICAL
+skill_0866,Bitbucket Administration,TECHNICAL
+skill_0867,Bitbucket Architecture,TECHNICAL
+skill_0868,Bitbucket Automation,TECHNICAL
+skill_0869,Bitbucket Configuration,TECHNICAL
+skill_0870,Bitbucket Development,TECHNICAL
+skill_0871,Bitbucket Integration,TECHNICAL
+skill_0872,Bitbucket Migration,TECHNICAL
+skill_0873,Bitbucket Monitoring,TECHNICAL
+skill_0874,Bitbucket Operations,TECHNICAL
+skill_0875,Bitbucket Optimization,TECHNICAL
+skill_0876,Bitbucket Security,TECHNICAL
+skill_0877,Bitbucket Testing,TECHNICAL
+skill_0878,Bitbucket Troubleshooting,TECHNICAL
+skill_0879,Linux Architecture,TECHNICAL
+skill_0880,Linux Automation,TECHNICAL
+skill_0881,Linux Configuration,TECHNICAL
+skill_0882,Linux Development,TECHNICAL
+skill_0883,Linux Integration,TECHNICAL
+skill_0884,Linux Migration,TECHNICAL
+skill_0885,Linux Monitoring,TECHNICAL
+skill_0886,Linux Operations,TECHNICAL
+skill_0887,Linux Optimization,TECHNICAL
+skill_0888,Linux Security,TECHNICAL
+skill_0889,Linux Testing,TECHNICAL
+skill_0890,Linux Troubleshooting,TECHNICAL
+skill_0891,Windows Server Administration,TECHNICAL
+skill_0892,Windows Server Architecture,TECHNICAL
+skill_0893,Windows Server Automation,TECHNICAL
+skill_0894,Windows Server Configuration,TECHNICAL
+skill_0895,Windows Server Development,TECHNICAL
+skill_0896,Windows Server Integration,TECHNICAL
+skill_0897,Windows Server Migration,TECHNICAL
+skill_0898,Windows Server Monitoring,TECHNICAL
+skill_0899,Windows Server Operations,TECHNICAL
+skill_0900,Windows Server Optimization,TECHNICAL
+skill_0901,Windows Server Security,TECHNICAL
+skill_0902,Windows Server Testing,TECHNICAL
+skill_0903,Windows Server Troubleshooting,TECHNICAL
+skill_0904,macOS Administration,TECHNICAL
+skill_0905,macOS Architecture,TECHNICAL
+skill_0906,macOS Automation,TECHNICAL
+skill_0907,macOS Configuration,TECHNICAL
+skill_0908,macOS Development,TECHNICAL
+skill_0909,macOS Integration,TECHNICAL
+skill_0910,macOS Migration,TECHNICAL
+skill_0911,macOS Monitoring,TECHNICAL
+skill_0912,macOS Operations,TECHNICAL
+skill_0913,macOS Optimization,TECHNICAL
+skill_0914,macOS Security,TECHNICAL
+skill_0915,macOS Testing,TECHNICAL
+skill_0916,macOS Troubleshooting,TECHNICAL
+skill_0917,Android Administration,TECHNICAL
+skill_0918,Android Architecture,TECHNICAL
+skill_0919,Android Automation,TECHNICAL
+skill_0920,Android Configuration,TECHNICAL
+skill_0921,Android Development,TECHNICAL
+skill_0922,Android Integration,TECHNICAL
+skill_0923,Android Migration,TECHNICAL
+skill_0924,Android Monitoring,TECHNICAL
+skill_0925,Android Operations,TECHNICAL
+skill_0926,Android Optimization,TECHNICAL
+skill_0927,Android Security,TECHNICAL
+skill_0928,Android Testing,TECHNICAL
+skill_0929,Android Troubleshooting,TECHNICAL
+skill_0930,iOS Administration,TECHNICAL
+skill_0931,iOS Architecture,TECHNICAL
+skill_0932,iOS Automation,TECHNICAL
+skill_0933,iOS Configuration,TECHNICAL
+skill_0934,iOS Development,TECHNICAL
+skill_0935,iOS Integration,TECHNICAL
+skill_0936,iOS Migration,TECHNICAL
+skill_0937,iOS Monitoring,TECHNICAL
+skill_0938,iOS Operations,TECHNICAL
+skill_0939,iOS Optimization,TECHNICAL
+skill_0940,iOS Security,TECHNICAL
+skill_0941,iOS Testing,TECHNICAL
+skill_0942,iOS Troubleshooting,TECHNICAL
+skill_0943,Kafka Administration,TECHNICAL
+skill_0944,Kafka Architecture,TECHNICAL
+skill_0945,Kafka Automation,TECHNICAL
+skill_0946,Kafka Configuration,TECHNICAL
+skill_0947,Kafka Development,TECHNICAL
+skill_0948,Kafka Integration,TECHNICAL
+skill_0949,Kafka Migration,TECHNICAL
+skill_0950,Kafka Monitoring,TECHNICAL
+skill_0951,Kafka Operations,TECHNICAL
+skill_0952,Kafka Optimization,TECHNICAL
+skill_0953,Kafka Security,TECHNICAL
+skill_0954,Kafka Testing,TECHNICAL
+skill_0955,Kafka Troubleshooting,TECHNICAL
+skill_0956,Redis Administration,TECHNICAL
+skill_0957,Redis Architecture,TECHNICAL
+skill_0958,Redis Automation,TECHNICAL
+skill_0959,Redis Configuration,TECHNICAL
+skill_0960,Redis Development,TECHNICAL
+skill_0961,Redis Integration,TECHNICAL
+skill_0962,Redis Migration,TECHNICAL
+skill_0963,Redis Monitoring,TECHNICAL
+skill_0964,Redis Operations,TECHNICAL
+skill_0965,Redis Optimization,TECHNICAL
+skill_0966,Redis Security,TECHNICAL
+skill_0967,Redis Testing,TECHNICAL
+skill_0968,Redis Troubleshooting,TECHNICAL
+skill_0969,PostgreSQL Administration,TECHNICAL
+skill_0970,PostgreSQL Architecture,TECHNICAL
+skill_0971,PostgreSQL Automation,TECHNICAL
+skill_0972,PostgreSQL Configuration,TECHNICAL
+skill_0973,PostgreSQL Development,TECHNICAL
+skill_0974,PostgreSQL Integration,TECHNICAL
+skill_0975,PostgreSQL Migration,TECHNICAL
+skill_0976,PostgreSQL Monitoring,TECHNICAL
+skill_0977,PostgreSQL Operations,TECHNICAL
+skill_0978,PostgreSQL Optimization,TECHNICAL
+skill_0979,PostgreSQL Security,TECHNICAL
+skill_0980,PostgreSQL Testing,TECHNICAL
+skill_0981,PostgreSQL Troubleshooting,TECHNICAL
+skill_0982,MongoDB Administration,TECHNICAL
+skill_0983,MongoDB Architecture,TECHNICAL
+skill_0984,MongoDB Automation,TECHNICAL
+skill_0985,MongoDB Configuration,TECHNICAL
+skill_0986,MongoDB Development,TECHNICAL
+skill_0987,MongoDB Integration,TECHNICAL
+skill_0988,MongoDB Migration,TECHNICAL
+skill_0989,MongoDB Monitoring,TECHNICAL
+skill_0990,MongoDB Operations,TECHNICAL
+skill_0991,MongoDB Optimization,TECHNICAL
+skill_0992,MongoDB Security,TECHNICAL
+skill_0993,MongoDB Testing,TECHNICAL
+skill_0994,MongoDB Troubleshooting,TECHNICAL
+skill_0995,Salesforce Administration,TECHNICAL
+skill_0996,Salesforce Architecture,TECHNICAL
+skill_0997,Salesforce Automation,TECHNICAL
+skill_0998,Salesforce Configuration,TECHNICAL
+skill_0999,Salesforce Development,TECHNICAL
+skill_1000,Salesforce Integration,TECHNICAL
+skill_1001,Salesforce Migration,TECHNICAL
+skill_1002,Salesforce Monitoring,TECHNICAL
+skill_1003,Salesforce Operations,TECHNICAL
+skill_1004,Salesforce Optimization,TECHNICAL
+skill_1005,Salesforce Security,TECHNICAL
+skill_1006,Salesforce Testing,TECHNICAL
+skill_1007,Salesforce Troubleshooting,TECHNICAL
+skill_1008,SAP Administration,TECHNICAL
+skill_1009,SAP Architecture,TECHNICAL
+skill_1010,SAP Automation,TECHNICAL
+skill_1011,SAP Configuration,TECHNICAL
+skill_1012,SAP Development,TECHNICAL
+skill_1013,SAP Integration,TECHNICAL
+skill_1014,SAP Migration,TECHNICAL
+skill_1015,SAP Monitoring,TECHNICAL
+skill_1016,SAP Operations,TECHNICAL
+skill_1017,SAP Optimization,TECHNICAL
+skill_1018,SAP Security,TECHNICAL
+skill_1019,SAP Testing,TECHNICAL
+skill_1020,SAP Troubleshooting,TECHNICAL
+skill_1021,ServiceNow Administration,TECHNICAL
+skill_1022,ServiceNow Architecture,TECHNICAL
+skill_1023,ServiceNow Automation,TECHNICAL
+skill_1024,ServiceNow Configuration,TECHNICAL
+skill_1025,ServiceNow Development,TECHNICAL
+skill_1026,ServiceNow Integration,TECHNICAL
+skill_1027,ServiceNow Migration,TECHNICAL
+skill_1028,ServiceNow Monitoring,TECHNICAL
+skill_1029,ServiceNow Operations,TECHNICAL
+skill_1030,ServiceNow Optimization,TECHNICAL
+skill_1031,ServiceNow Security,TECHNICAL
+skill_1032,ServiceNow Testing,TECHNICAL
+skill_1033,ServiceNow Troubleshooting,TECHNICAL
+skill_1034,Jira Administration,TECHNICAL
+skill_1035,Jira Architecture,TECHNICAL
+skill_1036,Jira Automation,TECHNICAL
+skill_1037,Jira Configuration,TECHNICAL
+skill_1038,Jira Development,TECHNICAL
+skill_1039,Jira Integration,TECHNICAL
+skill_1040,Jira Migration,TECHNICAL
+skill_1041,Jira Monitoring,TECHNICAL
+skill_1042,Jira Operations,TECHNICAL
+skill_1043,Jira Optimization,TECHNICAL
+skill_1044,Jira Security,TECHNICAL
+skill_1045,Jira Testing,TECHNICAL
+skill_1046,Jira Troubleshooting,TECHNICAL
+skill_1047,Kubernetes Administration,TECHNICAL
+skill_1048,Kubernetes Architecture,TECHNICAL
+skill_1049,Kubernetes Automation,TECHNICAL
+skill_1050,Kubernetes Configuration,TECHNICAL
+skill_1051,Kubernetes Development,TECHNICAL
+skill_1052,Kubernetes Integration,TECHNICAL
+skill_1053,Kubernetes Migration,TECHNICAL
+skill_1054,Kubernetes Monitoring,TECHNICAL
+skill_1055,Kubernetes Operations,TECHNICAL
+skill_1056,Kubernetes Optimization,TECHNICAL
+skill_1057,Kubernetes Security,TECHNICAL
+skill_1058,Kubernetes Testing,TECHNICAL
+skill_1059,Kubernetes Troubleshooting,TECHNICAL
+skill_1060,Docker Administration,TECHNICAL
+skill_1061,Docker Architecture,TECHNICAL
+skill_1062,Docker Automation,TECHNICAL
+skill_1063,Docker Configuration,TECHNICAL
+skill_1064,Docker Development,TECHNICAL
+skill_1065,Docker Integration,TECHNICAL
+skill_1066,Docker Migration,TECHNICAL
+skill_1067,Docker Monitoring,TECHNICAL
+skill_1068,Docker Operations,TECHNICAL
+skill_1069,Docker Optimization,TECHNICAL
+skill_1070,Docker Security,TECHNICAL
+skill_1071,Docker Testing,TECHNICAL
+skill_1072,Docker Troubleshooting,TECHNICAL
+skill_1073,Terraform Administration,TECHNICAL
+skill_1074,Terraform Architecture,TECHNICAL
+skill_1075,Terraform Automation,TECHNICAL
+skill_1076,Terraform Configuration,TECHNICAL
+skill_1077,Terraform Development,TECHNICAL
+skill_1078,Terraform Integration,TECHNICAL
+skill_1079,Terraform Migration,TECHNICAL
+skill_1080,Terraform Monitoring,TECHNICAL
+skill_1081,Terraform Operations,TECHNICAL
+skill_1082,Terraform Optimization,TECHNICAL
+skill_1083,Terraform Security,TECHNICAL
+skill_1084,Terraform Testing,TECHNICAL
+skill_1085,Terraform Troubleshooting,TECHNICAL
+skill_1086,React Administration,TECHNICAL
+skill_1087,React Architecture,TECHNICAL
+skill_1088,React Automation,TECHNICAL
+skill_1089,React Configuration,TECHNICAL
+skill_1090,React Development,TECHNICAL
+skill_1091,React Integration,TECHNICAL
+skill_1092,React Migration,TECHNICAL
+skill_1093,React Monitoring,TECHNICAL
+skill_1094,React Operations,TECHNICAL
+skill_1095,React Optimization,TECHNICAL
+skill_1096,React Security,TECHNICAL
+skill_1097,React Testing,TECHNICAL
+skill_1098,React Troubleshooting,TECHNICAL
+skill_1099,Node.js Administration,TECHNICAL
+skill_1100,Node.js Architecture,TECHNICAL
+skill_1101,Node.js Automation,TECHNICAL
+skill_1102,Node.js Configuration,TECHNICAL
+skill_1103,Node.js Development,TECHNICAL
+skill_1104,Node.js Integration,TECHNICAL
+skill_1105,Node.js Migration,TECHNICAL
+skill_1106,Node.js Monitoring,TECHNICAL
+skill_1107,Node.js Operations,TECHNICAL
+skill_1108,Node.js Optimization,TECHNICAL
+skill_1109,Node.js Security,TECHNICAL
+skill_1110,Node.js Testing,TECHNICAL
+skill_1111,Node.js Troubleshooting,TECHNICAL
+skill_1112,Python Administration,TECHNICAL
+skill_1113,Python Architecture,TECHNICAL
+skill_1114,Python Automation,TECHNICAL
+skill_1115,Python Configuration,TECHNICAL
+skill_1116,Python Development,TECHNICAL
+skill_1117,Python Integration,TECHNICAL
+skill_1118,Python Migration,TECHNICAL
+skill_1119,Python Monitoring,TECHNICAL
+skill_1120,Python Operations,TECHNICAL
+skill_1121,Python Optimization,TECHNICAL
+skill_1122,Python Security,TECHNICAL
+skill_1123,Python Testing,TECHNICAL
+skill_1124,Python Troubleshooting,TECHNICAL
+skill_1125,Java Administration,TECHNICAL
+skill_1126,Java Architecture,TECHNICAL
+skill_1127,Java Automation,TECHNICAL
+skill_1128,Java Configuration,TECHNICAL
+skill_1129,Java Development,TECHNICAL
+skill_1130,Java Integration,TECHNICAL
+skill_1131,Java Migration,TECHNICAL
+skill_1132,Java Monitoring,TECHNICAL
+skill_1133,Java Operations,TECHNICAL
+skill_1134,Java Optimization,TECHNICAL
+skill_1135,Java Security,TECHNICAL
+skill_1136,Java Testing,TECHNICAL
+skill_1137,Java Troubleshooting,TECHNICAL
+skill_1138,TypeScript Administration,TECHNICAL
+skill_1139,TypeScript Architecture,TECHNICAL
+skill_1140,TypeScript Automation,TECHNICAL
+skill_1141,TypeScript Configuration,TECHNICAL
+skill_1142,TypeScript Development,TECHNICAL
+skill_1143,TypeScript Integration,TECHNICAL
+skill_1144,TypeScript Migration,TECHNICAL
+skill_1145,TypeScript Monitoring,TECHNICAL
+skill_1146,TypeScript Operations,TECHNICAL
+skill_1147,TypeScript Optimization,TECHNICAL
+skill_1148,TypeScript Security,TECHNICAL
+skill_1149,TypeScript Testing,TECHNICAL
+skill_1150,TypeScript Troubleshooting,TECHNICAL
+skill_1151,Snowflake Administration,TECHNICAL
+skill_1152,Snowflake Architecture,TECHNICAL
+skill_1153,Snowflake Automation,TECHNICAL
+skill_1154,Snowflake Configuration,TECHNICAL
+skill_1155,Snowflake Development,TECHNICAL
+skill_1156,Snowflake Integration,TECHNICAL
+skill_1157,Snowflake Migration,TECHNICAL
+skill_1158,Snowflake Monitoring,TECHNICAL
+skill_1159,Snowflake Operations,TECHNICAL
+skill_1160,Snowflake Optimization,TECHNICAL
+skill_1161,Snowflake Security,TECHNICAL
+skill_1162,Snowflake Testing,TECHNICAL
+skill_1163,Snowflake Troubleshooting,TECHNICAL
+skill_1164,Databricks Administration,TECHNICAL
+skill_1165,Databricks Architecture,TECHNICAL
+skill_1166,Databricks Automation,TECHNICAL
+skill_1167,Databricks Configuration,TECHNICAL
+skill_1168,Databricks Development,TECHNICAL
+skill_1169,Databricks Integration,TECHNICAL
+skill_1170,Databricks Migration,TECHNICAL
+skill_1171,Databricks Monitoring,TECHNICAL
+skill_1172,Databricks Operations,TECHNICAL
+skill_1173,Databricks Optimization,TECHNICAL
+skill_1174,Databricks Security,TECHNICAL
+skill_1175,Databricks Testing,TECHNICAL
+skill_1176,Databricks Troubleshooting,TECHNICAL
+skill_1177,Spark Administration,TECHNICAL
+skill_1178,Spark Architecture,TECHNICAL
+skill_1179,Spark Automation,TECHNICAL
+skill_1180,Spark Configuration,TECHNICAL
+skill_1181,Spark Development,TECHNICAL
+skill_1182,Spark Integration,TECHNICAL
+skill_1183,Spark Migration,TECHNICAL
+skill_1184,Spark Monitoring,TECHNICAL
+skill_1185,Spark Operations,TECHNICAL
+skill_1186,Spark Optimization,TECHNICAL
+skill_1187,Spark Security,TECHNICAL
+skill_1188,Spark Testing,TECHNICAL
+skill_1189,Spark Troubleshooting,TECHNICAL
+skill_1190,Power BI Administration,TECHNICAL
+skill_1191,Power BI Architecture,TECHNICAL
+skill_1192,Power BI Automation,TECHNICAL
+skill_1193,Power BI Configuration,TECHNICAL
+skill_1194,Power BI Development,TECHNICAL
+skill_1195,Power BI Integration,TECHNICAL
+skill_1196,Power BI Migration,TECHNICAL
+skill_1197,Power BI Monitoring,TECHNICAL
+skill_1198,Power BI Operations,TECHNICAL
+skill_1199,Power BI Optimization,TECHNICAL
+skill_1200,Power BI Security,TECHNICAL
+skill_1201,Power BI Testing,TECHNICAL
+skill_1202,Power BI Troubleshooting,TECHNICAL
+skill_1203,Tableau Administration,TECHNICAL
+skill_1204,Tableau Architecture,TECHNICAL
+skill_1205,Tableau Automation,TECHNICAL
+skill_1206,Tableau Configuration,TECHNICAL
+skill_1207,Tableau Development,TECHNICAL
+skill_1208,Tableau Integration,TECHNICAL
+skill_1209,Tableau Migration,TECHNICAL
+skill_1210,Tableau Monitoring,TECHNICAL
+skill_1211,Tableau Operations,TECHNICAL
+skill_1212,Tableau Optimization,TECHNICAL
+skill_1213,Tableau Security,TECHNICAL
+skill_1214,Tableau Testing,TECHNICAL
+skill_1215,Tableau Troubleshooting,TECHNICAL
+skill_1216,Figma Administration,TECHNICAL
+skill_1217,Figma Architecture,TECHNICAL
+skill_1218,Figma Automation,TECHNICAL
+skill_1219,Figma Configuration,TECHNICAL
+skill_1220,Figma Development,TECHNICAL
+skill_1221,Figma Integration,TECHNICAL
+skill_1222,Figma Migration,TECHNICAL
+skill_1223,Figma Monitoring,TECHNICAL
+skill_1224,Figma Operations,TECHNICAL
+skill_1225,Figma Optimization,TECHNICAL
+skill_1226,Figma Security,TECHNICAL
+skill_1227,Figma Testing,TECHNICAL
+skill_1228,Figma Troubleshooting,TECHNICAL
+skill_1229,AutoCAD Administration,TECHNICAL
+skill_1230,AutoCAD Architecture,TECHNICAL
+skill_1231,AutoCAD Automation,TECHNICAL
+skill_1232,AutoCAD Configuration,TECHNICAL
+skill_1233,AutoCAD Development,TECHNICAL
+skill_1234,AutoCAD Integration,TECHNICAL
+skill_1235,AutoCAD Migration,TECHNICAL
+skill_1236,AutoCAD Monitoring,TECHNICAL
+skill_1237,AutoCAD Operations,TECHNICAL
+skill_1238,AutoCAD Optimization,TECHNICAL
+skill_1239,AutoCAD Security,TECHNICAL
+skill_1240,AutoCAD Testing,TECHNICAL
+skill_1241,AutoCAD Troubleshooting,TECHNICAL
+skill_1242,SolidWorks Administration,TECHNICAL
+skill_1243,SolidWorks Architecture,TECHNICAL
+skill_1244,SolidWorks Automation,TECHNICAL
+skill_1245,SolidWorks Configuration,TECHNICAL
+skill_1246,SolidWorks Development,TECHNICAL
+skill_1247,SolidWorks Integration,TECHNICAL
+skill_1248,SolidWorks Migration,TECHNICAL
+skill_1249,SolidWorks Monitoring,TECHNICAL
+skill_1250,SolidWorks Operations,TECHNICAL
+skill_1251,SolidWorks Optimization,TECHNICAL
+skill_1252,SolidWorks Security,TECHNICAL
+skill_1253,SolidWorks Testing,TECHNICAL
+skill_1254,SolidWorks Troubleshooting,TECHNICAL
+skill_1255,ArcGIS Administration,TECHNICAL
+skill_1256,ArcGIS Architecture,TECHNICAL
+skill_1257,ArcGIS Automation,TECHNICAL
+skill_1258,ArcGIS Configuration,TECHNICAL
+skill_1259,ArcGIS Development,TECHNICAL
+skill_1260,ArcGIS Integration,TECHNICAL
+skill_1261,ArcGIS Migration,TECHNICAL
+skill_1262,ArcGIS Monitoring,TECHNICAL
+skill_1263,ArcGIS Operations,TECHNICAL
+skill_1264,ArcGIS Optimization,TECHNICAL
+skill_1265,ArcGIS Security,TECHNICAL
+skill_1266,ArcGIS Testing,TECHNICAL
+skill_1267,ArcGIS Troubleshooting,TECHNICAL
+skill_1268,Workday Administration,TECHNICAL
+skill_1269,Workday Architecture,TECHNICAL
+skill_1270,Workday Automation,TECHNICAL
+skill_1271,Workday Configuration,TECHNICAL
+skill_1272,Workday Development,TECHNICAL
+skill_1273,Workday Integration,TECHNICAL
+skill_1274,Workday Migration,TECHNICAL
+skill_1275,Workday Monitoring,TECHNICAL
+skill_1276,Workday Operations,TECHNICAL
+skill_1277,Workday Optimization,TECHNICAL
+skill_1278,Workday Security,TECHNICAL
+skill_1279,Workday Testing,TECHNICAL
+skill_1280,Workday Troubleshooting,TECHNICAL
+skill_1281,NetSuite Administration,TECHNICAL
+skill_1282,NetSuite Architecture,TECHNICAL
+skill_1283,NetSuite Automation,TECHNICAL
+skill_1284,NetSuite Configuration,TECHNICAL
+skill_1285,NetSuite Development,TECHNICAL
+skill_1286,NetSuite Integration,TECHNICAL
+skill_1287,NetSuite Migration,TECHNICAL
+skill_1288,NetSuite Monitoring,TECHNICAL
+skill_1289,NetSuite Operations,TECHNICAL
+skill_1290,NetSuite Optimization,TECHNICAL
+skill_1291,NetSuite Security,TECHNICAL
+skill_1292,NetSuite Testing,TECHNICAL
+skill_1293,NetSuite Troubleshooting,TECHNICAL
+skill_1294,HubSpot Administration,TECHNICAL
+skill_1295,HubSpot Architecture,TECHNICAL
+skill_1296,HubSpot Automation,TECHNICAL
+skill_1297,HubSpot Configuration,TECHNICAL
+skill_1298,HubSpot Development,TECHNICAL
+skill_1299,HubSpot Integration,TECHNICAL
+skill_1300,HubSpot Migration,TECHNICAL
+skill_1301,HubSpot Monitoring,TECHNICAL
+skill_1302,HubSpot Operations,TECHNICAL
+skill_1303,HubSpot Optimization,TECHNICAL
+skill_1304,HubSpot Security,TECHNICAL
+skill_1305,HubSpot Testing,TECHNICAL
+skill_1306,HubSpot Troubleshooting,TECHNICAL
+skill_1307,Retail Operations,TECHNICAL
+skill_1308,Retail Analytics,TECHNICAL
+skill_1309,Retail Compliance,TECHNICAL
+skill_1310,Retail Technology,TECHNICAL
+skill_1311,Retail Process Management,TECHNICAL
+skill_1312,Retail Data Management,TECHNICAL
+skill_1313,Retail Customer Experience,TECHNICAL
+skill_1314,Retail Risk Management,TECHNICAL
+skill_1315,Retail Quality Management,TECHNICAL
+skill_1316,Retail Project Delivery,TECHNICAL
+skill_1317,E-commerce Operations,TECHNICAL
+skill_1318,E-commerce Analytics,TECHNICAL
+skill_1319,E-commerce Compliance,TECHNICAL
+skill_1320,E-commerce Technology,TECHNICAL
+skill_1321,E-commerce Process Management,TECHNICAL
+skill_1322,E-commerce Data Management,TECHNICAL
+skill_1323,E-commerce Customer Experience,TECHNICAL
+skill_1324,E-commerce Risk Management,TECHNICAL
+skill_1325,E-commerce Quality Management,TECHNICAL
+skill_1326,E-commerce Project Delivery,TECHNICAL
+skill_1327,Banking Operations,TECHNICAL
+skill_1328,Banking Analytics,TECHNICAL
+skill_1329,Banking Compliance,TECHNICAL
+skill_1330,Banking Technology,TECHNICAL
+skill_1331,Banking Process Management,TECHNICAL
+skill_1332,Banking Data Management,TECHNICAL
+skill_1333,Banking Customer Experience,TECHNICAL
+skill_1334,Banking Risk Management,TECHNICAL
+skill_1335,Banking Quality Management,TECHNICAL
+skill_1336,Banking Project Delivery,TECHNICAL
+skill_1337,Insurance Operations,TECHNICAL
+skill_1338,Insurance Analytics,TECHNICAL
+skill_1339,Insurance Compliance,TECHNICAL
+skill_1340,Insurance Technology,TECHNICAL
+skill_1341,Insurance Process Management,TECHNICAL
+skill_1342,Insurance Data Management,TECHNICAL
+skill_1343,Insurance Customer Experience,TECHNICAL
+skill_1344,Insurance Risk Management,TECHNICAL
+skill_1345,Insurance Quality Management,TECHNICAL
+skill_1346,Insurance Project Delivery,TECHNICAL
+skill_1347,FinTech Operations,TECHNICAL
+skill_1348,FinTech Analytics,TECHNICAL
+skill_1349,FinTech Compliance,TECHNICAL
+skill_1350,FinTech Technology,TECHNICAL
+skill_1351,FinTech Process Management,TECHNICAL
+skill_1352,FinTech Data Management,TECHNICAL
+skill_1353,FinTech Customer Experience,TECHNICAL
+skill_1354,FinTech Risk Management,TECHNICAL
+skill_1355,FinTech Quality Management,TECHNICAL
+skill_1356,FinTech Project Delivery,TECHNICAL
+skill_1357,Healthcare Operations,TECHNICAL
+skill_1358,Healthcare Analytics,TECHNICAL
+skill_1359,Healthcare Compliance,TECHNICAL
+skill_1360,Healthcare Technology,TECHNICAL
+skill_1361,Healthcare Process Management,TECHNICAL
+skill_1362,Healthcare Data Management,TECHNICAL
+skill_1363,Healthcare Customer Experience,TECHNICAL
+skill_1364,Healthcare Risk Management,TECHNICAL
+skill_1365,Healthcare Quality Management,TECHNICAL
+skill_1366,Healthcare Project Delivery,TECHNICAL
+skill_1367,Telecommunications Operations,TECHNICAL
+skill_1368,Telecommunications Analytics,TECHNICAL
+skill_1369,Telecommunications Compliance,TECHNICAL
+skill_1370,Telecommunications Technology,TECHNICAL
+skill_1371,Telecommunications Process Management,TECHNICAL
+skill_1372,Telecommunications Data Management,TECHNICAL
+skill_1373,Telecommunications Customer Experience,TECHNICAL
+skill_1374,Telecommunications Risk Management,TECHNICAL
+skill_1375,Telecommunications Quality Management,TECHNICAL
+skill_1376,Telecommunications Project Delivery,TECHNICAL
+skill_1377,Manufacturing Analytics,TECHNICAL
+skill_1378,Manufacturing Compliance,TECHNICAL
+skill_1379,Manufacturing Technology,TECHNICAL
+skill_1380,Manufacturing Process Management,TECHNICAL
+skill_1381,Manufacturing Data Management,TECHNICAL
+skill_1382,Manufacturing Customer Experience,TECHNICAL
+skill_1383,Manufacturing Risk Management,TECHNICAL
+skill_1384,Manufacturing Quality Management,TECHNICAL
+skill_1385,Manufacturing Project Delivery,TECHNICAL
+skill_1386,Automotive Operations,TECHNICAL
+skill_1387,Automotive Analytics,TECHNICAL
+skill_1388,Automotive Compliance,TECHNICAL
+skill_1389,Automotive Technology,TECHNICAL
+skill_1390,Automotive Process Management,TECHNICAL
+skill_1391,Automotive Data Management,TECHNICAL
+skill_1392,Automotive Customer Experience,TECHNICAL
+skill_1393,Automotive Risk Management,TECHNICAL
+skill_1394,Automotive Quality Management,TECHNICAL
+skill_1395,Automotive Project Delivery,TECHNICAL
+skill_1396,Aerospace Operations,TECHNICAL
+skill_1397,Aerospace Analytics,TECHNICAL
+skill_1398,Aerospace Compliance,TECHNICAL
+skill_1399,Aerospace Technology,TECHNICAL
+skill_1400,Aerospace Process Management,TECHNICAL
+skill_1401,Aerospace Data Management,TECHNICAL
+skill_1402,Aerospace Customer Experience,TECHNICAL
+skill_1403,Aerospace Risk Management,TECHNICAL
+skill_1404,Aerospace Quality Management,TECHNICAL
+skill_1405,Aerospace Project Delivery,TECHNICAL
+skill_1406,Construction Operations,TECHNICAL
+skill_1407,Construction Analytics,TECHNICAL
+skill_1408,Construction Compliance,TECHNICAL
+skill_1409,Construction Technology,TECHNICAL
+skill_1410,Construction Process Management,TECHNICAL
+skill_1411,Construction Data Management,TECHNICAL
+skill_1412,Construction Customer Experience,TECHNICAL
+skill_1413,Construction Risk Management,TECHNICAL
+skill_1414,Construction Quality Management,TECHNICAL
+skill_1415,Construction Project Delivery,TECHNICAL
+skill_1416,Education Operations,TECHNICAL
+skill_1417,Education Analytics,TECHNICAL
+skill_1418,Education Compliance,TECHNICAL
+skill_1419,Education Technology,TECHNICAL
+skill_1420,Education Process Management,TECHNICAL
+skill_1421,Education Data Management,TECHNICAL
+skill_1422,Education Customer Experience,TECHNICAL
+skill_1423,Education Risk Management,TECHNICAL
+skill_1424,Education Quality Management,TECHNICAL
+skill_1425,Education Project Delivery,TECHNICAL
+skill_1426,Hospitality Operations,TECHNICAL
+skill_1427,Hospitality Analytics,TECHNICAL
+skill_1428,Hospitality Compliance,TECHNICAL
+skill_1429,Hospitality Technology,TECHNICAL
+skill_1430,Hospitality Process Management,TECHNICAL
+skill_1431,Hospitality Data Management,TECHNICAL
+skill_1432,Hospitality Customer Experience,TECHNICAL
+skill_1433,Hospitality Risk Management,TECHNICAL
+skill_1434,Hospitality Quality Management,TECHNICAL
+skill_1435,Hospitality Project Delivery,TECHNICAL
+skill_1436,Transportation Operations,TECHNICAL
+skill_1437,Transportation Analytics,TECHNICAL
+skill_1438,Transportation Compliance,TECHNICAL
+skill_1439,Transportation Technology,TECHNICAL
+skill_1440,Transportation Process Management,TECHNICAL
+skill_1441,Transportation Data Management,TECHNICAL
+skill_1442,Transportation Customer Experience,TECHNICAL
+skill_1443,Transportation Risk Management,TECHNICAL
+skill_1444,Transportation Quality Management,TECHNICAL
+skill_1445,Transportation Project Delivery,TECHNICAL
+skill_1446,Energy Operations,TECHNICAL
+skill_1447,Energy Analytics,TECHNICAL
+skill_1448,Energy Compliance,TECHNICAL
+skill_1449,Energy Technology,TECHNICAL
+skill_1450,Energy Process Management,TECHNICAL
+skill_1451,Energy Data Management,TECHNICAL
+skill_1452,Energy Customer Experience,TECHNICAL
+skill_1453,Energy Risk Management,TECHNICAL
+skill_1454,Energy Quality Management,TECHNICAL
+skill_1455,Energy Project Delivery,TECHNICAL
+skill_1456,Utilities Operations,TECHNICAL
+skill_1457,Utilities Analytics,TECHNICAL
+skill_1458,Utilities Compliance,TECHNICAL
+skill_1459,Utilities Technology,TECHNICAL
+skill_1460,Utilities Process Management,TECHNICAL
+skill_1461,Utilities Data Management,TECHNICAL
+skill_1462,Utilities Customer Experience,TECHNICAL
+skill_1463,Utilities Risk Management,TECHNICAL
+skill_1464,Utilities Quality Management,TECHNICAL
+skill_1465,Utilities Project Delivery,TECHNICAL
+skill_1466,Government Operations,TECHNICAL
+skill_1467,Government Analytics,TECHNICAL
+skill_1468,Government Compliance,TECHNICAL
+skill_1469,Government Technology,TECHNICAL
+skill_1470,Government Process Management,TECHNICAL
+skill_1471,Government Data Management,TECHNICAL
+skill_1472,Government Customer Experience,TECHNICAL
+skill_1473,Government Risk Management,TECHNICAL
+skill_1474,Government Quality Management,TECHNICAL
+skill_1475,Government Project Delivery,TECHNICAL
+skill_1476,Nonprofit Operations,TECHNICAL
+skill_1477,Nonprofit Analytics,TECHNICAL
+skill_1478,Nonprofit Compliance,TECHNICAL
+skill_1479,Nonprofit Technology,TECHNICAL
+skill_1480,Nonprofit Process Management,TECHNICAL
+skill_1481,Nonprofit Data Management,TECHNICAL
+skill_1482,Nonprofit Customer Experience,TECHNICAL
+skill_1483,Nonprofit Risk Management,TECHNICAL
+skill_1484,Nonprofit Quality Management,TECHNICAL
+skill_1485,Nonprofit Project Delivery,TECHNICAL
+skill_1486,Real Estate Operations,TECHNICAL
+skill_1487,Real Estate Analytics,TECHNICAL
+skill_1488,Real Estate Compliance,TECHNICAL
+skill_1489,Real Estate Technology,TECHNICAL
+skill_1490,Real Estate Process Management,TECHNICAL
+skill_1491,Real Estate Data Management,TECHNICAL
+skill_1492,Real Estate Customer Experience,TECHNICAL
+skill_1493,Real Estate Risk Management,TECHNICAL
+skill_1494,Real Estate Quality Management,TECHNICAL
+skill_1495,Real Estate Project Delivery,TECHNICAL
+skill_1496,Media Operations,TECHNICAL
+skill_1497,Media Analytics,TECHNICAL
+skill_1498,Media Compliance,TECHNICAL
+skill_1499,Media Technology,TECHNICAL
+skill_1500,Media Process Management,TECHNICAL
+skill_1501,Media Data Management,TECHNICAL
+skill_1502,Media Customer Experience,TECHNICAL
+skill_1503,Media Risk Management,TECHNICAL
+skill_1504,Media Quality Management,TECHNICAL
+skill_1505,Media Project Delivery,TECHNICAL
+skill_1506,Gaming Operations,TECHNICAL
+skill_1507,Gaming Analytics,TECHNICAL
+skill_1508,Gaming Compliance,TECHNICAL
+skill_1509,Gaming Technology,TECHNICAL
+skill_1510,Gaming Process Management,TECHNICAL
+skill_1511,Gaming Data Management,TECHNICAL
+skill_1512,Gaming Customer Experience,TECHNICAL
+skill_1513,Gaming Risk Management,TECHNICAL
+skill_1514,Gaming Quality Management,TECHNICAL
+skill_1515,Gaming Project Delivery,TECHNICAL
+skill_1516,Agriculture Operations,TECHNICAL
+skill_1517,Agriculture Analytics,TECHNICAL
+skill_1518,Agriculture Compliance,TECHNICAL
+skill_1519,Agriculture Technology,TECHNICAL
+skill_1520,Agriculture Process Management,TECHNICAL
+skill_1521,Agriculture Data Management,TECHNICAL
+skill_1522,Agriculture Customer Experience,TECHNICAL
+skill_1523,Agriculture Risk Management,TECHNICAL
+skill_1524,Agriculture Quality Management,TECHNICAL
+skill_1525,Agriculture Project Delivery,TECHNICAL
+skill_1526,Pharmaceutical Operations,TECHNICAL
+skill_1527,Pharmaceutical Analytics,TECHNICAL
+skill_1528,Pharmaceutical Compliance,TECHNICAL
+skill_1529,Pharmaceutical Technology,TECHNICAL
+skill_1530,Pharmaceutical Process Management,TECHNICAL
+skill_1531,Pharmaceutical Data Management,TECHNICAL
+skill_1532,Pharmaceutical Customer Experience,TECHNICAL
+skill_1533,Pharmaceutical Risk Management,TECHNICAL
+skill_1534,Pharmaceutical Quality Management,TECHNICAL
+skill_1535,Pharmaceutical Project Delivery,TECHNICAL
+skill_1536,Logistics Operations,TECHNICAL
+skill_1537,Logistics Analytics,TECHNICAL
+skill_1538,Logistics Compliance,TECHNICAL
+skill_1539,Logistics Technology,TECHNICAL
+skill_1540,Logistics Process Management,TECHNICAL
+skill_1541,Logistics Data Management,TECHNICAL
+skill_1542,Logistics Customer Experience,TECHNICAL
+skill_1543,Logistics Risk Management,TECHNICAL
+skill_1544,Logistics Quality Management,TECHNICAL
+skill_1545,Logistics Project Delivery,TECHNICAL
+skill_1546,API Design,TECHNICAL

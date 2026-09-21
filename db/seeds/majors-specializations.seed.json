@@ -1,0 +1,310 @@
+[
+  {
+    "seedKey": "computer_science",
+    "label": "Computer Science"
+  },
+  {
+    "seedKey": "software_engineering",
+    "label": "Software Engineering"
+  },
+  {
+    "seedKey": "computer_engineering",
+    "label": "Computer Engineering"
+  },
+  {
+    "seedKey": "information_systems",
+    "label": "Information Systems"
+  },
+  {
+    "seedKey": "information_technology",
+    "label": "Information Technology"
+  },
+  {
+    "seedKey": "data_science",
+    "label": "Data Science"
+  },
+  {
+    "seedKey": "artificial_intelligence",
+    "label": "Artificial Intelligence"
+  },
+  {
+    "seedKey": "cybersecurity",
+    "label": "Cybersecurity"
+  },
+  {
+    "seedKey": "mathematics",
+    "label": "Mathematics"
+  },
+  {
+    "seedKey": "statistics",
+    "label": "Statistics"
+  },
+  {
+    "seedKey": "physics",
+    "label": "Physics"
+  },
+  {
+    "seedKey": "chemistry",
+    "label": "Chemistry"
+  },
+  {
+    "seedKey": "biology",
+    "label": "Biology"
+  },
+  {
+    "seedKey": "biochemistry",
+    "label": "Biochemistry"
+  },
+  {
+    "seedKey": "environmental_science",
+    "label": "Environmental Science"
+  },
+  {
+    "seedKey": "mechanical_engineering",
+    "label": "Mechanical Engineering"
+  },
+  {
+    "seedKey": "electrical_engineering",
+    "label": "Electrical Engineering"
+  },
+  {
+    "seedKey": "civil_engineering",
+    "label": "Civil Engineering"
+  },
+  {
+    "seedKey": "chemical_engineering",
+    "label": "Chemical Engineering"
+  },
+  {
+    "seedKey": "industrial_engineering",
+    "label": "Industrial Engineering"
+  },
+  {
+    "seedKey": "biomedical_engineering",
+    "label": "Biomedical Engineering"
+  },
+  {
+    "seedKey": "business_administration",
+    "label": "Business Administration"
+  },
+  {
+    "seedKey": "finance",
+    "label": "Finance"
+  },
+  {
+    "seedKey": "accounting",
+    "label": "Accounting"
+  },
+  {
+    "seedKey": "economics",
+    "label": "Economics"
+  },
+  {
+    "seedKey": "marketing",
+    "label": "Marketing"
+  },
+  {
+    "seedKey": "supply_chain_management",
+    "label": "Supply Chain Management"
+  },
+  {
+    "seedKey": "human_resources_management",
+    "label": "Human Resources Management"
+  },
+  {
+    "seedKey": "operations_management",
+    "label": "Operations Management"
+  },
+  {
+    "seedKey": "project_management",
+    "label": "Project Management"
+  },
+  {
+    "seedKey": "entrepreneurship",
+    "label": "Entrepreneurship"
+  },
+  {
+    "seedKey": "psychology",
+    "label": "Psychology"
+  },
+  {
+    "seedKey": "sociology",
+    "label": "Sociology"
+  },
+  {
+    "seedKey": "political_science",
+    "label": "Political Science"
+  },
+  {
+    "seedKey": "public_administration",
+    "label": "Public Administration"
+  },
+  {
+    "seedKey": "international_relations",
+    "label": "International Relations"
+  },
+  {
+    "seedKey": "communications",
+    "label": "Communications"
+  },
+  {
+    "seedKey": "journalism",
+    "label": "Journalism"
+  },
+  {
+    "seedKey": "english",
+    "label": "English"
+  },
+  {
+    "seedKey": "history",
+    "label": "History"
+  },
+  {
+    "seedKey": "philosophy",
+    "label": "Philosophy"
+  },
+  {
+    "seedKey": "education",
+    "label": "Education"
+  },
+  {
+    "seedKey": "instructional_design",
+    "label": "Instructional Design"
+  },
+  {
+    "seedKey": "nursing",
+    "label": "Nursing"
+  },
+  {
+    "seedKey": "public_health",
+    "label": "Public Health"
+  },
+  {
+    "seedKey": "health_sciences",
+    "label": "Health Sciences"
+  },
+  {
+    "seedKey": "pharmacy",
+    "label": "Pharmacy"
+  },
+  {
+    "seedKey": "social_work",
+    "label": "Social Work"
+  },
+  {
+    "seedKey": "criminal_justice",
+    "label": "Criminal Justice"
+  },
+  {
+    "seedKey": "law",
+    "label": "Law"
+  },
+  {
+    "seedKey": "architecture",
+    "label": "Architecture"
+  },
+  {
+    "seedKey": "urban_planning",
+    "label": "Urban Planning"
+  },
+  {
+    "seedKey": "graphic_design",
+    "label": "Graphic Design"
+  },
+  {
+    "seedKey": "interaction_design",
+    "label": "Interaction Design"
+  },
+  {
+    "seedKey": "industrial_design",
+    "label": "Industrial Design"
+  },
+  {
+    "seedKey": "fine_arts",
+    "label": "Fine Arts"
+  },
+  {
+    "seedKey": "music",
+    "label": "Music"
+  },
+  {
+    "seedKey": "film_studies",
+    "label": "Film Studies"
+  },
+  {
+    "seedKey": "hospitality_management",
+    "label": "Hospitality Management"
+  },
+  {
+    "seedKey": "tourism_management",
+    "label": "Tourism Management"
+  },
+  {
+    "seedKey": "agriculture",
+    "label": "Agriculture"
+  },
+  {
+    "seedKey": "forestry",
+    "label": "Forestry"
+  },
+  {
+    "seedKey": "geography",
+    "label": "Geography"
+  },
+  {
+    "seedKey": "geology",
+    "label": "Geology"
+  },
+  {
+    "seedKey": "construction_management",
+    "label": "Construction Management"
+  },
+  {
+    "seedKey": "skilled_trades",
+    "label": "Skilled Trades"
+  },
+  {
+    "seedKey": "cloud_computing",
+    "label": "Cloud Computing"
+  },
+  {
+    "seedKey": "network_administration",
+    "label": "Network Administration"
+  },
+  {
+    "seedKey": "software_quality_assurance",
+    "label": "Software Quality Assurance"
+  },
+  {
+    "seedKey": "web_development",
+    "label": "Web Development"
+  },
+  {
+    "seedKey": "mobile_application_development",
+    "label": "Mobile Application Development"
+  },
+  {
+    "seedKey": "digital_marketing",
+    "label": "Digital Marketing"
+  },
+  {
+    "seedKey": "business_analytics",
+    "label": "Business Analytics"
+  },
+  {
+    "seedKey": "management_information_systems",
+    "label": "Management Information Systems"
+  },
+  {
+    "seedKey": "machine_learning",
+    "label": "Machine Learning"
+  },
+  {
+    "seedKey": "robotics",
+    "label": "Robotics"
+  },
+  {
+    "seedKey": "game_development",
+    "label": "Game Development"
+  }
+]

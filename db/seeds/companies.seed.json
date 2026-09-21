@@ -1,0 +1,488 @@
+[
+  {
+    "seedKey": "northstar_labs",
+    "name": "Northstar Labs",
+    "industry": "Technology",
+    "country": "CA"
+  },
+  {
+    "seedKey": "harbour_systems",
+    "name": "Harbour Systems",
+    "industry": "Technology",
+    "country": "CA"
+  },
+  {
+    "seedKey": "maple_financial",
+    "name": "Maple Financial Group",
+    "industry": "Finance",
+    "country": "CA"
+  },
+  {
+    "seedKey": "prairie_health",
+    "name": "Prairie Health Network",
+    "industry": "Healthcare",
+    "country": "CA"
+  },
+  {
+    "seedKey": "coastal_retail",
+    "name": "Coastal Retail",
+    "industry": "Retail",
+    "country": "CA"
+  },
+  {
+    "seedKey": "summit_logistics",
+    "name": "Summit Logistics",
+    "industry": "Logistics",
+    "country": "CA"
+  },
+  {
+    "seedKey": "aurora_energy",
+    "name": "Aurora Energy",
+    "industry": "Energy",
+    "country": "CA"
+  },
+  {
+    "seedKey": "cedar_construction",
+    "name": "Cedar Construction",
+    "industry": "Construction",
+    "country": "CA"
+  },
+  {
+    "seedKey": "polar_telecom",
+    "name": "Polar Telecom",
+    "industry": "Telecommunications",
+    "country": "CA"
+  },
+  {
+    "seedKey": "riverbend_foods",
+    "name": "Riverbend Foods",
+    "industry": "Food & Beverage",
+    "country": "CA"
+  },
+  {
+    "seedKey": "acme_software",
+    "name": "Acme Software",
+    "industry": "Technology",
+    "country": "US"
+  },
+  {
+    "seedKey": "bluepeak_cloud",
+    "name": "BluePeak Cloud",
+    "industry": "Technology",
+    "country": "US"
+  },
+  {
+    "seedKey": "orbit_data",
+    "name": "Orbit Data",
+    "industry": "Technology",
+    "country": "US"
+  },
+  {
+    "seedKey": "vertex_security",
+    "name": "Vertex Security",
+    "industry": "Cybersecurity",
+    "country": "US"
+  },
+  {
+    "seedKey": "atlas_consulting",
+    "name": "Atlas Consulting",
+    "industry": "Professional Services",
+    "country": "US"
+  },
+  {
+    "seedKey": "brightline_media",
+    "name": "Brightline Media",
+    "industry": "Media",
+    "country": "US"
+  },
+  {
+    "seedKey": "greenfield_bio",
+    "name": "Greenfield Biotech",
+    "industry": "Biotechnology",
+    "country": "US"
+  },
+  {
+    "seedKey": "meridian_bank",
+    "name": "Meridian Bank",
+    "industry": "Finance",
+    "country": "US"
+  },
+  {
+    "seedKey": "evergreen_insurance",
+    "name": "Evergreen Insurance",
+    "industry": "Insurance",
+    "country": "US"
+  },
+  {
+    "seedKey": "stonebridge_manufacturing",
+    "name": "Stonebridge Manufacturing",
+    "industry": "Manufacturing",
+    "country": "US"
+  },
+  {
+    "seedKey": "nova_mobility",
+    "name": "Nova Mobility",
+    "industry": "Transportation",
+    "country": "US"
+  },
+  {
+    "seedKey": "horizon_hospitality",
+    "name": "Horizon Hospitality",
+    "industry": "Hospitality",
+    "country": "US"
+  },
+  {
+    "seedKey": "civicworks",
+    "name": "CivicWorks",
+    "industry": "Public Services",
+    "country": "US"
+  },
+  {
+    "seedKey": "lighthouse_education",
+    "name": "Lighthouse Education",
+    "industry": "Education",
+    "country": "US"
+  },
+  {
+    "seedKey": "pioneer_agriculture",
+    "name": "Pioneer Agriculture",
+    "industry": "Agriculture",
+    "country": "US"
+  },
+  {
+    "seedKey": "redwood_design",
+    "name": "Redwood Design Studio",
+    "industry": "Design",
+    "country": "US"
+  },
+  {
+    "seedKey": "silverline_pharma",
+    "name": "Silverline Pharma",
+    "industry": "Pharmaceuticals",
+    "country": "US"
+  },
+  {
+    "seedKey": "metro_property",
+    "name": "Metro Property Group",
+    "industry": "Real Estate",
+    "country": "US"
+  },
+  {
+    "seedKey": "quantum_analytics",
+    "name": "Quantum Analytics",
+    "industry": "Technology",
+    "country": "US"
+  },
+  {
+    "seedKey": "fusion_payments",
+    "name": "Fusion Payments",
+    "industry": "Fintech",
+    "country": "US"
+  },
+  {
+    "seedKey": "amazon",
+    "name": "Amazon",
+    "industry": "Technology/Retail",
+    "country": "US"
+  },
+  {
+    "seedKey": "microsoft",
+    "name": "Microsoft",
+    "industry": "Technology",
+    "country": "US"
+  },
+  {
+    "seedKey": "google",
+    "name": "Google",
+    "industry": "Technology",
+    "country": "US"
+  },
+  {
+    "seedKey": "apple",
+    "name": "Apple",
+    "industry": "Technology",
+    "country": "US"
+  },
+  {
+    "seedKey": "ibm",
+    "name": "IBM",
+    "industry": "Technology",
+    "country": "US"
+  },
+  {
+    "seedKey": "salesforce",
+    "name": "Salesforce",
+    "industry": "Technology",
+    "country": "US"
+  },
+  {
+    "seedKey": "shopify",
+    "name": "Shopify",
+    "industry": "Technology",
+    "country": "CA"
+  },
+  {
+    "seedKey": "rbc",
+    "name": "RBC",
+    "industry": "Finance",
+    "country": "CA"
+  },
+  {
+    "seedKey": "td",
+    "name": "TD Bank",
+    "industry": "Finance",
+    "country": "CA"
+  },
+  {
+    "seedKey": "bmo",
+    "name": "BMO",
+    "industry": "Finance",
+    "country": "CA"
+  },
+  {
+    "seedKey": "scotiabank",
+    "name": "Scotiabank",
+    "industry": "Finance",
+    "country": "CA"
+  },
+  {
+    "seedKey": "telus",
+    "name": "TELUS",
+    "industry": "Telecommunications",
+    "country": "CA"
+  },
+  {
+    "seedKey": "bell",
+    "name": "Bell Canada",
+    "industry": "Telecommunications",
+    "country": "CA"
+  },
+  {
+    "seedKey": "rogers",
+    "name": "Rogers Communications",
+    "industry": "Telecommunications",
+    "country": "CA"
+  },
+  {
+    "seedKey": "loblaw",
+    "name": "Loblaw Companies",
+    "industry": "Retail",
+    "country": "CA"
+  },
+  {
+    "seedKey": "canadian_tire",
+    "name": "Canadian Tire",
+    "industry": "Retail",
+    "country": "CA"
+  },
+  {
+    "seedKey": "walmart",
+    "name": "Walmart",
+    "industry": "Retail",
+    "country": "US"
+  },
+  {
+    "seedKey": "costco",
+    "name": "Costco",
+    "industry": "Retail",
+    "country": "US"
+  },
+  {
+    "seedKey": "deloitte",
+    "name": "Deloitte",
+    "industry": "Professional Services",
+    "country": "Global"
+  },
+  {
+    "seedKey": "pwc",
+    "name": "PwC",
+    "industry": "Professional Services",
+    "country": "Global"
+  },
+  {
+    "seedKey": "ey",
+    "name": "EY",
+    "industry": "Professional Services",
+    "country": "Global"
+  },
+  {
+    "seedKey": "kpmg",
+    "name": "KPMG",
+    "industry": "Professional Services",
+    "country": "Global"
+  },
+  {
+    "seedKey": "accenture",
+    "name": "Accenture",
+    "industry": "Professional Services",
+    "country": "Global"
+  },
+  {
+    "seedKey": "cisco",
+    "name": "Cisco",
+    "industry": "Technology",
+    "country": "US"
+  },
+  {
+    "seedKey": "oracle",
+    "name": "Oracle",
+    "industry": "Technology",
+    "country": "US"
+  },
+  {
+    "seedKey": "sap",
+    "name": "SAP",
+    "industry": "Technology",
+    "country": "DE"
+  },
+  {
+    "seedKey": "siemens",
+    "name": "Siemens",
+    "industry": "Industrial",
+    "country": "DE"
+  },
+  {
+    "seedKey": "sony",
+    "name": "Sony",
+    "industry": "Technology/Media",
+    "country": "JP"
+  },
+  {
+    "seedKey": "samsung",
+    "name": "Samsung",
+    "industry": "Technology",
+    "country": "KR"
+  },
+  {
+    "seedKey": "toyota",
+    "name": "Toyota",
+    "industry": "Automotive",
+    "country": "JP"
+  },
+  {
+    "seedKey": "ford",
+    "name": "Ford",
+    "industry": "Automotive",
+    "country": "US"
+  },
+  {
+    "seedKey": "general_motors",
+    "name": "General Motors",
+    "industry": "Automotive",
+    "country": "US"
+  },
+  {
+    "seedKey": "air_canada",
+    "name": "Air Canada",
+    "industry": "Aviation",
+    "country": "CA"
+  },
+  {
+    "seedKey": "westjet",
+    "name": "WestJet",
+    "industry": "Aviation",
+    "country": "CA"
+  },
+  {
+    "seedKey": "cn_rail",
+    "name": "CN",
+    "industry": "Transportation",
+    "country": "CA"
+  },
+  {
+    "seedKey": "cpkc",
+    "name": "CPKC",
+    "industry": "Transportation",
+    "country": "CA"
+  },
+  {
+    "seedKey": "suncor",
+    "name": "Suncor Energy",
+    "industry": "Energy",
+    "country": "CA"
+  },
+  {
+    "seedKey": "enbridge",
+    "name": "Enbridge",
+    "industry": "Energy",
+    "country": "CA"
+  },
+  {
+    "seedKey": "atco",
+    "name": "ATCO",
+    "industry": "Utilities",
+    "country": "CA"
+  },
+  {
+    "seedKey": "stantec",
+    "name": "Stantec",
+    "industry": "Engineering",
+    "country": "CA"
+  },
+  {
+    "seedKey": "wsp",
+    "name": "WSP",
+    "industry": "Engineering",
+    "country": "CA"
+  },
+  {
+    "seedKey": "unity",
+    "name": "Unity",
+    "industry": "Technology",
+    "country": "US"
+  },
+  {
+    "seedKey": "adobe",
+    "name": "Adobe",
+    "industry": "Technology",
+    "country": "US"
+  },
+  {
+    "seedKey": "nvidia",
+    "name": "NVIDIA",
+    "industry": "Technology",
+    "country": "US"
+  },
+  {
+    "seedKey": "intel",
+    "name": "Intel",
+    "industry": "Technology",
+    "country": "US"
+  },
+  {
+    "seedKey": "amd",
+    "name": "AMD",
+    "industry": "Technology",
+    "country": "US"
+  },
+  {
+    "seedKey": "github",
+    "name": "GitHub",
+    "industry": "Technology",
+    "country": "US"
+  },
+  {
+    "seedKey": "gitlab",
+    "name": "GitLab",
+    "industry": "Technology",
+    "country": "US"
+  },
+  {
+    "seedKey": "atlassian",
+    "name": "Atlassian",
+    "industry": "Technology",
+    "country": "AU"
+  },
+  {
+    "seedKey": "stripe",
+    "name": "Stripe",
+    "industry": "Fintech",
+    "country": "US"
+  },
+  {
+    "seedKey": "block",
+    "name": "Block",
+    "industry": "Fintech",
+    "country": "US"
+  }
+]

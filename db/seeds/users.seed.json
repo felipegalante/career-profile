@@ -1,0 +1,56 @@
+[
+  {
+    "seedKey": "admin",
+    "email": "admin@example.test",
+    "password": "DevPassword!123",
+    "role": "ADMIN",
+    "onboardingCompleted": true,
+    "profile": {
+      "firstName": "Sam",
+      "lastName": "Admin",
+      "country": "CA",
+      "preferredLanguage": "en-CA",
+      "location": "Toronto, ON"
+    }
+  },
+  {
+    "seedKey": "alex",
+    "email": "alex@example.test",
+    "password": "DevPassword!123",
+    "role": "USER",
+    "onboardingCompleted": true,
+    "profile": {
+      "firstName": "Alex",
+      "lastName": "Rivera",
+      "country": "CA",
+      "preferredLanguage": "en-CA",
+      "location": "Vancouver, BC",
+      "employmentStatus": "EMPLOYED",
+      "careerGoal": "DEVELOP_SKILLS"
+    }
+  },
+  {
+    "seedKey": "jordan",
+    "email": "jordan@example.test",
+    "password": "DevPassword!123",
+    "role": "USER",
+    "onboardingCompleted": true,
+    "profile": {
+      "firstName": "Jordan",
+      "lastName": "Lee",
+      "country": "CA",
+      "preferredLanguage": "en-CA",
+      "location": "Calgary, AB",
+      "employmentStatus": "UNEMPLOYED",
+      "careerGoal": "FIND_JOB"
+    }
+  },
+  {
+    "seedKey": "newuser",
+    "email": "newuser@example.test",
+    "password": "DevPassword!123",
+    "role": "USER",
+    "onboardingCompleted": false,
+    "profile": {}
+  }
+]

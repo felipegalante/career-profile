@@ -1,0 +1,362 @@
+[
+  {
+    "seedKey": "university_of_alberta",
+    "name": "University of Alberta",
+    "institutionType": "University",
+    "country": "CA"
+  },
+  {
+    "seedKey": "university_of_calgary",
+    "name": "University of Calgary",
+    "institutionType": "University",
+    "country": "CA"
+  },
+  {
+    "seedKey": "ubc",
+    "name": "University of British Columbia",
+    "institutionType": "University",
+    "country": "CA"
+  },
+  {
+    "seedKey": "sfu",
+    "name": "Simon Fraser University",
+    "institutionType": "University",
+    "country": "CA"
+  },
+  {
+    "seedKey": "university_of_toronto",
+    "name": "University of Toronto",
+    "institutionType": "University",
+    "country": "CA"
+  },
+  {
+    "seedKey": "waterloo",
+    "name": "University of Waterloo",
+    "institutionType": "University",
+    "country": "CA"
+  },
+  {
+    "seedKey": "mcmaster",
+    "name": "McMaster University",
+    "institutionType": "University",
+    "country": "CA"
+  },
+  {
+    "seedKey": "queens",
+    "name": "Queen's University",
+    "institutionType": "University",
+    "country": "CA"
+  },
+  {
+    "seedKey": "mcgill",
+    "name": "McGill University",
+    "institutionType": "University",
+    "country": "CA"
+  },
+  {
+    "seedKey": "concordia",
+    "name": "Concordia University",
+    "institutionType": "University",
+    "country": "CA"
+  },
+  {
+    "seedKey": "york",
+    "name": "York University",
+    "institutionType": "University",
+    "country": "CA"
+  },
+  {
+    "seedKey": "tmu",
+    "name": "Toronto Metropolitan University",
+    "institutionType": "University",
+    "country": "CA"
+  },
+  {
+    "seedKey": "carleton",
+    "name": "Carleton University",
+    "institutionType": "University",
+    "country": "CA"
+  },
+  {
+    "seedKey": "uottawa",
+    "name": "University of Ottawa",
+    "institutionType": "University",
+    "country": "CA"
+  },
+  {
+    "seedKey": "dalhousie",
+    "name": "Dalhousie University",
+    "institutionType": "University",
+    "country": "CA"
+  },
+  {
+    "seedKey": "umanitoba",
+    "name": "University of Manitoba",
+    "institutionType": "University",
+    "country": "CA"
+  },
+  {
+    "seedKey": "usask",
+    "name": "University of Saskatchewan",
+    "institutionType": "University",
+    "country": "CA"
+  },
+  {
+    "seedKey": "uvic",
+    "name": "University of Victoria",
+    "institutionType": "University",
+    "country": "CA"
+  },
+  {
+    "seedKey": "memorial",
+    "name": "Memorial University of Newfoundland",
+    "institutionType": "University",
+    "country": "CA"
+  },
+  {
+    "seedKey": "athabasca",
+    "name": "Athabasca University",
+    "institutionType": "University",
+    "country": "CA"
+  },
+  {
+    "seedKey": "nait",
+    "name": "Northern Alberta Institute of Technology",
+    "institutionType": "Polytechnic",
+    "country": "CA"
+  },
+  {
+    "seedKey": "sait",
+    "name": "Southern Alberta Institute of Technology",
+    "institutionType": "Polytechnic",
+    "country": "CA"
+  },
+  {
+    "seedKey": "bcit",
+    "name": "British Columbia Institute of Technology",
+    "institutionType": "Polytechnic",
+    "country": "CA"
+  },
+  {
+    "seedKey": "seneca",
+    "name": "Seneca Polytechnic",
+    "institutionType": "Polytechnic",
+    "country": "CA"
+  },
+  {
+    "seedKey": "george_brown",
+    "name": "George Brown College",
+    "institutionType": "College",
+    "country": "CA"
+  },
+  {
+    "seedKey": "humber",
+    "name": "Humber Polytechnic",
+    "institutionType": "Polytechnic",
+    "country": "CA"
+  },
+  {
+    "seedKey": "sheridan",
+    "name": "Sheridan College",
+    "institutionType": "College",
+    "country": "CA"
+  },
+  {
+    "seedKey": "algonquin",
+    "name": "Algonquin College",
+    "institutionType": "College",
+    "country": "CA"
+  },
+  {
+    "seedKey": "fanshawe",
+    "name": "Fanshawe College",
+    "institutionType": "College",
+    "country": "CA"
+  },
+  {
+    "seedKey": "conestoga",
+    "name": "Conestoga College",
+    "institutionType": "College",
+    "country": "CA"
+  },
+  {
+    "seedKey": "mit",
+    "name": "Massachusetts Institute of Technology",
+    "institutionType": "University",
+    "country": "US"
+  },
+  {
+    "seedKey": "stanford",
+    "name": "Stanford University",
+    "institutionType": "University",
+    "country": "US"
+  },
+  {
+    "seedKey": "berkeley",
+    "name": "University of California, Berkeley",
+    "institutionType": "University",
+    "country": "US"
+  },
+  {
+    "seedKey": "carnegie_mellon",
+    "name": "Carnegie Mellon University",
+    "institutionType": "University",
+    "country": "US"
+  },
+  {
+    "seedKey": "harvard",
+    "name": "Harvard University",
+    "institutionType": "University",
+    "country": "US"
+  },
+  {
+    "seedKey": "cornell",
+    "name": "Cornell University",
+    "institutionType": "University",
+    "country": "US"
+  },
+  {
+    "seedKey": "georgia_tech",
+    "name": "Georgia Institute of Technology",
+    "institutionType": "University",
+    "country": "US"
+  },
+  {
+    "seedKey": "umich",
+    "name": "University of Michigan",
+    "institutionType": "University",
+    "country": "US"
+  },
+  {
+    "seedKey": "utexas",
+    "name": "University of Texas at Austin",
+    "institutionType": "University",
+    "country": "US"
+  },
+  {
+    "seedKey": "uwashington",
+    "name": "University of Washington",
+    "institutionType": "University",
+    "country": "US"
+  },
+  {
+    "seedKey": "ucla",
+    "name": "University of California, Los Angeles",
+    "institutionType": "University",
+    "country": "US"
+  },
+  {
+    "seedKey": "nyu",
+    "name": "New York University",
+    "institutionType": "University",
+    "country": "US"
+  },
+  {
+    "seedKey": "columbia",
+    "name": "Columbia University",
+    "institutionType": "University",
+    "country": "US"
+  },
+  {
+    "seedKey": "upenn",
+    "name": "University of Pennsylvania",
+    "institutionType": "University",
+    "country": "US"
+  },
+  {
+    "seedKey": "purdue",
+    "name": "Purdue University",
+    "institutionType": "University",
+    "country": "US"
+  },
+  {
+    "seedKey": "uiuc",
+    "name": "University of Illinois Urbana-Champaign",
+    "institutionType": "University",
+    "country": "US"
+  },
+  {
+    "seedKey": "asu",
+    "name": "Arizona State University",
+    "institutionType": "University",
+    "country": "US"
+  },
+  {
+    "seedKey": "wgu",
+    "name": "Western Governors University",
+    "institutionType": "University",
+    "country": "US"
+  },
+  {
+    "seedKey": "oxford",
+    "name": "University of Oxford",
+    "institutionType": "University",
+    "country": "GB"
+  },
+  {
+    "seedKey": "cambridge",
+    "name": "University of Cambridge",
+    "institutionType": "University",
+    "country": "GB"
+  },
+  {
+    "seedKey": "imperial",
+    "name": "Imperial College London",
+    "institutionType": "University",
+    "country": "GB"
+  },
+  {
+    "seedKey": "ucl",
+    "name": "University College London",
+    "institutionType": "University",
+    "country": "GB"
+  },
+  {
+    "seedKey": "edinburgh",
+    "name": "University of Edinburgh",
+    "institutionType": "University",
+    "country": "GB"
+  },
+  {
+    "seedKey": "eth_zurich",
+    "name": "ETH Zurich",
+    "institutionType": "University",
+    "country": "CH"
+  },
+  {
+    "seedKey": "tu_munich",
+    "name": "Technical University of Munich",
+    "institutionType": "University",
+    "country": "DE"
+  },
+  {
+    "seedKey": "melbourne",
+    "name": "University of Melbourne",
+    "institutionType": "University",
+    "country": "AU"
+  },
+  {
+    "seedKey": "unsw",
+    "name": "UNSW Sydney",
+    "institutionType": "University",
+    "country": "AU"
+  },
+  {
+    "seedKey": "nus",
+    "name": "National University of Singapore",
+    "institutionType": "University",
+    "country": "SG"
+  },
+  {
+    "seedKey": "ntu_singapore",
+    "name": "Nanyang Technological University",
+    "institutionType": "University",
+    "country": "SG"
+  },
+  {
+    "seedKey": "tokyo",
+    "name": "University of Tokyo",
+    "institutionType": "University",
+    "country": "JP"
+  }
+]

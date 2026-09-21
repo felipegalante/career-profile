@@ -1,0 +1,70 @@
+[
+  {
+    "seedKey": "certificate",
+    "label": "Certificate"
+  },
+  {
+    "seedKey": "diploma",
+    "label": "Diploma"
+  },
+  {
+    "seedKey": "associate_degree",
+    "label": "Associate Degree"
+  },
+  {
+    "seedKey": "bachelor_of_arts",
+    "label": "Bachelor of Arts"
+  },
+  {
+    "seedKey": "bachelor_of_science",
+    "label": "Bachelor of Science"
+  },
+  {
+    "seedKey": "bachelor_of_engineering",
+    "label": "Bachelor of Engineering"
+  },
+  {
+    "seedKey": "bachelor_of_business_administration",
+    "label": "Bachelor of Business Administration"
+  },
+  {
+    "seedKey": "bachelor_of_commerce",
+    "label": "Bachelor of Commerce"
+  },
+  {
+    "seedKey": "master_of_arts",
+    "label": "Master of Arts"
+  },
+  {
+    "seedKey": "master_of_science",
+    "label": "Master of Science"
+  },
+  {
+    "seedKey": "master_of_engineering",
+    "label": "Master of Engineering"
+  },
+  {
+    "seedKey": "master_of_business_administration",
+    "label": "Master of Business Administration"
+  },
+  {
+    "seedKey": "master_of_public_health",
+    "label": "Master of Public Health"
+  },
+  {
+    "seedKey": "doctor_of_philosophy",
+    "label": "Doctor of Philosophy"
+  },
+  {
+    "seedKey": "professional_degree",
+    "label": "Professional Degree"
+  },
+  {
+    "seedKey": "postgraduate_certificate",
+    "label": "Postgraduate Certificate"
+  },
+  {
+    "seedKey": "graduate_diploma",
+    "label": "Graduate Diploma"
+  }
+]

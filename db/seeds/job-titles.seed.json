@@ -1,0 +1,490 @@
+[
+  {
+    "seedKey": "software_engineer",
+    "label": "Software Engineer"
+  },
+  {
+    "seedKey": "senior_software_engineer",
+    "label": "Senior Software Engineer"
+  },
+  {
+    "seedKey": "staff_software_engineer",
+    "label": "Staff Software Engineer"
+  },
+  {
+    "seedKey": "principal_software_engineer",
+    "label": "Principal Software Engineer"
+  },
+  {
+    "seedKey": "frontend_engineer",
+    "label": "Frontend Engineer"
+  },
+  {
+    "seedKey": "backend_engineer",
+    "label": "Backend Engineer"
+  },
+  {
+    "seedKey": "full_stack_engineer",
+    "label": "Full Stack Engineer"
+  },
+  {
+    "seedKey": "mobile_engineer",
+    "label": "Mobile Engineer"
+  },
+  {
+    "seedKey": "ios_engineer",
+    "label": "iOS Engineer"
+  },
+  {
+    "seedKey": "android_engineer",
+    "label": "Android Engineer"
+  },
+  {
+    "seedKey": "platform_engineer",
+    "label": "Platform Engineer"
+  },
+  {
+    "seedKey": "devops_engineer",
+    "label": "DevOps Engineer"
+  },
+  {
+    "seedKey": "site_reliability_engineer",
+    "label": "Site Reliability Engineer"
+  },
+  {
+    "seedKey": "cloud_engineer",
+    "label": "Cloud Engineer"
+  },
+  {
+    "seedKey": "security_engineer",
+    "label": "Security Engineer"
+  },
+  {
+    "seedKey": "application_security_engineer",
+    "label": "Application Security Engineer"
+  },
+  {
+    "seedKey": "data_engineer",
+    "label": "Data Engineer"
+  },
+  {
+    "seedKey": "analytics_engineer",
+    "label": "Analytics Engineer"
+  },
+  {
+    "seedKey": "data_analyst",
+    "label": "Data Analyst"
+  },
+  {
+    "seedKey": "data_scientist",
+    "label": "Data Scientist"
+  },
+  {
+    "seedKey": "machine_learning_engineer",
+    "label": "Machine Learning Engineer"
+  },
+  {
+    "seedKey": "ai_engineer",
+    "label": "AI Engineer"
+  },
+  {
+    "seedKey": "qa_engineer",
+    "label": "QA Engineer"
+  },
+  {
+    "seedKey": "software_test_engineer",
+    "label": "Software Test Engineer"
+  },
+  {
+    "seedKey": "test_automation_engineer",
+    "label": "Test Automation Engineer"
+  },
+  {
+    "seedKey": "engineering_manager",
+    "label": "Engineering Manager"
+  },
+  {
+    "seedKey": "director_of_engineering",
+    "label": "Director of Engineering"
+  },
+  {
+    "seedKey": "vp_engineering",
+    "label": "VP Engineering"
+  },
+  {
+    "seedKey": "solutions_architect",
+    "label": "Solutions Architect"
+  },
+  {
+    "seedKey": "cloud_architect",
+    "label": "Cloud Architect"
+  },
+  {
+    "seedKey": "enterprise_architect",
+    "label": "Enterprise Architect"
+  },
+  {
+    "seedKey": "database_administrator",
+    "label": "Database Administrator"
+  },
+  {
+    "seedKey": "systems_administrator",
+    "label": "Systems Administrator"
+  },
+  {
+    "seedKey": "network_engineer",
+    "label": "Network Engineer"
+  },
+  {
+    "seedKey": "it_support_specialist",
+    "label": "IT Support Specialist"
+  },
+  {
+    "seedKey": "technical_support_engineer",
+    "label": "Technical Support Engineer"
+  },
+  {
+    "seedKey": "product_manager",
+    "label": "Product Manager"
+  },
+  {
+    "seedKey": "senior_product_manager",
+    "label": "Senior Product Manager"
+  },
+  {
+    "seedKey": "technical_product_manager",
+    "label": "Technical Product Manager"
+  },
+  {
+    "seedKey": "product_designer",
+    "label": "Product Designer"
+  },
+  {
+    "seedKey": "ux_designer",
+    "label": "UX Designer"
+  },
+  {
+    "seedKey": "ui_designer",
+    "label": "UI Designer"
+  },
+  {
+    "seedKey": "ux_researcher",
+    "label": "UX Researcher"
+  },
+  {
+    "seedKey": "project_manager",
+    "label": "Project Manager"
+  },
+  {
+    "seedKey": "program_manager",
+    "label": "Program Manager"
+  },
+  {
+    "seedKey": "scrum_master",
+    "label": "Scrum Master"
+  },
+  {
+    "seedKey": "business_analyst",
+    "label": "Business Analyst"
+  },
+  {
+    "seedKey": "systems_analyst",
+    "label": "Systems Analyst"
+  },
+  {
+    "seedKey": "operations_manager",
+    "label": "Operations Manager"
+  },
+  {
+    "seedKey": "operations_analyst",
+    "label": "Operations Analyst"
+  },
+  {
+    "seedKey": "customer_support_specialist",
+    "label": "Customer Support Specialist"
+  },
+  {
+    "seedKey": "customer_success_manager",
+    "label": "Customer Success Manager"
+  },
+  {
+    "seedKey": "account_manager",
+    "label": "Account Manager"
+  },
+  {
+    "seedKey": "sales_representative",
+    "label": "Sales Representative"
+  },
+  {
+    "seedKey": "sales_development_representative",
+    "label": "Sales Development Representative"
+  },
+  {
+    "seedKey": "account_executive",
+    "label": "Account Executive"
+  },
+  {
+    "seedKey": "marketing_specialist",
+    "label": "Marketing Specialist"
+  },
+  {
+    "seedKey": "product_marketing_manager",
+    "label": "Product Marketing Manager"
+  },
+  {
+    "seedKey": "content_strategist",
+    "label": "Content Strategist"
+  },
+  {
+    "seedKey": "financial_analyst",
+    "label": "Financial Analyst"
+  },
+  {
+    "seedKey": "accountant",
+    "label": "Accountant"
+  },
+  {
+    "seedKey": "controller",
+    "label": "Controller"
+  },
+  {
+    "seedKey": "human_resources_specialist",
+    "label": "Human Resources Specialist"
+  },
+  {
+    "seedKey": "recruiter",
+    "label": "Recruiter"
+  },
+  {
+    "seedKey": "people_operations_manager",
+    "label": "People Operations Manager"
+  },
+  {
+    "seedKey": "registered_nurse",
+    "label": "Registered Nurse"
+  },
+  {
+    "seedKey": "medical_assistant",
+    "label": "Medical Assistant"
+  },
+  {
+    "seedKey": "pharmacist",
+    "label": "Pharmacist"
+  },
+  {
+    "seedKey": "teacher",
+    "label": "Teacher"
+  },
+  {
+    "seedKey": "instructional_designer",
+    "label": "Instructional Designer"
+  },
+  {
+    "seedKey": "research_assistant",
+    "label": "Research Assistant"
+  },
+  {
+    "seedKey": "mechanical_engineer",
+    "label": "Mechanical Engineer"
+  },
+  {
+    "seedKey": "electrical_engineer",
+    "label": "Electrical Engineer"
+  },
+  {
+    "seedKey": "civil_engineer",
+    "label": "Civil Engineer"
+  },
+  {
+    "seedKey": "manufacturing_engineer",
+    "label": "Manufacturing Engineer"
+  },
+  {
+    "seedKey": "supply_chain_analyst",
+    "label": "Supply Chain Analyst"
+  },
+  {
+    "seedKey": "logistics_coordinator",
+    "label": "Logistics Coordinator"
+  },
+  {
+    "seedKey": "warehouse_supervisor",
+    "label": "Warehouse Supervisor"
+  },
+  {
+    "seedKey": "retail_store_manager",
+    "label": "Retail Store Manager"
+  },
+  {
+    "seedKey": "chef",
+    "label": "Chef"
+  },
+  {
+    "seedKey": "hospitality_manager",
+    "label": "Hospitality Manager"
+  },
+  {
+    "seedKey": "legal_assistant",
+    "label": "Legal Assistant"
+  },
+  {
+    "seedKey": "paralegal",
+    "label": "Paralegal"
+  },
+  {
+    "seedKey": "administrative_assistant",
+    "label": "Administrative Assistant"
+  },
+  {
+    "seedKey": "executive_assistant",
+    "label": "Executive Assistant"
+  },
+  {
+    "seedKey": "office_manager",
+    "label": "Office Manager"
+  },
+  {
+    "seedKey": "construction_project_manager",
+    "label": "Construction Project Manager"
+  },
+  {
+    "seedKey": "electrician",
+    "label": "Electrician"
+  },
+  {
+    "seedKey": "welder",
+    "label": "Welder"
+  },
+  {
+    "seedKey": "automotive_technician",
+    "label": "Automotive Technician"
+  },
+  {
+    "seedKey": "graphic_designer",
+    "label": "Graphic Designer"
+  },
+  {
+    "seedKey": "motion_designer",
+    "label": "Motion Designer"
+  },
+  {
+    "seedKey": "writer",
+    "label": "Writer"
+  },
+  {
+    "seedKey": "editor",
+    "label": "Editor"
+  },
+  {
+    "seedKey": "community_manager",
+    "label": "Community Manager"
+  },
+  {
+    "seedKey": "social_worker",
+    "label": "Social Worker"
+  },
+  {
+    "seedKey": "policy_analyst",
+    "label": "Policy Analyst"
+  },
+  {
+    "seedKey": "gis_analyst",
+    "label": "GIS Analyst"
+  },
+  {
+    "seedKey": "environmental_scientist",
+    "label": "Environmental Scientist"
+  },
+  {
+    "seedKey": "lab_technician",
+    "label": "Lab Technician"
+  },
+  {
+    "seedKey": "biologist",
+    "label": "Biologist"
+  },
+  {
+    "seedKey": "chemist",
+    "label": "Chemist"
+  },
+  {
+    "seedKey": "research_scientist",
+    "label": "Research Scientist"
+  },
+  {
+    "seedKey": "compliance_analyst",
+    "label": "Compliance Analyst"
+  },
+  {
+    "seedKey": "risk_analyst",
+    "label": "Risk Analyst"
+  },
+  {
+    "seedKey": "information_security_analyst",
+    "label": "Information Security Analyst"
+  },
+  {
+    "seedKey": "cybersecurity_analyst",
+    "label": "Cybersecurity Analyst"
+  },
+  {
+    "seedKey": "soc_analyst",
+    "label": "SOC Analyst"
+  },
+  {
+    "seedKey": "penetration_tester",
+    "label": "Penetration Tester"
+  },
+  {
+    "seedKey": "technical_writer",
+    "label": "Technical Writer"
+  },
+  {
+    "seedKey": "developer_advocate",
+    "label": "Developer Advocate"
+  },
+  {
+    "seedKey": "implementation_consultant",
+    "label": "Implementation Consultant"
+  },
+  {
+    "seedKey": "solutions_consultant",
+    "label": "Solutions Consultant"
+  },
+  {
+    "seedKey": "management_consultant",
+    "label": "Management Consultant"
+  },
+  {
+    "seedKey": "strategy_analyst",
+    "label": "Strategy Analyst"
+  },
+  {
+    "seedKey": "procurement_specialist",
+    "label": "Procurement Specialist"
+  },
+  {
+    "seedKey": "category_manager",
+    "label": "Category Manager"
+  },
+  {
+    "seedKey": "quality_assurance_specialist",
+    "label": "Quality Assurance Specialist"
+  },
+  {
+    "seedKey": "quality_engineer",
+    "label": "Quality Engineer"
+  },
+  {
+    "seedKey": "process_engineer",
+    "label": "Process Engineer"
+  },
+  {
+    "seedKey": "maintenance_technician",
+    "label": "Maintenance Technician"
+  },
+  {
+    "seedKey": "field_service_technician",
+    "label": "Field Service Technician"
+  }
+]

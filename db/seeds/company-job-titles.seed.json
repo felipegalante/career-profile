@@ -1,0 +1,2714 @@
+[
+  {
+    "companySeedKey": "northstar_labs",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "northstar_labs",
+    "jobTitleSeedKey": "senior_software_engineer"
+  },
+  {
+    "companySeedKey": "northstar_labs",
+    "jobTitleSeedKey": "frontend_engineer"
+  },
+  {
+    "companySeedKey": "northstar_labs",
+    "jobTitleSeedKey": "backend_engineer"
+  },
+  {
+    "companySeedKey": "northstar_labs",
+    "jobTitleSeedKey": "full_stack_engineer"
+  },
+  {
+    "companySeedKey": "northstar_labs",
+    "jobTitleSeedKey": "platform_engineer"
+  },
+  {
+    "companySeedKey": "northstar_labs",
+    "jobTitleSeedKey": "devops_engineer"
+  },
+  {
+    "companySeedKey": "northstar_labs",
+    "jobTitleSeedKey": "site_reliability_engineer"
+  },
+  {
+    "companySeedKey": "northstar_labs",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "northstar_labs",
+    "jobTitleSeedKey": "product_designer"
+  },
+  {
+    "companySeedKey": "northstar_labs",
+    "jobTitleSeedKey": "data_engineer"
+  },
+  {
+    "companySeedKey": "northstar_labs",
+    "jobTitleSeedKey": "data_scientist"
+  },
+  {
+    "companySeedKey": "northstar_labs",
+    "jobTitleSeedKey": "security_engineer"
+  },
+  {
+    "companySeedKey": "northstar_labs",
+    "jobTitleSeedKey": "engineering_manager"
+  },
+  {
+    "companySeedKey": "harbour_systems",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "harbour_systems",
+    "jobTitleSeedKey": "senior_software_engineer"
+  },
+  {
+    "companySeedKey": "harbour_systems",
+    "jobTitleSeedKey": "frontend_engineer"
+  },
+  {
+    "companySeedKey": "harbour_systems",
+    "jobTitleSeedKey": "backend_engineer"
+  },
+  {
+    "companySeedKey": "harbour_systems",
+    "jobTitleSeedKey": "full_stack_engineer"
+  },
+  {
+    "companySeedKey": "harbour_systems",
+    "jobTitleSeedKey": "platform_engineer"
+  },
+  {
+    "companySeedKey": "harbour_systems",
+    "jobTitleSeedKey": "devops_engineer"
+  },
+  {
+    "companySeedKey": "harbour_systems",
+    "jobTitleSeedKey": "site_reliability_engineer"
+  },
+  {
+    "companySeedKey": "harbour_systems",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "harbour_systems",
+    "jobTitleSeedKey": "product_designer"
+  },
+  {
+    "companySeedKey": "harbour_systems",
+    "jobTitleSeedKey": "data_engineer"
+  },
+  {
+    "companySeedKey": "harbour_systems",
+    "jobTitleSeedKey": "data_scientist"
+  },
+  {
+    "companySeedKey": "harbour_systems",
+    "jobTitleSeedKey": "security_engineer"
+  },
+  {
+    "companySeedKey": "harbour_systems",
+    "jobTitleSeedKey": "engineering_manager"
+  },
+  {
+    "companySeedKey": "maple_financial",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "maple_financial",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "maple_financial",
+    "jobTitleSeedKey": "financial_analyst"
+  },
+  {
+    "companySeedKey": "maple_financial",
+    "jobTitleSeedKey": "risk_analyst"
+  },
+  {
+    "companySeedKey": "maple_financial",
+    "jobTitleSeedKey": "compliance_analyst"
+  },
+  {
+    "companySeedKey": "maple_financial",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "maple_financial",
+    "jobTitleSeedKey": "business_analyst"
+  },
+  {
+    "companySeedKey": "maple_financial",
+    "jobTitleSeedKey": "cybersecurity_analyst"
+  },
+  {
+    "companySeedKey": "prairie_health",
+    "jobTitleSeedKey": "registered_nurse"
+  },
+  {
+    "companySeedKey": "prairie_health",
+    "jobTitleSeedKey": "medical_assistant"
+  },
+  {
+    "companySeedKey": "prairie_health",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "prairie_health",
+    "jobTitleSeedKey": "operations_manager"
+  },
+  {
+    "companySeedKey": "prairie_health",
+    "jobTitleSeedKey": "it_support_specialist"
+  },
+  {
+    "companySeedKey": "prairie_health",
+    "jobTitleSeedKey": "business_analyst"
+  },
+  {
+    "companySeedKey": "coastal_retail",
+    "jobTitleSeedKey": "retail_store_manager"
+  },
+  {
+    "companySeedKey": "coastal_retail",
+    "jobTitleSeedKey": "operations_manager"
+  },
+  {
+    "companySeedKey": "coastal_retail",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "coastal_retail",
+    "jobTitleSeedKey": "customer_support_specialist"
+  },
+  {
+    "companySeedKey": "coastal_retail",
+    "jobTitleSeedKey": "accountant"
+  },
+  {
+    "companySeedKey": "coastal_retail",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "summit_logistics",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "summit_logistics",
+    "jobTitleSeedKey": "business_analyst"
+  },
+  {
+    "companySeedKey": "summit_logistics",
+    "jobTitleSeedKey": "project_manager"
+  },
+  {
+    "companySeedKey": "summit_logistics",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "summit_logistics",
+    "jobTitleSeedKey": "accountant"
+  },
+  {
+    "companySeedKey": "aurora_energy",
+    "jobTitleSeedKey": "mechanical_engineer"
+  },
+  {
+    "companySeedKey": "aurora_energy",
+    "jobTitleSeedKey": "electrical_engineer"
+  },
+  {
+    "companySeedKey": "aurora_energy",
+    "jobTitleSeedKey": "environmental_scientist"
+  },
+  {
+    "companySeedKey": "aurora_energy",
+    "jobTitleSeedKey": "project_manager"
+  },
+  {
+    "companySeedKey": "aurora_energy",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "aurora_energy",
+    "jobTitleSeedKey": "operations_manager"
+  },
+  {
+    "companySeedKey": "cedar_construction",
+    "jobTitleSeedKey": "construction_project_manager"
+  },
+  {
+    "companySeedKey": "cedar_construction",
+    "jobTitleSeedKey": "civil_engineer"
+  },
+  {
+    "companySeedKey": "cedar_construction",
+    "jobTitleSeedKey": "electrician"
+  },
+  {
+    "companySeedKey": "cedar_construction",
+    "jobTitleSeedKey": "welder"
+  },
+  {
+    "companySeedKey": "cedar_construction",
+    "jobTitleSeedKey": "project_manager"
+  },
+  {
+    "companySeedKey": "polar_telecom",
+    "jobTitleSeedKey": "network_engineer"
+  },
+  {
+    "companySeedKey": "polar_telecom",
+    "jobTitleSeedKey": "systems_administrator"
+  },
+  {
+    "companySeedKey": "polar_telecom",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "polar_telecom",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "polar_telecom",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "polar_telecom",
+    "jobTitleSeedKey": "technical_support_engineer"
+  },
+  {
+    "companySeedKey": "riverbend_foods",
+    "jobTitleSeedKey": "chef"
+  },
+  {
+    "companySeedKey": "riverbend_foods",
+    "jobTitleSeedKey": "operations_manager"
+  },
+  {
+    "companySeedKey": "riverbend_foods",
+    "jobTitleSeedKey": "supply_chain_analyst"
+  },
+  {
+    "companySeedKey": "riverbend_foods",
+    "jobTitleSeedKey": "quality_assurance_specialist"
+  },
+  {
+    "companySeedKey": "riverbend_foods",
+    "jobTitleSeedKey": "marketing_specialist"
+  },
+  {
+    "companySeedKey": "acme_software",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "acme_software",
+    "jobTitleSeedKey": "senior_software_engineer"
+  },
+  {
+    "companySeedKey": "acme_software",
+    "jobTitleSeedKey": "frontend_engineer"
+  },
+  {
+    "companySeedKey": "acme_software",
+    "jobTitleSeedKey": "backend_engineer"
+  },
+  {
+    "companySeedKey": "acme_software",
+    "jobTitleSeedKey": "full_stack_engineer"
+  },
+  {
+    "companySeedKey": "acme_software",
+    "jobTitleSeedKey": "platform_engineer"
+  },
+  {
+    "companySeedKey": "acme_software",
+    "jobTitleSeedKey": "devops_engineer"
+  },
+  {
+    "companySeedKey": "acme_software",
+    "jobTitleSeedKey": "site_reliability_engineer"
+  },
+  {
+    "companySeedKey": "acme_software",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "acme_software",
+    "jobTitleSeedKey": "product_designer"
+  },
+  {
+    "companySeedKey": "acme_software",
+    "jobTitleSeedKey": "data_engineer"
+  },
+  {
+    "companySeedKey": "acme_software",
+    "jobTitleSeedKey": "data_scientist"
+  },
+  {
+    "companySeedKey": "acme_software",
+    "jobTitleSeedKey": "security_engineer"
+  },
+  {
+    "companySeedKey": "acme_software",
+    "jobTitleSeedKey": "engineering_manager"
+  },
+  {
+    "companySeedKey": "bluepeak_cloud",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "bluepeak_cloud",
+    "jobTitleSeedKey": "senior_software_engineer"
+  },
+  {
+    "companySeedKey": "bluepeak_cloud",
+    "jobTitleSeedKey": "frontend_engineer"
+  },
+  {
+    "companySeedKey": "bluepeak_cloud",
+    "jobTitleSeedKey": "backend_engineer"
+  },
+  {
+    "companySeedKey": "bluepeak_cloud",
+    "jobTitleSeedKey": "full_stack_engineer"
+  },
+  {
+    "companySeedKey": "bluepeak_cloud",
+    "jobTitleSeedKey": "platform_engineer"
+  },
+  {
+    "companySeedKey": "bluepeak_cloud",
+    "jobTitleSeedKey": "devops_engineer"
+  },
+  {
+    "companySeedKey": "bluepeak_cloud",
+    "jobTitleSeedKey": "site_reliability_engineer"
+  },
+  {
+    "companySeedKey": "bluepeak_cloud",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "bluepeak_cloud",
+    "jobTitleSeedKey": "product_designer"
+  },
+  {
+    "companySeedKey": "bluepeak_cloud",
+    "jobTitleSeedKey": "data_engineer"
+  },
+  {
+    "companySeedKey": "bluepeak_cloud",
+    "jobTitleSeedKey": "data_scientist"
+  },
+  {
+    "companySeedKey": "bluepeak_cloud",
+    "jobTitleSeedKey": "security_engineer"
+  },
+  {
+    "companySeedKey": "bluepeak_cloud",
+    "jobTitleSeedKey": "engineering_manager"
+  },
+  {
+    "companySeedKey": "orbit_data",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "orbit_data",
+    "jobTitleSeedKey": "senior_software_engineer"
+  },
+  {
+    "companySeedKey": "orbit_data",
+    "jobTitleSeedKey": "frontend_engineer"
+  },
+  {
+    "companySeedKey": "orbit_data",
+    "jobTitleSeedKey": "backend_engineer"
+  },
+  {
+    "companySeedKey": "orbit_data",
+    "jobTitleSeedKey": "full_stack_engineer"
+  },
+  {
+    "companySeedKey": "orbit_data",
+    "jobTitleSeedKey": "platform_engineer"
+  },
+  {
+    "companySeedKey": "orbit_data",
+    "jobTitleSeedKey": "devops_engineer"
+  },
+  {
+    "companySeedKey": "orbit_data",
+    "jobTitleSeedKey": "site_reliability_engineer"
+  },
+  {
+    "companySeedKey": "orbit_data",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "orbit_data",
+    "jobTitleSeedKey": "product_designer"
+  },
+  {
+    "companySeedKey": "orbit_data",
+    "jobTitleSeedKey": "data_engineer"
+  },
+  {
+    "companySeedKey": "orbit_data",
+    "jobTitleSeedKey": "data_scientist"
+  },
+  {
+    "companySeedKey": "orbit_data",
+    "jobTitleSeedKey": "security_engineer"
+  },
+  {
+    "companySeedKey": "orbit_data",
+    "jobTitleSeedKey": "engineering_manager"
+  },
+  {
+    "companySeedKey": "vertex_security",
+    "jobTitleSeedKey": "security_engineer"
+  },
+  {
+    "companySeedKey": "vertex_security",
+    "jobTitleSeedKey": "cybersecurity_analyst"
+  },
+  {
+    "companySeedKey": "vertex_security",
+    "jobTitleSeedKey": "soc_analyst"
+  },
+  {
+    "companySeedKey": "vertex_security",
+    "jobTitleSeedKey": "penetration_tester"
+  },
+  {
+    "companySeedKey": "vertex_security",
+    "jobTitleSeedKey": "compliance_analyst"
+  },
+  {
+    "companySeedKey": "atlas_consulting",
+    "jobTitleSeedKey": "management_consultant"
+  },
+  {
+    "companySeedKey": "atlas_consulting",
+    "jobTitleSeedKey": "business_analyst"
+  },
+  {
+    "companySeedKey": "atlas_consulting",
+    "jobTitleSeedKey": "project_manager"
+  },
+  {
+    "companySeedKey": "atlas_consulting",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "atlas_consulting",
+    "jobTitleSeedKey": "accountant"
+  },
+  {
+    "companySeedKey": "atlas_consulting",
+    "jobTitleSeedKey": "recruiter"
+  },
+  {
+    "companySeedKey": "atlas_consulting",
+    "jobTitleSeedKey": "solutions_consultant"
+  },
+  {
+    "companySeedKey": "brightline_media",
+    "jobTitleSeedKey": "writer"
+  },
+  {
+    "companySeedKey": "brightline_media",
+    "jobTitleSeedKey": "editor"
+  },
+  {
+    "companySeedKey": "brightline_media",
+    "jobTitleSeedKey": "content_strategist"
+  },
+  {
+    "companySeedKey": "brightline_media",
+    "jobTitleSeedKey": "graphic_designer"
+  },
+  {
+    "companySeedKey": "brightline_media",
+    "jobTitleSeedKey": "marketing_specialist"
+  },
+  {
+    "companySeedKey": "greenfield_bio",
+    "jobTitleSeedKey": "biologist"
+  },
+  {
+    "companySeedKey": "greenfield_bio",
+    "jobTitleSeedKey": "chemist"
+  },
+  {
+    "companySeedKey": "greenfield_bio",
+    "jobTitleSeedKey": "research_scientist"
+  },
+  {
+    "companySeedKey": "greenfield_bio",
+    "jobTitleSeedKey": "lab_technician"
+  },
+  {
+    "companySeedKey": "greenfield_bio",
+    "jobTitleSeedKey": "data_scientist"
+  },
+  {
+    "companySeedKey": "meridian_bank",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "meridian_bank",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "meridian_bank",
+    "jobTitleSeedKey": "financial_analyst"
+  },
+  {
+    "companySeedKey": "meridian_bank",
+    "jobTitleSeedKey": "risk_analyst"
+  },
+  {
+    "companySeedKey": "meridian_bank",
+    "jobTitleSeedKey": "compliance_analyst"
+  },
+  {
+    "companySeedKey": "meridian_bank",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "meridian_bank",
+    "jobTitleSeedKey": "business_analyst"
+  },
+  {
+    "companySeedKey": "meridian_bank",
+    "jobTitleSeedKey": "cybersecurity_analyst"
+  },
+  {
+    "companySeedKey": "evergreen_insurance",
+    "jobTitleSeedKey": "risk_analyst"
+  },
+  {
+    "companySeedKey": "evergreen_insurance",
+    "jobTitleSeedKey": "financial_analyst"
+  },
+  {
+    "companySeedKey": "evergreen_insurance",
+    "jobTitleSeedKey": "business_analyst"
+  },
+  {
+    "companySeedKey": "evergreen_insurance",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "evergreen_insurance",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "stonebridge_manufacturing",
+    "jobTitleSeedKey": "manufacturing_engineer"
+  },
+  {
+    "companySeedKey": "stonebridge_manufacturing",
+    "jobTitleSeedKey": "quality_engineer"
+  },
+  {
+    "companySeedKey": "stonebridge_manufacturing",
+    "jobTitleSeedKey": "process_engineer"
+  },
+  {
+    "companySeedKey": "stonebridge_manufacturing",
+    "jobTitleSeedKey": "maintenance_technician"
+  },
+  {
+    "companySeedKey": "stonebridge_manufacturing",
+    "jobTitleSeedKey": "supply_chain_analyst"
+  },
+  {
+    "companySeedKey": "stonebridge_manufacturing",
+    "jobTitleSeedKey": "operations_manager"
+  },
+  {
+    "companySeedKey": "nova_mobility",
+    "jobTitleSeedKey": "logistics_coordinator"
+  },
+  {
+    "companySeedKey": "nova_mobility",
+    "jobTitleSeedKey": "operations_manager"
+  },
+  {
+    "companySeedKey": "nova_mobility",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "nova_mobility",
+    "jobTitleSeedKey": "supply_chain_analyst"
+  },
+  {
+    "companySeedKey": "nova_mobility",
+    "jobTitleSeedKey": "project_manager"
+  },
+  {
+    "companySeedKey": "horizon_hospitality",
+    "jobTitleSeedKey": "hospitality_manager"
+  },
+  {
+    "companySeedKey": "horizon_hospitality",
+    "jobTitleSeedKey": "chef"
+  },
+  {
+    "companySeedKey": "horizon_hospitality",
+    "jobTitleSeedKey": "customer_support_specialist"
+  },
+  {
+    "companySeedKey": "horizon_hospitality",
+    "jobTitleSeedKey": "operations_manager"
+  },
+  {
+    "companySeedKey": "horizon_hospitality",
+    "jobTitleSeedKey": "marketing_specialist"
+  },
+  {
+    "companySeedKey": "civicworks",
+    "jobTitleSeedKey": "policy_analyst"
+  },
+  {
+    "companySeedKey": "civicworks",
+    "jobTitleSeedKey": "program_manager"
+  },
+  {
+    "companySeedKey": "civicworks",
+    "jobTitleSeedKey": "social_worker"
+  },
+  {
+    "companySeedKey": "civicworks",
+    "jobTitleSeedKey": "administrative_assistant"
+  },
+  {
+    "companySeedKey": "civicworks",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "lighthouse_education",
+    "jobTitleSeedKey": "teacher"
+  },
+  {
+    "companySeedKey": "lighthouse_education",
+    "jobTitleSeedKey": "instructional_designer"
+  },
+  {
+    "companySeedKey": "lighthouse_education",
+    "jobTitleSeedKey": "program_manager"
+  },
+  {
+    "companySeedKey": "lighthouse_education",
+    "jobTitleSeedKey": "administrative_assistant"
+  },
+  {
+    "companySeedKey": "lighthouse_education",
+    "jobTitleSeedKey": "it_support_specialist"
+  },
+  {
+    "companySeedKey": "pioneer_agriculture",
+    "jobTitleSeedKey": "environmental_scientist"
+  },
+  {
+    "companySeedKey": "pioneer_agriculture",
+    "jobTitleSeedKey": "operations_manager"
+  },
+  {
+    "companySeedKey": "pioneer_agriculture",
+    "jobTitleSeedKey": "supply_chain_analyst"
+  },
+  {
+    "companySeedKey": "pioneer_agriculture",
+    "jobTitleSeedKey": "field_service_technician"
+  },
+  {
+    "companySeedKey": "pioneer_agriculture",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "redwood_design",
+    "jobTitleSeedKey": "product_designer"
+  },
+  {
+    "companySeedKey": "redwood_design",
+    "jobTitleSeedKey": "ux_designer"
+  },
+  {
+    "companySeedKey": "redwood_design",
+    "jobTitleSeedKey": "ui_designer"
+  },
+  {
+    "companySeedKey": "redwood_design",
+    "jobTitleSeedKey": "graphic_designer"
+  },
+  {
+    "companySeedKey": "redwood_design",
+    "jobTitleSeedKey": "motion_designer"
+  },
+  {
+    "companySeedKey": "silverline_pharma",
+    "jobTitleSeedKey": "pharmacist"
+  },
+  {
+    "companySeedKey": "silverline_pharma",
+    "jobTitleSeedKey": "research_scientist"
+  },
+  {
+    "companySeedKey": "silverline_pharma",
+    "jobTitleSeedKey": "quality_assurance_specialist"
+  },
+  {
+    "companySeedKey": "silverline_pharma",
+    "jobTitleSeedKey": "compliance_analyst"
+  },
+  {
+    "companySeedKey": "silverline_pharma",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "metro_property",
+    "jobTitleSeedKey": "account_manager"
+  },
+  {
+    "companySeedKey": "metro_property",
+    "jobTitleSeedKey": "financial_analyst"
+  },
+  {
+    "companySeedKey": "metro_property",
+    "jobTitleSeedKey": "operations_manager"
+  },
+  {
+    "companySeedKey": "metro_property",
+    "jobTitleSeedKey": "administrative_assistant"
+  },
+  {
+    "companySeedKey": "metro_property",
+    "jobTitleSeedKey": "project_manager"
+  },
+  {
+    "companySeedKey": "quantum_analytics",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "quantum_analytics",
+    "jobTitleSeedKey": "senior_software_engineer"
+  },
+  {
+    "companySeedKey": "quantum_analytics",
+    "jobTitleSeedKey": "frontend_engineer"
+  },
+  {
+    "companySeedKey": "quantum_analytics",
+    "jobTitleSeedKey": "backend_engineer"
+  },
+  {
+    "companySeedKey": "quantum_analytics",
+    "jobTitleSeedKey": "full_stack_engineer"
+  },
+  {
+    "companySeedKey": "quantum_analytics",
+    "jobTitleSeedKey": "platform_engineer"
+  },
+  {
+    "companySeedKey": "quantum_analytics",
+    "jobTitleSeedKey": "devops_engineer"
+  },
+  {
+    "companySeedKey": "quantum_analytics",
+    "jobTitleSeedKey": "site_reliability_engineer"
+  },
+  {
+    "companySeedKey": "quantum_analytics",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "quantum_analytics",
+    "jobTitleSeedKey": "product_designer"
+  },
+  {
+    "companySeedKey": "quantum_analytics",
+    "jobTitleSeedKey": "data_engineer"
+  },
+  {
+    "companySeedKey": "quantum_analytics",
+    "jobTitleSeedKey": "data_scientist"
+  },
+  {
+    "companySeedKey": "quantum_analytics",
+    "jobTitleSeedKey": "security_engineer"
+  },
+  {
+    "companySeedKey": "quantum_analytics",
+    "jobTitleSeedKey": "engineering_manager"
+  },
+  {
+    "companySeedKey": "fusion_payments",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "fusion_payments",
+    "jobTitleSeedKey": "backend_engineer"
+  },
+  {
+    "companySeedKey": "fusion_payments",
+    "jobTitleSeedKey": "data_engineer"
+  },
+  {
+    "companySeedKey": "fusion_payments",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "fusion_payments",
+    "jobTitleSeedKey": "risk_analyst"
+  },
+  {
+    "companySeedKey": "fusion_payments",
+    "jobTitleSeedKey": "compliance_analyst"
+  },
+  {
+    "companySeedKey": "fusion_payments",
+    "jobTitleSeedKey": "security_engineer"
+  },
+  {
+    "companySeedKey": "amazon",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "amazon",
+    "jobTitleSeedKey": "data_engineer"
+  },
+  {
+    "companySeedKey": "amazon",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "amazon",
+    "jobTitleSeedKey": "operations_manager"
+  },
+  {
+    "companySeedKey": "amazon",
+    "jobTitleSeedKey": "account_manager"
+  },
+  {
+    "companySeedKey": "amazon",
+    "jobTitleSeedKey": "customer_support_specialist"
+  },
+  {
+    "companySeedKey": "microsoft",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "microsoft",
+    "jobTitleSeedKey": "senior_software_engineer"
+  },
+  {
+    "companySeedKey": "microsoft",
+    "jobTitleSeedKey": "frontend_engineer"
+  },
+  {
+    "companySeedKey": "microsoft",
+    "jobTitleSeedKey": "backend_engineer"
+  },
+  {
+    "companySeedKey": "microsoft",
+    "jobTitleSeedKey": "full_stack_engineer"
+  },
+  {
+    "companySeedKey": "microsoft",
+    "jobTitleSeedKey": "platform_engineer"
+  },
+  {
+    "companySeedKey": "microsoft",
+    "jobTitleSeedKey": "devops_engineer"
+  },
+  {
+    "companySeedKey": "microsoft",
+    "jobTitleSeedKey": "site_reliability_engineer"
+  },
+  {
+    "companySeedKey": "microsoft",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "microsoft",
+    "jobTitleSeedKey": "product_designer"
+  },
+  {
+    "companySeedKey": "microsoft",
+    "jobTitleSeedKey": "data_engineer"
+  },
+  {
+    "companySeedKey": "microsoft",
+    "jobTitleSeedKey": "data_scientist"
+  },
+  {
+    "companySeedKey": "microsoft",
+    "jobTitleSeedKey": "security_engineer"
+  },
+  {
+    "companySeedKey": "microsoft",
+    "jobTitleSeedKey": "engineering_manager"
+  },
+  {
+    "companySeedKey": "google",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "google",
+    "jobTitleSeedKey": "senior_software_engineer"
+  },
+  {
+    "companySeedKey": "google",
+    "jobTitleSeedKey": "frontend_engineer"
+  },
+  {
+    "companySeedKey": "google",
+    "jobTitleSeedKey": "backend_engineer"
+  },
+  {
+    "companySeedKey": "google",
+    "jobTitleSeedKey": "full_stack_engineer"
+  },
+  {
+    "companySeedKey": "google",
+    "jobTitleSeedKey": "platform_engineer"
+  },
+  {
+    "companySeedKey": "google",
+    "jobTitleSeedKey": "devops_engineer"
+  },
+  {
+    "companySeedKey": "google",
+    "jobTitleSeedKey": "site_reliability_engineer"
+  },
+  {
+    "companySeedKey": "google",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "google",
+    "jobTitleSeedKey": "product_designer"
+  },
+  {
+    "companySeedKey": "google",
+    "jobTitleSeedKey": "data_engineer"
+  },
+  {
+    "companySeedKey": "google",
+    "jobTitleSeedKey": "data_scientist"
+  },
+  {
+    "companySeedKey": "google",
+    "jobTitleSeedKey": "security_engineer"
+  },
+  {
+    "companySeedKey": "google",
+    "jobTitleSeedKey": "engineering_manager"
+  },
+  {
+    "companySeedKey": "apple",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "apple",
+    "jobTitleSeedKey": "senior_software_engineer"
+  },
+  {
+    "companySeedKey": "apple",
+    "jobTitleSeedKey": "frontend_engineer"
+  },
+  {
+    "companySeedKey": "apple",
+    "jobTitleSeedKey": "backend_engineer"
+  },
+  {
+    "companySeedKey": "apple",
+    "jobTitleSeedKey": "full_stack_engineer"
+  },
+  {
+    "companySeedKey": "apple",
+    "jobTitleSeedKey": "platform_engineer"
+  },
+  {
+    "companySeedKey": "apple",
+    "jobTitleSeedKey": "devops_engineer"
+  },
+  {
+    "companySeedKey": "apple",
+    "jobTitleSeedKey": "site_reliability_engineer"
+  },
+  {
+    "companySeedKey": "apple",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "apple",
+    "jobTitleSeedKey": "product_designer"
+  },
+  {
+    "companySeedKey": "apple",
+    "jobTitleSeedKey": "data_engineer"
+  },
+  {
+    "companySeedKey": "apple",
+    "jobTitleSeedKey": "data_scientist"
+  },
+  {
+    "companySeedKey": "apple",
+    "jobTitleSeedKey": "security_engineer"
+  },
+  {
+    "companySeedKey": "apple",
+    "jobTitleSeedKey": "engineering_manager"
+  },
+  {
+    "companySeedKey": "ibm",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "ibm",
+    "jobTitleSeedKey": "senior_software_engineer"
+  },
+  {
+    "companySeedKey": "ibm",
+    "jobTitleSeedKey": "frontend_engineer"
+  },
+  {
+    "companySeedKey": "ibm",
+    "jobTitleSeedKey": "backend_engineer"
+  },
+  {
+    "companySeedKey": "ibm",
+    "jobTitleSeedKey": "full_stack_engineer"
+  },
+  {
+    "companySeedKey": "ibm",
+    "jobTitleSeedKey": "platform_engineer"
+  },
+  {
+    "companySeedKey": "ibm",
+    "jobTitleSeedKey": "devops_engineer"
+  },
+  {
+    "companySeedKey": "ibm",
+    "jobTitleSeedKey": "site_reliability_engineer"
+  },
+  {
+    "companySeedKey": "ibm",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "ibm",
+    "jobTitleSeedKey": "product_designer"
+  },
+  {
+    "companySeedKey": "ibm",
+    "jobTitleSeedKey": "data_engineer"
+  },
+  {
+    "companySeedKey": "ibm",
+    "jobTitleSeedKey": "data_scientist"
+  },
+  {
+    "companySeedKey": "ibm",
+    "jobTitleSeedKey": "security_engineer"
+  },
+  {
+    "companySeedKey": "ibm",
+    "jobTitleSeedKey": "engineering_manager"
+  },
+  {
+    "companySeedKey": "salesforce",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "salesforce",
+    "jobTitleSeedKey": "senior_software_engineer"
+  },
+  {
+    "companySeedKey": "salesforce",
+    "jobTitleSeedKey": "frontend_engineer"
+  },
+  {
+    "companySeedKey": "salesforce",
+    "jobTitleSeedKey": "backend_engineer"
+  },
+  {
+    "companySeedKey": "salesforce",
+    "jobTitleSeedKey": "full_stack_engineer"
+  },
+  {
+    "companySeedKey": "salesforce",
+    "jobTitleSeedKey": "platform_engineer"
+  },
+  {
+    "companySeedKey": "salesforce",
+    "jobTitleSeedKey": "devops_engineer"
+  },
+  {
+    "companySeedKey": "salesforce",
+    "jobTitleSeedKey": "site_reliability_engineer"
+  },
+  {
+    "companySeedKey": "salesforce",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "salesforce",
+    "jobTitleSeedKey": "product_designer"
+  },
+  {
+    "companySeedKey": "salesforce",
+    "jobTitleSeedKey": "data_engineer"
+  },
+  {
+    "companySeedKey": "salesforce",
+    "jobTitleSeedKey": "data_scientist"
+  },
+  {
+    "companySeedKey": "salesforce",
+    "jobTitleSeedKey": "security_engineer"
+  },
+  {
+    "companySeedKey": "salesforce",
+    "jobTitleSeedKey": "engineering_manager"
+  },
+  {
+    "companySeedKey": "shopify",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "shopify",
+    "jobTitleSeedKey": "senior_software_engineer"
+  },
+  {
+    "companySeedKey": "shopify",
+    "jobTitleSeedKey": "frontend_engineer"
+  },
+  {
+    "companySeedKey": "shopify",
+    "jobTitleSeedKey": "backend_engineer"
+  },
+  {
+    "companySeedKey": "shopify",
+    "jobTitleSeedKey": "full_stack_engineer"
+  },
+  {
+    "companySeedKey": "shopify",
+    "jobTitleSeedKey": "platform_engineer"
+  },
+  {
+    "companySeedKey": "shopify",
+    "jobTitleSeedKey": "devops_engineer"
+  },
+  {
+    "companySeedKey": "shopify",
+    "jobTitleSeedKey": "site_reliability_engineer"
+  },
+  {
+    "companySeedKey": "shopify",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "shopify",
+    "jobTitleSeedKey": "product_designer"
+  },
+  {
+    "companySeedKey": "shopify",
+    "jobTitleSeedKey": "data_engineer"
+  },
+  {
+    "companySeedKey": "shopify",
+    "jobTitleSeedKey": "data_scientist"
+  },
+  {
+    "companySeedKey": "shopify",
+    "jobTitleSeedKey": "security_engineer"
+  },
+  {
+    "companySeedKey": "shopify",
+    "jobTitleSeedKey": "engineering_manager"
+  },
+  {
+    "companySeedKey": "rbc",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "rbc",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "rbc",
+    "jobTitleSeedKey": "financial_analyst"
+  },
+  {
+    "companySeedKey": "rbc",
+    "jobTitleSeedKey": "risk_analyst"
+  },
+  {
+    "companySeedKey": "rbc",
+    "jobTitleSeedKey": "compliance_analyst"
+  },
+  {
+    "companySeedKey": "rbc",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "rbc",
+    "jobTitleSeedKey": "business_analyst"
+  },
+  {
+    "companySeedKey": "rbc",
+    "jobTitleSeedKey": "cybersecurity_analyst"
+  },
+  {
+    "companySeedKey": "td",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "td",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "td",
+    "jobTitleSeedKey": "financial_analyst"
+  },
+  {
+    "companySeedKey": "td",
+    "jobTitleSeedKey": "risk_analyst"
+  },
+  {
+    "companySeedKey": "td",
+    "jobTitleSeedKey": "compliance_analyst"
+  },
+  {
+    "companySeedKey": "td",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "td",
+    "jobTitleSeedKey": "business_analyst"
+  },
+  {
+    "companySeedKey": "td",
+    "jobTitleSeedKey": "cybersecurity_analyst"
+  },
+  {
+    "companySeedKey": "bmo",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "bmo",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "bmo",
+    "jobTitleSeedKey": "financial_analyst"
+  },
+  {
+    "companySeedKey": "bmo",
+    "jobTitleSeedKey": "risk_analyst"
+  },
+  {
+    "companySeedKey": "bmo",
+    "jobTitleSeedKey": "compliance_analyst"
+  },
+  {
+    "companySeedKey": "bmo",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "bmo",
+    "jobTitleSeedKey": "business_analyst"
+  },
+  {
+    "companySeedKey": "bmo",
+    "jobTitleSeedKey": "cybersecurity_analyst"
+  },
+  {
+    "companySeedKey": "scotiabank",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "scotiabank",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "scotiabank",
+    "jobTitleSeedKey": "financial_analyst"
+  },
+  {
+    "companySeedKey": "scotiabank",
+    "jobTitleSeedKey": "risk_analyst"
+  },
+  {
+    "companySeedKey": "scotiabank",
+    "jobTitleSeedKey": "compliance_analyst"
+  },
+  {
+    "companySeedKey": "scotiabank",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "scotiabank",
+    "jobTitleSeedKey": "business_analyst"
+  },
+  {
+    "companySeedKey": "scotiabank",
+    "jobTitleSeedKey": "cybersecurity_analyst"
+  },
+  {
+    "companySeedKey": "telus",
+    "jobTitleSeedKey": "network_engineer"
+  },
+  {
+    "companySeedKey": "telus",
+    "jobTitleSeedKey": "systems_administrator"
+  },
+  {
+    "companySeedKey": "telus",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "telus",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "telus",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "telus",
+    "jobTitleSeedKey": "technical_support_engineer"
+  },
+  {
+    "companySeedKey": "bell",
+    "jobTitleSeedKey": "network_engineer"
+  },
+  {
+    "companySeedKey": "bell",
+    "jobTitleSeedKey": "systems_administrator"
+  },
+  {
+    "companySeedKey": "bell",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "bell",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "bell",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "bell",
+    "jobTitleSeedKey": "technical_support_engineer"
+  },
+  {
+    "companySeedKey": "rogers",
+    "jobTitleSeedKey": "network_engineer"
+  },
+  {
+    "companySeedKey": "rogers",
+    "jobTitleSeedKey": "systems_administrator"
+  },
+  {
+    "companySeedKey": "rogers",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "rogers",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "rogers",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "rogers",
+    "jobTitleSeedKey": "technical_support_engineer"
+  },
+  {
+    "companySeedKey": "loblaw",
+    "jobTitleSeedKey": "retail_store_manager"
+  },
+  {
+    "companySeedKey": "loblaw",
+    "jobTitleSeedKey": "operations_manager"
+  },
+  {
+    "companySeedKey": "loblaw",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "loblaw",
+    "jobTitleSeedKey": "customer_support_specialist"
+  },
+  {
+    "companySeedKey": "loblaw",
+    "jobTitleSeedKey": "accountant"
+  },
+  {
+    "companySeedKey": "loblaw",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "canadian_tire",
+    "jobTitleSeedKey": "retail_store_manager"
+  },
+  {
+    "companySeedKey": "canadian_tire",
+    "jobTitleSeedKey": "operations_manager"
+  },
+  {
+    "companySeedKey": "canadian_tire",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "canadian_tire",
+    "jobTitleSeedKey": "customer_support_specialist"
+  },
+  {
+    "companySeedKey": "canadian_tire",
+    "jobTitleSeedKey": "accountant"
+  },
+  {
+    "companySeedKey": "canadian_tire",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "walmart",
+    "jobTitleSeedKey": "retail_store_manager"
+  },
+  {
+    "companySeedKey": "walmart",
+    "jobTitleSeedKey": "operations_manager"
+  },
+  {
+    "companySeedKey": "walmart",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "walmart",
+    "jobTitleSeedKey": "customer_support_specialist"
+  },
+  {
+    "companySeedKey": "walmart",
+    "jobTitleSeedKey": "accountant"
+  },
+  {
+    "companySeedKey": "walmart",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "costco",
+    "jobTitleSeedKey": "retail_store_manager"
+  },
+  {
+    "companySeedKey": "costco",
+    "jobTitleSeedKey": "operations_manager"
+  },
+  {
+    "companySeedKey": "costco",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "costco",
+    "jobTitleSeedKey": "customer_support_specialist"
+  },
+  {
+    "companySeedKey": "costco",
+    "jobTitleSeedKey": "accountant"
+  },
+  {
+    "companySeedKey": "costco",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "deloitte",
+    "jobTitleSeedKey": "management_consultant"
+  },
+  {
+    "companySeedKey": "deloitte",
+    "jobTitleSeedKey": "business_analyst"
+  },
+  {
+    "companySeedKey": "deloitte",
+    "jobTitleSeedKey": "project_manager"
+  },
+  {
+    "companySeedKey": "deloitte",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "deloitte",
+    "jobTitleSeedKey": "accountant"
+  },
+  {
+    "companySeedKey": "deloitte",
+    "jobTitleSeedKey": "recruiter"
+  },
+  {
+    "companySeedKey": "deloitte",
+    "jobTitleSeedKey": "solutions_consultant"
+  },
+  {
+    "companySeedKey": "pwc",
+    "jobTitleSeedKey": "management_consultant"
+  },
+  {
+    "companySeedKey": "pwc",
+    "jobTitleSeedKey": "business_analyst"
+  },
+  {
+    "companySeedKey": "pwc",
+    "jobTitleSeedKey": "project_manager"
+  },
+  {
+    "companySeedKey": "pwc",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "pwc",
+    "jobTitleSeedKey": "accountant"
+  },
+  {
+    "companySeedKey": "pwc",
+    "jobTitleSeedKey": "recruiter"
+  },
+  {
+    "companySeedKey": "pwc",
+    "jobTitleSeedKey": "solutions_consultant"
+  },
+  {
+    "companySeedKey": "ey",
+    "jobTitleSeedKey": "management_consultant"
+  },
+  {
+    "companySeedKey": "ey",
+    "jobTitleSeedKey": "business_analyst"
+  },
+  {
+    "companySeedKey": "ey",
+    "jobTitleSeedKey": "project_manager"
+  },
+  {
+    "companySeedKey": "ey",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "ey",
+    "jobTitleSeedKey": "accountant"
+  },
+  {
+    "companySeedKey": "ey",
+    "jobTitleSeedKey": "recruiter"
+  },
+  {
+    "companySeedKey": "ey",
+    "jobTitleSeedKey": "solutions_consultant"
+  },
+  {
+    "companySeedKey": "kpmg",
+    "jobTitleSeedKey": "management_consultant"
+  },
+  {
+    "companySeedKey": "kpmg",
+    "jobTitleSeedKey": "business_analyst"
+  },
+  {
+    "companySeedKey": "kpmg",
+    "jobTitleSeedKey": "project_manager"
+  },
+  {
+    "companySeedKey": "kpmg",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "kpmg",
+    "jobTitleSeedKey": "accountant"
+  },
+  {
+    "companySeedKey": "kpmg",
+    "jobTitleSeedKey": "recruiter"
+  },
+  {
+    "companySeedKey": "kpmg",
+    "jobTitleSeedKey": "solutions_consultant"
+  },
+  {
+    "companySeedKey": "accenture",
+    "jobTitleSeedKey": "management_consultant"
+  },
+  {
+    "companySeedKey": "accenture",
+    "jobTitleSeedKey": "business_analyst"
+  },
+  {
+    "companySeedKey": "accenture",
+    "jobTitleSeedKey": "project_manager"
+  },
+  {
+    "companySeedKey": "accenture",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "accenture",
+    "jobTitleSeedKey": "accountant"
+  },
+  {
+    "companySeedKey": "accenture",
+    "jobTitleSeedKey": "recruiter"
+  },
+  {
+    "companySeedKey": "accenture",
+    "jobTitleSeedKey": "solutions_consultant"
+  },
+  {
+    "companySeedKey": "cisco",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "cisco",
+    "jobTitleSeedKey": "senior_software_engineer"
+  },
+  {
+    "companySeedKey": "cisco",
+    "jobTitleSeedKey": "frontend_engineer"
+  },
+  {
+    "companySeedKey": "cisco",
+    "jobTitleSeedKey": "backend_engineer"
+  },
+  {
+    "companySeedKey": "cisco",
+    "jobTitleSeedKey": "full_stack_engineer"
+  },
+  {
+    "companySeedKey": "cisco",
+    "jobTitleSeedKey": "platform_engineer"
+  },
+  {
+    "companySeedKey": "cisco",
+    "jobTitleSeedKey": "devops_engineer"
+  },
+  {
+    "companySeedKey": "cisco",
+    "jobTitleSeedKey": "site_reliability_engineer"
+  },
+  {
+    "companySeedKey": "cisco",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "cisco",
+    "jobTitleSeedKey": "product_designer"
+  },
+  {
+    "companySeedKey": "cisco",
+    "jobTitleSeedKey": "data_engineer"
+  },
+  {
+    "companySeedKey": "cisco",
+    "jobTitleSeedKey": "data_scientist"
+  },
+  {
+    "companySeedKey": "cisco",
+    "jobTitleSeedKey": "security_engineer"
+  },
+  {
+    "companySeedKey": "cisco",
+    "jobTitleSeedKey": "engineering_manager"
+  },
+  {
+    "companySeedKey": "oracle",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "oracle",
+    "jobTitleSeedKey": "senior_software_engineer"
+  },
+  {
+    "companySeedKey": "oracle",
+    "jobTitleSeedKey": "frontend_engineer"
+  },
+  {
+    "companySeedKey": "oracle",
+    "jobTitleSeedKey": "backend_engineer"
+  },
+  {
+    "companySeedKey": "oracle",
+    "jobTitleSeedKey": "full_stack_engineer"
+  },
+  {
+    "companySeedKey": "oracle",
+    "jobTitleSeedKey": "platform_engineer"
+  },
+  {
+    "companySeedKey": "oracle",
+    "jobTitleSeedKey": "devops_engineer"
+  },
+  {
+    "companySeedKey": "oracle",
+    "jobTitleSeedKey": "site_reliability_engineer"
+  },
+  {
+    "companySeedKey": "oracle",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "oracle",
+    "jobTitleSeedKey": "product_designer"
+  },
+  {
+    "companySeedKey": "oracle",
+    "jobTitleSeedKey": "data_engineer"
+  },
+  {
+    "companySeedKey": "oracle",
+    "jobTitleSeedKey": "data_scientist"
+  },
+  {
+    "companySeedKey": "oracle",
+    "jobTitleSeedKey": "security_engineer"
+  },
+  {
+    "companySeedKey": "oracle",
+    "jobTitleSeedKey": "engineering_manager"
+  },
+  {
+    "companySeedKey": "sap",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "sap",
+    "jobTitleSeedKey": "senior_software_engineer"
+  },
+  {
+    "companySeedKey": "sap",
+    "jobTitleSeedKey": "frontend_engineer"
+  },
+  {
+    "companySeedKey": "sap",
+    "jobTitleSeedKey": "backend_engineer"
+  },
+  {
+    "companySeedKey": "sap",
+    "jobTitleSeedKey": "full_stack_engineer"
+  },
+  {
+    "companySeedKey": "sap",
+    "jobTitleSeedKey": "platform_engineer"
+  },
+  {
+    "companySeedKey": "sap",
+    "jobTitleSeedKey": "devops_engineer"
+  },
+  {
+    "companySeedKey": "sap",
+    "jobTitleSeedKey": "site_reliability_engineer"
+  },
+  {
+    "companySeedKey": "sap",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "sap",
+    "jobTitleSeedKey": "product_designer"
+  },
+  {
+    "companySeedKey": "sap",
+    "jobTitleSeedKey": "data_engineer"
+  },
+  {
+    "companySeedKey": "sap",
+    "jobTitleSeedKey": "data_scientist"
+  },
+  {
+    "companySeedKey": "sap",
+    "jobTitleSeedKey": "security_engineer"
+  },
+  {
+    "companySeedKey": "sap",
+    "jobTitleSeedKey": "engineering_manager"
+  },
+  {
+    "companySeedKey": "siemens",
+    "jobTitleSeedKey": "mechanical_engineer"
+  },
+  {
+    "companySeedKey": "siemens",
+    "jobTitleSeedKey": "electrical_engineer"
+  },
+  {
+    "companySeedKey": "siemens",
+    "jobTitleSeedKey": "manufacturing_engineer"
+  },
+  {
+    "companySeedKey": "siemens",
+    "jobTitleSeedKey": "process_engineer"
+  },
+  {
+    "companySeedKey": "siemens",
+    "jobTitleSeedKey": "quality_engineer"
+  },
+  {
+    "companySeedKey": "siemens",
+    "jobTitleSeedKey": "maintenance_technician"
+  },
+  {
+    "companySeedKey": "sony",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "sony",
+    "jobTitleSeedKey": "business_analyst"
+  },
+  {
+    "companySeedKey": "sony",
+    "jobTitleSeedKey": "project_manager"
+  },
+  {
+    "companySeedKey": "sony",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "sony",
+    "jobTitleSeedKey": "accountant"
+  },
+  {
+    "companySeedKey": "samsung",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "samsung",
+    "jobTitleSeedKey": "senior_software_engineer"
+  },
+  {
+    "companySeedKey": "samsung",
+    "jobTitleSeedKey": "frontend_engineer"
+  },
+  {
+    "companySeedKey": "samsung",
+    "jobTitleSeedKey": "backend_engineer"
+  },
+  {
+    "companySeedKey": "samsung",
+    "jobTitleSeedKey": "full_stack_engineer"
+  },
+  {
+    "companySeedKey": "samsung",
+    "jobTitleSeedKey": "platform_engineer"
+  },
+  {
+    "companySeedKey": "samsung",
+    "jobTitleSeedKey": "devops_engineer"
+  },
+  {
+    "companySeedKey": "samsung",
+    "jobTitleSeedKey": "site_reliability_engineer"
+  },
+  {
+    "companySeedKey": "samsung",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "samsung",
+    "jobTitleSeedKey": "product_designer"
+  },
+  {
+    "companySeedKey": "samsung",
+    "jobTitleSeedKey": "data_engineer"
+  },
+  {
+    "companySeedKey": "samsung",
+    "jobTitleSeedKey": "data_scientist"
+  },
+  {
+    "companySeedKey": "samsung",
+    "jobTitleSeedKey": "security_engineer"
+  },
+  {
+    "companySeedKey": "samsung",
+    "jobTitleSeedKey": "engineering_manager"
+  },
+  {
+    "companySeedKey": "toyota",
+    "jobTitleSeedKey": "mechanical_engineer"
+  },
+  {
+    "companySeedKey": "toyota",
+    "jobTitleSeedKey": "manufacturing_engineer"
+  },
+  {
+    "companySeedKey": "toyota",
+    "jobTitleSeedKey": "quality_engineer"
+  },
+  {
+    "companySeedKey": "toyota",
+    "jobTitleSeedKey": "supply_chain_analyst"
+  },
+  {
+    "companySeedKey": "toyota",
+    "jobTitleSeedKey": "automotive_technician"
+  },
+  {
+    "companySeedKey": "toyota",
+    "jobTitleSeedKey": "operations_manager"
+  },
+  {
+    "companySeedKey": "ford",
+    "jobTitleSeedKey": "mechanical_engineer"
+  },
+  {
+    "companySeedKey": "ford",
+    "jobTitleSeedKey": "manufacturing_engineer"
+  },
+  {
+    "companySeedKey": "ford",
+    "jobTitleSeedKey": "quality_engineer"
+  },
+  {
+    "companySeedKey": "ford",
+    "jobTitleSeedKey": "supply_chain_analyst"
+  },
+  {
+    "companySeedKey": "ford",
+    "jobTitleSeedKey": "automotive_technician"
+  },
+  {
+    "companySeedKey": "ford",
+    "jobTitleSeedKey": "operations_manager"
+  },
+  {
+    "companySeedKey": "general_motors",
+    "jobTitleSeedKey": "mechanical_engineer"
+  },
+  {
+    "companySeedKey": "general_motors",
+    "jobTitleSeedKey": "manufacturing_engineer"
+  },
+  {
+    "companySeedKey": "general_motors",
+    "jobTitleSeedKey": "quality_engineer"
+  },
+  {
+    "companySeedKey": "general_motors",
+    "jobTitleSeedKey": "supply_chain_analyst"
+  },
+  {
+    "companySeedKey": "general_motors",
+    "jobTitleSeedKey": "automotive_technician"
+  },
+  {
+    "companySeedKey": "general_motors",
+    "jobTitleSeedKey": "operations_manager"
+  },
+  {
+    "companySeedKey": "air_canada",
+    "jobTitleSeedKey": "operations_manager"
+  },
+  {
+    "companySeedKey": "air_canada",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "air_canada",
+    "jobTitleSeedKey": "customer_support_specialist"
+  },
+  {
+    "companySeedKey": "air_canada",
+    "jobTitleSeedKey": "mechanical_engineer"
+  },
+  {
+    "companySeedKey": "air_canada",
+    "jobTitleSeedKey": "project_manager"
+  },
+  {
+    "companySeedKey": "westjet",
+    "jobTitleSeedKey": "operations_manager"
+  },
+  {
+    "companySeedKey": "westjet",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "westjet",
+    "jobTitleSeedKey": "customer_support_specialist"
+  },
+  {
+    "companySeedKey": "westjet",
+    "jobTitleSeedKey": "mechanical_engineer"
+  },
+  {
+    "companySeedKey": "westjet",
+    "jobTitleSeedKey": "project_manager"
+  },
+  {
+    "companySeedKey": "cn_rail",
+    "jobTitleSeedKey": "logistics_coordinator"
+  },
+  {
+    "companySeedKey": "cn_rail",
+    "jobTitleSeedKey": "operations_manager"
+  },
+  {
+    "companySeedKey": "cn_rail",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "cn_rail",
+    "jobTitleSeedKey": "supply_chain_analyst"
+  },
+  {
+    "companySeedKey": "cn_rail",
+    "jobTitleSeedKey": "project_manager"
+  },
+  {
+    "companySeedKey": "cpkc",
+    "jobTitleSeedKey": "logistics_coordinator"
+  },
+  {
+    "companySeedKey": "cpkc",
+    "jobTitleSeedKey": "operations_manager"
+  },
+  {
+    "companySeedKey": "cpkc",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "cpkc",
+    "jobTitleSeedKey": "supply_chain_analyst"
+  },
+  {
+    "companySeedKey": "cpkc",
+    "jobTitleSeedKey": "project_manager"
+  },
+  {
+    "companySeedKey": "suncor",
+    "jobTitleSeedKey": "mechanical_engineer"
+  },
+  {
+    "companySeedKey": "suncor",
+    "jobTitleSeedKey": "electrical_engineer"
+  },
+  {
+    "companySeedKey": "suncor",
+    "jobTitleSeedKey": "environmental_scientist"
+  },
+  {
+    "companySeedKey": "suncor",
+    "jobTitleSeedKey": "project_manager"
+  },
+  {
+    "companySeedKey": "suncor",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "suncor",
+    "jobTitleSeedKey": "operations_manager"
+  },
+  {
+    "companySeedKey": "enbridge",
+    "jobTitleSeedKey": "mechanical_engineer"
+  },
+  {
+    "companySeedKey": "enbridge",
+    "jobTitleSeedKey": "electrical_engineer"
+  },
+  {
+    "companySeedKey": "enbridge",
+    "jobTitleSeedKey": "environmental_scientist"
+  },
+  {
+    "companySeedKey": "enbridge",
+    "jobTitleSeedKey": "project_manager"
+  },
+  {
+    "companySeedKey": "enbridge",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "enbridge",
+    "jobTitleSeedKey": "operations_manager"
+  },
+  {
+    "companySeedKey": "atco",
+    "jobTitleSeedKey": "electrical_engineer"
+  },
+  {
+    "companySeedKey": "atco",
+    "jobTitleSeedKey": "field_service_technician"
+  },
+  {
+    "companySeedKey": "atco",
+    "jobTitleSeedKey": "project_manager"
+  },
+  {
+    "companySeedKey": "atco",
+    "jobTitleSeedKey": "operations_analyst"
+  },
+  {
+    "companySeedKey": "atco",
+    "jobTitleSeedKey": "data_analyst"
+  },
+  {
+    "companySeedKey": "stantec",
+    "jobTitleSeedKey": "civil_engineer"
+  },
+  {
+    "companySeedKey": "stantec",
+    "jobTitleSeedKey": "mechanical_engineer"
+  },
+  {
+    "companySeedKey": "stantec",
+    "jobTitleSeedKey": "electrical_engineer"
+  },
+  {
+    "companySeedKey": "stantec",
+    "jobTitleSeedKey": "project_manager"
+  },
+  {
+    "companySeedKey": "stantec",
+    "jobTitleSeedKey": "gis_analyst"
+  },
+  {
+    "companySeedKey": "stantec",
+    "jobTitleSeedKey": "environmental_scientist"
+  },
+  {
+    "companySeedKey": "wsp",
+    "jobTitleSeedKey": "civil_engineer"
+  },
+  {
+    "companySeedKey": "wsp",
+    "jobTitleSeedKey": "mechanical_engineer"
+  },
+  {
+    "companySeedKey": "wsp",
+    "jobTitleSeedKey": "electrical_engineer"
+  },
+  {
+    "companySeedKey": "wsp",
+    "jobTitleSeedKey": "project_manager"
+  },
+  {
+    "companySeedKey": "wsp",
+    "jobTitleSeedKey": "gis_analyst"
+  },
+  {
+    "companySeedKey": "wsp",
+    "jobTitleSeedKey": "environmental_scientist"
+  },
+  {
+    "companySeedKey": "unity",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "unity",
+    "jobTitleSeedKey": "senior_software_engineer"
+  },
+  {
+    "companySeedKey": "unity",
+    "jobTitleSeedKey": "frontend_engineer"
+  },
+  {
+    "companySeedKey": "unity",
+    "jobTitleSeedKey": "backend_engineer"
+  },
+  {
+    "companySeedKey": "unity",
+    "jobTitleSeedKey": "full_stack_engineer"
+  },
+  {
+    "companySeedKey": "unity",
+    "jobTitleSeedKey": "platform_engineer"
+  },
+  {
+    "companySeedKey": "unity",
+    "jobTitleSeedKey": "devops_engineer"
+  },
+  {
+    "companySeedKey": "unity",
+    "jobTitleSeedKey": "site_reliability_engineer"
+  },
+  {
+    "companySeedKey": "unity",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "unity",
+    "jobTitleSeedKey": "product_designer"
+  },
+  {
+    "companySeedKey": "unity",
+    "jobTitleSeedKey": "data_engineer"
+  },
+  {
+    "companySeedKey": "unity",
+    "jobTitleSeedKey": "data_scientist"
+  },
+  {
+    "companySeedKey": "unity",
+    "jobTitleSeedKey": "security_engineer"
+  },
+  {
+    "companySeedKey": "unity",
+    "jobTitleSeedKey": "engineering_manager"
+  },
+  {
+    "companySeedKey": "adobe",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "adobe",
+    "jobTitleSeedKey": "senior_software_engineer"
+  },
+  {
+    "companySeedKey": "adobe",
+    "jobTitleSeedKey": "frontend_engineer"
+  },
+  {
+    "companySeedKey": "adobe",
+    "jobTitleSeedKey": "backend_engineer"
+  },
+  {
+    "companySeedKey": "adobe",
+    "jobTitleSeedKey": "full_stack_engineer"
+  },
+  {
+    "companySeedKey": "adobe",
+    "jobTitleSeedKey": "platform_engineer"
+  },
+  {
+    "companySeedKey": "adobe",
+    "jobTitleSeedKey": "devops_engineer"
+  },
+  {
+    "companySeedKey": "adobe",
+    "jobTitleSeedKey": "site_reliability_engineer"
+  },
+  {
+    "companySeedKey": "adobe",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "adobe",
+    "jobTitleSeedKey": "product_designer"
+  },
+  {
+    "companySeedKey": "adobe",
+    "jobTitleSeedKey": "data_engineer"
+  },
+  {
+    "companySeedKey": "adobe",
+    "jobTitleSeedKey": "data_scientist"
+  },
+  {
+    "companySeedKey": "adobe",
+    "jobTitleSeedKey": "security_engineer"
+  },
+  {
+    "companySeedKey": "adobe",
+    "jobTitleSeedKey": "engineering_manager"
+  },
+  {
+    "companySeedKey": "nvidia",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "nvidia",
+    "jobTitleSeedKey": "senior_software_engineer"
+  },
+  {
+    "companySeedKey": "nvidia",
+    "jobTitleSeedKey": "frontend_engineer"
+  },
+  {
+    "companySeedKey": "nvidia",
+    "jobTitleSeedKey": "backend_engineer"
+  },
+  {
+    "companySeedKey": "nvidia",
+    "jobTitleSeedKey": "full_stack_engineer"
+  },
+  {
+    "companySeedKey": "nvidia",
+    "jobTitleSeedKey": "platform_engineer"
+  },
+  {
+    "companySeedKey": "nvidia",
+    "jobTitleSeedKey": "devops_engineer"
+  },
+  {
+    "companySeedKey": "nvidia",
+    "jobTitleSeedKey": "site_reliability_engineer"
+  },
+  {
+    "companySeedKey": "nvidia",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "nvidia",
+    "jobTitleSeedKey": "product_designer"
+  },
+  {
+    "companySeedKey": "nvidia",
+    "jobTitleSeedKey": "data_engineer"
+  },
+  {
+    "companySeedKey": "nvidia",
+    "jobTitleSeedKey": "data_scientist"
+  },
+  {
+    "companySeedKey": "nvidia",
+    "jobTitleSeedKey": "security_engineer"
+  },
+  {
+    "companySeedKey": "nvidia",
+    "jobTitleSeedKey": "engineering_manager"
+  },
+  {
+    "companySeedKey": "intel",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "intel",
+    "jobTitleSeedKey": "senior_software_engineer"
+  },
+  {
+    "companySeedKey": "intel",
+    "jobTitleSeedKey": "frontend_engineer"
+  },
+  {
+    "companySeedKey": "intel",
+    "jobTitleSeedKey": "backend_engineer"
+  },
+  {
+    "companySeedKey": "intel",
+    "jobTitleSeedKey": "full_stack_engineer"
+  },
+  {
+    "companySeedKey": "intel",
+    "jobTitleSeedKey": "platform_engineer"
+  },
+  {
+    "companySeedKey": "intel",
+    "jobTitleSeedKey": "devops_engineer"
+  },
+  {
+    "companySeedKey": "intel",
+    "jobTitleSeedKey": "site_reliability_engineer"
+  },
+  {
+    "companySeedKey": "intel",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "intel",
+    "jobTitleSeedKey": "product_designer"
+  },
+  {
+    "companySeedKey": "intel",
+    "jobTitleSeedKey": "data_engineer"
+  },
+  {
+    "companySeedKey": "intel",
+    "jobTitleSeedKey": "data_scientist"
+  },
+  {
+    "companySeedKey": "intel",
+    "jobTitleSeedKey": "security_engineer"
+  },
+  {
+    "companySeedKey": "intel",
+    "jobTitleSeedKey": "engineering_manager"
+  },
+  {
+    "companySeedKey": "amd",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "amd",
+    "jobTitleSeedKey": "senior_software_engineer"
+  },
+  {
+    "companySeedKey": "amd",
+    "jobTitleSeedKey": "frontend_engineer"
+  },
+  {
+    "companySeedKey": "amd",
+    "jobTitleSeedKey": "backend_engineer"
+  },
+  {
+    "companySeedKey": "amd",
+    "jobTitleSeedKey": "full_stack_engineer"
+  },
+  {
+    "companySeedKey": "amd",
+    "jobTitleSeedKey": "platform_engineer"
+  },
+  {
+    "companySeedKey": "amd",
+    "jobTitleSeedKey": "devops_engineer"
+  },
+  {
+    "companySeedKey": "amd",
+    "jobTitleSeedKey": "site_reliability_engineer"
+  },
+  {
+    "companySeedKey": "amd",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "amd",
+    "jobTitleSeedKey": "product_designer"
+  },
+  {
+    "companySeedKey": "amd",
+    "jobTitleSeedKey": "data_engineer"
+  },
+  {
+    "companySeedKey": "amd",
+    "jobTitleSeedKey": "data_scientist"
+  },
+  {
+    "companySeedKey": "amd",
+    "jobTitleSeedKey": "security_engineer"
+  },
+  {
+    "companySeedKey": "amd",
+    "jobTitleSeedKey": "engineering_manager"
+  },
+  {
+    "companySeedKey": "github",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "github",
+    "jobTitleSeedKey": "senior_software_engineer"
+  },
+  {
+    "companySeedKey": "github",
+    "jobTitleSeedKey": "frontend_engineer"
+  },
+  {
+    "companySeedKey": "github",
+    "jobTitleSeedKey": "backend_engineer"
+  },
+  {
+    "companySeedKey": "github",
+    "jobTitleSeedKey": "full_stack_engineer"
+  },
+  {
+    "companySeedKey": "github",
+    "jobTitleSeedKey": "platform_engineer"
+  },
+  {
+    "companySeedKey": "github",
+    "jobTitleSeedKey": "devops_engineer"
+  },
+  {
+    "companySeedKey": "github",
+    "jobTitleSeedKey": "site_reliability_engineer"
+  },
+  {
+    "companySeedKey": "github",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "github",
+    "jobTitleSeedKey": "product_designer"
+  },
+  {
+    "companySeedKey": "github",
+    "jobTitleSeedKey": "data_engineer"
+  },
+  {
+    "companySeedKey": "github",
+    "jobTitleSeedKey": "data_scientist"
+  },
+  {
+    "companySeedKey": "github",
+    "jobTitleSeedKey": "security_engineer"
+  },
+  {
+    "companySeedKey": "github",
+    "jobTitleSeedKey": "engineering_manager"
+  },
+  {
+    "companySeedKey": "gitlab",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "gitlab",
+    "jobTitleSeedKey": "senior_software_engineer"
+  },
+  {
+    "companySeedKey": "gitlab",
+    "jobTitleSeedKey": "frontend_engineer"
+  },
+  {
+    "companySeedKey": "gitlab",
+    "jobTitleSeedKey": "backend_engineer"
+  },
+  {
+    "companySeedKey": "gitlab",
+    "jobTitleSeedKey": "full_stack_engineer"
+  },
+  {
+    "companySeedKey": "gitlab",
+    "jobTitleSeedKey": "platform_engineer"
+  },
+  {
+    "companySeedKey": "gitlab",
+    "jobTitleSeedKey": "devops_engineer"
+  },
+  {
+    "companySeedKey": "gitlab",
+    "jobTitleSeedKey": "site_reliability_engineer"
+  },
+  {
+    "companySeedKey": "gitlab",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "gitlab",
+    "jobTitleSeedKey": "product_designer"
+  },
+  {
+    "companySeedKey": "gitlab",
+    "jobTitleSeedKey": "data_engineer"
+  },
+  {
+    "companySeedKey": "gitlab",
+    "jobTitleSeedKey": "data_scientist"
+  },
+  {
+    "companySeedKey": "gitlab",
+    "jobTitleSeedKey": "security_engineer"
+  },
+  {
+    "companySeedKey": "gitlab",
+    "jobTitleSeedKey": "engineering_manager"
+  },
+  {
+    "companySeedKey": "atlassian",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "atlassian",
+    "jobTitleSeedKey": "senior_software_engineer"
+  },
+  {
+    "companySeedKey": "atlassian",
+    "jobTitleSeedKey": "frontend_engineer"
+  },
+  {
+    "companySeedKey": "atlassian",
+    "jobTitleSeedKey": "backend_engineer"
+  },
+  {
+    "companySeedKey": "atlassian",
+    "jobTitleSeedKey": "full_stack_engineer"
+  },
+  {
+    "companySeedKey": "atlassian",
+    "jobTitleSeedKey": "platform_engineer"
+  },
+  {
+    "companySeedKey": "atlassian",
+    "jobTitleSeedKey": "devops_engineer"
+  },
+  {
+    "companySeedKey": "atlassian",
+    "jobTitleSeedKey": "site_reliability_engineer"
+  },
+  {
+    "companySeedKey": "atlassian",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "atlassian",
+    "jobTitleSeedKey": "product_designer"
+  },
+  {
+    "companySeedKey": "atlassian",
+    "jobTitleSeedKey": "data_engineer"
+  },
+  {
+    "companySeedKey": "atlassian",
+    "jobTitleSeedKey": "data_scientist"
+  },
+  {
+    "companySeedKey": "atlassian",
+    "jobTitleSeedKey": "security_engineer"
+  },
+  {
+    "companySeedKey": "atlassian",
+    "jobTitleSeedKey": "engineering_manager"
+  },
+  {
+    "companySeedKey": "stripe",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "stripe",
+    "jobTitleSeedKey": "backend_engineer"
+  },
+  {
+    "companySeedKey": "stripe",
+    "jobTitleSeedKey": "data_engineer"
+  },
+  {
+    "companySeedKey": "stripe",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "stripe",
+    "jobTitleSeedKey": "risk_analyst"
+  },
+  {
+    "companySeedKey": "stripe",
+    "jobTitleSeedKey": "compliance_analyst"
+  },
+  {
+    "companySeedKey": "stripe",
+    "jobTitleSeedKey": "security_engineer"
+  },
+  {
+    "companySeedKey": "block",
+    "jobTitleSeedKey": "software_engineer"
+  },
+  {
+    "companySeedKey": "block",
+    "jobTitleSeedKey": "backend_engineer"
+  },
+  {
+    "companySeedKey": "block",
+    "jobTitleSeedKey": "data_engineer"
+  },
+  {
+    "companySeedKey": "block",
+    "jobTitleSeedKey": "product_manager"
+  },
+  {
+    "companySeedKey": "block",
+    "jobTitleSeedKey": "risk_analyst"
+  },
+  {
+    "companySeedKey": "block",
+    "jobTitleSeedKey": "compliance_analyst"
+  },
+  {
+    "companySeedKey": "block",
+    "jobTitleSeedKey": "security_engineer"
+  }
+]

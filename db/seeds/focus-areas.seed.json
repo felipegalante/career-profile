@@ -1,0 +1,102 @@
+[
+  {
+    "seedKey": "software_engineering",
+    "label": "Software Engineering",
+    "description": "Building and maintaining software systems and developer platforms."
+  },
+  {
+    "seedKey": "data_ai",
+    "label": "Data & AI",
+    "description": "Data engineering, analytics, machine learning, and applied AI."
+  },
+  {
+    "seedKey": "cybersecurity",
+    "label": "Cybersecurity",
+    "description": "Security engineering, governance, operations, and risk."
+  },
+  {
+    "seedKey": "cloud_infrastructure",
+    "label": "Cloud & Infrastructure",
+    "description": "Cloud platforms, reliability, networking, and infrastructure."
+  },
+  {
+    "seedKey": "product_management",
+    "label": "Product Management",
+    "description": "Product discovery, strategy, prioritization, and delivery."
+  },
+  {
+    "seedKey": "design_ux",
+    "label": "Design & UX",
+    "description": "Product design, research, interaction design, and visual systems."
+  },
+  {
+    "seedKey": "business_operations",
+    "label": "Business Operations",
+    "description": "Operations, process improvement, planning, and business systems."
+  },
+  {
+    "seedKey": "project_program",
+    "label": "Project & Program Delivery",
+    "description": "Project leadership, delivery coordination, and program management."
+  },
+  {
+    "seedKey": "sales_growth",
+    "label": "Sales & Growth",
+    "description": "Sales, partnerships, growth, and revenue operations."
+  },
+  {
+    "seedKey": "marketing_content",
+    "label": "Marketing & Content",
+    "description": "Marketing strategy, content, communications, and brand."
+  },
+  {
+    "seedKey": "customer_success",
+    "label": "Customer Success & Support",
+    "description": "Customer success, support, implementation, and service operations."
+  },
+  {
+    "seedKey": "finance_accounting",
+    "label": "Finance & Accounting",
+    "description": "Financial planning, accounting, audit, and analysis."
+  },
+  {
+    "seedKey": "people_hr",
+    "label": "People & HR",
+    "description": "Recruiting, people operations, learning, and organizational development."
+  },
+  {
+    "seedKey": "healthcare",
+    "label": "Healthcare",
+    "description": "Clinical, health operations, health technology, and patient services."
+  },
+  {
+    "seedKey": "education_training",
+    "label": "Education & Training",
+    "description": "Teaching, instructional design, learning programs, and training."
+  },
+  {
+    "seedKey": "engineering_physical",
+    "label": "Engineering",
+    "description": "Mechanical, electrical, civil, industrial, and related engineering."
+  },
+  {
+    "seedKey": "research_science",
+    "label": "Research & Science",
+    "description": "Scientific research, laboratories, analysis, and experimentation."
+  },
+  {
+    "seedKey": "supply_chain",
+    "label": "Supply Chain & Logistics",
+    "description": "Procurement, logistics, inventory, and supply-chain operations."
+  },
+  {
+    "seedKey": "skilled_trades",
+    "label": "Skilled Trades",
+    "description": "Construction, maintenance, fabrication, and technical trades."
+  },
+  {
+    "seedKey": "public_community",
+    "label": "Public & Community Services",
+    "description": "Public administration, policy, social services, and community programs."
+  }
+]

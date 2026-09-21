@@ -1,0 +1,6302 @@
+[
+  {
+    "institutionSeedKey": "university_of_alberta",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "university_of_alberta",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "university_of_alberta",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "university_of_alberta",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "university_of_alberta",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "university_of_alberta",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "university_of_alberta",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "university_of_alberta",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "university_of_alberta",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "university_of_alberta",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "university_of_alberta",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "university_of_alberta",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "university_of_alberta",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "university_of_alberta",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "university_of_alberta",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "university_of_alberta",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "university_of_alberta",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "university_of_alberta",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "university_of_alberta",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "university_of_alberta",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "university_of_alberta",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "university_of_alberta",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "university_of_calgary",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "university_of_calgary",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "university_of_calgary",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "university_of_calgary",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "university_of_calgary",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "university_of_calgary",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "university_of_calgary",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "university_of_calgary",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "university_of_calgary",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "university_of_calgary",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "university_of_calgary",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "university_of_calgary",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "university_of_calgary",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "university_of_calgary",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "university_of_calgary",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "university_of_calgary",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "university_of_calgary",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "university_of_calgary",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "university_of_calgary",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "university_of_calgary",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "university_of_calgary",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "university_of_calgary",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "ubc",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "ubc",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "ubc",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "ubc",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "ubc",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "ubc",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "ubc",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "ubc",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "ubc",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "ubc",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "ubc",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "ubc",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "ubc",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "ubc",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "ubc",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "ubc",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "ubc",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "ubc",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "ubc",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "ubc",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "ubc",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "ubc",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "sfu",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "sfu",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "sfu",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "sfu",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "sfu",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "sfu",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "sfu",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "sfu",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "sfu",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "sfu",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "sfu",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "sfu",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "sfu",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "sfu",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "sfu",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "sfu",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "sfu",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "sfu",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "sfu",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "sfu",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "sfu",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "sfu",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "university_of_toronto",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "university_of_toronto",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "university_of_toronto",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "university_of_toronto",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "university_of_toronto",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "university_of_toronto",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "university_of_toronto",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "university_of_toronto",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "university_of_toronto",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "university_of_toronto",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "university_of_toronto",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "university_of_toronto",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "university_of_toronto",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "university_of_toronto",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "university_of_toronto",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "university_of_toronto",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "university_of_toronto",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "university_of_toronto",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "university_of_toronto",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "university_of_toronto",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "university_of_toronto",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "university_of_toronto",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "waterloo",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "waterloo",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "waterloo",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "waterloo",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "waterloo",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "waterloo",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "waterloo",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "waterloo",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "waterloo",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "waterloo",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "waterloo",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "waterloo",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "waterloo",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "waterloo",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "waterloo",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "waterloo",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "waterloo",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "waterloo",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "waterloo",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "waterloo",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "waterloo",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "waterloo",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "mcmaster",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "mcmaster",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "mcmaster",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "mcmaster",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "mcmaster",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "mcmaster",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "mcmaster",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "mcmaster",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "mcmaster",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "mcmaster",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "mcmaster",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "mcmaster",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "mcmaster",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "mcmaster",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "mcmaster",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "mcmaster",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "mcmaster",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "mcmaster",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "mcmaster",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "mcmaster",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "mcmaster",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "mcmaster",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "queens",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "queens",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "queens",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "queens",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "queens",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "queens",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "queens",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "queens",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "queens",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "queens",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "queens",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "queens",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "queens",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "queens",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "queens",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "queens",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "queens",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "queens",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "queens",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "queens",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "queens",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "queens",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "mcgill",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "mcgill",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "mcgill",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "mcgill",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "mcgill",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "mcgill",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "mcgill",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "mcgill",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "mcgill",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "mcgill",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "mcgill",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "mcgill",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "mcgill",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "mcgill",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "mcgill",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "mcgill",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "mcgill",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "mcgill",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "mcgill",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "mcgill",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "mcgill",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "mcgill",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "concordia",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "concordia",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "concordia",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "concordia",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "concordia",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "concordia",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "concordia",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "concordia",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "concordia",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "concordia",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "concordia",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "concordia",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "concordia",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "concordia",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "concordia",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "concordia",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "concordia",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "concordia",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "concordia",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "concordia",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "concordia",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "concordia",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "york",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "york",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "york",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "york",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "york",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "york",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "york",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "york",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "york",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "york",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "york",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "york",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "york",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "york",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "york",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "york",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "york",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "york",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "york",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "york",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "york",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "york",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "tmu",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "tmu",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "tmu",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "tmu",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "tmu",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "tmu",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "tmu",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "tmu",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "tmu",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "tmu",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "tmu",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "tmu",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "tmu",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "tmu",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "tmu",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "tmu",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "tmu",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "tmu",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "tmu",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "tmu",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "tmu",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "tmu",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "carleton",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "carleton",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "carleton",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "carleton",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "carleton",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "carleton",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "carleton",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "carleton",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "carleton",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "carleton",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "carleton",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "carleton",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "carleton",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "carleton",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "carleton",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "carleton",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "carleton",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "carleton",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "carleton",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "carleton",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "carleton",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "carleton",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "uottawa",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "uottawa",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "uottawa",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "uottawa",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "uottawa",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "uottawa",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "uottawa",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "uottawa",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "uottawa",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "uottawa",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "uottawa",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "uottawa",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "uottawa",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "uottawa",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "uottawa",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "uottawa",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "uottawa",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "uottawa",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "uottawa",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "uottawa",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "uottawa",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "uottawa",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "dalhousie",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "dalhousie",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "dalhousie",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "dalhousie",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "dalhousie",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "dalhousie",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "dalhousie",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "dalhousie",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "dalhousie",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "dalhousie",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "dalhousie",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "dalhousie",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "dalhousie",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "dalhousie",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "dalhousie",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "dalhousie",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "dalhousie",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "dalhousie",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "dalhousie",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "dalhousie",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "dalhousie",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "dalhousie",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "umanitoba",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "umanitoba",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "umanitoba",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "umanitoba",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "umanitoba",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "umanitoba",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "umanitoba",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "umanitoba",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "umanitoba",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "umanitoba",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "umanitoba",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "umanitoba",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "umanitoba",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "umanitoba",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "umanitoba",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "umanitoba",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "umanitoba",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "umanitoba",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "umanitoba",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "umanitoba",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "umanitoba",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "umanitoba",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "usask",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "usask",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "usask",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "usask",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "usask",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "usask",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "usask",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "usask",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "usask",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "usask",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "usask",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "usask",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "usask",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "usask",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "usask",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "usask",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "usask",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "usask",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "usask",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "usask",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "usask",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "usask",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "uvic",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "uvic",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "uvic",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "uvic",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "uvic",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "uvic",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "uvic",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "uvic",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "uvic",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "uvic",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "uvic",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "uvic",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "uvic",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "uvic",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "uvic",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "uvic",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "uvic",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "uvic",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "uvic",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "uvic",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "uvic",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "uvic",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "memorial",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "memorial",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "memorial",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "memorial",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "memorial",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "memorial",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "memorial",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "memorial",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "memorial",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "memorial",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "memorial",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "memorial",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "memorial",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "memorial",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "memorial",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "memorial",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "memorial",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "memorial",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "memorial",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "memorial",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "memorial",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "memorial",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "athabasca",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "athabasca",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "athabasca",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "athabasca",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "athabasca",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "athabasca",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "athabasca",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "athabasca",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "athabasca",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "athabasca",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "athabasca",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "athabasca",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "athabasca",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "athabasca",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "athabasca",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "athabasca",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "athabasca",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "athabasca",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "athabasca",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "athabasca",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "athabasca",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "athabasca",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "nait",
+    "majorSeedKey": "information_technology",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "nait",
+    "majorSeedKey": "information_technology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "nait",
+    "majorSeedKey": "information_technology",
+    "degreeTypeSeedKey": "postgraduate_certificate"
+  },
+  {
+    "institutionSeedKey": "nait",
+    "majorSeedKey": "cybersecurity",
+    "degreeTypeSeedKey": "certificate"
+  },
+  {
+    "institutionSeedKey": "nait",
+    "majorSeedKey": "cybersecurity",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "nait",
+    "majorSeedKey": "cybersecurity",
+    "degreeTypeSeedKey": "postgraduate_certificate"
+  },
+  {
+    "institutionSeedKey": "nait",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "nait",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "nait",
+    "majorSeedKey": "accounting",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "nait",
+    "majorSeedKey": "accounting",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "nait",
+    "majorSeedKey": "project_management",
+    "degreeTypeSeedKey": "certificate"
+  },
+  {
+    "institutionSeedKey": "nait",
+    "majorSeedKey": "project_management",
+    "degreeTypeSeedKey": "postgraduate_certificate"
+  },
+  {
+    "institutionSeedKey": "nait",
+    "majorSeedKey": "graphic_design",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "nait",
+    "majorSeedKey": "graphic_design",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "nait",
+    "majorSeedKey": "construction_management",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "nait",
+    "majorSeedKey": "construction_management",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "sait",
+    "majorSeedKey": "information_technology",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "sait",
+    "majorSeedKey": "information_technology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "sait",
+    "majorSeedKey": "information_technology",
+    "degreeTypeSeedKey": "postgraduate_certificate"
+  },
+  {
+    "institutionSeedKey": "sait",
+    "majorSeedKey": "cybersecurity",
+    "degreeTypeSeedKey": "certificate"
+  },
+  {
+    "institutionSeedKey": "sait",
+    "majorSeedKey": "cybersecurity",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "sait",
+    "majorSeedKey": "cybersecurity",
+    "degreeTypeSeedKey": "postgraduate_certificate"
+  },
+  {
+    "institutionSeedKey": "sait",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "sait",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "sait",
+    "majorSeedKey": "accounting",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "sait",
+    "majorSeedKey": "accounting",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "sait",
+    "majorSeedKey": "project_management",
+    "degreeTypeSeedKey": "certificate"
+  },
+  {
+    "institutionSeedKey": "sait",
+    "majorSeedKey": "project_management",
+    "degreeTypeSeedKey": "postgraduate_certificate"
+  },
+  {
+    "institutionSeedKey": "sait",
+    "majorSeedKey": "graphic_design",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "sait",
+    "majorSeedKey": "graphic_design",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "sait",
+    "majorSeedKey": "construction_management",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "sait",
+    "majorSeedKey": "construction_management",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "bcit",
+    "majorSeedKey": "information_technology",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "bcit",
+    "majorSeedKey": "information_technology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "bcit",
+    "majorSeedKey": "information_technology",
+    "degreeTypeSeedKey": "postgraduate_certificate"
+  },
+  {
+    "institutionSeedKey": "bcit",
+    "majorSeedKey": "cybersecurity",
+    "degreeTypeSeedKey": "certificate"
+  },
+  {
+    "institutionSeedKey": "bcit",
+    "majorSeedKey": "cybersecurity",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "bcit",
+    "majorSeedKey": "cybersecurity",
+    "degreeTypeSeedKey": "postgraduate_certificate"
+  },
+  {
+    "institutionSeedKey": "bcit",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "bcit",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "bcit",
+    "majorSeedKey": "accounting",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "bcit",
+    "majorSeedKey": "accounting",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "bcit",
+    "majorSeedKey": "project_management",
+    "degreeTypeSeedKey": "certificate"
+  },
+  {
+    "institutionSeedKey": "bcit",
+    "majorSeedKey": "project_management",
+    "degreeTypeSeedKey": "postgraduate_certificate"
+  },
+  {
+    "institutionSeedKey": "bcit",
+    "majorSeedKey": "graphic_design",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "bcit",
+    "majorSeedKey": "graphic_design",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "bcit",
+    "majorSeedKey": "construction_management",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "bcit",
+    "majorSeedKey": "construction_management",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "seneca",
+    "majorSeedKey": "information_technology",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "seneca",
+    "majorSeedKey": "information_technology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "seneca",
+    "majorSeedKey": "information_technology",
+    "degreeTypeSeedKey": "postgraduate_certificate"
+  },
+  {
+    "institutionSeedKey": "seneca",
+    "majorSeedKey": "cybersecurity",
+    "degreeTypeSeedKey": "certificate"
+  },
+  {
+    "institutionSeedKey": "seneca",
+    "majorSeedKey": "cybersecurity",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "seneca",
+    "majorSeedKey": "cybersecurity",
+    "degreeTypeSeedKey": "postgraduate_certificate"
+  },
+  {
+    "institutionSeedKey": "seneca",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "seneca",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "seneca",
+    "majorSeedKey": "accounting",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "seneca",
+    "majorSeedKey": "accounting",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "seneca",
+    "majorSeedKey": "project_management",
+    "degreeTypeSeedKey": "certificate"
+  },
+  {
+    "institutionSeedKey": "seneca",
+    "majorSeedKey": "project_management",
+    "degreeTypeSeedKey": "postgraduate_certificate"
+  },
+  {
+    "institutionSeedKey": "seneca",
+    "majorSeedKey": "graphic_design",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "seneca",
+    "majorSeedKey": "graphic_design",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "seneca",
+    "majorSeedKey": "construction_management",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "seneca",
+    "majorSeedKey": "construction_management",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "george_brown",
+    "majorSeedKey": "information_technology",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "george_brown",
+    "majorSeedKey": "information_technology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "george_brown",
+    "majorSeedKey": "information_technology",
+    "degreeTypeSeedKey": "postgraduate_certificate"
+  },
+  {
+    "institutionSeedKey": "george_brown",
+    "majorSeedKey": "cybersecurity",
+    "degreeTypeSeedKey": "certificate"
+  },
+  {
+    "institutionSeedKey": "george_brown",
+    "majorSeedKey": "cybersecurity",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "george_brown",
+    "majorSeedKey": "cybersecurity",
+    "degreeTypeSeedKey": "postgraduate_certificate"
+  },
+  {
+    "institutionSeedKey": "george_brown",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "george_brown",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "george_brown",
+    "majorSeedKey": "accounting",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "george_brown",
+    "majorSeedKey": "accounting",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "george_brown",
+    "majorSeedKey": "project_management",
+    "degreeTypeSeedKey": "certificate"
+  },
+  {
+    "institutionSeedKey": "george_brown",
+    "majorSeedKey": "project_management",
+    "degreeTypeSeedKey": "postgraduate_certificate"
+  },
+  {
+    "institutionSeedKey": "george_brown",
+    "majorSeedKey": "graphic_design",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "george_brown",
+    "majorSeedKey": "graphic_design",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "george_brown",
+    "majorSeedKey": "construction_management",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "george_brown",
+    "majorSeedKey": "construction_management",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "humber",
+    "majorSeedKey": "information_technology",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "humber",
+    "majorSeedKey": "information_technology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "humber",
+    "majorSeedKey": "information_technology",
+    "degreeTypeSeedKey": "postgraduate_certificate"
+  },
+  {
+    "institutionSeedKey": "humber",
+    "majorSeedKey": "cybersecurity",
+    "degreeTypeSeedKey": "certificate"
+  },
+  {
+    "institutionSeedKey": "humber",
+    "majorSeedKey": "cybersecurity",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "humber",
+    "majorSeedKey": "cybersecurity",
+    "degreeTypeSeedKey": "postgraduate_certificate"
+  },
+  {
+    "institutionSeedKey": "humber",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "humber",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "humber",
+    "majorSeedKey": "accounting",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "humber",
+    "majorSeedKey": "accounting",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "humber",
+    "majorSeedKey": "project_management",
+    "degreeTypeSeedKey": "certificate"
+  },
+  {
+    "institutionSeedKey": "humber",
+    "majorSeedKey": "project_management",
+    "degreeTypeSeedKey": "postgraduate_certificate"
+  },
+  {
+    "institutionSeedKey": "humber",
+    "majorSeedKey": "graphic_design",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "humber",
+    "majorSeedKey": "graphic_design",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "humber",
+    "majorSeedKey": "construction_management",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "humber",
+    "majorSeedKey": "construction_management",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "sheridan",
+    "majorSeedKey": "information_technology",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "sheridan",
+    "majorSeedKey": "information_technology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "sheridan",
+    "majorSeedKey": "information_technology",
+    "degreeTypeSeedKey": "postgraduate_certificate"
+  },
+  {
+    "institutionSeedKey": "sheridan",
+    "majorSeedKey": "cybersecurity",
+    "degreeTypeSeedKey": "certificate"
+  },
+  {
+    "institutionSeedKey": "sheridan",
+    "majorSeedKey": "cybersecurity",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "sheridan",
+    "majorSeedKey": "cybersecurity",
+    "degreeTypeSeedKey": "postgraduate_certificate"
+  },
+  {
+    "institutionSeedKey": "sheridan",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "sheridan",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "sheridan",
+    "majorSeedKey": "accounting",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "sheridan",
+    "majorSeedKey": "accounting",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "sheridan",
+    "majorSeedKey": "project_management",
+    "degreeTypeSeedKey": "certificate"
+  },
+  {
+    "institutionSeedKey": "sheridan",
+    "majorSeedKey": "project_management",
+    "degreeTypeSeedKey": "postgraduate_certificate"
+  },
+  {
+    "institutionSeedKey": "sheridan",
+    "majorSeedKey": "graphic_design",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "sheridan",
+    "majorSeedKey": "graphic_design",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "sheridan",
+    "majorSeedKey": "construction_management",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "sheridan",
+    "majorSeedKey": "construction_management",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "algonquin",
+    "majorSeedKey": "information_technology",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "algonquin",
+    "majorSeedKey": "information_technology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "algonquin",
+    "majorSeedKey": "information_technology",
+    "degreeTypeSeedKey": "postgraduate_certificate"
+  },
+  {
+    "institutionSeedKey": "algonquin",
+    "majorSeedKey": "cybersecurity",
+    "degreeTypeSeedKey": "certificate"
+  },
+  {
+    "institutionSeedKey": "algonquin",
+    "majorSeedKey": "cybersecurity",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "algonquin",
+    "majorSeedKey": "cybersecurity",
+    "degreeTypeSeedKey": "postgraduate_certificate"
+  },
+  {
+    "institutionSeedKey": "algonquin",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "algonquin",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "algonquin",
+    "majorSeedKey": "accounting",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "algonquin",
+    "majorSeedKey": "accounting",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "algonquin",
+    "majorSeedKey": "project_management",
+    "degreeTypeSeedKey": "certificate"
+  },
+  {
+    "institutionSeedKey": "algonquin",
+    "majorSeedKey": "project_management",
+    "degreeTypeSeedKey": "postgraduate_certificate"
+  },
+  {
+    "institutionSeedKey": "algonquin",
+    "majorSeedKey": "graphic_design",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "algonquin",
+    "majorSeedKey": "graphic_design",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "algonquin",
+    "majorSeedKey": "construction_management",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "algonquin",
+    "majorSeedKey": "construction_management",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "fanshawe",
+    "majorSeedKey": "information_technology",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "fanshawe",
+    "majorSeedKey": "information_technology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "fanshawe",
+    "majorSeedKey": "information_technology",
+    "degreeTypeSeedKey": "postgraduate_certificate"
+  },
+  {
+    "institutionSeedKey": "fanshawe",
+    "majorSeedKey": "cybersecurity",
+    "degreeTypeSeedKey": "certificate"
+  },
+  {
+    "institutionSeedKey": "fanshawe",
+    "majorSeedKey": "cybersecurity",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "fanshawe",
+    "majorSeedKey": "cybersecurity",
+    "degreeTypeSeedKey": "postgraduate_certificate"
+  },
+  {
+    "institutionSeedKey": "fanshawe",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "fanshawe",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "fanshawe",
+    "majorSeedKey": "accounting",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "fanshawe",
+    "majorSeedKey": "accounting",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "fanshawe",
+    "majorSeedKey": "project_management",
+    "degreeTypeSeedKey": "certificate"
+  },
+  {
+    "institutionSeedKey": "fanshawe",
+    "majorSeedKey": "project_management",
+    "degreeTypeSeedKey": "postgraduate_certificate"
+  },
+  {
+    "institutionSeedKey": "fanshawe",
+    "majorSeedKey": "graphic_design",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "fanshawe",
+    "majorSeedKey": "graphic_design",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "fanshawe",
+    "majorSeedKey": "construction_management",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "fanshawe",
+    "majorSeedKey": "construction_management",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "conestoga",
+    "majorSeedKey": "information_technology",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "conestoga",
+    "majorSeedKey": "information_technology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "conestoga",
+    "majorSeedKey": "information_technology",
+    "degreeTypeSeedKey": "postgraduate_certificate"
+  },
+  {
+    "institutionSeedKey": "conestoga",
+    "majorSeedKey": "cybersecurity",
+    "degreeTypeSeedKey": "certificate"
+  },
+  {
+    "institutionSeedKey": "conestoga",
+    "majorSeedKey": "cybersecurity",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "conestoga",
+    "majorSeedKey": "cybersecurity",
+    "degreeTypeSeedKey": "postgraduate_certificate"
+  },
+  {
+    "institutionSeedKey": "conestoga",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "conestoga",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "conestoga",
+    "majorSeedKey": "accounting",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "conestoga",
+    "majorSeedKey": "accounting",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "conestoga",
+    "majorSeedKey": "project_management",
+    "degreeTypeSeedKey": "certificate"
+  },
+  {
+    "institutionSeedKey": "conestoga",
+    "majorSeedKey": "project_management",
+    "degreeTypeSeedKey": "postgraduate_certificate"
+  },
+  {
+    "institutionSeedKey": "conestoga",
+    "majorSeedKey": "graphic_design",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "conestoga",
+    "majorSeedKey": "graphic_design",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "conestoga",
+    "majorSeedKey": "construction_management",
+    "degreeTypeSeedKey": "diploma"
+  },
+  {
+    "institutionSeedKey": "conestoga",
+    "majorSeedKey": "construction_management",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "mit",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "mit",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "mit",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "mit",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "mit",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "mit",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "mit",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "mit",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "mit",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "mit",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "mit",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "mit",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "mit",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "mit",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "mit",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "mit",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "mit",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "mit",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "mit",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "mit",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "mit",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "mit",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "stanford",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "stanford",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "stanford",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "stanford",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "stanford",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "stanford",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "stanford",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "stanford",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "stanford",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "stanford",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "stanford",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "stanford",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "stanford",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "stanford",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "stanford",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "stanford",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "stanford",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "stanford",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "stanford",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "stanford",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "stanford",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "stanford",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "berkeley",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "berkeley",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "berkeley",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "berkeley",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "berkeley",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "berkeley",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "berkeley",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "berkeley",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "berkeley",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "berkeley",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "berkeley",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "berkeley",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "berkeley",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "berkeley",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "berkeley",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "berkeley",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "berkeley",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "berkeley",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "berkeley",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "berkeley",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "berkeley",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "berkeley",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "carnegie_mellon",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "carnegie_mellon",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "carnegie_mellon",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "carnegie_mellon",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "carnegie_mellon",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "carnegie_mellon",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "carnegie_mellon",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "carnegie_mellon",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "carnegie_mellon",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "carnegie_mellon",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "carnegie_mellon",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "carnegie_mellon",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "carnegie_mellon",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "carnegie_mellon",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "carnegie_mellon",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "carnegie_mellon",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "carnegie_mellon",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "carnegie_mellon",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "carnegie_mellon",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "carnegie_mellon",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "carnegie_mellon",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "carnegie_mellon",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "harvard",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "harvard",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "harvard",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "harvard",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "harvard",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "harvard",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "harvard",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "harvard",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "harvard",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "harvard",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "harvard",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "harvard",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "harvard",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "harvard",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "harvard",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "harvard",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "harvard",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "harvard",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "harvard",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "harvard",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "harvard",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "harvard",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "cornell",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "cornell",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "cornell",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "cornell",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "cornell",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "cornell",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "cornell",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "cornell",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "cornell",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "cornell",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "cornell",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "cornell",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "cornell",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "cornell",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "cornell",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "cornell",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "cornell",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "cornell",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "cornell",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "cornell",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "cornell",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "cornell",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "georgia_tech",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "georgia_tech",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "georgia_tech",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "georgia_tech",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "georgia_tech",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "georgia_tech",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "georgia_tech",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "georgia_tech",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "georgia_tech",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "georgia_tech",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "georgia_tech",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "georgia_tech",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "georgia_tech",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "georgia_tech",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "georgia_tech",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "georgia_tech",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "georgia_tech",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "georgia_tech",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "georgia_tech",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "georgia_tech",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "georgia_tech",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "georgia_tech",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "umich",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "umich",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "umich",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "umich",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "umich",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "umich",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "umich",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "umich",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "umich",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "umich",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "umich",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "umich",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "umich",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "umich",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "umich",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "umich",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "umich",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "umich",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "umich",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "umich",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "umich",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "umich",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "utexas",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "utexas",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "utexas",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "utexas",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "utexas",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "utexas",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "utexas",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "utexas",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "utexas",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "utexas",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "utexas",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "utexas",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "utexas",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "utexas",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "utexas",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "utexas",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "utexas",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "utexas",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "utexas",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "utexas",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "utexas",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "utexas",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "uwashington",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "uwashington",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "uwashington",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "uwashington",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "uwashington",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "uwashington",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "uwashington",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "uwashington",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "uwashington",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "uwashington",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "uwashington",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "uwashington",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "uwashington",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "uwashington",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "uwashington",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "uwashington",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "uwashington",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "uwashington",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "uwashington",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "uwashington",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "uwashington",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "uwashington",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "ucla",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "ucla",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "ucla",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "ucla",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "ucla",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "ucla",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "ucla",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "ucla",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "ucla",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "ucla",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "ucla",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "ucla",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "ucla",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "ucla",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "ucla",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "ucla",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "ucla",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "ucla",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "ucla",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "ucla",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "ucla",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "ucla",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "nyu",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "nyu",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "nyu",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "nyu",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "nyu",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "nyu",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "nyu",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "nyu",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "nyu",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "nyu",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "nyu",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "nyu",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "nyu",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "nyu",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "nyu",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "nyu",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "nyu",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "nyu",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "nyu",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "nyu",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "nyu",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "nyu",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "columbia",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "columbia",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "columbia",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "columbia",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "columbia",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "columbia",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "columbia",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "columbia",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "columbia",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "columbia",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "columbia",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "columbia",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "columbia",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "columbia",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "columbia",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "columbia",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "columbia",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "columbia",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "columbia",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "columbia",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "columbia",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "columbia",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "upenn",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "upenn",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "upenn",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "upenn",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "upenn",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "upenn",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "upenn",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "upenn",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "upenn",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "upenn",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "upenn",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "upenn",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "upenn",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "upenn",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "upenn",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "upenn",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "upenn",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "upenn",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "upenn",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "upenn",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "upenn",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "upenn",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "purdue",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "purdue",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "purdue",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "purdue",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "purdue",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "purdue",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "purdue",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "purdue",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "purdue",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "purdue",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "purdue",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "purdue",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "purdue",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "purdue",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "purdue",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "purdue",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "purdue",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "purdue",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "purdue",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "purdue",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "purdue",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "purdue",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "uiuc",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "uiuc",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "uiuc",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "uiuc",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "uiuc",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "uiuc",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "uiuc",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "uiuc",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "uiuc",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "uiuc",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "uiuc",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "uiuc",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "uiuc",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "uiuc",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "uiuc",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "uiuc",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "uiuc",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "uiuc",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "uiuc",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "uiuc",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "uiuc",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "uiuc",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "asu",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "asu",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "asu",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "asu",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "asu",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "asu",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "asu",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "asu",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "asu",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "asu",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "asu",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "asu",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "asu",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "asu",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "asu",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "asu",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "asu",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "asu",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "asu",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "asu",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "asu",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "asu",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "wgu",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "wgu",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "wgu",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "wgu",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "wgu",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "wgu",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "wgu",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "wgu",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "wgu",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "wgu",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "wgu",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "wgu",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "wgu",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "wgu",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "wgu",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "wgu",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "wgu",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "wgu",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "wgu",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "wgu",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "wgu",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "wgu",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "oxford",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "oxford",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "oxford",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "oxford",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "oxford",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "oxford",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "oxford",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "oxford",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "oxford",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "oxford",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "oxford",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "oxford",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "oxford",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "oxford",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "oxford",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "oxford",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "oxford",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "oxford",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "oxford",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "oxford",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "oxford",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "oxford",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "cambridge",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "cambridge",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "cambridge",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "cambridge",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "cambridge",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "cambridge",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "cambridge",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "cambridge",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "cambridge",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "cambridge",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "cambridge",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "cambridge",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "cambridge",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "cambridge",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "cambridge",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "cambridge",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "cambridge",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "cambridge",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "cambridge",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "cambridge",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "cambridge",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "cambridge",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "imperial",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "imperial",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "imperial",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "imperial",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "imperial",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "imperial",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "imperial",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "imperial",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "imperial",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "imperial",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "imperial",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "imperial",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "imperial",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "imperial",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "imperial",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "imperial",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "imperial",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "imperial",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "imperial",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "imperial",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "imperial",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "imperial",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "ucl",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "ucl",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "ucl",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "ucl",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "ucl",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "ucl",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "ucl",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "ucl",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "ucl",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "ucl",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "ucl",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "ucl",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "ucl",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "ucl",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "ucl",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "ucl",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "ucl",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "ucl",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "ucl",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "ucl",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "ucl",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "ucl",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "edinburgh",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "edinburgh",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "edinburgh",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "edinburgh",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "edinburgh",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "edinburgh",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "edinburgh",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "edinburgh",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "edinburgh",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "edinburgh",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "edinburgh",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "edinburgh",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "edinburgh",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "edinburgh",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "edinburgh",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "edinburgh",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "edinburgh",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "edinburgh",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "edinburgh",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "edinburgh",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "edinburgh",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "edinburgh",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "eth_zurich",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "eth_zurich",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "eth_zurich",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "eth_zurich",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "eth_zurich",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "eth_zurich",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "eth_zurich",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "eth_zurich",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "eth_zurich",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "eth_zurich",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "eth_zurich",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "eth_zurich",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "eth_zurich",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "eth_zurich",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "eth_zurich",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "eth_zurich",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "eth_zurich",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "eth_zurich",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "eth_zurich",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "eth_zurich",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "eth_zurich",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "eth_zurich",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "tu_munich",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "tu_munich",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "tu_munich",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "tu_munich",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "tu_munich",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "tu_munich",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "tu_munich",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "tu_munich",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "tu_munich",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "tu_munich",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "tu_munich",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "tu_munich",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "tu_munich",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "tu_munich",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "tu_munich",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "tu_munich",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "tu_munich",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "tu_munich",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "tu_munich",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "tu_munich",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "tu_munich",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "tu_munich",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "melbourne",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "melbourne",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "melbourne",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "melbourne",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "melbourne",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "melbourne",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "melbourne",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "melbourne",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "melbourne",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "melbourne",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "melbourne",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "melbourne",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "melbourne",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "melbourne",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "melbourne",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "melbourne",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "melbourne",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "melbourne",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "melbourne",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "melbourne",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "melbourne",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "melbourne",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "unsw",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "unsw",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "unsw",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "unsw",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "unsw",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "unsw",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "unsw",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "unsw",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "unsw",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "unsw",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "unsw",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "unsw",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "unsw",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "unsw",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "unsw",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "unsw",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "unsw",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "unsw",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "unsw",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "unsw",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "unsw",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "unsw",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "nus",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "nus",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "nus",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "nus",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "nus",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "nus",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "nus",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "nus",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "nus",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "nus",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "nus",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "nus",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "nus",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "nus",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "nus",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "nus",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "nus",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "nus",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "nus",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "nus",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "nus",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "nus",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "ntu_singapore",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "ntu_singapore",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "ntu_singapore",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "ntu_singapore",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "ntu_singapore",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "ntu_singapore",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "ntu_singapore",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "ntu_singapore",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "ntu_singapore",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "ntu_singapore",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "ntu_singapore",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "ntu_singapore",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "ntu_singapore",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "ntu_singapore",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "ntu_singapore",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "ntu_singapore",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "ntu_singapore",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "ntu_singapore",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "ntu_singapore",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "ntu_singapore",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "ntu_singapore",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "ntu_singapore",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "tokyo",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "tokyo",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "tokyo",
+    "majorSeedKey": "computer_science",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "tokyo",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "tokyo",
+    "majorSeedKey": "software_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "tokyo",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "tokyo",
+    "majorSeedKey": "data_science",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "tokyo",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "bachelor_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "tokyo",
+    "majorSeedKey": "business_administration",
+    "degreeTypeSeedKey": "master_of_business_administration"
+  },
+  {
+    "institutionSeedKey": "tokyo",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "bachelor_of_commerce"
+  },
+  {
+    "institutionSeedKey": "tokyo",
+    "majorSeedKey": "finance",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "tokyo",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "tokyo",
+    "majorSeedKey": "mechanical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "tokyo",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "bachelor_of_engineering"
+  },
+  {
+    "institutionSeedKey": "tokyo",
+    "majorSeedKey": "electrical_engineering",
+    "degreeTypeSeedKey": "master_of_engineering"
+  },
+  {
+    "institutionSeedKey": "tokyo",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "tokyo",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "master_of_arts"
+  },
+  {
+    "institutionSeedKey": "tokyo",
+    "majorSeedKey": "psychology",
+    "degreeTypeSeedKey": "doctor_of_philosophy"
+  },
+  {
+    "institutionSeedKey": "tokyo",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "bachelor_of_science"
+  },
+  {
+    "institutionSeedKey": "tokyo",
+    "majorSeedKey": "biology",
+    "degreeTypeSeedKey": "master_of_science"
+  },
+  {
+    "institutionSeedKey": "tokyo",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "bachelor_of_arts"
+  },
+  {
+    "institutionSeedKey": "tokyo",
+    "majorSeedKey": "education",
+    "degreeTypeSeedKey": "master_of_arts"
+  }
+]

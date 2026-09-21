@@ -1,0 +1,422 @@
+[
+  {
+    "seedKey": "aws_aws_certified_cloud_practitioner",
+    "boardSeedKey": "aws",
+    "name": "AWS Certified Cloud Practitioner"
+  },
+  {
+    "seedKey": "aws_aws_certified_solutions_architect_associate",
+    "boardSeedKey": "aws",
+    "name": "AWS Certified Solutions Architect – Associate"
+  },
+  {
+    "seedKey": "aws_aws_certified_developer_associate",
+    "boardSeedKey": "aws",
+    "name": "AWS Certified Developer – Associate"
+  },
+  {
+    "seedKey": "aws_aws_certified_sysops_administrator_associate",
+    "boardSeedKey": "aws",
+    "name": "AWS Certified SysOps Administrator – Associate"
+  },
+  {
+    "seedKey": "aws_aws_certified_solutions_architect_professional",
+    "boardSeedKey": "aws",
+    "name": "AWS Certified Solutions Architect – Professional"
+  },
+  {
+    "seedKey": "aws_aws_certified_devops_engineer_professional",
+    "boardSeedKey": "aws",
+    "name": "AWS Certified DevOps Engineer – Professional"
+  },
+  {
+    "seedKey": "aws_aws_certified_security_specialty",
+    "boardSeedKey": "aws",
+    "name": "AWS Certified Security – Specialty"
+  },
+  {
+    "seedKey": "aws_aws_certified_machine_learning_specialty",
+    "boardSeedKey": "aws",
+    "name": "AWS Certified Machine Learning – Specialty"
+  },
+  {
+    "seedKey": "microsoft_microsoft_certified_azure_fundamentals",
+    "boardSeedKey": "microsoft",
+    "name": "Microsoft Certified: Azure Fundamentals"
+  },
+  {
+    "seedKey": "microsoft_microsoft_certified_azure_administrator_associate",
+    "boardSeedKey": "microsoft",
+    "name": "Microsoft Certified: Azure Administrator Associate"
+  },
+  {
+    "seedKey": "microsoft_microsoft_certified_azure_developer_associate",
+    "boardSeedKey": "microsoft",
+    "name": "Microsoft Certified: Azure Developer Associate"
+  },
+  {
+    "seedKey": "microsoft_microsoft_certified_azure_solutions_architect_expert",
+    "boardSeedKey": "microsoft",
+    "name": "Microsoft Certified: Azure Solutions Architect Expert"
+  },
+  {
+    "seedKey": "microsoft_microsoft_certified_azure_security_engineer_associate",
+    "boardSeedKey": "microsoft",
+    "name": "Microsoft Certified: Azure Security Engineer Associate"
+  },
+  {
+    "seedKey": "microsoft_microsoft_certified_power_bi_data_analyst_associate",
+    "boardSeedKey": "microsoft",
+    "name": "Microsoft Certified: Power BI Data Analyst Associate"
+  },
+  {
+    "seedKey": "google_cloud_cloud_digital_leader",
+    "boardSeedKey": "google_cloud",
+    "name": "Cloud Digital Leader"
+  },
+  {
+    "seedKey": "google_cloud_associate_cloud_engineer",
+    "boardSeedKey": "google_cloud",
+    "name": "Associate Cloud Engineer"
+  },
+  {
+    "seedKey": "google_cloud_professional_cloud_architect",
+    "boardSeedKey": "google_cloud",
+    "name": "Professional Cloud Architect"
+  },
+  {
+    "seedKey": "google_cloud_professional_data_engineer",
+    "boardSeedKey": "google_cloud",
+    "name": "Professional Data Engineer"
+  },
+  {
+    "seedKey": "google_cloud_professional_cloud_developer",
+    "boardSeedKey": "google_cloud",
+    "name": "Professional Cloud Developer"
+  },
+  {
+    "seedKey": "google_cloud_professional_cloud_security_engineer",
+    "boardSeedKey": "google_cloud",
+    "name": "Professional Cloud Security Engineer"
+  },
+  {
+    "seedKey": "google_cloud_professional_machine_learning_engineer",
+    "boardSeedKey": "google_cloud",
+    "name": "Professional Machine Learning Engineer"
+  },
+  {
+    "seedKey": "comptia_comptia_a",
+    "boardSeedKey": "comptia",
+    "name": "CompTIA A+"
+  },
+  {
+    "seedKey": "comptia_comptia_network",
+    "boardSeedKey": "comptia",
+    "name": "CompTIA Network+"
+  },
+  {
+    "seedKey": "comptia_comptia_security",
+    "boardSeedKey": "comptia",
+    "name": "CompTIA Security+"
+  },
+  {
+    "seedKey": "comptia_comptia_cysa",
+    "boardSeedKey": "comptia",
+    "name": "CompTIA CySA+"
+  },
+  {
+    "seedKey": "comptia_comptia_pentest",
+    "boardSeedKey": "comptia",
+    "name": "CompTIA PenTest+"
+  },
+  {
+    "seedKey": "comptia_comptia_cloud",
+    "boardSeedKey": "comptia",
+    "name": "CompTIA Cloud+"
+  },
+  {
+    "seedKey": "comptia_comptia_data",
+    "boardSeedKey": "comptia",
+    "name": "CompTIA Data+"
+  },
+  {
+    "seedKey": "pmi_project_management_professional_pmp",
+    "boardSeedKey": "pmi",
+    "name": "Project Management Professional (PMP)"
+  },
+  {
+    "seedKey": "pmi_certified_associate_in_project_management_capm",
+    "boardSeedKey": "pmi",
+    "name": "Certified Associate in Project Management (CAPM)"
+  },
+  {
+    "seedKey": "pmi_pmi_agile_certified_practitioner_pmi_acp",
+    "boardSeedKey": "pmi",
+    "name": "PMI Agile Certified Practitioner (PMI-ACP)"
+  },
+  {
+    "seedKey": "pmi_pmi_risk_management_professional_pmi_rmp",
+    "boardSeedKey": "pmi",
+    "name": "PMI Risk Management Professional (PMI-RMP)"
+  },
+  {
+    "seedKey": "scrum_alliance_certified_scrummaster_csm",
+    "boardSeedKey": "scrum_alliance",
+    "name": "Certified ScrumMaster (CSM)"
+  },
+  {
+    "seedKey": "scrum_alliance_certified_scrum_product_owner_cspo",
+    "boardSeedKey": "scrum_alliance",
+    "name": "Certified Scrum Product Owner (CSPO)"
+  },
+  {
+    "seedKey": "scrum_alliance_advanced_certified_scrummaster_a_csm",
+    "boardSeedKey": "scrum_alliance",
+    "name": "Advanced Certified ScrumMaster (A-CSM)"
+  },
+  {
+    "seedKey": "scrum_org_professional_scrum_master_i",
+    "boardSeedKey": "scrum_org",
+    "name": "Professional Scrum Master I"
+  },
+  {
+    "seedKey": "scrum_org_professional_scrum_master_ii",
+    "boardSeedKey": "scrum_org",
+    "name": "Professional Scrum Master II"
+  },
+  {
+    "seedKey": "scrum_org_professional_scrum_product_owner_i",
+    "boardSeedKey": "scrum_org",
+    "name": "Professional Scrum Product Owner I"
+  },
+  {
+    "seedKey": "scrum_org_professional_agile_leadership",
+    "boardSeedKey": "scrum_org",
+    "name": "Professional Agile Leadership"
+  },
+  {
+    "seedKey": "cisco_cisco_certified_support_technician_ccst_networking",
+    "boardSeedKey": "cisco",
+    "name": "Cisco Certified Support Technician (CCST) Networking"
+  },
+  {
+    "seedKey": "cisco_cisco_certified_network_associate_ccna",
+    "boardSeedKey": "cisco",
+    "name": "Cisco Certified Network Associate (CCNA)"
+  },
+  {
+    "seedKey": "cisco_cisco_certified_cyberops_associate",
+    "boardSeedKey": "cisco",
+    "name": "Cisco Certified CyberOps Associate"
+  },
+  {
+    "seedKey": "cisco_cisco_certified_devnet_associate",
+    "boardSeedKey": "cisco",
+    "name": "Cisco Certified DevNet Associate"
+  },
+  {
+    "seedKey": "cisco_cisco_certified_network_professional_enterprise",
+    "boardSeedKey": "cisco",
+    "name": "Cisco Certified Network Professional Enterprise"
+  },
+  {
+    "seedKey": "isc2_certified_in_cybersecurity_cc",
+    "boardSeedKey": "isc2",
+    "name": "Certified in Cybersecurity (CC)"
+  },
+  {
+    "seedKey": "isc2_systems_security_certified_practitioner_sscp",
+    "boardSeedKey": "isc2",
+    "name": "Systems Security Certified Practitioner (SSCP)"
+  },
+  {
+    "seedKey": "isc2_certified_information_systems_security_professional_cissp",
+    "boardSeedKey": "isc2",
+    "name": "Certified Information Systems Security Professional (CISSP)"
+  },
+  {
+    "seedKey": "isc2_certified_cloud_security_professional_ccsp",
+    "boardSeedKey": "isc2",
+    "name": "Certified Cloud Security Professional (CCSP)"
+  },
+  {
+    "seedKey": "isaca_certified_information_systems_auditor_cisa",
+    "boardSeedKey": "isaca",
+    "name": "Certified Information Systems Auditor (CISA)"
+  },
+  {
+    "seedKey": "isaca_certified_information_security_manager_cism",
+    "boardSeedKey": "isaca",
+    "name": "Certified Information Security Manager (CISM)"
+  },
+  {
+    "seedKey": "isaca_certified_in_risk_and_information_systems_control_crisc",
+    "boardSeedKey": "isaca",
+    "name": "Certified in Risk and Information Systems Control (CRISC)"
+  },
+  {
+    "seedKey": "isaca_certified_data_privacy_solutions_engineer_cdpse",
+    "boardSeedKey": "isaca",
+    "name": "Certified Data Privacy Solutions Engineer (CDPSE)"
+  },
+  {
+    "seedKey": "hashicorp_hashicorp_certified_terraform_associate",
+    "boardSeedKey": "hashicorp",
+    "name": "HashiCorp Certified: Terraform Associate"
+  },
+  {
+    "seedKey": "hashicorp_hashicorp_certified_vault_associate",
+    "boardSeedKey": "hashicorp",
+    "name": "HashiCorp Certified: Vault Associate"
+  },
+  {
+    "seedKey": "oracle_oracle_certified_professional_java_se_developer",
+    "boardSeedKey": "oracle",
+    "name": "Oracle Certified Professional: Java SE Developer"
+  },
+  {
+    "seedKey": "oracle_oracle_database_sql_certified_associate",
+    "boardSeedKey": "oracle",
+    "name": "Oracle Database SQL Certified Associate"
+  },
+  {
+    "seedKey": "oracle_oracle_cloud_infrastructure_foundations_associate",
+    "boardSeedKey": "oracle",
+    "name": "Oracle Cloud Infrastructure Foundations Associate"
+  },
+  {
+    "seedKey": "oracle_oracle_cloud_infrastructure_architect_associate",
+    "boardSeedKey": "oracle",
+    "name": "Oracle Cloud Infrastructure Architect Associate"
+  },
+  {
+    "seedKey": "salesforce_salesforce_certified_administrator",
+    "boardSeedKey": "salesforce",
+    "name": "Salesforce Certified Administrator"
+  },
+  {
+    "seedKey": "salesforce_salesforce_certified_platform_app_builder",
+    "boardSeedKey": "salesforce",
+    "name": "Salesforce Certified Platform App Builder"
+  },
+  {
+    "seedKey": "salesforce_salesforce_certified_platform_developer_i",
+    "boardSeedKey": "salesforce",
+    "name": "Salesforce Certified Platform Developer I"
+  },
+  {
+    "seedKey": "salesforce_salesforce_certified_sales_cloud_consultant",
+    "boardSeedKey": "salesforce",
+    "name": "Salesforce Certified Sales Cloud Consultant"
+  },
+  {
+    "seedKey": "red_hat_red_hat_certified_system_administrator_rhcsa",
+    "boardSeedKey": "red_hat",
+    "name": "Red Hat Certified System Administrator (RHCSA)"
+  },
+  {
+    "seedKey": "red_hat_red_hat_certified_engineer_rhce",
+    "boardSeedKey": "red_hat",
+    "name": "Red Hat Certified Engineer (RHCE)"
+  },
+  {
+    "seedKey": "red_hat_red_hat_certified_openshift_administrator",
+    "boardSeedKey": "red_hat",
+    "name": "Red Hat Certified OpenShift Administrator"
+  },
+  {
+    "seedKey": "linux_foundation_certified_kubernetes_administrator_cka",
+    "boardSeedKey": "linux_foundation",
+    "name": "Certified Kubernetes Administrator (CKA)"
+  },
+  {
+    "seedKey": "linux_foundation_certified_kubernetes_application_developer_ckad",
+    "boardSeedKey": "linux_foundation",
+    "name": "Certified Kubernetes Application Developer (CKAD)"
+  },
+  {
+    "seedKey": "linux_foundation_certified_kubernetes_security_specialist_cks",
+    "boardSeedKey": "linux_foundation",
+    "name": "Certified Kubernetes Security Specialist (CKS)"
+  },
+  {
+    "seedKey": "linux_foundation_linux_foundation_certified_system_administrator_lfcs",
+    "boardSeedKey": "linux_foundation",
+    "name": "Linux Foundation Certified System Administrator (LFCS)"
+  },
+  {
+    "seedKey": "github_github_foundations",
+    "boardSeedKey": "github",
+    "name": "GitHub Foundations"
+  },
+  {
+    "seedKey": "github_github_actions",
+    "boardSeedKey": "github",
+    "name": "GitHub Actions"
+  },
+  {
+    "seedKey": "github_github_advanced_security",
+    "boardSeedKey": "github",
+    "name": "GitHub Advanced Security"
+  },
+  {
+    "seedKey": "github_github_administration",
+    "boardSeedKey": "github",
+    "name": "GitHub Administration"
+  },
+  {
+    "seedKey": "snowflake_snowpro_core_certification",
+    "boardSeedKey": "snowflake",
+    "name": "SnowPro Core Certification"
+  },
+  {
+    "seedKey": "snowflake_snowpro_advanced_architect",
+    "boardSeedKey": "snowflake",
+    "name": "SnowPro Advanced: Architect"
+  },
+  {
+    "seedKey": "snowflake_snowpro_advanced_data_engineer",
+    "boardSeedKey": "snowflake",
+    "name": "SnowPro Advanced: Data Engineer"
+  },
+  {
+    "seedKey": "databricks_databricks_certified_data_engineer_associate",
+    "boardSeedKey": "databricks",
+    "name": "Databricks Certified Data Engineer Associate"
+  },
+  {
+    "seedKey": "databricks_databricks_certified_data_engineer_professional",
+    "boardSeedKey": "databricks",
+    "name": "Databricks Certified Data Engineer Professional"
+  },
+  {
+    "seedKey": "databricks_databricks_certified_machine_learning_associate",
+    "boardSeedKey": "databricks",
+    "name": "Databricks Certified Machine Learning Associate"
+  },
+  {
+    "seedKey": "iiba_entry_certificate_in_business_analysis_ecba",
+    "boardSeedKey": "iiba",
+    "name": "Entry Certificate in Business Analysis (ECBA)"
+  },
+  {
+    "seedKey": "iiba_certification_of_capability_in_business_analysis_ccba",
+    "boardSeedKey": "iiba",
+    "name": "Certification of Capability in Business Analysis (CCBA)"
+  },
+  {
+    "seedKey": "iiba_certified_business_analysis_professional_cbap",
+    "boardSeedKey": "iiba",
+    "name": "Certified Business Analysis Professional (CBAP)"
+  },
+  {
+    "seedKey": "shrm_shrm_certified_professional_shrm_cp",
+    "boardSeedKey": "shrm",
+    "name": "SHRM Certified Professional (SHRM-CP)"
+  },
+  {
+    "seedKey": "shrm_shrm_senior_certified_professional_shrm_scp",
+    "boardSeedKey": "shrm",
+    "name": "SHRM Senior Certified Professional (SHRM-SCP)"
+  }
+]
