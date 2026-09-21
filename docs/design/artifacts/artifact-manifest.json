@@ -1,0 +1,366 @@
+{
+  "project": "Career Profile",
+  "count": 83,
+  "sections": {
+    "Design system": [
+      {
+        "path": "design-system/color/color.html",
+        "title": "Color"
+      },
+      {
+        "path": "design-system/components/admin-table.html",
+        "title": "Admin table"
+      },
+      {
+        "path": "design-system/components/catalog-combobox.html",
+        "title": "Catalog combobox"
+      },
+      {
+        "path": "design-system/components/command-palette.html",
+        "title": "Command palette"
+      },
+      {
+        "path": "design-system/components/profile-record-dialog.html",
+        "title": "Profile record dialog"
+      },
+      {
+        "path": "design-system/components/profile-records.html",
+        "title": "Profile records"
+      },
+      {
+        "path": "design-system/components/skills.html",
+        "title": "Skill components"
+      },
+      {
+        "path": "design-system/overview/overview.html",
+        "title": "Design system overview"
+      },
+      {
+        "path": "design-system/overview/principles.html",
+        "title": "Design principles"
+      },
+      {
+        "path": "design-system/patterns/catalog-custom-values.html",
+        "title": "Catalog and custom values"
+      },
+      {
+        "path": "design-system/patterns/dependent-fields.html",
+        "title": "Dependent fields"
+      },
+      {
+        "path": "design-system/primitives/actions-inputs.html",
+        "title": "Actions and inputs"
+      },
+      {
+        "path": "design-system/primitives/feedback.html",
+        "title": "Feedback and disclosure"
+      },
+      {
+        "path": "design-system/primitives/overlays.html",
+        "title": "Overlays"
+      },
+      {
+        "path": "design-system/shell/keyboard-shortcuts.html",
+        "title": "Keyboard shortcuts"
+      },
+      {
+        "path": "design-system/shell/mobile.html",
+        "title": "Mobile shell"
+      },
+      {
+        "path": "design-system/shell/sidebar.html",
+        "title": "Application shell"
+      },
+      {
+        "path": "design-system/states/collection-states.html",
+        "title": "Collection states"
+      },
+      {
+        "path": "design-system/states/form-states.html",
+        "title": "Form states"
+      },
+      {
+        "path": "design-system/type-layout/type-layout.html",
+        "title": "Type and layout"
+      }
+    ],
+    "Flows": [
+      {
+        "path": "_overview/admin-flow.html",
+        "title": "Admin flow"
+      },
+      {
+        "path": "_overview/auth-onboarding-flow.html",
+        "title": "Authentication and onboarding"
+      },
+      {
+        "path": "_overview/catalog-selection-flow.html",
+        "title": "Catalog selection"
+      },
+      {
+        "path": "_overview/product-map.html",
+        "title": "Product map"
+      },
+      {
+        "path": "_overview/profile-management-flow.html",
+        "title": "Profile management"
+      },
+      {
+        "path": "_overview/resume-flow.html",
+        "title": "Resume flow"
+      },
+      {
+        "path": "_overview/skills-flow.html",
+        "title": "Skills flow"
+      }
+    ],
+    "Authentication": [
+      {
+        "path": "auth/login-error.html",
+        "title": "Sign in error"
+      },
+      {
+        "path": "auth/login.html",
+        "title": "Sign in"
+      },
+      {
+        "path": "auth/register-errors.html",
+        "title": "Registration validation"
+      },
+      {
+        "path": "auth/register.html",
+        "title": "Register"
+      },
+      {
+        "path": "auth/set-password.html",
+        "title": "Set password"
+      }
+    ],
+    "Onboarding": [
+      {
+        "path": "onboarding/basics.html",
+        "title": "Onboarding basics"
+      },
+      {
+        "path": "onboarding/career.html",
+        "title": "Onboarding career context"
+      },
+      {
+        "path": "onboarding/focus.html",
+        "title": "Onboarding professional focus"
+      },
+      {
+        "path": "onboarding/skills.html",
+        "title": "Onboarding skills"
+      }
+    ],
+    "Profile": [
+      {
+        "path": "profile/overview-empty.html",
+        "title": "Profile empty"
+      },
+      {
+        "path": "profile/overview-mobile.html",
+        "title": "Profile mobile"
+      },
+      {
+        "path": "profile/profile.html",
+        "title": "Profile"
+      },
+      {
+        "path": "profile/resume-tools.html",
+        "title": "Profile \u00b7 Resume tools"
+      },
+      {
+        "path": "profile/avatar-menu.html",
+        "title": "Account menu"
+      },
+      {
+        "path": "profile/account.html",
+        "title": "Account \u00b7 Profile tab"
+      },
+      {
+        "path": "profile/account-settings.html",
+        "title": "Account \u00b7 Settings tab"
+      },
+      {
+        "path": "profile/personal-edit.html",
+        "title": "Account \u00b7 Edit profile information"
+      }
+    ],
+    "Work Experience": [
+      {
+        "path": "experience/company-custom.html",
+        "title": "Create custom company"
+      },
+      {
+        "path": "experience/company-search.html",
+        "title": "Company search"
+      },
+      {
+        "path": "experience/employment-type.html",
+        "title": "Employment type selector"
+      },
+      {
+        "path": "experience/experience-add.html",
+        "title": "Add work experience"
+      },
+      {
+        "path": "experience/experience-edit.html",
+        "title": "Edit work experience"
+      },
+      {
+        "path": "experience/experience-empty.html",
+        "title": "Work experience empty"
+      },
+      {
+        "path": "experience/experience.html",
+        "title": "Work experience \u00b7 Profile section state"
+      },
+      {
+        "path": "experience/job-title-search.html",
+        "title": "Job title search"
+      }
+    ],
+    "Education": [
+      {
+        "path": "education/degree-search.html",
+        "title": "Degree type search"
+      },
+      {
+        "path": "education/education-add.html",
+        "title": "Add education"
+      },
+      {
+        "path": "education/education-certifications.html",
+        "title": "Education and certifications \u00b7 Profile section state"
+      },
+      {
+        "path": "education/education-edit.html",
+        "title": "Edit education"
+      },
+      {
+        "path": "education/education-empty.html",
+        "title": "Education empty"
+      },
+      {
+        "path": "education/institution-custom.html",
+        "title": "Create custom institution"
+      },
+      {
+        "path": "education/institution-search.html",
+        "title": "Institution search"
+      },
+      {
+        "path": "education/major-search.html",
+        "title": "Major specialization search"
+      }
+    ],
+    "Certifications": [
+      {
+        "path": "certifications/board-search.html",
+        "title": "Certification board search"
+      },
+      {
+        "path": "certifications/certification-add.html",
+        "title": "Add certification"
+      },
+      {
+        "path": "certifications/certification-edit.html",
+        "title": "Edit certification"
+      },
+      {
+        "path": "certifications/certifications-empty.html",
+        "title": "Certifications empty"
+      },
+      {
+        "path": "certifications/exam-search.html",
+        "title": "Certification exam search"
+      }
+    ],
+    "Professional Focus": [
+      {
+        "path": "focus/focus-edit.html",
+        "title": "Edit professional focus"
+      },
+      {
+        "path": "focus/focus-empty.html",
+        "title": "Professional focus empty"
+      },
+      {
+        "path": "focus/focus-search.html",
+        "title": "Professional focus search"
+      },
+      {
+        "path": "focus/focus.html",
+        "title": "Professional focus"
+      }
+    ],
+    "Skills": [
+      {
+        "path": "skills/skills-custom.html",
+        "title": "Create custom skill"
+      },
+      {
+        "path": "skills/skills-edit.html",
+        "title": "Edit skills"
+      },
+      {
+        "path": "skills/skills-expanded.html",
+        "title": "Skills expanded"
+      },
+      {
+        "path": "skills/skills-feedback.html",
+        "title": "Skill feedback"
+      },
+      {
+        "path": "skills/skills-mobile.html",
+        "title": "Skills mobile"
+      },
+      {
+        "path": "skills/skills-search.html",
+        "title": "Skill search"
+      },
+      {
+        "path": "skills/skills.html",
+        "title": "Skills \u00b7 Profile section state"
+      }
+    ],
+    "Admin": [
+      {
+        "path": "admin/users-create.html",
+        "title": "Admin create user"
+      },
+      {
+        "path": "admin/users.html",
+        "title": "Admin users"
+      },
+      {
+        "path": "admin/users-reset-password.html",
+        "title": "Admin reset password"
+      }
+    ],
+    "Resume \u00b7 deferred": [
+      {
+        "path": "resume/complete.html",
+        "title": "Resume generation complete"
+      },
+      {
+        "path": "resume/generated.html",
+        "title": "Generated resume preview"
+      },
+      {
+        "path": "resume/processing.html",
+        "title": "Resume processing"
+      },
+      {
+        "path": "resume/upload.html",
+        "title": "Resume upload"
+      }
+    ]
+  },
+  "reviewPages": [
+    "index.html",
+    "all-pages.html"
+  ]
+}
