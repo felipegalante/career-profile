@@ -1,4 +1,5 @@
 import { existsSync } from "node:fs";
+import { fileURLToPath } from "node:url";
 import { loadEnvFile } from "node:process";
 
 export type RuntimeConfig = {
@@ -53,10 +54,18 @@ export function parseRuntimeConfig(environment: NodeJS.ProcessEnv): RuntimeConfi
   };
 }
 
-export function loadRuntimeConfig(): RuntimeConfig {
-  if (existsSync(".env")) {
-    loadEnvFile(".env");
+export function loadEnvironmentFile(): void {
+  const environmentFile = fileURLToPath(new URL("../../.env", import.meta.url));
+  if (existsSync(environmentFile)) {
+    const suppliedValues = new Map(Object.entries(process.env));
+    loadEnvFile(environmentFile);
+    for (const [name, value] of suppliedValues) {
+      process.env[name] = value;
+    }
   }
+}
 
+export function loadRuntimeConfig(): RuntimeConfig {
+  loadEnvironmentFile();
   return parseRuntimeConfig(process.env);
 }

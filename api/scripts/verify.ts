@@ -5,6 +5,7 @@ import { existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 import pg from "pg";
+import { loadEnvironmentFile } from "../src/config.js";
 import { validateSeeds } from "./validate-seeds.js";
 
 const apiDirectory = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -197,6 +198,7 @@ function safeOutput(value: string): string {
 }
 
 async function verify(): Promise<void> {
+  loadEnvironmentFile();
   const configuredUrl = requireDatabaseUrl();
   const temporaryName = temporaryDatabaseName();
   const temporaryUrl = databaseUrlFor(configuredUrl, temporaryName);

@@ -3,6 +3,7 @@ import { drizzle } from "drizzle-orm/node-postgres";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import pg from "pg";
+import { loadEnvironmentFile } from "../src/config.js";
 
 const legacyMigration = "001_init.sql";
 const migrationFolder = resolve(dirname(fileURLToPath(import.meta.url)), "../../db/migrations");
@@ -40,6 +41,7 @@ async function reconcileLegacyMigrationHistory(pool: pg.Pool): Promise<void> {
   console.log("Retired the legacy no-op migration marker.");
 }
 
+loadEnvironmentFile();
 const pool = new pg.Pool({ connectionString: databaseUrlFromEnvironment() });
 
 try {
