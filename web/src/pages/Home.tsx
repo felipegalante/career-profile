@@ -1,6 +1,16 @@
 import { useEffect, useState } from "react";
 
-type Health = { status: string };
+type Health = { status: "ok" | "unavailable" };
+
+async function checkHealth(endpoint: string, update: (health: Health) => void): Promise<void> {
+  try {
+    const response = await fetch(endpoint);
+    const payload = (await response.json()) as Partial<Health>;
+    update(response.ok && payload.status === "ok" ? { status: "ok" } : { status: "unavailable" });
+  } catch {
+    update({ status: "unavailable" });
+  }
+}
 
 function StatusRow({ label, ok, detail }: { label: string; ok: boolean; detail?: string }) {
   return (
@@ -13,14 +23,12 @@ function StatusRow({ label, ok, detail }: { label: string; ok: boolean; detail?:
 }
 
 export function Home() {
-  const [health, setHealth] = useState<Health | null>(null);
-  const [error, setError] = useState<string | null>(null);
+  const [apiHealth, setApiHealth] = useState<Health | null>(null);
+  const [databaseHealth, setDatabaseHealth] = useState<Health | null>(null);
 
   useEffect(() => {
-    fetch("/readyz")
-      .then((res) => res.json())
-      .then(setHealth)
-      .catch((err) => setError(String(err)));
+    void checkHealth("/livez", setApiHealth);
+    void checkHealth("/readyz", setDatabaseHealth);
   }, []);
 
   return (
@@ -33,8 +41,8 @@ export function Home() {
       </p>
       <div className="space-y-3 rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
         <StatusRow label="Web" ok detail="running" />
-        <StatusRow label="API host" ok={health?.status === "ok"} detail={error ?? undefined} />
-        <StatusRow label="Database" ok={health?.status === "ok"} detail={error ?? undefined} />
+        <StatusRow label="API host" ok={apiHealth?.status === "ok"} />
+        <StatusRow label="Database" ok={databaseHealth?.status === "ok"} />
       </div>
       <p className="mt-6 text-sm text-slate-500">See README.md and docs/engineering/IMPLEMENTATION_PLAN.md to begin.</p>
     </main>
