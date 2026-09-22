@@ -10,12 +10,12 @@ beforeEach(() => {
 describe("authentication screens", () => {
   it("renders accessible password visibility controls and blocks mismatched confirmation", async () => {
     render(<App />);
-    expect(await screen.findByRole("heading", { name: "Create your account" })).toBeTruthy();
+    expect(await screen.findByRole("heading", { name: "Start your Career Profile" })).toBeTruthy();
     const password = screen.getByLabelText("Password");
     fireEvent.change(password, { target: { value: "ValidPassword!1" } });
     fireEvent.click(screen.getByRole("button", { name: "Show password" }));
     expect((password as HTMLInputElement).type).toBe("text");
     fireEvent.click(screen.getByRole("button", { name: "Create account" }));
-    expect(await screen.findByText("Passwords must match.")).toBeTruthy();
+    expect(await screen.findByText("Passwords do not match.")).toBeTruthy();
   });
 });
