@@ -39,13 +39,13 @@ Invalid credentials use a generic response.
 
 ## Admin-created accounts and first password setup
 
-Admin-created users have no initial password hash and are marked `passwordSetupRequired = true`. The sign-in operation can return a typed `PASSWORD_SETUP_REQUIRED` outcome for an account whose password has not yet been established. The client then routes to `/set-password`. The user creates and verifies a strong password, after which:
+Admin-created users have no initial password hash and are marked `passwordSetupRequired = true`. An administrator issues a high-entropy, short-lived, one-use setup link through an approved trusted channel; only a keyed hash of that proof is stored. Sign-in does not reveal setup-required status and continues to return the generic invalid-credentials response. The setup link opens `/set-password` and the user creates and verifies a strong password, after which:
 
 - `passwordSetupRequired` becomes false;
 - a session is established/continued;
 - if onboarding is incomplete, the user proceeds to onboarding.
 
-This intentionally simple project flow does not include email delivery or verification. A production deployment should use a one-time activation/identity-verification mechanism before allowing password establishment.
+This intentionally simple project flow does not include email delivery or verification. The trusted channel is an admin operation delivered with Admin Users; it is not a public recovery or email-verification flow.
 
 ## Admin password reset
 

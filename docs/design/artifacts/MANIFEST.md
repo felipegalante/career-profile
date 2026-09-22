@@ -45,6 +45,7 @@ Total artifacts: **83**
 - [Registration validation](auth/register-errors.html)
 - [Register](auth/register.html)
 - [Set password](auth/set-password.html)
+- [Set password link unavailable](auth/set-password-link-invalid.html)
 
 ## Onboarding
 

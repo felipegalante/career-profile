@@ -1,4 +1,5 @@
 import Fastify from "fastify";
+import cookie from "@fastify/cookie";
 import { randomUUID } from "node:crypto";
 import type { AppDatabase } from "./db.js";
 import { createFoundationYoga } from "./graphql.js";
@@ -7,9 +8,12 @@ import { healthRoutes } from "./routes/health.routes.js";
 const jsonContentType = /^application\/json(?:;|$)/i;
 
 type CreateAppOptions = {
+  appOrigin?: string;
   database?: AppDatabase;
   ping?: () => Promise<void>;
   pingResolver?: () => string;
+  sessionCookieName?: string;
+  sessionSecret?: string;
   verifyInstanceId?: string;
 };
 
@@ -26,7 +30,10 @@ function unavailableDatabase(): AppDatabase {
 export function createApp(options: CreateAppOptions = {}) {
   const database = options.database ?? unavailableDatabase();
   const ping = options.ping ?? database.ping;
-  const yoga = createFoundationYoga({ database, ping: options.pingResolver });
+  const sessionCookieName = options.sessionCookieName ?? "career_profile_session";
+  const appOrigin = options.appOrigin ?? "http://localhost:5173";
+  const tokenHashSecret = options.sessionSecret ?? sessionCookieName;
+  const yoga = createFoundationYoga({ database, ping: options.pingResolver, runtime: { csrfCookieName: `${sessionCookieName}_csrf`, secureCookies: !appOrigin.startsWith("http://localhost"), sessionCookieName, tokenHashSecret } });
   const app = Fastify({
     bodyLimit: 1_048_576,
     genReqId: () => randomUUID(),
@@ -39,13 +46,18 @@ export function createApp(options: CreateAppOptions = {}) {
           "req.headers.cookie",
           "req.body.password",
           "req.body.variables.password",
+          "req.body.variables.input.password",
           "req.body.variables.grant",
+          "req.body.variables.proof",
+          "req.body.variables.input.proof",
           "res.headers.set-cookie",
         ],
       },
     },
     requestIdHeader: false,
   });
+
+  app.register(cookie);
 
   app.addHook("onRequest", async (_request, reply) => {
     reply.header("x-request-id", reply.request.id);
@@ -71,7 +83,18 @@ export function createApp(options: CreateAppOptions = {}) {
       return reply.status(415).send({ error: "Unsupported media type", requestId: request.id });
     }
 
+    const graphqlBody = request.body as { query?: unknown } | undefined;
+    const isMutation = typeof graphqlBody?.query === "string" && /\bmutation\b/.test(graphqlBody.query);
+    if (isMutation) {
+      const origin = request.headers.origin;
+      if (origin !== appOrigin || request.headers["x-csrf-request"] !== "1") return reply.status(403).send({ error: "Forbidden", requestId: request.id });
+      const { AuthService } = await import("./auth/service.js");
+      const auth = new AuthService(database, tokenHashSecret);
+      const csrfHeader = request.headers["x-csrf-token"];
+      if (!(await auth.csrfValid(request.cookies[sessionCookieName], typeof csrfHeader === "string" ? csrfHeader : undefined))) return reply.status(403).send({ error: "Forbidden", requestId: request.id });
+    }
     const startedAt = performance.now();
+    const setCookies: string[] = [];
     const response = await yoga.fetch(
       new URL(request.url, `http://${request.headers.host ?? "localhost"}`),
       {
@@ -79,7 +102,7 @@ export function createApp(options: CreateAppOptions = {}) {
         headers: request.headers as Record<string, string>,
         method: "POST",
       },
-      { requestId: request.id }
+      { cookies: request.cookies, ip: request.ip, requestId: request.id, setCookies }
     );
     const body = await response.text();
     const responseBody = appendRequestId(body, request.id);
@@ -88,6 +111,7 @@ export function createApp(options: CreateAppOptions = {}) {
     for (const [name, value] of response.headers) {
       reply.header(name, value);
     }
+    if (setCookies.length) reply.header("set-cookie", setCookies);
     request.log.info(
       {
         graphqlDurationMs: Math.round((performance.now() - startedAt) * 100) / 100,

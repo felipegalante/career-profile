@@ -5,7 +5,7 @@ Product status and implementation status are tracked independently.
 | Feature | Product status | Delivery | Implementation | Spec | Wireframe |
 | --- | --- | --- | --- | --- | --- |
 | Application shell & keyboard shortcuts | Accepted | Initial | Not Started | [Spec](features/application-shell.md) | [Artifacts](../design/artifacts/design-system/shell/keyboard-shortcuts.html) |
-| Authentication & password setup | Accepted | Initial | Not Started | [Spec](features/authentication.md) | [Wireframe](../design/wireframes/authentication.md) |
+| Authentication & password setup | Accepted | Initial | In Progress | [Spec](features/authentication.md) | [Wireframe](../design/wireframes/authentication.md) |
 | Onboarding | Accepted | Initial | Not Started | [Spec](features/onboarding.md) | [Wireframe](../design/wireframes/onboarding.md) |
 | Profile workspace | Accepted | Initial | Not Started | [Spec](features/profile-shell-overview.md) | [Wireframe](../design/wireframes/profile-overview.md) |
 | Account · Profile & Settings | Accepted | Initial | Not Started | [Spec](features/personal-information.md) | [Wireframe](../design/wireframes/personal-information.md) |

@@ -36,7 +36,7 @@ async function startServer(): Promise<void> {
     stage = "database";
     database = createDatabase(config.databaseUrl);
     stage = "application";
-    app = createApp({ database, verifyInstanceId: config.verifyInstanceId });
+    app = createApp({ appOrigin: config.appOrigin, database, sessionCookieName: config.sessionCookieName, sessionSecret: config.sessionSecret, verifyInstanceId: config.verifyInstanceId });
     for (const signal of ["SIGINT", "SIGTERM"] as const) {
       process.once(signal, () => {
         void shutdown(0);

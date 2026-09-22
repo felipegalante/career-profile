@@ -19,6 +19,8 @@ Sessions:
 - expiry and server-side invalidation;
 - rotate/replace session on authentication boundary as appropriate.
 
+Phase 01 sessions have a seven-day absolute lifetime and a 24-hour idle timeout. They use host-only `Path=/`, `SameSite=Lax` cookies, `HttpOnly` session cookies, `Secure` outside local HTTP, and a session-bound double-submit CSRF token. Cookie-authenticated mutations require the trusted Origin, the non-simple client header, and the matching CSRF token.
+
 ## Authorization
 
 - self-service profile operations derive user identity from session/context;
@@ -59,4 +61,4 @@ Before resume implementation, define:
 
 ## Admin-created/reset accounts
 
-The simplified project supports an explicit `passwordSetupRequired` state. Admin create/reset operations never accept or expose a plaintext password. Existing sessions are invalidated on reset. Because this project intentionally omits email verification/invitations, production deployment would require a one-time activation or identity-verification mechanism before initial password establishment.
+The simplified project supports an explicit `passwordSetupRequired` state. Admin create/reset operations never accept or expose a plaintext password. Existing sessions are invalidated on reset. Password establishment requires an administrator-issued, high-entropy, short-lived, one-use setup link delivered through an approved trusted channel. The raw proof is placed in the link fragment, removed from browser history on load, never logged or persisted in browser storage, and stored server-side only as a keyed hash.

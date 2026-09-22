@@ -69,6 +69,22 @@ describe("foundation API", () => {
     }
   });
 
+  it("rejects mutations that lack a trusted Origin and CSRF request marker", async () => {
+    const app = createApp({ ping: async () => {} });
+    try {
+      const response = await app.inject({
+        headers: { "content-type": "application/json" },
+        method: "POST",
+        payload: { query: "mutation Logout { logout { success } }" },
+        url: "/graphql",
+      });
+      expect(response.statusCode).toBe(403);
+      expect(response.json()).toMatchObject({ error: "Forbidden" });
+    } finally {
+      await app.close();
+    }
+  });
+
   it("masks unexpected resolver errors and includes the request ID in GraphQL errors", async () => {
     const app = createApp({
       ping: async () => {},

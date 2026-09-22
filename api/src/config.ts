@@ -3,10 +3,13 @@ import { fileURLToPath } from "node:url";
 import { loadEnvFile } from "node:process";
 
 export type RuntimeConfig = {
+  appOrigin: string;
   databaseUrl: string;
   host: string;
   nodeEnv: "development" | "test" | "production";
   port: number;
+  sessionCookieName: string;
+  sessionSecret: string;
   verifyInstanceId?: string;
 };
 
@@ -19,6 +22,14 @@ function parsePort(value: string | undefined): number {
   }
 
   return port;
+}
+
+function parseOrigin(value: string | undefined, nodeEnv: "development" | "test" | "production"): string {
+  const origin = value ?? (nodeEnv === "production" ? undefined : "http://localhost:5173");
+  if (!origin) throw new Error("APP_ORIGIN is required in production.");
+  const parsed = new URL(origin);
+  if (parsed.origin !== origin.replace(/\/$/, "")) throw new Error("APP_ORIGIN must be an origin without a path.");
+  return parsed.origin;
 }
 
 function parseDatabaseUrl(value: string | undefined): string {
@@ -45,11 +56,17 @@ export function parseRuntimeConfig(environment: NodeJS.ProcessEnv): RuntimeConfi
     throw new Error("HOST must not be empty.");
   }
 
+  const sessionSecret = environment.SESSION_SECRET ?? (nodeEnv === "test" ? "test-session-secret-not-for-production" : "");
+  if (nodeEnv === "production" && sessionSecret.length < 32) throw new Error("SESSION_SECRET must be at least 32 characters in production.");
+
   return {
+    appOrigin: parseOrigin(environment.APP_ORIGIN, nodeEnv),
     databaseUrl: parseDatabaseUrl(environment.DATABASE_URL),
     host,
     nodeEnv,
     port: parsePort(environment.PORT),
+    sessionCookieName: environment.SESSION_COOKIE_NAME ?? (nodeEnv === "production" ? "__Host-career_profile_session" : "career_profile_session"),
+    sessionSecret,
     verifyInstanceId: environment.VERIFY_INSTANCE_ID,
   };
 }

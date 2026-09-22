@@ -134,6 +134,10 @@
       {
         "path": "auth/set-password.html",
         "title": "Set password"
+      },
+      {
+        "path": "auth/set-password-link-invalid.html",
+        "title": "Set password link unavailable"
       }
     ],
     "Onboarding": [
