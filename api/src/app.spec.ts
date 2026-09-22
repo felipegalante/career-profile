@@ -85,6 +85,21 @@ describe("foundation API", () => {
     }
   });
 
+  it("advertises the configured CSRF cookie name to the same-origin client", async () => {
+    const app = createApp({ ping: async () => {}, sessionCookieName: "__Host-career_profile_session" });
+    try {
+      const response = await app.inject({
+        headers: { "content-type": "application/json" },
+        method: "POST",
+        payload: { query: "{ ping }" },
+        url: "/graphql",
+      });
+      expect(response.headers["x-csrf-cookie-name"]).toBe("__Host-career_profile_session_csrf");
+    } finally {
+      await app.close();
+    }
+  });
+
   it("masks unexpected resolver errors and includes the request ID in GraphQL errors", async () => {
     const app = createApp({
       ping: async () => {},

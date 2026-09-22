@@ -2,7 +2,7 @@
 
 - Product status: **Accepted**
 - Delivery: **Initial release**
-- Implementation status: **Not Started**
+- Implementation status: **In Progress**
 - Routes: `/login`, `/register`, `/set-password`
 
 ## Purpose

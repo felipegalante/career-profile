@@ -5,7 +5,11 @@ import { existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 import pg from "pg";
+import { AuthError } from "../src/auth/errors.js";
+import { AuthService } from "../src/auth/service.js";
 import { loadEnvironmentFile } from "../src/config.js";
+import { createDatabase } from "../src/db.js";
+import { users } from "../src/db/schema.js";
 import { validateSeeds } from "./validate-seeds.js";
 
 const apiDirectory = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -233,6 +237,114 @@ async function smokeApi(port: number, instanceId: string): Promise<void> {
   if (!graphql.ok || graphqlPayload.data?.ping !== "pong") {
     throw new Error("Verification API GraphQL smoke request failed.");
   }
+
+  await smokeAuthenticationApi(port);
+}
+
+type GraphqlPayload = { data?: Record<string, unknown>; errors?: Array<{ extensions?: { code?: unknown }; message?: unknown }> };
+
+function cookiesFrom(response: Response): string {
+  const headers = response.headers as Headers & { getSetCookie?: () => string[] };
+  const cookies = headers.getSetCookie?.() ?? [];
+  return cookies.map((cookie) => cookie.split(";", 1)[0]).join("; ");
+}
+
+function cookieValue(cookies: string, name: string): string | undefined {
+  return cookies.split("; ").find((cookie) => cookie.startsWith(`${name}=`))?.slice(name.length + 1);
+}
+
+async function authRequest(port: number, query: string, variables?: Record<string, unknown>, cookie?: string, csrf?: string): Promise<{ response: Response; payload: GraphqlPayload }> {
+  const response = await fetch(`http://127.0.0.1:${port}/graphql`, {
+    body: JSON.stringify({ query, variables }),
+    headers: {
+      "content-type": "application/json",
+      origin: "http://localhost:5173",
+      "x-csrf-request": "1",
+      ...(cookie ? { cookie } : {}),
+      ...(csrf ? { "x-csrf-token": decodeURIComponent(csrf) } : {}),
+    },
+    method: "POST",
+  });
+  return { response, payload: await response.json() as GraphqlPayload };
+}
+
+async function smokeAuthenticationApi(port: number): Promise<void> {
+  const credentials = { email: "verify-auth@careerprofile.test", password: "ValidPassword!1" };
+  const register = await authRequest(port, "mutation Register($input: CredentialsInput!) { register(input: $input) { viewer { email } } }", { input: credentials });
+  const cookies = cookiesFrom(register.response);
+  const csrfCookieName = register.response.headers.get("x-csrf-cookie-name");
+  const csrf = csrfCookieName ? cookieValue(cookies, csrfCookieName) : undefined;
+  if (register.payload.data?.register === undefined || !cookies || !csrf || csrfCookieName !== "career_profile_session_csrf") {
+    throw new Error("Authentication registration did not establish the expected session and CSRF cookies.");
+  }
+
+  const viewer = await authRequest(port, "query Viewer { viewer { email } }", undefined, cookies);
+  if ((viewer.payload.data?.viewer as { email?: unknown } | undefined)?.email !== credentials.email) {
+    throw new Error("Authenticated viewer did not resolve from the session cookie.");
+  }
+
+  const logout = await authRequest(port, "mutation Logout { logout { success } }", undefined, cookies, csrf);
+  if ((logout.payload.data?.logout as { success?: unknown } | undefined)?.success !== true) {
+    throw new Error("CSRF-protected logout did not succeed.");
+  }
+
+  const replay = await authRequest(port, "query Viewer { viewer { email } }", undefined, cookies);
+  if (replay.payload.data?.viewer !== null) {
+    throw new Error("Revoked session cookie still resolved a viewer.");
+  }
+
+  const unknown = await authRequest(port, "mutation Login($input: CredentialsInput!) { login(input: $input) { viewer { email } } }", { input: { ...credentials, email: "missing@careerprofile.test" } });
+  const wrongPassword = await authRequest(port, "mutation Login($input: CredentialsInput!) { login(input: $input) { viewer { email } } }", { input: { ...credentials, password: "WrongPassword!1" } });
+  const unknownError = unknown.payload.errors?.[0];
+  const wrongPasswordError = wrongPassword.payload.errors?.[0];
+  if (unknownError?.extensions?.code !== "INVALID_CREDENTIALS" || unknownError.message !== wrongPasswordError?.message) {
+    throw new Error("Unknown-user and wrong-password login outcomes are distinguishable.");
+  }
+
+  for (let attempt = 0; attempt < 10; attempt += 1) {
+    await authRequest(port, "mutation Register($input: CredentialsInput!) { register(input: $input) { viewer { email } } }", { input: { email: "invalid", password: credentials.password } });
+  }
+  const rateLimited = await authRequest(port, "mutation Register($input: CredentialsInput!) { register(input: $input) { viewer { email } } }", { input: { email: "rate-limit@careerprofile.test", password: credentials.password } });
+  if (rateLimited.payload.errors?.[0]?.extensions?.code !== "RATE_LIMITED") {
+    throw new Error("Registration attempts did not enforce the IP throttle.");
+  }
+}
+
+async function expectInvalidSetupGrant(action: () => Promise<unknown>): Promise<void> {
+  try {
+    await action();
+  } catch (error) {
+    if (error instanceof AuthError && error.extensions.code === "INVALID_SETUP_GRANT") return;
+    throw error;
+  }
+  throw new Error("An invalid or replayed password setup proof was accepted.");
+}
+
+async function smokeSetupGrantLifecycle(databaseUrl: string): Promise<void> {
+  const database = createDatabase(databaseUrl);
+  try {
+    const user = (await database.db.insert(users).values({
+      email: "verify-setup@careerprofile.test",
+      normalizedEmail: "verify-setup@careerprofile.test",
+      onboardingCompletedAt: new Date(),
+      passwordSetupRequired: true,
+      role: "USER",
+    }).returning())[0];
+    if (!user) throw new Error("Could not create the controlled password-setup fixture.");
+
+    const auth = new AuthService(database, "verify-session-secret");
+    const supersededProof = await auth.issueSetupGrant(user.id, "FIRST_PASSWORD");
+    const activeProof = await auth.issueSetupGrant(user.id, "FIRST_PASSWORD");
+    await expectInvalidSetupGrant(() => auth.setPassword({ proof: supersededProof, password: "ValidPassword!1" }, "verify-setup-ip"));
+
+    const established = await auth.setPassword({ proof: activeProof, password: "ValidPassword!1" }, "verify-setup-ip");
+    if (!established.viewer.onboardingCompleted || established.viewer.passwordSetupRequired) {
+      throw new Error("Password setup changed the independent onboarding state or did not establish credentials.");
+    }
+    await expectInvalidSetupGrant(() => auth.setPassword({ proof: activeProof, password: "ValidPassword!1" }, "verify-setup-ip"));
+  } finally {
+    await database.close();
+  }
 }
 
 function safeOutput(value: string): string {
@@ -264,6 +376,7 @@ async function verify(): Promise<void> {
     const started = await startApi(temporaryUrl, instanceId);
     api = started.child;
     await smokeApi(started.port, instanceId);
+    await smokeSetupGrantLifecycle(temporaryUrl);
     console.log("Isolated verification passed.");
   } finally {
     try {

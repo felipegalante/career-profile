@@ -10,6 +10,7 @@ export type RuntimeConfig = {
   port: number;
   sessionCookieName: string;
   sessionSecret: string;
+  trustProxy: boolean;
   verifyInstanceId?: string;
 };
 
@@ -45,6 +46,12 @@ function parseDatabaseUrl(value: string | undefined): string {
   return value;
 }
 
+function parseTrustProxy(value: string | undefined): boolean {
+  if (value === undefined || value === "false") return false;
+  if (value === "true") return true;
+  throw new Error("TRUST_PROXY must be true or false.");
+}
+
 export function parseRuntimeConfig(environment: NodeJS.ProcessEnv): RuntimeConfig {
   const nodeEnv = environment.NODE_ENV ?? "development";
   if (nodeEnv !== "development" && nodeEnv !== "test" && nodeEnv !== "production") {
@@ -67,6 +74,7 @@ export function parseRuntimeConfig(environment: NodeJS.ProcessEnv): RuntimeConfi
     port: parsePort(environment.PORT),
     sessionCookieName: environment.SESSION_COOKIE_NAME ?? (nodeEnv === "production" ? "__Host-career_profile_session" : "career_profile_session"),
     sessionSecret,
+    trustProxy: parseTrustProxy(environment.TRUST_PROXY),
     verifyInstanceId: environment.VERIFY_INSTANCE_ID,
   };
 }

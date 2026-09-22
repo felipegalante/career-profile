@@ -21,6 +21,8 @@ Sessions:
 
 Phase 01 sessions have a seven-day absolute lifetime and a 24-hour idle timeout. They use host-only `Path=/`, `SameSite=Lax` cookies, `HttpOnly` session cookies, `Secure` outside local HTTP, and a session-bound double-submit CSRF token. Cookie-authenticated mutations require the trusted Origin, the non-simple client header, and the matching CSRF token.
 
+Authentication IP throttles use Fastify's resolved client address. `TRUST_PROXY=true` is allowed only when the API is reachable exclusively through a trusted reverse proxy; otherwise it remains false so callers cannot spoof `X-Forwarded-For`.
+
 ## Authorization
 
 - self-service profile operations derive user identity from session/context;

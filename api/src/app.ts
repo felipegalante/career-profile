@@ -14,6 +14,7 @@ type CreateAppOptions = {
   pingResolver?: () => string;
   sessionCookieName?: string;
   sessionSecret?: string;
+  trustProxy?: boolean;
   verifyInstanceId?: string;
 };
 
@@ -55,6 +56,7 @@ export function createApp(options: CreateAppOptions = {}) {
       },
     },
     requestIdHeader: false,
+    trustProxy: options.trustProxy ?? false,
   });
 
   app.register(cookie);
@@ -78,6 +80,9 @@ export function createApp(options: CreateAppOptions = {}) {
 
   app.register(healthRoutes({ ping, verifyInstanceId: options.verifyInstanceId }));
   app.post("/graphql", async (request, reply) => {
+    // The browser learns this from the API runtime rather than assuming a development
+    // cookie name; production session cookies use a __Host- prefix.
+    reply.header("x-csrf-cookie-name", `${sessionCookieName}_csrf`);
     const contentType = request.headers["content-type"];
     if (!contentType || !jsonContentType.test(contentType)) {
       return reply.status(415).send({ error: "Unsupported media type", requestId: request.id });

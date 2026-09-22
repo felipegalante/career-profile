@@ -11,6 +11,8 @@ const SESSION_IDLE_MS = 24 * 60 * 60 * 1000;
 const GRANT_LIFETIME_MS = 30 * 60 * 1000;
 const LOGIN_LIMIT = 5;
 const IP_LIMIT = 20;
+// This fixed, non-secret hash equalizes unknown/passwordless account verification work.
+const DUMMY_PASSWORD_HASH = "$argon2id$v=19$m=19456,t=2,p=1$31mKI+wt01W9IdbiFlIV0g$Ilcp9qWsTuZXsa7QQgESF/zScSaX2O+mpr5Wng7suDA";
 
 export type Viewer = { id: string; email: string; role: "USER" | "ADMIN"; passwordSetupRequired: boolean; onboardingCompleted: boolean };
 export type AuthSession = { sessionToken: string; csrfToken: string; expiresAt: Date; viewer: Viewer };
@@ -79,23 +81,22 @@ export class AuthService {
 
   async register(input: { email: string; password: string }, ip: string): Promise<AuthSession> {
     const normalizedEmail = normalizeEmail(input.email);
+    await this.assertBelowLimit("register-ip", ip, 10);
+    // Registration attempts are counted before validation, existence checks, or hashing so
+    // duplicate-email retries cannot bypass the IP budget and consume Argon2 capacity.
+    await this.recordAttempt("register-ip", ip, 60 * 60 * 1000);
     if (!validEmail(normalizedEmail)) throw new AuthError("VALIDATION_FAILED", "Enter a valid email address.", "email");
     validatePassword(input.password);
-    await this.assertBelowLimit("register-ip", ip, 10);
+    const existing = (await this.database.db.select({ id: users.id }).from(users).where(eq(users.normalizedEmail, normalizedEmail)).limit(1))[0];
+    if (existing) throw new AuthError("DUPLICATE_EMAIL", "An account already uses this email address.", "email");
     const passwordHash = await hash(input.password, PASSWORD_OPTIONS);
-    try {
-      return await this.database.db.transaction(async (tx) => {
-        const inserted = await tx.insert(users).values({ email: input.email.trim(), normalizedEmail, passwordHash, role: "USER" }).onConflictDoNothing().returning();
-        const user = inserted[0];
-        if (!user) throw new AuthError("DUPLICATE_EMAIL", "An account already uses this email address.", "email");
-        await tx.insert(userProfiles).values({ userId: user.id });
-        return this.createSession(tx, user);
-      });
-    } catch (error) {
-      if (error instanceof AuthError) throw error;
-      await this.recordAttempt("register-ip", ip, 60 * 60 * 1000);
-      throw error;
-    }
+    return this.database.db.transaction(async (tx) => {
+      const inserted = await tx.insert(users).values({ email: input.email.trim(), normalizedEmail, passwordHash, role: "USER" }).onConflictDoNothing().returning();
+      const user = inserted[0];
+      if (!user) throw new AuthError("DUPLICATE_EMAIL", "An account already uses this email address.", "email");
+      await tx.insert(userProfiles).values({ userId: user.id });
+      return this.createSession(tx, user);
+    });
   }
 
   async login(input: { email: string; password: string }, ip: string): Promise<AuthSession> {
@@ -103,14 +104,16 @@ export class AuthService {
     await this.assertBelowLimit("login-email", normalizedEmail, LOGIN_LIMIT);
     await this.assertBelowLimit("login-ip", ip, IP_LIMIT);
     const user = (await this.database.db.select().from(users).where(eq(users.normalizedEmail, normalizedEmail)).limit(1))[0];
-    const passwordValid = user?.passwordHash ? await verify(user.passwordHash, input.password, PASSWORD_OPTIONS) : false;
+    const passwordValid = await verify(user?.passwordHash ?? DUMMY_PASSWORD_HASH, input.password, PASSWORD_OPTIONS);
     if (!user || !passwordValid || user.passwordSetupRequired) {
       await Promise.all([this.recordAttempt("login-email", normalizedEmail), this.recordAttempt("login-ip", ip)]);
       throw new AuthError("INVALID_CREDENTIALS", "Invalid email or password.");
     }
     return this.database.db.transaction(async (tx) => {
-      const current = (await tx.select().from(users).where(eq(users.id, user.id)).limit(1))[0];
-      if (!current || current.passwordSetupRequired || current.credentialGeneration !== user.credentialGeneration) throw new AuthError("INVALID_CREDENTIALS", "Invalid email or password.");
+      // The guarded update locks the account row until session creation commits. A reset that
+      // wins the race makes this update return no row, rather than issuing a stale session.
+      const current = (await tx.update(users).set({ updatedAt: sql`${users.updatedAt}` }).where(and(eq(users.id, user.id), eq(users.credentialGeneration, user.credentialGeneration), eq(users.passwordSetupRequired, false))).returning())[0];
+      if (!current) throw new AuthError("INVALID_CREDENTIALS", "Invalid email or password.");
       return this.createSession(tx, current);
     });
   }
@@ -141,8 +144,11 @@ export class AuthService {
     const proof = this.randomToken();
     const now = new Date();
     await this.database.db.transaction(async (tx) => {
-      const user = (await tx.select().from(users).where(eq(users.id, userId)).limit(1))[0];
-      if (!user || !user.passwordSetupRequired) throw new Error("Setup grants require a password-setup account.");
+      // Lock the account while revoking and replacing grants so concurrent issuance cannot
+      // leave more than one active proof.
+      const user = (await tx.update(users).set({ updatedAt: sql`${users.updatedAt}` }).where(and(eq(users.id, userId), eq(users.passwordSetupRequired, true))).returning())[0];
+      if (!user) throw new Error("Setup grants require a password-setup account.");
+      await tx.update(passwordSetupGrants).set({ revokedAt: now, updatedAt: now }).where(and(eq(passwordSetupGrants.userId, userId), isNull(passwordSetupGrants.consumedAt), isNull(passwordSetupGrants.revokedAt)));
       await tx.insert(passwordSetupGrants).values({ userId, tokenHash: this.fingerprint(proof), purpose, credentialGeneration: user.credentialGeneration, expiresAt: new Date(now.getTime() + GRANT_LIFETIME_MS) });
     });
     return proof;
