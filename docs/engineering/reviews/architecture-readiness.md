@@ -363,7 +363,7 @@ R16–R18 are concrete issues. `.codex/config.toml`'s `agents.enabled` and `max_
 
 | ID | Decision owner / deadline | OPEN QUESTION and recommended direction |
 | --- | --- | --- |
-| Q01 | Product + security; before password-setup slice 01B | What proves control of a passwordless/reset account? Approve trusted-channel one-use link or another explicit proof flow. |
+| Q01 | Resolved 2026-09-21 | Admin-issued, high-entropy, short-lived, one-use setup link through an approved trusted channel; only its keyed hash is stored. |
 | Q02 | Resolved 2026-09-21 | Derived-supported `×` dismisses from Skills while preserving sources; reviewed mappings attach automatically. Dismissals persist across source saves and manual re-add restores visibility. |
 | Q03 | Product; before 04 | Which deterministic custom-skill classifier/fallback is valid, or should the input contract change? |
 | Q04 | Product + design; before 02C only for additional resume guarantees | Follow the seven-step feature spec and required fields. Is an exact saved-step resume position required beyond persisted profile values? Do not add a progress store without that requirement; reconcile stale artifacts. |
@@ -373,7 +373,7 @@ R16–R18 are concrete issues. `.codex/config.toml`'s `agents.enabled` and `max_
 | Q08 | Product + architecture; lexical/identity rules before 03, parent rules before 05–07 | Rank tie-breaks, exact normalization, parent validity and strict board scope. A searchable Focus dialog already fits its specification; no new editor-mode gate. |
 | Q09 | Design; before 02 | Drawer vs old bottom subsection navigation. Recommend same primary destinations in responsive drawer. |
 | Q10 | Product + security; before R1/R2 | Resume retention/providers/review/merge and factual-content limits. This gates planned initial-release work. |
-| Q11 | Design; before first styled auth UI in 01 | Rendered indigo/Geist or written teal/Inter foundation? Recommend reconcile docs to rendered tokens. |
+| Q11 | Resolved 2026-09-21 | Rendered indigo/Geist is the visual authority; reconcile written design tokens accordingly. |
 | Q12 | Resolved 2026-09-21 | Use immediate removal/dismissal with a brief Undo toast; persistence failures still restore the prior chip/counts. |
 
 Engineering should approve proposed data/API/dependency contracts at the relevant phase checkpoint. This review does not ask the user to decide every local implementation detail. Foundation tooling is independent of Q01/Q11. Q01 gates setup/reset only; Q11 gates styled UI. Review each bounded slice using [REVIEW_SLICES](../implementation/REVIEW_SLICES.md), resolving downstream questions only before their affected work.

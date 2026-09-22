@@ -11,6 +11,7 @@ This inventory distinguishes **routes/pages** from focused **component/dialog st
 | AUTH-03 | Register | Route | Initial | [Authentication](features/authentication.md) | `auth/register.html` |
 | AUTH-04 | Registration validation | State | Initial | [Authentication](features/authentication.md) | `auth/register-errors.html` |
 | AUTH-05 | First/reset password setup | Route/state | Initial | [Authentication](features/authentication.md) | `auth/set-password.html` |
+| AUTH-06 | Setup link invalid/expired/replayed | Route state | Initial | [Authentication](features/authentication.md) | `auth/set-password-link-invalid.html` |
 | ONB-01 | Onboarding basics | Route/step | Initial | [Onboarding](features/onboarding.md) | `onboarding/basics.html` |
 | ONB-02 | Onboarding career context | Route/step | Initial | [Onboarding](features/onboarding.md) | `onboarding/career.html` |
 | ONB-03 | Onboarding focus | Route/step | Initial | [Onboarding](features/onboarding.md) | `onboarding/focus.html` |

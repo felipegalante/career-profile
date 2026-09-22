@@ -4,10 +4,10 @@ The application uses a small token-based design system so all profile modules fe
 
 ## Foundations
 
-- restrained teal/blue primary palette;
+- rendered indigo primary palette with cool neutral surfaces;
 - cool neutral backgrounds/surfaces;
 - semantic success/warning/danger colors;
-- system/Inter-style sans-serif typography;
+- Geist with system sans-serif fallback;
 - spacing scale: 4 / 8 / 12 / 16 / 24 / 32 / 48;
 - radii: 6 / 10 / 14;
 - subtle elevation only where hierarchy requires it.

@@ -1,0 +1,5 @@
+query Viewer { viewer { id email role passwordSetupRequired onboardingCompleted } }
+mutation Register($input: CredentialsInput!) { register(input: $input) { viewer { id email role passwordSetupRequired onboardingCompleted } } }
+mutation Login($input: CredentialsInput!) { login(input: $input) { viewer { id email role passwordSetupRequired onboardingCompleted } } }
+mutation Logout { logout { success } }
+mutation SetPassword($input: SetPasswordInput!) { setPassword(input: $input) { viewer { id email role passwordSetupRequired onboardingCompleted } } }

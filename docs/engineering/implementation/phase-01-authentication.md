@@ -1,6 +1,6 @@
 # Phase 01 — Authentication and account states
 
-Status: **PLANNED**. Implementation: **Not Started**. This document plans work only. Read the [readiness decisions](../reviews/architecture-readiness.md), [data contracts](../reviews/data-contracts.md), [API/frontend contracts](../reviews/api-frontend-contracts.md), and [coverage matrix](COVERAGE.md) with the owning feature specifications.
+Status: **IN PROGRESS**. Implement as independently reviewable 01A and 01B slices. Read the [readiness decisions](../reviews/architecture-readiness.md), [data contracts](../reviews/data-contracts.md), [API/frontend contracts](../reviews/api-frontend-contracts.md), and [coverage matrix](COVERAGE.md) with the owning feature specifications.
 
 ## Objective
 
@@ -8,7 +8,7 @@ Deliver secure register/sign-in/sign-out and approved first/reset-password estab
 
 ## Dependencies
 
-00 complete. Q11 tokens gate first styled auth UI. 01A delivers registration/login/logout and guarded routing independently; Q01 proof mechanism and delivery gate 01B setup/reset only; password/session lifetime, throttling and failure contracts reviewed. No email-only password establishment. No SSO/email verification/MFA expansion.
+00 complete. The rendered indigo/Geist tokens are the auth visual authority. 01A delivers registration/login/logout and guarded routing; 01B uses approved admin-issued, trusted-channel one-use setup links for setup/reset lifecycle. No email-only password establishment. No SSO/email verification/MFA expansion.
 
 ## Product requirements covered
 

@@ -16,5 +16,13 @@ describe("runtime configuration", () => {
     expect(() => parseRuntimeConfig({ DATABASE_URL: "postgres://localhost/app", NODE_ENV: "staging" })).toThrow(
       "NODE_ENV must be development, test, or production."
     );
+    expect(() => parseRuntimeConfig({ DATABASE_URL: "postgres://localhost/app", TRUST_PROXY: "sometimes" })).toThrow(
+      "TRUST_PROXY must be true or false."
+    );
+  });
+
+  it("uses forwarded client addresses only when explicitly configured", () => {
+    expect(parseRuntimeConfig({ DATABASE_URL: "postgres://localhost/app" }).trustProxy).toBe(false);
+    expect(parseRuntimeConfig({ DATABASE_URL: "postgres://localhost/app", TRUST_PROXY: "true" }).trustProxy).toBe(true);
   });
 });

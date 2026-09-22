@@ -52,5 +52,21 @@
     "role": "USER",
     "onboardingCompleted": false,
     "profile": {}
+  },
+  {
+    "seedKey": "passwordless",
+    "email": "passwordless@example.test",
+    "passwordSetupRequired": true,
+    "role": "USER",
+    "onboardingCompleted": false,
+    "profile": {}
+  },
+  {
+    "seedKey": "resetuser",
+    "email": "reset@example.test",
+    "passwordSetupRequired": true,
+    "role": "USER",
+    "onboardingCompleted": true,
+    "profile": {}
   }
 ]
