@@ -1,13 +1,15 @@
-.text{margin:0}
-.display{font-size:32px;line-height:38px;font-weight:600;letter-spacing:-.022em}
-.record{font-size:21px;line-height:28px;font-weight:600;letter-spacing:-.015em}
-.section{font-size:16px;line-height:24px;font-weight:600;letter-spacing:-.01em}
-.label{font-size:13px;font-weight:500}
-.meta{font-size:12px;line-height:16px}
-.overline{font-size:11px;line-height:16px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3)}
-.mono{font-family:"Geist Mono",ui-monospace,monospace}
-.muted{color:var(--ink-2)}
-.faint{color:var(--ink-3)}
-.danger{color:var(--danger)}
-.success{color:var(--success)}
-.brand{color:var(--brand-ink)}
+@layer components{
+  .text{margin:0}
+  .display{font-size:32px;line-height:38px;font-weight:600;letter-spacing:-.022em}
+  .record{font-size:21px;line-height:28px;font-weight:600;letter-spacing:-.015em}
+  .section{font-size:16px;line-height:24px;font-weight:600;letter-spacing:-.01em}
+  .label{font-size:13px;font-weight:500}
+  .meta{font-size:12px;line-height:16px}
+  .overline{font-size:11px;line-height:16px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3)}
+  .mono{font-family:"Geist Mono",ui-monospace,monospace}
+  .muted{color:var(--ink-2)}
+  .faint{color:var(--ink-3)}
+  .danger{color:var(--danger)}
+  .success{color:var(--success)}
+  .brand{color:var(--brand-ink)}
+}

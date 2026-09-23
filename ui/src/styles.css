@@ -1,3 +1,5 @@
+/* Layer order shared with Tailwind. Component CSS Modules live in `components`, so page layout utilities can adjust a component root. */
+@layer theme, base, components, utilities;
 @import "./foundations/fonts.css";
 @import "./foundations/tokens.css";
 @import "./foundations/base.css";

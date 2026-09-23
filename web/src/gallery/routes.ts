@@ -1,0 +1,19 @@
+/* Plain route data shared by the gallery app and the Playwright suites. */
+export type GalleryGroup = "Foundations" | "Primitives" | "Components" | "Patterns" | "Shell" | "States" | "Compositions";
+
+export interface GalleryRoute {
+  path: string;
+  title: string;
+  group: GalleryGroup;
+  /** Artifact page under docs/design/artifacts that this gallery page reproduces. */
+  artifact: string;
+  /** Rendered without the gallery top bar because the specimen owns the whole viewport. */
+  bare?: boolean;
+}
+
+export const galleryRoutes: GalleryRoute[] = [
+  { path: "foundations/color", title: "Color", group: "Foundations", artifact: "design-system/color/color.html" },
+  { path: "foundations/type-layout", title: "Type, spacing, and layout", group: "Foundations", artifact: "design-system/type-layout/type-layout.html" },
+];
+
+export const galleryGroups: GalleryGroup[] = ["Foundations", "Primitives", "Components", "Patterns", "Shell", "States", "Compositions"];
