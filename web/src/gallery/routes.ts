@@ -18,6 +18,10 @@ export const galleryRoutes: GalleryRoute[] = [
   { path: "primitives/feedback", title: "Feedback and disclosure", group: "Primitives", artifact: "design-system/primitives/feedback.html" },
   { path: "primitives/overlays", title: "Overlays", group: "Primitives", artifact: "design-system/primitives/overlays.html" },
   { path: "primitives/dialog-open", title: "Dialog (open)", group: "Primitives", artifact: "experience/experience-add.html" },
+  { path: "components/command-palette", title: "Command palette", group: "Components", artifact: "design-system/components/command-palette.html", bare: true },
+  { path: "shell/sidebar", title: "Application shell", group: "Shell", artifact: "design-system/shell/sidebar.html", bare: true },
+  { path: "shell/keyboard-shortcuts", title: "Keyboard shortcuts", group: "Shell", artifact: "design-system/shell/keyboard-shortcuts.html" },
+  { path: "shell/mobile", title: "Mobile shell", group: "Shell", artifact: "profile/overview-mobile.html" },
   { path: "states/collection-states", title: "Collection states", group: "States", artifact: "design-system/states/collection-states.html" },
   { path: "states/form-states", title: "Form states", group: "States", artifact: "design-system/states/form-states.html" },
 ];

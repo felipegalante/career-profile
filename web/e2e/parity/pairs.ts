@@ -4,6 +4,9 @@
  */
 export type ParityState = "default" | "hover" | "focus";
 
+/** Interaction run on a page before measuring, for states that only exist after input. */
+export type ParityAction = { press: string } | { click: string };
+
 export interface ParityPair {
   id: string;
   artifact: string;
@@ -13,6 +16,9 @@ export interface ParityPair {
   gallerySelector?: string;
   properties: string[];
   state?: ParityState;
+  viewport?: { width: number; height: number };
+  artifactAction?: ParityAction;
+  galleryAction?: ParityAction;
 }
 
 const TYPE = ["font-family", "font-size", "line-height", "font-weight", "letter-spacing", "text-transform", "color"];
@@ -113,4 +119,48 @@ const overlays: ParityPair[] = [
   { id: "dialog-surface", artifact: "experience/experience-add.html", artifactSelector: ".dialog", gallery: "primitives/dialog-open", gallerySelector: "[data-blocking-dialog] > *", properties: ["width", "max-height", "overflow-y", "background-color", "border-radius", "box-shadow"] },
 ];
 
-export const parityPairs: ParityPair[] = [...foundations, ...actionsInputs, ...feedback, ...states, ...overlays];
+const SIDEBAR = "design-system/shell/sidebar.html";
+const SHELL_PAGE = "shell/sidebar";
+const COLLAPSE: ParityAction = { press: "Control+b" };
+const shell: ParityPair[] = [
+  { id: "side", artifact: SIDEBAR, artifactSelector: ".side", gallery: SHELL_PAGE, gallerySelector: "aside", properties: ["width", "position", "background-color", "box-shadow", "padding-top", "padding-left", "display", "flex-direction"] },
+  { id: "side-brand", artifact: SIDEBAR, artifactSelector: ".side .brand", gallery: SHELL_PAGE, gallerySelector: "aside > div:first-child", properties: ["display", "gap", "padding-top", "padding-left", "padding-bottom", "font-size", "font-weight"] },
+  { id: "logo", artifact: SIDEBAR, artifactSelector: ".side .logo", gallery: SHELL_PAGE, gallerySelector: "aside > div:first-child > div", properties: ["width", "height", "border-radius", "background-color", "color", "font-family", "font-size", "font-weight"] },
+  { id: "nav-group", artifact: SIDEBAR, artifactSelector: ".nav-group", gallery: SHELL_PAGE, gallerySelector: "aside nav div[aria-hidden]", properties: ["font-size", "line-height", "font-weight", "letter-spacing", "text-transform", "color", "padding-top", "padding-left", "padding-bottom"] },
+  { id: "nav-link-current", artifact: SIDEBAR, artifactSelector: ".nav a.on", gallery: SHELL_PAGE, gallerySelector: 'aside [aria-current="page"]', properties: ["height", "padding-left", "border-radius", "display", "gap", "background-color", "color", "font-weight"] },
+  { id: "nav-link", artifact: SIDEBAR, artifactSelector: ".nav a:not(.on)", gallery: SHELL_PAGE, gallerySelector: "aside nav a:not([aria-current])", properties: ["height", "padding-left", "border-radius", "background-color", "color", "font-weight"] },
+  { id: "nav-link-hover", artifact: "profile/profile.html", artifactSelector: ".nav a:not(.on)", gallery: SHELL_PAGE, gallerySelector: "aside nav a:not([aria-current])", properties: ["background-color", "color"], state: "hover" },
+  { id: "nav-icon", artifact: SIDEBAR, artifactSelector: ".nav a svg", gallery: SHELL_PAGE, gallerySelector: "aside nav a svg", properties: ["width", "height", "stroke-width"] },
+  { id: "userbox", artifact: SIDEBAR, artifactSelector: ".userbox", gallery: SHELL_PAGE, gallerySelector: 'aside [aria-haspopup="menu"]', properties: ["margin-top", "padding-top", "padding-left", "padding-bottom", "box-shadow", "display", "gap", "border-radius"] },
+  { id: "main", artifact: SIDEBAR, artifactSelector: ".main", gallery: SHELL_PAGE, gallerySelector: "main", properties: ["margin-left", "padding-top", "padding-left", "padding-right", "padding-bottom"] },
+  { id: "phead", artifact: SIDEBAR, artifactSelector: ".phead", gallery: SHELL_PAGE, gallerySelector: "main > div:first-child", properties: ["display", "justify-content", "align-items", "gap", "margin-bottom"] },
+  { id: "phead-title", artifact: SIDEBAR, artifactSelector: ".phead h1", gallery: SHELL_PAGE, gallerySelector: "main h1", properties: ["font-size", "line-height", "font-weight", "letter-spacing", "margin-top", "margin-bottom"] },
+  { id: "phead-description", artifact: SIDEBAR, artifactSelector: ".phead p", gallery: SHELL_PAGE, gallerySelector: "main h1 + p", properties: ["color", "margin-top", "margin-bottom"] },
+  { id: "command-trigger", artifact: SIDEBAR, artifactSelector: ".command-trigger", gallery: SHELL_PAGE, gallerySelector: 'main [aria-keyshortcuts="Meta+K Control+K"]', properties: ["height", "min-width", "border-radius", "background-color", "color", "padding-left", "gap"] },
+  { id: "sidebar-toggle", artifact: SIDEBAR, artifactSelector: ".sidebar-toggle", gallery: SHELL_PAGE, gallerySelector: 'main [aria-keyshortcuts="Meta+B Control+B"]', properties: ["height", "border-radius", "background-color", "color", "padding-left", "gap"] },
+  { id: "side-collapsed", artifact: SIDEBAR, artifactSelector: ".side", gallery: SHELL_PAGE, gallerySelector: "aside", properties: ["width", "padding-left", "padding-right"], artifactAction: COLLAPSE, galleryAction: COLLAPSE },
+  { id: "main-collapsed", artifact: SIDEBAR, artifactSelector: ".main", gallery: SHELL_PAGE, gallerySelector: "main", properties: ["margin-left"], artifactAction: COLLAPSE, galleryAction: COLLAPSE },
+  { id: "nav-link-collapsed", artifact: SIDEBAR, artifactSelector: ".nav a.on", gallery: SHELL_PAGE, gallerySelector: 'aside [aria-current="page"]', properties: ["justify-content", "padding-left", "padding-right"], artifactAction: COLLAPSE, galleryAction: COLLAPSE },
+  { id: "account-menu", artifact: "profile/avatar-menu.html", artifactSelector: ".user-menu-popover", gallery: SHELL_PAGE, gallerySelector: '[role="menu"]', properties: ["width", "background-color", "border-radius", "box-shadow", "padding-top", "padding-left"], galleryAction: { click: 'aside [aria-haspopup="menu"]' } },
+  { id: "account-menu-item", artifact: "profile/avatar-menu.html", artifactSelector: ".user-menu-item:not(.danger)", gallery: SHELL_PAGE, gallerySelector: '[role="menu"] [role="menuitem"]:not(:last-child)', properties: ["height", "padding-left", "border-radius", "display", "gap", "color", "font-weight"], galleryAction: { click: 'aside [aria-haspopup="menu"]' } },
+  { id: "account-menu-danger", artifact: "profile/avatar-menu.html", artifactSelector: ".user-menu-item.danger", gallery: SHELL_PAGE, gallerySelector: '[role="menu"] [role="menuitem"]:last-child', properties: ["color"], galleryAction: { click: 'aside [aria-haspopup="menu"]' } },
+  { id: "account-menu-separator", artifact: "profile/avatar-menu.html", artifactSelector: ".user-menu-sep", gallery: SHELL_PAGE, gallerySelector: '[role="menu"] [role="separator"]', properties: ["height", "background-color", "margin-top", "margin-left"], galleryAction: { click: 'aside [aria-haspopup="menu"]' } },
+  { id: "mobile-top", artifact: "profile/overview-mobile.html", artifactSelector: ".mobile-top", gallery: SHELL_PAGE, gallerySelector: "header", properties: ["display", "justify-content", "align-items", "padding-top", "padding-left", "background-color", "border-bottom-width", "border-bottom-color"], viewport: { width: 390, height: 844 } },
+  { id: "mobile-menu-button", artifact: "profile/overview-mobile.html", artifactSelector: ".mobile-top .btn", gallery: SHELL_PAGE, gallerySelector: "header button", properties: ["width", "height", "border-radius", "background-color", "box-shadow"], viewport: { width: 390, height: 844 } },
+];
+
+const PALETTE = "design-system/components/command-palette.html";
+const PALETTE_PAGE = "components/command-palette";
+const palette: ParityPair[] = [
+  { id: "palette", artifact: PALETTE, artifactSelector: ".command-palette", gallery: PALETTE_PAGE, gallerySelector: 'div:has(> [aria-label="Command palette"])', properties: ["width", "background-color", "border-radius", "box-shadow"] },
+  { id: "palette-search", artifact: PALETTE, artifactSelector: ".command-search", gallery: PALETTE_PAGE, gallerySelector: '[aria-label="Command palette"] > div:first-child', properties: ["padding-top", "padding-left", "border-bottom-width", "border-bottom-color"] },
+  { id: "palette-input", artifact: PALETTE, artifactSelector: ".command-search .input", gallery: PALETTE_PAGE, gallerySelector: '[role="dialog"] input', properties: ["height", "background-color", "border-radius", "padding-left"] },
+  { id: "palette-body", artifact: PALETTE, artifactSelector: ".command-body", gallery: PALETTE_PAGE, gallerySelector: '[role="dialog"] [role="menu"]', properties: ["max-height", "padding-top", "padding-left", "overflow-y"] },
+  { id: "palette-group", artifact: PALETTE, artifactSelector: ".command-group-title", gallery: PALETTE_PAGE, gallerySelector: '[role="dialog"] [role="menu"] header', properties: ["font-size", "line-height", "font-weight", "letter-spacing", "text-transform", "color", "padding-top", "padding-left", "padding-bottom"] },
+  { id: "palette-item-active", artifact: PALETTE, artifactSelector: ".command-item.active", gallery: PALETTE_PAGE, gallerySelector: '[role="menuitem"][data-focused]', properties: ["height", "padding-left", "border-radius", "display", "gap", "background-color", "color"] },
+  { id: "palette-item", artifact: PALETTE, artifactSelector: ".command-item:not(.active)", gallery: PALETTE_PAGE, gallerySelector: '[role="menuitem"]:not([data-focused])', properties: ["height", "padding-left", "border-radius", "background-color", "color"] },
+  { id: "palette-item-title", artifact: PALETTE, artifactSelector: ".command-item:not(.active) .command-title", gallery: PALETTE_PAGE, gallerySelector: '[role="menuitem"]:not([data-focused]) div > div:first-child', properties: ["font-weight", "color"] },
+  { id: "palette-foot", artifact: PALETTE, artifactSelector: ".dialog-foot", gallery: PALETTE_PAGE, gallerySelector: '[role="dialog"] > div:last-child', properties: ["display", "justify-content", "padding-top", "padding-left", "box-shadow"] },
+];
+
+export const parityPairs: ParityPair[] = [...foundations, ...actionsInputs, ...feedback, ...states, ...overlays, ...shell, ...palette];

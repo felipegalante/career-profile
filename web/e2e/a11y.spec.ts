@@ -1,9 +1,7 @@
 import AxeBuilder from "@axe-core/playwright";
 import { expect, test } from "@playwright/test";
 import { galleryRoutes } from "../src/gallery/routes";
-import { galleryUrl } from "./support/artifacts";
-
-export const WCAG_TAGS = ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "wcag22aa"];
+import { galleryUrl, WCAG_TAGS } from "./support/artifacts";
 
 for (const route of galleryRoutes) {
   test(`gallery ${route.path} has no WCAG 2.2 AA violations`, async ({ page }) => {

@@ -40,3 +40,38 @@ export function Swatch({ label, background, color, parityId }: { label: string; 
 export function NotArtifactBacked() {
   return <span className={styles.unbacked}>Not artifact-backed</span>;
 }
+
+export function ShortcutRow({ action, description, keys }: { action: string; description: string; keys: ReactNode }) {
+  return (
+    <div className={styles.shortcutRow}>
+      <div>
+        <div className={styles.shortcutAction}>{action}</div>
+        <div className={styles.shortcutDesc}>{description}</div>
+      </div>
+      <div className={styles.shortcutKeys}>{keys}</div>
+    </div>
+  );
+}
+
+export function DemoNote({ children }: { children: ReactNode }) {
+  return <div className={styles.demoNote}>{children}</div>;
+}
+
+export function Stat({ value, label }: { value: string; label: string }) {
+  return (
+    <div className={styles.stat}>
+      <div className={styles.statNum}>{value}</div>
+      <div className={styles.statSub}>{label}</div>
+    </div>
+  );
+}
+
+export function MobileFrame({ src, title }: { src: string; title: string }) {
+  return (
+    <div className={styles.mobileFrame}>
+      <iframe src={src} title={title} />
+    </div>
+  );
+}
+
+export const editorClassName = styles.editor;

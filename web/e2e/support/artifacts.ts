@@ -17,3 +17,5 @@ export async function blockRemoteFonts(page: Page): Promise<void> {
 export function galleryUrl(path: string): string {
   return `/gallery.html#/${path}`;
 }
+
+export const WCAG_TAGS = ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "wcag22aa"];
