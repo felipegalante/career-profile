@@ -15,6 +15,9 @@ export const galleryRoutes: GalleryRoute[] = [
   { path: "foundations/color", title: "Color", group: "Foundations", artifact: "design-system/color/color.html" },
   { path: "foundations/type-layout", title: "Type, spacing, and layout", group: "Foundations", artifact: "design-system/type-layout/type-layout.html" },
   { path: "primitives/actions-inputs", title: "Actions and inputs", group: "Primitives", artifact: "design-system/primitives/actions-inputs.html" },
+  { path: "primitives/feedback", title: "Feedback and disclosure", group: "Primitives", artifact: "design-system/primitives/feedback.html" },
+  { path: "states/collection-states", title: "Collection states", group: "States", artifact: "design-system/states/collection-states.html" },
+  { path: "states/form-states", title: "Form states", group: "States", artifact: "design-system/states/form-states.html" },
 ];
 
 export const galleryGroups: GalleryGroup[] = ["Foundations", "Primitives", "Components", "Patterns", "Shell", "States", "Compositions"];

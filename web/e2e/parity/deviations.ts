@@ -14,4 +14,7 @@ export const parityDeviations: ParityDeviation[] = [
   { id: "type-meta", property: "color", reason: INK_3 },
   { id: "type-overline", property: "color", reason: INK_3 },
   { id: "password-toggle", property: "color", reason: INK_3 },
+  { id: "toast-description", property: "color", reason: INK_3 },
+  { id: "stepdot-off", property: "color", reason: INK_3 },
+  { id: "help-error", property: "color", reason: "In the artifact, `.field .help` outranks `.danger-text`, so field errors render grey; errors use the danger color the class names intend." },
 ];

@@ -1,0 +1,4 @@
+@layer components{
+  .progress{height:6px;background:var(--sunken);border-radius:999px;overflow:hidden}
+  .fill{display:block;height:100%;background:var(--brand);border-radius:999px}
+}

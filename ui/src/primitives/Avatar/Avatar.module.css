@@ -1,0 +1,5 @@
+@layer components{
+  .avatar{width:32px;height:32px;border-radius:50%;background:var(--brand-tint);color:var(--brand-ink);display:flex;align-items:center;justify-content:center;font-weight:600;flex:none}
+  .sm{width:30px;height:30px}
+  .lg{width:48px;height:48px;font-size:16px}
+}

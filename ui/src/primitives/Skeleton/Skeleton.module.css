@@ -1,0 +1,5 @@
+@layer components{
+  .skeleton{border-radius:7px;background:linear-gradient(90deg,var(--sunken),var(--hover),var(--sunken));background-size:200% 100%;height:12px}
+  .lg{height:28px;width:48%}
+  .stack{display:flex;flex-direction:column;gap:16px}
+}

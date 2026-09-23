@@ -56,4 +56,43 @@ const actionsInputs: ParityPair[] = [
   { id: "password-toggle", artifact: ACTIONS, artifactSelector: ".trail.buttonlike", gallery: ACTIONS_PAGE, gallerySelector: '[data-parity-id="field-password"] button', properties: ["padding-top", "padding-left", "border-radius", "color"] },
 ];
 
-export const parityPairs: ParityPair[] = [...foundations, ...actionsInputs];
+const CALLOUT = ["display", "gap", "align-items", "padding-top", "padding-left", "border-radius", "background-color", "color"];
+const TOAST = ["display", "gap", "padding-top", "padding-left", "border-radius", "background-color", "color", "box-shadow"];
+const BADGE = ["display", "gap", "height", "padding-left", "border-radius", "background-color", "color", "font-size", "font-weight"];
+const CHIP = ["display", "gap", "min-height", "padding-top", "padding-left", "border-radius", "background-color", "color", "font-size", "font-weight", "box-shadow"];
+const FEEDBACK = "design-system/primitives/feedback.html";
+const FEEDBACK_PAGE = "primitives/feedback";
+const feedback: ParityPair[] = [
+  { id: "callout-info", artifact: FEEDBACK, artifactSelector: ".callout:not(.success):not(.warning):not(.danger)", gallery: FEEDBACK_PAGE, properties: CALLOUT },
+  { id: "callout-success", artifact: FEEDBACK, artifactSelector: ".callout.success", gallery: FEEDBACK_PAGE, properties: CALLOUT },
+  { id: "callout-warning", artifact: FEEDBACK, artifactSelector: ".callout.warning", gallery: FEEDBACK_PAGE, properties: CALLOUT },
+  { id: "callout-danger", artifact: FEEDBACK, artifactSelector: ".callout.danger", gallery: FEEDBACK_PAGE, properties: CALLOUT },
+  { id: "toast-success", artifact: "skills/skills-feedback.html", artifactSelector: ".toast.success", gallery: FEEDBACK_PAGE, properties: TOAST },
+  { id: "toast-danger", artifact: FEEDBACK, artifactSelector: ".toast-sample.danger", gallery: FEEDBACK_PAGE, gallerySelector: '[data-parity-id="toast-success"] ~ div', properties: ["background-color", "color", "border-radius", "box-shadow", "padding-top", "padding-left"] },
+  { id: "toast-description", artifact: "skills/skills-feedback.html", artifactSelector: ".toast.success .meta.faint", gallery: FEEDBACK_PAGE, gallerySelector: '[data-parity-id="toast-success"] b + div', properties: ["font-size", "line-height", "color"] },
+  { id: "skeleton-lg", artifact: FEEDBACK, artifactSelector: ".skeleton.skel-lg", gallery: FEEDBACK_PAGE, gallerySelector: '[data-parity-id="skeleton-lg"] > div', properties: ["height", "border-radius", "background-image", "background-size"] },
+  { id: "badge-brand", artifact: "design-system/overview/overview.html", artifactSelector: ".ds-head .badge.brand", gallery: FEEDBACK_PAGE, properties: BADGE },
+  { id: "badge-success", artifact: "design-system/overview/overview.html", artifactSelector: ".badge.success", gallery: FEEDBACK_PAGE, properties: BADGE },
+  { id: "avatar-lg", artifact: "profile/profile.html", artifactSelector: ".profile-hero .avatar.lg", gallery: FEEDBACK_PAGE, properties: ["width", "height", "border-radius", "background-color", "color", "font-size", "font-weight"] },
+  { id: "chip-brand", artifact: "design-system/components/profile-records.html", artifactSelector: ".chip", gallery: FEEDBACK_PAGE, properties: CHIP },
+  { id: "chip-neutral", artifact: "profile/profile.html", artifactSelector: ".chip.neutral", gallery: FEEDBACK_PAGE, properties: CHIP },
+  { id: "chip-custom", artifact: "design-system/components/skills.html", artifactSelector: ".chip.custom", gallery: FEEDBACK_PAGE, properties: CHIP },
+  { id: "progress", artifact: "design-system/overview/overview.html", artifactSelector: ".progress", gallery: FEEDBACK_PAGE, properties: ["height", "border-radius", "background-color"] },
+  { id: "progress-fill", artifact: "design-system/overview/overview.html", artifactSelector: ".progress span", gallery: FEEDBACK_PAGE, gallerySelector: '[data-parity-id="progress"] span', properties: ["height", "border-radius", "background-color"] },
+  { id: "stepdot-on", artifact: "onboarding/career.html", artifactSelector: ".stepdot.on", gallery: FEEDBACK_PAGE, gallerySelector: '[data-parity-id="stepper"] li[aria-current="step"]', properties: ["width", "height", "border-radius", "background-color", "color", "font-family", "font-size", "font-weight"] },
+  { id: "stepdot-off", artifact: "onboarding/career.html", artifactSelector: ".stepdot:not(.on)", gallery: FEEDBACK_PAGE, gallerySelector: '[data-parity-id="stepper"] li:last-child', properties: ["width", "height", "border-radius", "background-color", "color"] },
+  { id: "stepbar", artifact: "onboarding/career.html", artifactSelector: ".stepbar", gallery: FEEDBACK_PAGE, gallerySelector: '[data-parity-id="stepper"] li[aria-hidden="true"]', properties: ["height", "background-color"] },
+  { id: "kbd", artifact: "design-system/shell/keyboard-shortcuts.html", artifactSelector: ".kbd", gallery: FEEDBACK_PAGE, properties: ["min-width", "height", "padding-left", "border-radius", "background-color", "box-shadow", "color", "font-family", "font-size", "font-weight"] },
+];
+
+const COLLECTION = "design-system/states/collection-states.html";
+const states: ParityPair[] = [
+  { id: "empty", artifact: COLLECTION, artifactSelector: ".empty", gallery: "states/collection-states", properties: ["padding-top", "padding-left", "text-align"] },
+  { id: "empty-iconbox", artifact: COLLECTION, artifactSelector: ".empty .iconbox", gallery: "states/collection-states", gallerySelector: '[data-parity-id="empty"] > div[aria-hidden]', properties: ["width", "height", "border-radius", "background-color", "color", "margin-bottom"] },
+  { id: "empty-title", artifact: COLLECTION, artifactSelector: ".empty h3", gallery: "states/collection-states", gallerySelector: '[data-parity-id="empty"] h3', properties: ["font-size", "font-weight", "line-height", "margin-top", "margin-bottom"] },
+  { id: "empty-description", artifact: COLLECTION, artifactSelector: ".empty p", gallery: "states/collection-states", gallerySelector: '[data-parity-id="empty"] p', properties: ["color", "max-width", "margin-top", "margin-bottom"] },
+  { id: "empty-error-iconbox", artifact: COLLECTION, artifactSelector: "section:nth-of-type(4) .iconbox", gallery: "states/collection-states", gallerySelector: '[data-parity-id="empty-error"] > div[aria-hidden]', properties: ["background-color", "color"] },
+  { id: "help-error", artifact: "design-system/states/form-states.html", artifactSelector: ".help.danger-text", gallery: "states/form-states", gallerySelector: '[data-parity-id="field-url"] > :last-child', properties: ["font-size", "color"] },
+];
+
+export const parityPairs: ParityPair[] = [...foundations, ...actionsInputs, ...feedback, ...states];
