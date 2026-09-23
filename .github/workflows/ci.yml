@@ -35,5 +35,46 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: pnpm verify
-      - run: pnpm --filter web exec playwright install --with-deps chromium
+      - run: pnpm --filter web exec playwright install --with-deps chromium firefox webkit
       - run: pnpm --filter web test:e2e
+
+  visual:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 12.4.2
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm --filter web exec playwright install --with-deps chromium
+      # Writes any missing baselines. Playwright reports a written baseline as a failure, so the strict
+      # comparison below decides whether the job fails.
+      - id: visual
+        continue-on-error: true
+        run: pnpm --filter web exec playwright test --project=visual --update-snapshots=missing
+        env:
+          VISUAL: "1"
+      - id: baselines
+        run: |
+          if [ -n "$(git status --porcelain -- web/e2e/__screenshots__)" ]; then
+            echo "new=true" >> "$GITHUB_OUTPUT"
+            echo "::warning::New visual baselines were generated; download the visual-baselines artifact, review it and commit it."
+          fi
+      - if: steps.baselines.outputs.new == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: visual-baselines
+          path: web/e2e/__screenshots__
+      - if: steps.visual.outcome == 'failure'
+        run: pnpm --filter web exec playwright test --project=visual
+        env:
+          VISUAL: "1"
+      - if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: visual-diffs
+          path: web/test-results

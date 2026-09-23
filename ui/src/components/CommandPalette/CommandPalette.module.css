@@ -1,0 +1,19 @@
+/* .command-palette, .command-search, .command-body, .command-group-title, .command-item and .command-empty from the artifacts. */
+@layer components{
+  .palette{width:min(620px,calc(100vw - 48px));background:var(--surface);border-radius:14px;box-shadow:var(--e3);overflow:hidden;outline:none}
+  .dialog{outline:none}
+  .search{padding:14px;border-bottom:1px solid var(--line)}
+  .input{height:44px;background:var(--surface)}
+  .body{max-height:430px;overflow:auto;padding:8px;outline:none}
+  .groupTitle{font-size:11px;line-height:16px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);padding:9px 10px 5px}
+  .item{height:42px;padding:0 10px;border-radius:8px;display:flex;align-items:center;gap:10px;color:var(--ink-2);cursor:pointer;outline:none}
+  .item[data-focused]{background:var(--brand-tint);color:var(--brand-ink)}
+  .item svg{width:17px;height:17px;flex:none}
+  .copy{flex:1;min-width:0}
+  .title{font-weight:500;color:var(--ink)}
+  .item[data-focused] .title{color:var(--brand-ink)}
+  .description{font-size:12px;line-height:16px;color:var(--ink-3)}
+  .empty{padding:28px;text-align:center;color:var(--ink-2)}
+  .foot{justify-content:space-between;align-items:center}
+  .hints{font-size:12px;line-height:16px;color:var(--ink-3);display:flex;align-items:center;gap:6px}
+}

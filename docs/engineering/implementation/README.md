@@ -32,7 +32,7 @@ Each phase is a milestone, **not one PR**. [Reviewable slices](REVIEW_SLICES.md)
 
 ## Why this differs from the previous plan
 
-- Phase 00 establishes only reusable infrastructure needed immediately. Build the command palette with the shell, a fixed Admin table with Admin, and the specified dialog with real record fields. Extract domain-independent logic only when a second concrete consumer demonstrates the common contract.
+- The shared UI library (`ui/`, [ADR 0011](../../architecture/adr/0011-shared-ui-workspace-package.md)) is built from the design artifacts ahead of its consumers, so phases compose the existing shell, palette, CatalogCombobox, ProfileRecordDialog, skill board and table parts instead of building them. Their APIs stay provisional until the first feature uses them, and an existing component satisfies no acceptance criterion on its own. Server-side logic is extracted only when a second concrete consumer demonstrates the common contract.
 - Establish profile identity and guarded shell before full onboarding. Incomplete users remain guarded; developers use complete test fixtures to review intermediate Profile slices. Do not bypass ONB-AC-001 in production to make intermediate demos convenient.
 - Introduce MANUAL provenance with the persisted catalog-skill slice in 03, before Experience/Education/Certification attach sources. Every source slice owns its final deletion/derivation behavior; no late retrofit of a polymorphic ID model.
 - Implement catalog interaction with a saved Skills action, then extract shared server mechanics when the second catalog consumer arrives. Company tables and dependent selectors arrive with Work in 05. Load each domain's schema/seeds with its consumer, not all domain tables before any usable slice.

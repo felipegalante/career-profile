@@ -19,3 +19,22 @@ Provide a consistent modal/sheet shell for Work Experience, Education, and Certi
 ## Composition
 
 The shell provides structure only. Each feature owns field order, validation, catalog dependencies, and mutation input.
+
+## API
+
+Exported from `@career-profile/ui`:
+
+```tsx
+<ProfileRecordDialog
+  title="Add work experience"
+  isOpen={isOpen}
+  onOpenChange={setOpen}
+  onSubmit={(event) => { event.preventDefault(); save(); }}
+  isSaving={isSaving}              // Save shows "Saving…"; Cancel, close and Escape are disabled
+  errorMessage={serverError}       // focused alert above the fields; values stay in the form
+>
+  {fields}
+</ProfileRecordDialog>
+```
+
+Fields are spaced 14px apart. Enter in a field submits the form. The dialog follows the artifact sizing (620px, at most the viewport width minus 48px), which already fills small screens.

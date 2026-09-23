@@ -1,0 +1,9 @@
+/* .tabs and .tab from the artifacts (profile/account.html). */
+@layer components{
+  .list{display:flex;align-items:center;gap:4px;border-bottom:1px solid var(--line);padding:0 22px}
+  .tab{height:42px;padding:0 12px;display:flex;align-items:center;border-bottom:2px solid transparent;color:var(--ink-2);font-weight:500;cursor:pointer;outline:none}
+  .tab[data-hovered]{color:var(--ink)}
+  .tab[data-selected]{color:var(--brand-ink);border-bottom-color:var(--brand)}
+  .tab[data-focus-visible]{outline:2px solid var(--ring);outline-offset:-4px;border-radius:6px 6px 0 0}
+  .panel{outline:none}
+}

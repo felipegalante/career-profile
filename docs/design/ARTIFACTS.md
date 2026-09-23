@@ -7,6 +7,14 @@ Browsable review pages:
 
 Work Experience, Skills, Education, and Certifications are Profile section/dialog states, not separate primary navigation destinations.
 
+## Reading the artifacts
+
+The artifacts are the visual source of truth and are implemented by the `@career-profile/ui` package; open `gallery.html` in the web dev server to compare the implementation with any artifact.
+
+- When artifacts disagree, design-system artifacts define component anatomy and page artifacts define composition and copy. Between two design-system artifacts, the dedicated component specimen wins over the generic primitive specimen.
+- Dashed `hidden-preview` boxes (for example "Job Title will appear after you select a Company.") are reviewer annotations for fields that are not rendered yet; they are not product UI.
+- Where the artifact CSS contradicts its own intent (undefined `--brand-line`, specificity that turns error and destructive text grey, the 6px login icon offset, the always-visible palette in `design-system/shell/sidebar.html`), the implementation follows the intent. The full list is under [Deviations](DESIGN_SYSTEM.md#deviations-from-the-artifacts).
+
 ## Design system
 
 - [Color](artifacts/design-system/color/color.html)

@@ -1,0 +1,12 @@
+/* .selectbox and the .menu/.mi listbox from the artifacts (experience/employment-type.html). */
+@layer components{
+  .selectbox{width:100%;height:40px;border:0;border-radius:8px;background:var(--sunken);display:flex;align-items:center;justify-content:space-between;padding:0 12px;color:var(--ink);cursor:pointer;text-align:left}
+  .selectbox[data-focus-visible],.selectbox[data-pressed],.select[data-open] .selectbox{outline:none;background:var(--surface);box-shadow:inset 0 0 0 1px var(--brand),0 0 0 3px var(--brand-tint)}
+  .select[data-invalid] .selectbox{background:var(--surface);box-shadow:inset 0 0 0 1px var(--danger)}
+  .value{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .popover{width:var(--trigger-width);background:var(--surface);box-shadow:var(--e2);border-radius:10px;padding:6px;outline:none;overflow:auto}
+  .listbox{outline:none}
+  .item{height:34px;border-radius:7px;padding:0 9px;display:flex;align-items:center;gap:8px;color:var(--ink-2);cursor:default;outline:none}
+  .item[data-selected],.item[data-hovered],.item[data-focused]{background:var(--hover);color:var(--ink)}
+  .item[data-focus-visible]{outline:2px solid var(--ring);outline-offset:-2px}
+}

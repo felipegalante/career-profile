@@ -28,8 +28,9 @@ Use the shared `CatalogCombobox` for catalog-backed profile fields.
 - Escape closes.
 - Screen reader receives expanded state, active option, loading, and result count.
 - No-results state should distinguish `nothing found` from a request failure.
-- Eligible fields expose a consistent `Create custom` option when there is no exact visible match.
+- Eligible fields expose a consistent `Create custom {noun} “query”` option, listed first, when there is no exact visible match; in the no-results state it remains a keyboard-reachable option.
 - Search results can include global values plus only the current viewer's custom values.
+- The first Escape closes the listbox; the next closes the surrounding dialog.
 
 ## Dependent fields
 
@@ -42,7 +43,9 @@ Use the shared `CatalogCombobox` for catalog-backed profile fields.
 
 Use toasts for short-lived confirmation. Use inline/banner errors for errors that require a decision or retry.
 
-Skill removal/dismissal is the approved reversible destructive pattern: remove the chip immediately, then provide a brief `Undo` toast. A persistence error restores the prior chip and counts instead of offering a misleading success state.
+Skill removal/dismissal is the approved reversible destructive pattern: remove the chip immediately, then provide an `Undo` toast. A persistence error restores the prior chip and counts instead of offering a misleading success state.
+
+Toast timing: plain toasts hide after 2600 ms; toasts with an action such as `Undo` stay for 8000 ms so keyboard and screen-reader users can reach the action. Timers pause while the pointer or keyboard focus is inside the toast, and every toast has a Dismiss button.
 
 Success feedback examples:
 
@@ -131,3 +134,8 @@ Authenticated desktop surfaces support two required accelerators:
 - `Cmd+K` / `Ctrl+K` — open the global command palette.
 
 Shortcut behavior must remain discoverable through visible controls and shortcut hints. The command palette uses Arrow Up/Down, Enter, and Escape. Focus returns to the invoking control when the palette closes. Do not stack the palette over a blocking dialog, and do not steal `Cmd/Ctrl+B` from an intentional rich-text/contenteditable editor.
+
+## Focus and contrast
+
+- Every interactive control shows a 2px `--ring` outline on keyboard focus; text inputs, comboboxes and select triggers use the input focus treatment (brand border plus tint halo) instead.
+- Text, including faint meta text, meets WCAG AA contrast (4.5:1) on every surface it appears on.

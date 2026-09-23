@@ -1,0 +1,23 @@
+/*
+ * Design tokens reproduced from docs/design/artifacts/assets/styles.css (:root).
+ * Two values intentionally differ from the artifact, and tokens.test.ts enforces that nothing else does:
+ * - --ink-3 is L 0.51 instead of 0.54 so faint text meets WCAG AA (4.5:1) on sunken, tint, hover and toast surfaces.
+ * - --brand-line is referenced by the artifact drag styles but never defined there.
+ */
+:root{
+  --canvas: oklch(0.975 0.004 258); --surface: oklch(1 0 0); --sunken: oklch(0.958 0.005 258);
+  --hover: oklch(0.944 0.006 258); --line: oklch(0.915 0.006 258); --line-strong: oklch(0.85 0.009 258);
+  --ink: oklch(0.21 0.02 262); --ink-2: oklch(0.46 0.018 262); --ink-3: oklch(0.51 0.014 262);
+  --brand: oklch(0.42 0.11 262); --brand-hover: oklch(0.37 0.11 262); --brand-fg: oklch(0.99 0 0);
+  --brand-tint: oklch(0.952 0.022 262); --brand-ink: oklch(0.42 0.11 262); --ring: oklch(0.62 0.12 262);
+  --brand-line: oklch(0.88 0.05 262);
+  --accent: oklch(0.5 0.12 292); --accent-tint: oklch(0.962 0.02 292); --accent-line: oklch(0.88 0.05 292);
+  --success: oklch(0.5 0.11 155); --success-tint: oklch(0.955 0.03 155);
+  --warning: oklch(0.5 0.11 65); --warning-tint: oklch(0.962 0.04 85);
+  --danger: oklch(0.52 0.15 25); --danger-tint: oklch(0.958 0.02 25);
+  --info: oklch(0.5 0.1 240); --info-tint: oklch(0.955 0.02 240);
+  --scrim: oklch(0.2 0.02 262 / .34);
+  --e1: 0 0 0 1px var(--line),0 1px 2px rgb(15 23 42/.04);
+  --e2: 0 0 0 1px var(--line),0 1px 3px rgb(15 23 42/.06),0 8px 24px rgb(15 23 42/.09);
+  --e3: 0 0 0 1px var(--line),0 4px 12px rgb(15 23 42/.06),0 24px 64px rgb(15 23 42/.18);
+}

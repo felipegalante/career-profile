@@ -1,0 +1,29 @@
+/* .resume-* from the artifacts (resume/generated.html). The printed document uses its own fixed palette. */
+@layer components{
+  .preview{max-width:1040px;margin:0 auto}
+  .toolbar{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-bottom:20px}
+  .toolbarTitle{margin:0;font-size:28px;line-height:normal;font-weight:bold}
+  .toolbarText{margin:5px 0 0;color:var(--ink-2)}
+  .actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+  .note{margin:0 auto 16px;width:min(816px,100%)}
+  .paper{--resume-accent:#1f3f77;--resume-text:#111827;--resume-body:#334155;--resume-muted:#475569;--resume-quiet:#64748b;--resume-rule:#cbd5e1;--resume-strong:#1f2937;
+    width:min(816px,100%);margin:0 auto;background:#fff;color:var(--resume-text);box-shadow:0 12px 45px rgb(15 23 42/.12);padding:56px 62px;min-height:1056px}
+  .head{display:flex;justify-content:space-between;gap:24px;padding-bottom:18px;border-bottom:2px solid var(--resume-accent)}
+  .name{margin:0;font-size:30px;line-height:34px;font-weight:600;letter-spacing:-.025em}
+  .role{font-size:15px;color:var(--resume-body);margin-top:4px}
+  .contact{text-align:right;font-size:11px;line-height:18px;color:var(--resume-muted);font-style:normal}
+  .section{margin-top:22px}
+  .sectionTitle{margin:0 0 10px;font-size:11px;line-height:16px;letter-spacing:.08em;text-transform:uppercase;color:var(--resume-accent);font-weight:600;padding-bottom:5px;border-bottom:1px solid var(--resume-rule)}
+  .summary{margin:0;font-size:12px;line-height:19px;color:var(--resume-body)}
+  .item{margin-top:14px}
+  .item:first-child{margin-top:0}
+  .itemHead{display:flex;justify-content:space-between;gap:16px;align-items:flex-start}
+  .itemTitle{font-size:13px;font-weight:600}
+  .itemSub{font-size:11px;color:var(--resume-muted);margin-top:2px}
+  .date{font-size:10.5px;color:var(--resume-quiet);white-space:nowrap}
+  .bullets{margin:7px 0 0 17px;padding:0;color:var(--resume-body);font-size:11.5px;line-height:17px}
+  .skills{display:grid;grid-template-columns:120px 1fr;gap:7px 14px;font-size:11.5px;line-height:17px;margin:0}
+  .skills dt{color:var(--resume-strong);font-weight:bold}
+  .skills dd{margin:0}
+  @media(max-width:720px){.paper{padding:34px 28px;min-height:auto}.head{flex-direction:column}.contact{text-align:left}.itemHead{flex-direction:column;gap:3px}.skills{grid-template-columns:1fr}.toolbar{flex-direction:column}}
+}

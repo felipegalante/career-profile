@@ -1,0 +1,9 @@
+/* .phead and .actions from the artifacts. */
+@layer components{
+  .phead{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;margin-bottom:20px}
+  .title{margin:0;font-size:26px;line-height:32px;font-weight:600;letter-spacing:-.02em}
+  .description{margin:3px 0 0;color:var(--ink-2)}
+  .actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+  .shellControls{display:contents}
+  @media(max-width:860px){.shellControls{display:none}}
+}

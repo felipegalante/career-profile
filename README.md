@@ -46,8 +46,9 @@ Start with:
 - **React 19**
 - **Vite 8**
 - **Tailwind CSS 4**
-- **Vitest** and **Testing Library**
-- **pnpm workspaces** (`api`, `web`)
+- **React Aria Components** for accessible interactive primitives
+- **Vitest**, **Testing Library** and **Playwright** (with axe)
+- **pnpm workspaces** (`api`, `ui`, `web`)
 
 The product API is GraphQL. Operational endpoints may exist only when infrastructure needs them.
 
@@ -55,6 +56,7 @@ The product API is GraphQL. Operational endpoints may exist only when infrastruc
 
 ```text
 api/                           Node/TypeScript + Fastify + GraphQL
+ui/                            Shared React components and design tokens (@career-profile/ui)
 web/                           React + Vite + Tailwind
 db/migrations/                 Drizzle Kit-managed SQL migrations
 db/seeds/                      Seed source data
@@ -92,6 +94,7 @@ pnpm dev
 ```
 
 - Web: `http://localhost:5173`
+- Component gallery: `http://localhost:5173/gallery.html` (development only)
 - API host: `http://localhost:3001`
 - Liveness: `http://localhost:3001/livez`
 - Database readiness: `http://localhost:3001/readyz`

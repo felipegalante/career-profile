@@ -1,0 +1,8 @@
+@layer components{
+  .callout{padding:12px 14px;border-radius:9px;background:var(--info-tint);color:var(--info);display:flex;gap:10px;align-items:flex-start}
+  .success{background:var(--success-tint);color:var(--success)}
+  .warning{background:var(--warning-tint);color:var(--warning)}
+  .danger{background:var(--danger-tint);color:var(--danger)}
+  .icon{flex:none}
+  .body{min-width:0}
+}

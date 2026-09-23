@@ -16,5 +16,8 @@ Do **not** create ADRs for ordinary product requirements, UI behavior, terminolo
 | [0008](0008-postgresql-catalog-search.md) | PostgreSQL + pg_trgm for shared catalog search | Accepted |
 | [0009](0009-drizzle-orm.md) | Drizzle ORM on node-postgres | Accepted |
 | [0010](0010-fastify-http-runtime.md) | Fastify 5 HTTP runtime | Accepted |
+| [0011](0011-shared-ui-workspace-package.md) | Shared UI workspace package | Accepted |
+| [0012](0012-react-aria-components.md) | React Aria Components as the headless accessibility layer | Accepted |
+| [0013](0013-css-modules-over-artifact-tokens.md) | CSS Modules over artifact design tokens | Accepted |
 
 The project is pre-implementation. Once implementation begins, materially changing an accepted ADR should normally create a superseding ADR rather than rewriting history.

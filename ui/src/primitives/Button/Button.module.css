@@ -1,0 +1,14 @@
+/* Copied from the artifact .btn rules; RAC state attributes replace the :hover and .disabled selectors. */
+@layer components{
+  .btn{height:36px;padding:0 14px;border:0;border-radius:8px;display:inline-flex;align-items:center;justify-content:center;gap:8px;background:none;font-weight:500;cursor:pointer;white-space:nowrap}
+  .primary{background:var(--brand);color:var(--brand-fg);box-shadow:0 1px 2px rgb(15 23 42/.06)}
+  .primary[data-hovered]{background:var(--brand-hover)}
+  .secondary{background:var(--surface);box-shadow:0 0 0 1px var(--line),0 1px 2px rgb(15 23 42/.05)}
+  .ghost{color:var(--ink-2)}
+  .danger{color:var(--danger)}
+  .sm{height:30px;padding:0 10px;font-size:13px;border-radius:7px}
+  .lg{height:44px;padding:0 18px;font-size:15px;border-radius:10px}
+  .icon{width:36px;padding:0}
+  .btn[data-disabled],.btn[data-pending]{opacity:.45;cursor:not-allowed}
+  .btn svg{width:16px;height:16px}
+}

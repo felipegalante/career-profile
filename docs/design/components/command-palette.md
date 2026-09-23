@@ -24,24 +24,21 @@ CommandPalette
 - no-results state explains that no commands match;
 - blocking dialogs prevent the palette from opening on top of them.
 
-## Command registry
+## Commands
 
-The shell owns a permission-aware registry. Commands may provide:
+The application builds the command list for the current user and page and passes it to `AppShell` as `commands` (the palette is also exported as `CommandPalette`). Each command provides:
 
-- stable command id;
-- label;
-- optional description;
-- group;
-- icon;
-- navigation destination or action callback;
-- visibility predicate based on role/current context;
-- optional shortcut hint.
+- stable `id`;
+- `label` and optional `description`;
+- `group` (sections keep first-seen order, for example Navigation then Profile actions);
+- `icon`;
+- `href` for navigation or `onAction` for an action.
 
-Do not render commands the current user is unauthorized to execute.
+Role and context filtering happens before the list reaches the shell: do not pass commands the current user is unauthorized to execute. The first command is active on open; running a command closes the palette.
 
 ## Shortcut presentation
 
-Use the compact `kbd` primitive. Display `⌘K` on macOS and `Ctrl K` on Windows/Linux. The visible palette trigger exposes `aria-keyshortcuts` for both Meta and Control variants.
+Use the compact `kbd` primitive. Display `⌘ K` on macOS and `Ctrl K` on Windows/Linux. The visible palette trigger exposes `aria-keyshortcuts` for both Meta and Control variants.
 
 ## Accessibility
 
