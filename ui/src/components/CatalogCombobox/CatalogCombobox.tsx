@@ -38,6 +38,8 @@ export interface CatalogComboboxProps<P = undefined> {
   /** Singular noun used in the create option, for example "company" or "major / specialization". */
   customNoun?: string;
   placeholder?: string;
+  /** Keeps the label for assistive technology only, when a visible heading already names the field. */
+  hideLabel?: boolean;
   description?: ReactNode;
   errorMessage?: ReactNode;
   isRequired?: boolean;
@@ -98,6 +100,7 @@ export function CatalogCombobox<P = undefined>({
   onCreateCustom,
   customNoun,
   placeholder,
+  hideLabel = false,
   description,
   errorMessage,
   isRequired,
@@ -203,7 +206,7 @@ export function CatalogCombobox<P = undefined>({
       validationBehavior="aria"
     >
       <OpenBridge onReady={(open) => (openRef.current = open)} />
-      <FieldLabel isRequired={isRequired}>{label}</FieldLabel>
+      {hideLabel ? <VisuallyHidden><FieldLabel isRequired={isRequired}>{label}</FieldLabel></VisuallyHidden> : <FieldLabel isRequired={isRequired}>{label}</FieldLabel>}
       <div className={fieldStyles.shell}>
         <span className={fieldStyles.lead}><Icon name="search" /></span>
         <Input placeholder={placeholder} className={cx(fieldStyles.input, fieldStyles.withIcon)} />

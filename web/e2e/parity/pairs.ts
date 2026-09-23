@@ -208,4 +208,30 @@ const profile: ParityPair[] = [
   { id: "focus-description", artifact: FOCUS, artifactSelector: ".focus-card p.muted", gallery: "compositions/focus", gallerySelector: '[data-parity-id="focus-card"] p', properties: ["color", "margin-top", "margin-bottom"] },
 ];
 
-export const parityPairs: ParityPair[] = [...foundations, ...actionsInputs, ...feedback, ...states, ...overlays, ...shell, ...palette, ...combobox, ...profile];
+const SKILLS = "design-system/components/skills.html";
+const SKILLS_PAGE = "components/skills";
+const TECHNICAL = '[data-skill-category="TECHNICAL"]';
+const skills: ParityPair[] = [
+  { id: "skill-grid", artifact: SKILLS, artifactSelector: ".skill-grid", gallery: SKILLS_PAGE, gallerySelector: `div:has(> ${TECHNICAL})`, properties: ["display", "column-gap", "row-gap"] },
+  { id: "skill-card", artifact: SKILLS, artifactSelector: ".skill-card", gallery: SKILLS_PAGE, gallerySelector: TECHNICAL, properties: ["padding-top", "padding-left", "padding-bottom", "border-radius", "box-shadow", "background-color"] },
+  { id: "skill-card-head", artifact: SKILLS, artifactSelector: ".skill-card-head", gallery: SKILLS_PAGE, gallerySelector: `${TECHNICAL} > div:first-child`, properties: ["display", "align-items", "justify-content", "gap", "min-height"] },
+  { id: "skill-card-title", artifact: SKILLS, artifactSelector: ".skill-card-head .section-title", gallery: SKILLS_PAGE, gallerySelector: `${TECHNICAL} h3`, properties: ["font-size", "line-height", "font-weight", "letter-spacing"] },
+  { id: "skill-card-badge", artifact: SKILLS, artifactSelector: ".skill-card-head .badge", gallery: SKILLS_PAGE, gallerySelector: `${TECHNICAL} > div:first-child > span`, properties: ["height", "padding-left", "border-radius", "background-color", "color", "font-size"] },
+  { id: "lane", artifact: SKILLS, artifactSelector: ".lane", gallery: SKILLS_PAGE, gallerySelector: `${TECHNICAL} section`, properties: ["padding-top", "padding-bottom", "border-top-width", "border-top-color"] },
+  { id: "lane-head", artifact: SKILLS, artifactSelector: ".lane-head", gallery: SKILLS_PAGE, gallerySelector: `${TECHNICAL} section > div:first-child`, properties: ["display", "align-items", "justify-content", "gap", "margin-bottom"] },
+  { id: "level", artifact: SKILLS, artifactSelector: ".level", gallery: SKILLS_PAGE, gallerySelector: `${TECHNICAL} h4`, properties: ["display", "align-items", "gap", "font-weight", "font-size"] },
+  { id: "level-dot-on", artifact: SKILLS, artifactSelector: ".dots i.on", gallery: SKILLS_PAGE, gallerySelector: `${TECHNICAL} h4 i:first-child`, properties: ["width", "height", "border-radius", "background-color"] },
+  { id: "level-dot-off", artifact: SKILLS, artifactSelector: '.lane[data-proficiency="BEGINNER"] .dots i:last-child', gallery: SKILLS_PAGE, gallerySelector: `${TECHNICAL} section[data-proficiency="BEGINNER"] h4 i:last-child`, properties: ["width", "height", "background-color"] },
+  { id: "lane-count", artifact: SKILLS, artifactSelector: ".count", gallery: SKILLS_PAGE, gallerySelector: `${TECHNICAL} section > div:first-child > span`, properties: ["font-family", "font-size", "line-height", "font-weight", "color", "text-transform"] },
+  { id: "lane-chips", artifact: SKILLS, artifactSelector: ".lane .chips", gallery: SKILLS_PAGE, gallerySelector: `${TECHNICAL} section ul`, properties: ["display", "flex-wrap", "gap", "margin-top"] },
+  { id: "edit-chip", artifact: SKILLS, artifactSelector: '.chip[draggable="true"]:not(.custom)', gallery: SKILLS_PAGE, gallerySelector: `${TECHNICAL} li[data-skill-id]`, properties: ["display", "align-items", "gap", "min-height", "padding-top", "padding-left", "border-radius", "background-color", "color", "font-size", "font-weight"] },
+  { id: "edit-chip-custom", artifact: SKILLS, artifactSelector: ".chip.custom", gallery: SKILLS_PAGE, gallerySelector: `${TECHNICAL} li[data-skill-id="graphql"]`, properties: ["background-color", "color", "box-shadow"] },
+  { id: "drag-handle", artifact: SKILLS, artifactSelector: ".drag-handle", gallery: SKILLS_PAGE, gallerySelector: `${TECHNICAL} li[data-skill-id] [aria-hidden="true"]`, properties: ["color", "font-size", "letter-spacing", "margin-right"] },
+  { id: "chip-remove", artifact: SKILLS, artifactSelector: ".skill-remove", gallery: SKILLS_PAGE, gallerySelector: `${TECHNICAL} li[data-skill-id] > button`, properties: ["min-width", "min-height", "padding-left", "border-radius", "color", "background-color"] },
+  { id: "lane-empty", artifact: SKILLS, artifactSelector: ".empty-lane-copy", gallery: SKILLS_PAGE, gallerySelector: `${TECHNICAL} section[data-proficiency="BEGINNER"] li`, properties: ["font-size", "line-height", "color"] },
+  { id: "lane-show-all", artifact: SKILLS, artifactSelector: ".lane .btn.sm.ghost", gallery: SKILLS_PAGE, gallerySelector: `${TECHNICAL} section[data-proficiency="INTERMEDIATE"] > div:last-child button`, properties: ["height", "padding-left", "border-radius", "font-size", "color"] },
+  { id: "drag-rule", artifact: SKILLS, artifactSelector: ".drag-rule", gallery: SKILLS_PAGE, gallerySelector: 'div:has(+ div > [data-skill-category])', properties: ["display", "gap", "margin-top", "padding-top", "padding-left", "border-radius", "background-color", "color", "font-size", "line-height"] },
+  { id: "section-head-embedded", artifact: "profile/profile.html", artifactSelector: ".profile-section .section-head", gallery: "compositions/profile", gallerySelector: '[data-parity-id="section-embedded"] > div:first-child', properties: ["padding-top", "padding-left", "padding-bottom", "display", "align-items", "justify-content", "gap"] },
+];
+
+export const parityPairs: ParityPair[] = [...foundations, ...actionsInputs, ...feedback, ...states, ...overlays, ...shell, ...palette, ...combobox, ...profile, ...skills];

@@ -73,3 +73,5 @@ export { FocusCard, ProfileHero, ProfilePlaceholder, ProfileSection, RecordActio
 export type { FocusCardProps, ProfileHeroProps, ProfilePlaceholderProps, ProfileSectionProps, RecordActionsMenuProps, RecordItemProps } from "./components/Profile/Profile";
 export { ProfileRecordDialog } from "./components/ProfileRecordDialog/ProfileRecordDialog";
 export type { ProfileRecordDialogProps } from "./components/ProfileRecordDialog/ProfileRecordDialog";
+export { ProficiencyIndicator, ProficiencyLane, SkillBoard, SkillCategoryCard, categoryLabels, proficiencyLabels } from "./components/skills/Skills";
+export type { Proficiency, ProficiencyLaneProps, SkillBoardProps, SkillCategory, SkillCategoryCardProps, SkillCategoryData, SkillChipData, SkillLaneData } from "./components/skills/Skills";

@@ -22,6 +22,11 @@ export const parityDeviations: ParityDeviation[] = [
   { id: "combo-disabled", property: "color", reason: INK_3 },
   { id: "record-meta", property: "color", reason: INK_3 },
   { id: "section-description", property: "color", reason: INK_3 },
+  { id: "lane-count", property: "color", reason: INK_3 },
+  { id: "lane-count", property: "text-transform", reason: "Lane counts are written \"Showing n of m\" and uppercased in CSS so screen readers read words rather than capitals." },
+  { id: "drag-handle", property: "color", reason: INK_3 },
+  { id: "chip-remove", property: "color", reason: INK_3 },
+  { id: "lane-empty", property: "color", reason: INK_3 },
   { id: "help-error", property: "color", reason: "In the artifact, `.field .help` outranks `.danger-text`, so field errors render grey; errors use the danger color the class names intend." },
   { id: "menu-item-danger", property: "color", reason: "In the artifact, `.menu .mi` outranks `.danger-text`, so destructive menu items render grey; they use the danger color the class names intend." },
 ];

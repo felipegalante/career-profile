@@ -7,6 +7,9 @@ import { ProfileRecordsPage } from "./components/ProfileRecordsPage";
 import { ProfileEmptyPage } from "./compositions/ProfileEmptyPage";
 import { ExperiencePage } from "./compositions/ExperiencePage";
 import { FocusPage } from "./compositions/FocusPage";
+import { SkillsPage } from "./components/SkillsPage";
+import { ProfilePage } from "./compositions/ProfilePage";
+import { SkillsEditPage } from "./compositions/SkillsEditPage";
 import { TypeLayoutPage } from "./foundations/TypeLayoutPage";
 import { ActionsInputsPage } from "./primitives/ActionsInputsPage";
 import { FeedbackPage } from "./primitives/FeedbackPage";
@@ -30,6 +33,9 @@ export const galleryPages: Record<string, ComponentType> = {
   "compositions/profile-empty": ProfileEmptyPage,
   "compositions/experience": ExperiencePage,
   "compositions/focus": FocusPage,
+  "components/skills": SkillsPage,
+  "compositions/profile": ProfilePage,
+  "compositions/skills-edit": SkillsEditPage,
   "foundations/color": ColorPage,
   "foundations/type-layout": TypeLayoutPage,
   "primitives/actions-inputs": ActionsInputsPage,
