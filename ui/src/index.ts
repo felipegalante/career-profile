@@ -67,3 +67,5 @@ export { useShell } from "./shell/ShellContext";
 export type { ShellState } from "./shell/ShellContext";
 export { isModifierShortcut, useShellShortcuts } from "./shell/useShellShortcuts";
 export type { ShellShortcutHandlers } from "./shell/useShellShortcuts";
+export { CatalogCombobox, DEFAULT_CATALOG_DEBOUNCE_MS } from "./components/CatalogCombobox/CatalogCombobox";
+export type { CatalogComboboxProps, CatalogOption, CatalogSearch, CatalogSearchResult, CatalogSelection } from "./components/CatalogCombobox/CatalogCombobox";

@@ -3,10 +3,13 @@ import { artifactUrl, blockRemoteFonts, galleryUrl } from "./support/artifacts";
 import { parityDeviations } from "./parity/deviations";
 import { parityPairs, type ParityAction, type ParityPair } from "./parity/pairs";
 
-async function perform(page: Page, action: ParityAction | undefined): Promise<void> {
-  if (!action) return;
-  if ("press" in action) await page.keyboard.press(action.press);
-  else await page.locator(action.click).first().click();
+async function perform(page: Page, actions: ParityAction | ParityAction[] | undefined): Promise<void> {
+  for (const action of actions === undefined ? [] : Array.isArray(actions) ? actions : [actions]) {
+    if ("press" in action) await page.keyboard.press(action.press);
+    else if ("click" in action) await page.locator(action.click).first().click();
+    else if ("type" in action) await page.locator(action.type).first().pressSequentially(action.text);
+    else await page.locator(action.waitFor).first().waitFor();
+  }
 }
 
 async function computedStyles(page: Page, selector: string, pair: ParityPair): Promise<Record<string, string>> {

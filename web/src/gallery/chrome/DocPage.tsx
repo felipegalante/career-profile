@@ -1,4 +1,4 @@
-import type { CSSProperties, ReactNode } from "react";
+import { Fragment, type CSSProperties, type ReactNode } from "react";
 import { Text } from "@career-profile/ui";
 import styles from "./DocPage.module.css";
 
@@ -75,3 +75,21 @@ export function MobileFrame({ src, title }: { src: string; title: string }) {
 }
 
 export const editorClassName = styles.editor;
+
+/** Documentation flow diagram (.flow, .flow-card, .arrow in the artifacts). */
+export function Flow({ steps }: { steps: Array<[string, string]> }) {
+  return (
+    <div className={styles.flow}>
+      {steps.map(([title, detail], index) => (
+        <Fragment key={title}>
+          {index > 0 ? <span className={styles.flowArrow} aria-hidden="true">→</span> : null}
+          <div className={styles.flowCard}><b>{title}</b><div className="text-xs text-ink-3">{detail}</div></div>
+        </Fragment>
+      ))}
+    </div>
+  );
+}
+
+export function Note({ children, className }: { children: ReactNode; className?: string }) {
+  return <div className={[styles.note, className].filter(Boolean).join(" ")}>{children}</div>;
+}

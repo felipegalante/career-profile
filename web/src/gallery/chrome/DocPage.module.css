@@ -27,3 +27,9 @@
   .editor{min-height:64px;padding:10px 12px;border-radius:8px;background:var(--sunken);outline:none}
   .editor:focus{background:var(--surface);box-shadow:inset 0 0 0 1px var(--brand),0 0 0 3px var(--brand-tint)}
 }
+@layer components{
+  .flow{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+  .flowCard{min-width:160px;padding:14px 16px;border-radius:10px;background:var(--surface);box-shadow:var(--e1)}
+  .flowArrow{color:var(--ink-3);font-size:22px}
+  .note{padding:12px 14px;border-left:3px solid var(--brand);background:var(--brand-tint);border-radius:0 8px 8px 0;color:var(--brand-ink)}
+}

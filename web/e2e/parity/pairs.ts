@@ -5,7 +5,7 @@
 export type ParityState = "default" | "hover" | "focus";
 
 /** Interaction run on a page before measuring, for states that only exist after input. */
-export type ParityAction = { press: string } | { click: string };
+export type ParityAction = { press: string } | { click: string } | { type: string; text: string } | { waitFor: string };
 
 export interface ParityPair {
   id: string;
@@ -17,8 +17,8 @@ export interface ParityPair {
   properties: string[];
   state?: ParityState;
   viewport?: { width: number; height: number };
-  artifactAction?: ParityAction;
-  galleryAction?: ParityAction;
+  artifactAction?: ParityAction | ParityAction[];
+  galleryAction?: ParityAction | ParityAction[];
 }
 
 const TYPE = ["font-family", "font-size", "line-height", "font-weight", "letter-spacing", "text-transform", "color"];
@@ -163,4 +163,20 @@ const palette: ParityPair[] = [
   { id: "palette-foot", artifact: PALETTE, artifactSelector: ".dialog-foot", gallery: PALETTE_PAGE, gallerySelector: '[role="dialog"] > div:last-child', properties: ["display", "justify-content", "padding-top", "padding-left", "box-shadow"] },
 ];
 
-export const parityPairs: ParityPair[] = [...foundations, ...actionsInputs, ...feedback, ...states, ...overlays, ...shell, ...palette];
+const COMBO = "design-system/components/catalog-combobox.html";
+const COMBO_PAGE = "components/catalog-combobox";
+const typeCompany: ParityAction[] = [{ type: '[data-parity-id="combo-company"] input', text: "shop" }, { waitFor: '[role="option"]:nth-child(3)' }];
+const OPTION = ["min-height", "padding-top", "padding-left", "display", "justify-content", "align-items", "gap"];
+const combobox: ParityPair[] = [
+  { id: "combo-input", artifact: COMBO, artifactSelector: ".combo .input.with-icon", gallery: COMBO_PAGE, gallerySelector: '[data-parity-id="combo-company"] input', properties: ["height", "padding-left", "border-radius", "background-color", "box-shadow"], galleryAction: typeCompany },
+  { id: "combo-menu", artifact: COMBO, artifactSelector: ".combo-menu", gallery: COMBO_PAGE, gallerySelector: 'div:has(> [role="listbox"])', properties: ["border-radius", "background-color", "box-shadow"], galleryAction: typeCompany },
+  { id: "combo-create", artifact: COMBO, artifactSelector: ".combo-menu .create-option", gallery: COMBO_PAGE, gallerySelector: '[role="option"]:first-child', properties: [...OPTION, "background-color", "color", "font-weight"], galleryAction: typeCompany },
+  { id: "combo-option", artifact: COMBO, artifactSelector: ".combo-menu .option:nth-child(3)", gallery: COMBO_PAGE, gallerySelector: '[role="option"]:nth-child(3)', properties: [...OPTION, "box-shadow", "background-color"], galleryAction: typeCompany },
+  { id: "combo-option-active", artifact: COMBO, artifactSelector: ".combo-menu .option.active", gallery: COMBO_PAGE, gallerySelector: '[role="option"][data-focused]', properties: ["background-color"], galleryAction: [...typeCompany, { press: "ArrowDown" }, { press: "ArrowDown" }] },
+  { id: "combo-option-meta", artifact: COMBO, artifactSelector: ".combo-menu .option .meta.faint", gallery: COMBO_PAGE, gallerySelector: '[role="option"]:nth-child(2) [slot="description"], [role="option"]:nth-child(2) > span:last-child', properties: ["font-size", "line-height", "color"], galleryAction: typeCompany },
+  { id: "combo-match", artifact: "experience/company-search.html", artifactSelector: ".option.active b", gallery: COMBO_PAGE, gallerySelector: '[role="option"] b', properties: ["font-weight"], galleryAction: typeCompany },
+  { id: "combo-disabled", artifact: "skills/skills-search.html", artifactSelector: ".option.disabled", gallery: COMBO_PAGE, gallerySelector: '[role="option"][aria-disabled="true"]', properties: ["color", "background-color"], galleryAction: [{ type: '[data-parity-id="combo-skill"] input', text: "type" }, { waitFor: '[role="option"][aria-disabled="true"]' }] },
+  { id: "combo-empty", artifact: COMBO, artifactSelector: ".combo-menu .empty", gallery: COMBO_PAGE, gallerySelector: '[role="listbox"] header', properties: ["padding-top", "padding-left", "text-align"], galleryAction: [{ type: '[data-parity-id="combo-empty"] input', text: "unknown value" }, { waitFor: '[role="listbox"] header' }] },
+];
+
+export const parityPairs: ParityPair[] = [...foundations, ...actionsInputs, ...feedback, ...states, ...overlays, ...shell, ...palette, ...combobox];

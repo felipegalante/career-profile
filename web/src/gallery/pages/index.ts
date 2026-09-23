@@ -7,6 +7,9 @@ import { OverlaysPage } from "./primitives/OverlaysPage";
 import { DialogOpenPage } from "./primitives/DialogOpenPage";
 import { CollectionStatesPage } from "./states/CollectionStatesPage";
 import { CommandPalettePage } from "./components/CommandPalettePage";
+import { CatalogComboboxPage } from "./components/CatalogComboboxPage";
+import { CatalogCustomValuesPage } from "./patterns/CatalogCustomValuesPage";
+import { DependentFieldsPage } from "./patterns/DependentFieldsPage";
 import { SidebarPage } from "./shell/SidebarPage";
 import { KeyboardShortcutsPage } from "./shell/KeyboardShortcutsPage";
 import { MobilePage } from "./shell/MobilePage";
@@ -19,6 +22,9 @@ export const galleryPages: Record<string, ComponentType> = {
   "primitives/feedback": FeedbackPage,
   "primitives/overlays": OverlaysPage,
   "primitives/dialog-open": DialogOpenPage,
+  "components/catalog-combobox": CatalogComboboxPage,
+  "patterns/catalog-custom-values": CatalogCustomValuesPage,
+  "patterns/dependent-fields": DependentFieldsPage,
   "components/command-palette": CommandPalettePage,
   "shell/sidebar": SidebarPage,
   "shell/keyboard-shortcuts": KeyboardShortcutsPage,
