@@ -29,6 +29,9 @@ export const parityDeviations: ParityDeviation[] = [
   { id: "lane-empty", property: "color", reason: INK_3 },
   { id: "table-th", property: "color", reason: INK_3 },
   { id: "sort-head", property: "color", reason: INK_3 },
+  { id: "auth-input-icon", property: "margin-top", reason: "In the artifact, `.auth-card .lead` also matches the input icon wrapper and pushes login icons 6px down; icons stay vertically centred." },
+  { id: "auth-input-icon", property: "color", reason: INK_3 },
+  { id: "auth-footer", property: "color", reason: INK_3 },
   { id: "help-error", property: "color", reason: "In the artifact, `.field .help` outranks `.danger-text`, so field errors render grey; errors use the danger color the class names intend." },
   { id: "menu-item-danger", property: "color", reason: "In the artifact, `.menu .mi` outranks `.danger-text`, so destructive menu items render grey; they use the danger color the class names intend." },
 ];

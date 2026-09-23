@@ -12,6 +12,10 @@ import { ProfilePage } from "./compositions/ProfilePage";
 import { SkillsEditPage } from "./compositions/SkillsEditPage";
 import { AdminTablePage } from "./components/AdminTablePage";
 import { AdminUsersPage } from "./compositions/AdminUsersPage";
+import { LoginPage } from "./compositions/LoginPage";
+import { OnboardingPage } from "./compositions/OnboardingPage";
+import { ResumeUploadPage } from "./compositions/ResumeUploadPage";
+import { ResumeGeneratedPage } from "./compositions/ResumeGeneratedPage";
 import { TypeLayoutPage } from "./foundations/TypeLayoutPage";
 import { ActionsInputsPage } from "./primitives/ActionsInputsPage";
 import { FeedbackPage } from "./primitives/FeedbackPage";
@@ -40,6 +44,10 @@ export const galleryPages: Record<string, ComponentType> = {
   "compositions/skills-edit": SkillsEditPage,
   "components/admin-table": AdminTablePage,
   "compositions/admin-users": AdminUsersPage,
+  "compositions/login": LoginPage,
+  "compositions/onboarding": OnboardingPage,
+  "compositions/resume-upload": ResumeUploadPage,
+  "compositions/resume-generated": ResumeGeneratedPage,
   "foundations/color": ColorPage,
   "foundations/type-layout": TypeLayoutPage,
   "primitives/actions-inputs": ActionsInputsPage,

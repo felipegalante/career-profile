@@ -256,4 +256,41 @@ const table: ParityPair[] = [
   { id: "page-btn-disabled", artifact: USERS, artifactSelector: ".page-btn.disabled", gallery: USERS_PAGE, gallerySelector: `${TABLE} nav button[disabled]`, properties: ["opacity", "cursor"] },
 ];
 
-export const parityPairs: ParityPair[] = [...foundations, ...actionsInputs, ...feedback, ...states, ...overlays, ...shell, ...palette, ...combobox, ...profile, ...skills, ...table];
+const LOGIN = "auth/login.html";
+const LOGIN_PAGE = "compositions/login";
+const auth: ParityPair[] = [
+  { id: "auth-public", artifact: LOGIN, artifactSelector: ".public", gallery: LOGIN_PAGE, gallerySelector: "main", properties: ["display", "min-height", "grid-template-columns"] },
+  { id: "auth-panel", artifact: LOGIN, artifactSelector: ".auth-panel", gallery: LOGIN_PAGE, gallerySelector: "main > section:first-child", properties: ["padding-top", "padding-left", "background-color", "display", "flex-direction"] },
+  { id: "auth-brand", artifact: LOGIN, artifactSelector: ".auth-brand", gallery: LOGIN_PAGE, gallerySelector: "main > section:first-child > div:first-child", properties: ["display", "gap", "align-items", "font-weight", "font-size"] },
+  { id: "auth-card", artifact: LOGIN, artifactSelector: ".auth-card", gallery: LOGIN_PAGE, gallerySelector: "main > section:first-child > div:nth-child(2)", properties: ["max-width", "margin-top", "margin-bottom"] },
+  { id: "auth-title", artifact: LOGIN, artifactSelector: ".auth-card h1", gallery: LOGIN_PAGE, gallerySelector: "main h1", properties: ["font-size", "line-height", "letter-spacing", "font-weight", "margin-top", "margin-bottom"] },
+  { id: "auth-lead", artifact: LOGIN, artifactSelector: ".auth-card > p.lead", gallery: LOGIN_PAGE, gallerySelector: "main h1 + p", properties: ["color", "margin-top", "margin-bottom"] },
+  { id: "auth-footer", artifact: LOGIN, artifactSelector: ".auth-panel > .meta.faint", gallery: LOGIN_PAGE, gallerySelector: "main > section:first-child > div:last-child", properties: ["font-size", "line-height", "color"] },
+  { id: "auth-input-icon", artifact: LOGIN, artifactSelector: ".input-shell .lead", gallery: LOGIN_PAGE, gallerySelector: '[data-parity-id="login-email"] input ~ span, [data-parity-id="login-email"] span:has(> svg)', properties: ["margin-top", "color"] },
+  { id: "auth-art", artifact: LOGIN, artifactSelector: ".auth-art", gallery: LOGIN_PAGE, gallerySelector: "main > section:last-child", properties: ["padding-top", "display", "align-items", "justify-content", "background-image"] },
+  { id: "auth-showcase-title", artifact: LOGIN, artifactSelector: ".auth-showcase-head h2", gallery: LOGIN_PAGE, gallerySelector: "main > section:last-child h2", properties: ["font-size", "line-height", "letter-spacing", "font-weight", "margin-top", "margin-bottom"] },
+  { id: "auth-illustration", artifact: LOGIN, artifactSelector: ".profile-illustration", gallery: LOGIN_PAGE, gallerySelector: "main > section:last-child > div > div:nth-child(2)", properties: ["padding-top", "border-radius", "background-color", "box-shadow"] },
+  { id: "auth-illustration-card", artifact: LOGIN, artifactSelector: ".illustration-card", gallery: LOGIN_PAGE, gallerySelector: "main > section:last-child > div > div:nth-child(2) > div > div > div", properties: ["padding-top", "padding-left", "border-radius", "background-color", "box-shadow"] },
+  { id: "auth-benefit", artifact: LOGIN, artifactSelector: ".auth-benefit", gallery: LOGIN_PAGE, gallerySelector: "main > section:last-child > div > div:last-child > div", properties: ["display", "gap", "padding-top", "padding-left", "border-radius", "background-color", "color", "font-size", "line-height"] },
+];
+
+const GENERATED = "resume/generated.html";
+const GENERATED_PAGE = "compositions/resume-generated";
+const resume: ParityPair[] = [
+  { id: "resume-paper", artifact: GENERATED, artifactSelector: ".resume-paper", gallery: GENERATED_PAGE, gallerySelector: "article", properties: ["width", "padding-top", "padding-left", "background-color", "color", "box-shadow", "min-height"] },
+  { id: "resume-head", artifact: GENERATED, artifactSelector: ".resume-head", gallery: GENERATED_PAGE, gallerySelector: "article > header", properties: ["display", "justify-content", "gap", "padding-bottom", "border-bottom-width", "border-bottom-color"] },
+  { id: "resume-name", artifact: GENERATED, artifactSelector: ".resume-name", gallery: GENERATED_PAGE, gallerySelector: "article h2", properties: ["font-size", "line-height", "font-weight", "letter-spacing"] },
+  { id: "resume-role", artifact: GENERATED, artifactSelector: ".resume-role", gallery: GENERATED_PAGE, gallerySelector: "article h2 + div", properties: ["font-size", "color", "margin-top"] },
+  { id: "resume-contact", artifact: GENERATED, artifactSelector: ".resume-contact", gallery: GENERATED_PAGE, gallerySelector: "article address", properties: ["text-align", "font-size", "line-height", "color", "font-style"] },
+  { id: "resume-section", artifact: GENERATED, artifactSelector: ".resume-section", gallery: GENERATED_PAGE, gallerySelector: "article section", properties: ["margin-top"] },
+  { id: "resume-section-title", artifact: GENERATED, artifactSelector: ".resume-section-title", gallery: GENERATED_PAGE, gallerySelector: "article h3", properties: ["font-size", "line-height", "letter-spacing", "text-transform", "color", "font-weight", "padding-bottom", "border-bottom-width", "border-bottom-color", "margin-bottom"] },
+  { id: "resume-summary", artifact: GENERATED, artifactSelector: ".resume-summary", gallery: GENERATED_PAGE, gallerySelector: "article h3 + p", properties: ["font-size", "line-height", "color"] },
+  { id: "resume-item-title", artifact: GENERATED, artifactSelector: ".resume-item-title", gallery: GENERATED_PAGE, gallerySelector: "article section:nth-of-type(2) h3 + div > div > div > div:first-child", properties: ["font-size", "font-weight"] },
+  { id: "resume-date", artifact: GENERATED, artifactSelector: ".resume-date", gallery: GENERATED_PAGE, gallerySelector: "article section:nth-of-type(2) h3 + div > div > div:last-child", properties: ["font-size", "color", "white-space"] },
+  { id: "resume-bullets", artifact: GENERATED, artifactSelector: ".resume-bullets", gallery: GENERATED_PAGE, gallerySelector: "article ul", properties: ["margin-top", "margin-left", "padding-left", "color", "font-size", "line-height", "list-style-type"] },
+  { id: "resume-skills", artifact: GENERATED, artifactSelector: ".resume-skills", gallery: GENERATED_PAGE, gallerySelector: "article dl", properties: ["display", "grid-template-columns", "row-gap", "column-gap", "font-size", "line-height"] },
+  { id: "resume-note", artifact: GENERATED, artifactSelector: ".callout.resume-note", gallery: GENERATED_PAGE, gallerySelector: "main div:has(> article) > div:nth-last-child(2)", properties: ["width", "margin-bottom", "padding-top", "padding-left", "border-radius", "background-color", "color"] },
+  { id: "dropzone", artifact: "resume/upload.html", artifactSelector: ".dialog-body .surface.pad", gallery: "compositions/resume-upload", gallerySelector: '[role="dialog"] div:has(> div[aria-hidden="true"] > svg)', properties: ["padding-top", "padding-left", "border-radius", "text-align", "background-color", "border-top-style", "border-top-color", "box-shadow"] },
+];
+
+export const parityPairs: ParityPair[] = [...foundations, ...actionsInputs, ...feedback, ...states, ...overlays, ...shell, ...palette, ...combobox, ...profile, ...skills, ...table, ...auth, ...resume];

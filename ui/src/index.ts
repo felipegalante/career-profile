@@ -77,3 +77,9 @@ export { ProficiencyIndicator, ProficiencyLane, SkillBoard, SkillCategoryCard, c
 export type { Proficiency, ProficiencyLaneProps, SkillBoardProps, SkillCategory, SkillCategoryCardProps, SkillCategoryData, SkillChipData, SkillLaneData } from "./components/skills/Skills";
 export { DataTable, FilterSelect, Pagination, PersonCell, SortableHeader, TableScrollRegion, TableSearchField, TableStateRow, TableToolbar, paginationRange } from "./components/DataTable/DataTable";
 export type { FilterOption, FilterSelectProps, PaginationProps, SortDirection, SortableHeaderProps, TableSearchFieldProps } from "./components/DataTable/DataTable";
+export { AUTH_TAGLINE, AuthHeader, AuthLayout, AuthShowcase } from "./components/Auth/Auth";
+export type { AuthHeaderProps, AuthLayoutProps, AuthShowcaseProps } from "./components/Auth/Auth";
+export { ChooseFileButton, FileDropzone } from "./components/FileDropzone/FileDropzone";
+export type { ChooseFileButtonProps, FileDropzoneProps } from "./components/FileDropzone/FileDropzone";
+export { ResumeHeader, ResumeItem, ResumePaper, ResumePreview, ResumeSection, ResumeSkills, ResumeSummary } from "./components/Resume/Resume";
+export type { ResumeItemProps, ResumePreviewProps } from "./components/Resume/Resume";
