@@ -69,3 +69,7 @@ export { isModifierShortcut, useShellShortcuts } from "./shell/useShellShortcuts
 export type { ShellShortcutHandlers } from "./shell/useShellShortcuts";
 export { CatalogCombobox, DEFAULT_CATALOG_DEBOUNCE_MS } from "./components/CatalogCombobox/CatalogCombobox";
 export type { CatalogComboboxProps, CatalogOption, CatalogSearch, CatalogSearchResult, CatalogSelection } from "./components/CatalogCombobox/CatalogCombobox";
+export { FocusCard, ProfileHero, ProfilePlaceholder, ProfileSection, RecordActionsMenu, RecordItem } from "./components/Profile/Profile";
+export type { FocusCardProps, ProfileHeroProps, ProfilePlaceholderProps, ProfileSectionProps, RecordActionsMenuProps, RecordItemProps } from "./components/Profile/Profile";
+export { ProfileRecordDialog } from "./components/ProfileRecordDialog/ProfileRecordDialog";
+export type { ProfileRecordDialogProps } from "./components/ProfileRecordDialog/ProfileRecordDialog";

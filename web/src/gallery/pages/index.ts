@@ -1,5 +1,12 @@
 import type { ComponentType } from "react";
 import { ColorPage } from "./foundations/ColorPage";
+import { OverviewPage } from "./overview/OverviewPage";
+import { PrinciplesPage } from "./overview/PrinciplesPage";
+import { ProfileRecordDialogPage } from "./components/ProfileRecordDialogPage";
+import { ProfileRecordsPage } from "./components/ProfileRecordsPage";
+import { ProfileEmptyPage } from "./compositions/ProfileEmptyPage";
+import { ExperiencePage } from "./compositions/ExperiencePage";
+import { FocusPage } from "./compositions/FocusPage";
 import { TypeLayoutPage } from "./foundations/TypeLayoutPage";
 import { ActionsInputsPage } from "./primitives/ActionsInputsPage";
 import { FeedbackPage } from "./primitives/FeedbackPage";
@@ -16,6 +23,13 @@ import { MobilePage } from "./shell/MobilePage";
 import { FormStatesPage } from "./states/FormStatesPage";
 
 export const galleryPages: Record<string, ComponentType> = {
+  "overview/overview": OverviewPage,
+  "overview/principles": PrinciplesPage,
+  "components/profile-record-dialog": ProfileRecordDialogPage,
+  "components/profile-records": ProfileRecordsPage,
+  "compositions/profile-empty": ProfileEmptyPage,
+  "compositions/experience": ExperiencePage,
+  "compositions/focus": FocusPage,
   "foundations/color": ColorPage,
   "foundations/type-layout": TypeLayoutPage,
   "primitives/actions-inputs": ActionsInputsPage,

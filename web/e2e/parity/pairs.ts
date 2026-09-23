@@ -179,4 +179,33 @@ const combobox: ParityPair[] = [
   { id: "combo-empty", artifact: COMBO, artifactSelector: ".combo-menu .empty", gallery: COMBO_PAGE, gallerySelector: '[role="listbox"] header', properties: ["padding-top", "padding-left", "text-align"], galleryAction: [{ type: '[data-parity-id="combo-empty"] input', text: "unknown value" }, { waitFor: '[role="listbox"] header' }] },
 ];
 
-export const parityPairs: ParityPair[] = [...foundations, ...actionsInputs, ...feedback, ...states, ...overlays, ...shell, ...palette, ...combobox];
+const RECORDS = "design-system/components/profile-records.html";
+const EMPTY_PROFILE = "profile/overview-empty.html";
+const FOCUS = "focus/focus.html";
+const profile: ParityPair[] = [
+  { id: "record", artifact: RECORDS, artifactSelector: ".record:nth-child(2)", gallery: "components/profile-records", gallerySelector: '[data-parity-id="records"] > div:nth-child(2)', properties: ["padding-top", "padding-left", "box-shadow"] },
+  { id: "record-head", artifact: RECORDS, artifactSelector: ".record-head", gallery: "components/profile-records", gallerySelector: '[data-parity-id="records"] > div > div:first-child', properties: ["display", "justify-content", "gap"] },
+  { id: "record-title", artifact: RECORDS, artifactSelector: ".record h3", gallery: "components/profile-records", gallerySelector: '[data-parity-id="records"] h3', properties: ["font-size", "line-height", "font-weight", "margin-top", "margin-bottom"] },
+  { id: "record-subtitle", artifact: RECORDS, artifactSelector: ".record p", gallery: "components/profile-records", gallerySelector: '[data-parity-id="records"] h3 + p', properties: ["color", "margin-top", "margin-bottom"] },
+  { id: "record-meta", artifact: RECORDS, artifactSelector: ".record .meta.faint", gallery: "components/profile-records", gallerySelector: '[data-parity-id="records"] h3 + p + div', properties: ["font-size", "line-height", "color"] },
+  { id: "record-chips", artifact: RECORDS, artifactSelector: ".record .chips", gallery: "components/profile-records", gallerySelector: '[data-parity-id="records"] ul', properties: ["display", "flex-wrap", "gap", "margin-top"] },
+  { id: "record-action", artifact: RECORDS, artifactSelector: ".record .btn.icon.ghost", gallery: "components/profile-records", gallerySelector: '[data-parity-id="records"] button', properties: ["width", "height", "border-radius", "color"] },
+  { id: "hero", artifact: EMPTY_PROFILE, artifactSelector: ".profile-hero", gallery: "compositions/profile-empty", properties: ["padding-top", "padding-left", "display", "align-items", "gap", "border-radius", "box-shadow"] },
+  { id: "hero-name", artifact: EMPTY_PROFILE, artifactSelector: ".profile-hero .record-title", gallery: "compositions/profile-empty", gallerySelector: '[data-parity-id="hero"] > div:nth-child(2) > div:first-child', properties: ["font-size", "line-height", "font-weight", "letter-spacing"] },
+  { id: "hero-subtitle", artifact: EMPTY_PROFILE, artifactSelector: ".profile-hero .muted", gallery: "compositions/profile-empty", gallerySelector: '[data-parity-id="hero"] > div:nth-child(2) > div:last-child', properties: ["color"] },
+  { id: "placeholder", artifact: EMPTY_PROFILE, artifactSelector: ".profile-placeholder:nth-child(2)", gallery: "compositions/profile-empty", gallerySelector: '[data-parity-id="placeholders"] > div:nth-child(2)', properties: ["padding-top", "padding-left", "display", "align-items", "justify-content", "gap", "box-shadow"] },
+  { id: "placeholder-icon", artifact: EMPTY_PROFILE, artifactSelector: ".placeholder-icon", gallery: "compositions/profile-empty", gallerySelector: '[data-parity-id="placeholders"] [aria-hidden="true"]', properties: ["width", "height", "border-radius", "background-color", "color"] },
+  { id: "placeholder-title", artifact: EMPTY_PROFILE, artifactSelector: ".placeholder-copy h3", gallery: "compositions/profile-empty", gallerySelector: '[data-parity-id="placeholders"] h3', properties: ["font-size", "line-height", "font-weight", "margin-top"] },
+  { id: "placeholder-description", artifact: EMPTY_PROFILE, artifactSelector: ".placeholder-copy p", gallery: "compositions/profile-empty", gallerySelector: '[data-parity-id="placeholders"] h3 + p', properties: ["color", "margin-top", "margin-bottom"] },
+  { id: "section-head-page", artifact: "experience/experience.html", artifactSelector: ".surface > .pad.between", gallery: "compositions/experience", gallerySelector: '[data-parity-id="section-page"] > div:first-child', properties: ["padding-top", "padding-left", "display", "align-items", "justify-content", "gap"] },
+  { id: "section-title", artifact: "experience/experience.html", artifactSelector: ".pad.between .section-title", gallery: "compositions/experience", gallerySelector: '[data-parity-id="section-page"] h2', properties: ["font-size", "line-height", "font-weight", "letter-spacing", "margin-top"] },
+  { id: "section-description", artifact: "experience/experience.html", artifactSelector: ".pad.between .meta.faint", gallery: "compositions/experience", gallerySelector: '[data-parity-id="section-page"] h2 + div', properties: ["font-size", "line-height", "color"] },
+  { id: "focus-card", artifact: FOCUS, artifactSelector: ".focus-card", gallery: "compositions/focus", properties: ["padding-top", "padding-left", "border-radius", "box-shadow", "background-color"] },
+  { id: "focus-icon", artifact: FOCUS, artifactSelector: ".focus-icon:not(.accent):not(.info)", gallery: "compositions/focus", gallerySelector: '[data-parity-id="focus-card"] [aria-hidden="true"]', properties: ["width", "height", "border-radius", "background-color", "color"] },
+  { id: "focus-icon-accent", artifact: FOCUS, artifactSelector: ".focus-icon.accent", gallery: "compositions/focus", gallerySelector: '[data-parity-id="focus-card-accent"] [aria-hidden="true"]', properties: ["background-color", "color"] },
+  { id: "focus-icon-info", artifact: FOCUS, artifactSelector: ".focus-icon.info", gallery: "compositions/focus", gallerySelector: '[data-parity-id="focus-card-info"] [aria-hidden="true"]', properties: ["background-color", "color"] },
+  { id: "focus-label", artifact: FOCUS, artifactSelector: ".focus-title b", gallery: "compositions/focus", gallerySelector: '[data-parity-id="focus-card"] h3', properties: ["font-size", "line-height", "font-weight"] },
+  { id: "focus-description", artifact: FOCUS, artifactSelector: ".focus-card p.muted", gallery: "compositions/focus", gallerySelector: '[data-parity-id="focus-card"] p', properties: ["color", "margin-top", "margin-bottom"] },
+];
+
+export const parityPairs: ParityPair[] = [...foundations, ...actionsInputs, ...feedback, ...states, ...overlays, ...shell, ...palette, ...combobox, ...profile];
