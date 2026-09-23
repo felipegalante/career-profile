@@ -13,4 +13,5 @@ const INK_3 = "--ink-3 is darkened from L 0.54 to 0.51 so faint text meets WCAG 
 export const parityDeviations: ParityDeviation[] = [
   { id: "type-meta", property: "color", reason: INK_3 },
   { id: "type-overline", property: "color", reason: INK_3 },
+  { id: "password-toggle", property: "color", reason: INK_3 },
 ];

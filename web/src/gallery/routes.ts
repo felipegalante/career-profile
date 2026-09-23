@@ -14,6 +14,7 @@ export interface GalleryRoute {
 export const galleryRoutes: GalleryRoute[] = [
   { path: "foundations/color", title: "Color", group: "Foundations", artifact: "design-system/color/color.html" },
   { path: "foundations/type-layout", title: "Type, spacing, and layout", group: "Foundations", artifact: "design-system/type-layout/type-layout.html" },
+  { path: "primitives/actions-inputs", title: "Actions and inputs", group: "Primitives", artifact: "design-system/primitives/actions-inputs.html" },
 ];
 
 export const galleryGroups: GalleryGroup[] = ["Foundations", "Primitives", "Components", "Patterns", "Shell", "States", "Compositions"];

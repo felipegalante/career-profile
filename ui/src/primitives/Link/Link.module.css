@@ -1,0 +1,5 @@
+@layer components{
+  .text{color:var(--brand-ink);font-weight:700;cursor:pointer}
+  .back{display:inline-flex;align-items:center;gap:6px;color:var(--ink-2);font-weight:500;margin-bottom:8px;cursor:pointer}
+  .back[data-hovered]{color:var(--brand-ink)}
+}
