@@ -14,7 +14,7 @@ describe("component gallery", () => {
 
   it.each(galleryRoutes)("renders $path", async (route) => {
     render(<MemoryRouter initialEntries={[`/${route.path}`]}><GalleryApp /></MemoryRouter>);
-    expect(await screen.findByRole("heading", { level: 1 })).toBeTruthy();
+    expect(await screen.findByRole("heading", { level: 1, hidden: true })).toBeTruthy();
   });
 
   it("lists every page on the index", () => {

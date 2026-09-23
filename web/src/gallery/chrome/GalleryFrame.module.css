@@ -1,5 +1,5 @@
 @layer components{
-  .bar{position:sticky;top:0;z-index:40;display:flex;align-items:center;justify-content:space-between;gap:16px;height:44px;padding:0 20px;background:rgb(255 255 255/.94);backdrop-filter:blur(12px);box-shadow:inset 0 -1px 0 var(--line);font-size:12px}
+  .bar{position:sticky;top:0;z-index:10;display:flex;align-items:center;justify-content:space-between;gap:16px;height:44px;padding:0 20px;background:rgb(255 255 255/.94);backdrop-filter:blur(12px);box-shadow:inset 0 -1px 0 var(--line);font-size:12px}
   .bar a{color:var(--brand-ink);font-weight:500}
   .source{color:var(--ink-2);font-family:"Geist Mono",ui-monospace,monospace;font-size:11px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 }

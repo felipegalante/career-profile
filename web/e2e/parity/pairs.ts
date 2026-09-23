@@ -95,4 +95,22 @@ const states: ParityPair[] = [
   { id: "help-error", artifact: "design-system/states/form-states.html", artifactSelector: ".help.danger-text", gallery: "states/form-states", gallerySelector: '[data-parity-id="field-url"] > :last-child', properties: ["font-size", "color"] },
 ];
 
-export const parityPairs: ParityPair[] = [...foundations, ...actionsInputs, ...feedback, ...states];
+const OVERLAYS = "design-system/primitives/overlays.html";
+const MENU_ITEM = ["height", "border-radius", "padding-left", "padding-right", "display", "gap", "color"];
+const overlays: ParityPair[] = [
+  { id: "dialog-head", artifact: OVERLAYS, artifactSelector: ".dialog-head", gallery: "primitives/overlays", properties: ["display", "align-items", "justify-content", "padding-top", "padding-right", "padding-bottom", "padding-left"] },
+  { id: "dialog-title", artifact: OVERLAYS, artifactSelector: ".dialog-head h2", gallery: "primitives/overlays", gallerySelector: '[data-parity-id="dialog-head"] h2', properties: ["font-size", "line-height", "font-weight", "letter-spacing", "margin-top", "margin-bottom"] },
+  { id: "dialog-close", artifact: OVERLAYS, artifactSelector: ".dialog-head .btn.icon.ghost", gallery: "primitives/overlays", gallerySelector: '[data-parity-id="dialog-head"] button', properties: ["width", "height", "padding-left", "border-radius", "color", "background-color"] },
+  { id: "dialog-body", artifact: OVERLAYS, artifactSelector: ".dialog-body", gallery: "primitives/overlays", properties: ["padding-top", "padding-right", "padding-bottom", "padding-left"] },
+  { id: "dialog-foot", artifact: OVERLAYS, artifactSelector: ".dialog-foot", gallery: "primitives/overlays", properties: ["display", "justify-content", "gap", "padding-top", "padding-right", "padding-bottom", "padding-left", "box-shadow"] },
+  { id: "menu", artifact: OVERLAYS, artifactSelector: ".menu", gallery: "primitives/overlays", properties: ["width", "background-color", "box-shadow", "border-radius", "padding-top", "padding-left"] },
+  { id: "menu-item", artifact: OVERLAYS, artifactSelector: ".menu .mi:first-child", gallery: "primitives/overlays", properties: MENU_ITEM },
+  { id: "menu-item-danger", artifact: OVERLAYS, artifactSelector: ".menu .mi.danger-text", gallery: "primitives/overlays", properties: ["color"] },
+  { id: "tabs", artifact: "profile/account.html", artifactSelector: ".tabs", gallery: "primitives/overlays", properties: ["display", "align-items", "gap", "border-bottom-width", "border-bottom-color", "padding-left", "padding-right"] },
+  { id: "tab-selected", artifact: "profile/account.html", artifactSelector: ".tab.on", gallery: "primitives/overlays", gallerySelector: '[data-parity-id="tabs"] [aria-selected="true"]', properties: ["height", "padding-left", "color", "font-weight", "border-bottom-width", "border-bottom-color"] },
+  { id: "tab", artifact: "profile/account.html", artifactSelector: ".tab:not(.on)", gallery: "primitives/overlays", gallerySelector: '[data-parity-id="tabs"] [aria-selected="false"]', properties: ["height", "padding-left", "color", "font-weight", "border-bottom-width"] },
+  { id: "dialog-overlay", artifact: "experience/experience-add.html", artifactSelector: ".overlay", gallery: "primitives/dialog-open", gallerySelector: "[data-blocking-dialog]", properties: ["position", "display", "align-items", "justify-content", "padding-top", "padding-left", "background-color", "z-index"] },
+  { id: "dialog-surface", artifact: "experience/experience-add.html", artifactSelector: ".dialog", gallery: "primitives/dialog-open", gallerySelector: "[data-blocking-dialog] > *", properties: ["width", "max-height", "overflow-y", "background-color", "border-radius", "box-shadow"] },
+];
+
+export const parityPairs: ParityPair[] = [...foundations, ...actionsInputs, ...feedback, ...states, ...overlays];

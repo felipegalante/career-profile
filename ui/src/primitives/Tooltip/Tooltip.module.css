@@ -1,0 +1,4 @@
+/* Not defined by any artifact: built from the menu surface tokens for collapsed-rail labels. */
+@layer components{
+  .tooltip{background:var(--surface);color:var(--ink);box-shadow:var(--e2);border-radius:8px;padding:6px 9px;font-size:12px;line-height:16px;font-weight:500;max-width:240px}
+}
