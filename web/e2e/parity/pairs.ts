@@ -234,4 +234,26 @@ const skills: ParityPair[] = [
   { id: "section-head-embedded", artifact: "profile/profile.html", artifactSelector: ".profile-section .section-head", gallery: "compositions/profile", gallerySelector: '[data-parity-id="section-embedded"] > div:first-child', properties: ["padding-top", "padding-left", "padding-bottom", "display", "align-items", "justify-content", "gap"] },
 ];
 
-export const parityPairs: ParityPair[] = [...foundations, ...actionsInputs, ...feedback, ...states, ...overlays, ...shell, ...palette, ...combobox, ...profile, ...skills];
+const USERS = "admin/users.html";
+const USERS_PAGE = "compositions/admin-users";
+const TABLE = '[data-parity-id="users-table"]';
+const table: ParityPair[] = [
+  { id: "table-toolbar", artifact: USERS, artifactSelector: ".table-toolbar", gallery: USERS_PAGE, gallerySelector: `${TABLE} > div:first-child`, properties: ["display", "align-items", "justify-content", "gap", "padding-top", "padding-left", "border-bottom-width", "border-bottom-color"] },
+  { id: "table-search", artifact: USERS, artifactSelector: ".table-search", gallery: USERS_PAGE, gallerySelector: `${TABLE} > div:first-child > div:first-child`, properties: ["flex-grow", "flex-shrink", "flex-basis", "min-width"] },
+  { id: "table-search-input", artifact: USERS, artifactSelector: ".table-search .input", gallery: USERS_PAGE, gallerySelector: `${TABLE} input`, properties: ["height", "padding-left", "border-radius", "background-color"] },
+  { id: "table-tools", artifact: USERS, artifactSelector: ".table-tools", gallery: USERS_PAGE, gallerySelector: `${TABLE} > div:first-child > div:last-child`, properties: ["display", "gap", "margin-left"] },
+  { id: "filter-control", artifact: USERS, artifactSelector: ".table-tools .filter-control", gallery: USERS_PAGE, gallerySelector: `${TABLE} > div:first-child > div:last-child button`, properties: ["height", "gap", "padding-left", "border-radius", "background-color", "box-shadow", "font-size", "color"] },
+  { id: "table-th", artifact: USERS, artifactSelector: ".table th", gallery: USERS_PAGE, gallerySelector: `${TABLE} th`, properties: ["text-align", "font-size", "letter-spacing", "text-transform", "color", "font-weight", "padding-top", "padding-left", "border-bottom-width", "border-bottom-color"] },
+  { id: "table-td", artifact: USERS, artifactSelector: ".table tbody tr:first-child td", gallery: USERS_PAGE, gallerySelector: `${TABLE} tbody tr:first-child td`, properties: ["padding-top", "padding-left", "border-bottom-width", "border-bottom-color", "vertical-align"] },
+  { id: "sort-head", artifact: USERS, artifactSelector: ".sort-head", gallery: USERS_PAGE, gallerySelector: `${TABLE} th button`, properties: ["display", "align-items", "gap", "color", "font-size", "letter-spacing", "text-transform"] },
+  { id: "person", artifact: USERS, artifactSelector: ".person", gallery: USERS_PAGE, gallerySelector: `${TABLE} tbody tr:first-child td:first-child > div`, properties: ["display", "align-items", "gap"] },
+  { id: "person-avatar", artifact: USERS, artifactSelector: ".table .avatar", gallery: USERS_PAGE, gallerySelector: `${TABLE} tbody tr:first-child td:first-child [aria-hidden="true"]`, properties: ["width", "height", "border-radius", "background-color", "color", "font-weight"] },
+  { id: "pagination", artifact: USERS, artifactSelector: ".pagination", gallery: USERS_PAGE, gallerySelector: `${TABLE} > div:last-child`, properties: ["display", "align-items", "justify-content", "gap", "padding-top", "padding-left", "border-top-width", "border-top-color"] },
+  { id: "pagination-range", artifact: USERS, artifactSelector: ".pagination .meta.muted", gallery: USERS_PAGE, gallerySelector: `${TABLE} > div:last-child > div:first-child`, properties: ["font-size", "line-height", "color"] },
+  { id: "rows-select", artifact: USERS, artifactSelector: ".rows-select", gallery: USERS_PAGE, gallerySelector: `${TABLE} > div:last-child > div:nth-child(2)`, properties: ["display", "align-items", "gap", "color", "font-size"] },
+  { id: "page-btn", artifact: USERS, artifactSelector: ".page-btn:not(.on):not(.disabled)", gallery: USERS_PAGE, gallerySelector: `${TABLE} nav li:nth-child(3) button`, properties: ["min-width", "height", "border-radius", "background-color", "color"] },
+  { id: "page-btn-current", artifact: USERS, artifactSelector: ".page-btn.on", gallery: USERS_PAGE, gallerySelector: `${TABLE} nav [aria-current="page"]`, properties: ["background-color", "color"] },
+  { id: "page-btn-disabled", artifact: USERS, artifactSelector: ".page-btn.disabled", gallery: USERS_PAGE, gallerySelector: `${TABLE} nav button[disabled]`, properties: ["opacity", "cursor"] },
+];
+
+export const parityPairs: ParityPair[] = [...foundations, ...actionsInputs, ...feedback, ...states, ...overlays, ...shell, ...palette, ...combobox, ...profile, ...skills, ...table];

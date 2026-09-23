@@ -75,3 +75,5 @@ export { ProfileRecordDialog } from "./components/ProfileRecordDialog/ProfileRec
 export type { ProfileRecordDialogProps } from "./components/ProfileRecordDialog/ProfileRecordDialog";
 export { ProficiencyIndicator, ProficiencyLane, SkillBoard, SkillCategoryCard, categoryLabels, proficiencyLabels } from "./components/skills/Skills";
 export type { Proficiency, ProficiencyLaneProps, SkillBoardProps, SkillCategory, SkillCategoryCardProps, SkillCategoryData, SkillChipData, SkillLaneData } from "./components/skills/Skills";
+export { DataTable, FilterSelect, Pagination, PersonCell, SortableHeader, TableScrollRegion, TableSearchField, TableStateRow, TableToolbar, paginationRange } from "./components/DataTable/DataTable";
+export type { FilterOption, FilterSelectProps, PaginationProps, SortDirection, SortableHeaderProps, TableSearchFieldProps } from "./components/DataTable/DataTable";

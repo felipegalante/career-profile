@@ -10,6 +10,8 @@ import { FocusPage } from "./compositions/FocusPage";
 import { SkillsPage } from "./components/SkillsPage";
 import { ProfilePage } from "./compositions/ProfilePage";
 import { SkillsEditPage } from "./compositions/SkillsEditPage";
+import { AdminTablePage } from "./components/AdminTablePage";
+import { AdminUsersPage } from "./compositions/AdminUsersPage";
 import { TypeLayoutPage } from "./foundations/TypeLayoutPage";
 import { ActionsInputsPage } from "./primitives/ActionsInputsPage";
 import { FeedbackPage } from "./primitives/FeedbackPage";
@@ -36,6 +38,8 @@ export const galleryPages: Record<string, ComponentType> = {
   "components/skills": SkillsPage,
   "compositions/profile": ProfilePage,
   "compositions/skills-edit": SkillsEditPage,
+  "components/admin-table": AdminTablePage,
+  "compositions/admin-users": AdminUsersPage,
   "foundations/color": ColorPage,
   "foundations/type-layout": TypeLayoutPage,
   "primitives/actions-inputs": ActionsInputsPage,
