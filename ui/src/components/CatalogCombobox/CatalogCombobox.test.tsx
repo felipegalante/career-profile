@@ -1,5 +1,5 @@
 import { describe, expect, it, vi } from "vitest";
-import { render, screen, waitFor, within } from "@testing-library/react";
+import { act, fireEvent, render, screen, waitFor, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { useState } from "react";
 import { CatalogCombobox, type CatalogSearch, type CatalogSearchResult, type CatalogSelection } from "./CatalogCombobox";
@@ -41,13 +41,27 @@ const input = () => screen.getByRole("combobox", { name: "Company" });
 
 describe("CatalogCombobox", () => {
   it("searches once after rapid typing", async () => {
-    const user = userEvent.setup();
-    const search = vi.fn<CatalogSearch<string | undefined>>(async () => companies);
-    render(<Harness search={search} />);
-    await user.type(input(), "shop");
-    await screen.findByRole("option", { name: "Shopify" });
-    expect(search).toHaveBeenCalledTimes(1);
-    expect(search.mock.calls[0][0]).toBe("shop");
+    // Fake timers make the debounce window deterministic; on a loaded CI runner, real
+    // per-keystroke delays from userEvent can exceed the 10ms debounce and trigger a
+    // search per keystroke, so keystrokes are dispatched directly instead (userEvent
+    // itself does not run under fake timers, see the Toast tests for the same reason).
+    vi.useFakeTimers({ toFake: ["setTimeout", "clearTimeout"] });
+    try {
+      const search = vi.fn<CatalogSearch<string | undefined>>(async () => companies);
+      render(<Harness search={search} />);
+      const field = input();
+      for (const value of ["s", "sh", "sho", "shop"]) {
+        fireEvent.change(field, { target: { value } });
+      }
+      await act(async () => {
+        await vi.advanceTimersByTimeAsync(10);
+      });
+      expect(search).toHaveBeenCalledTimes(1);
+      expect(search.mock.calls[0][0]).toBe("shop");
+      screen.getByRole("option", { name: "Shopify" });
+    } finally {
+      vi.useRealTimers();
+    }
   });
 
   it("aborts and ignores stale responses", async () => {
