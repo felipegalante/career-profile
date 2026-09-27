@@ -1,5 +1,6 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { act, fireEvent, render, screen, within } from "@testing-library/react";
+import { Dialog } from "../Dialog/Dialog";
 import { ToastProvider, useToast, type ToastOptions } from "./Toast";
 
 function Trigger({ options }: { options: ToastOptions }) {
@@ -63,6 +64,24 @@ describe("Toast", () => {
   it("announces danger toasts as alerts", () => {
     showToast({ tone: "danger", title: "This skill is already in your profile." });
     expect(screen.getByRole("alert").textContent).toContain("This skill is already in your profile.");
+  });
+
+  it("keeps announcing while a modal dialog hides the rest of the page", () => {
+    function FailingDialog() {
+      const toast = useToast();
+      return (
+        <Dialog title="Add work experience" isOpen onOpenChange={() => undefined}>
+          <button onClick={() => toast.show({ tone: "danger", title: "Could not save" })}>Save</button>
+        </Dialog>
+      );
+    }
+    render(<ToastProvider><FailingDialog /></ToastProvider>);
+    fireEvent.click(screen.getByRole("button", { name: "Save" }));
+    expect(screen.getByRole("alert").textContent).toBe("Could not save");
+    expect(screen.getByRole("status")).toBeTruthy();
+    const stackElement = document.querySelector('section[aria-label="Notifications"]');
+    expect(stackElement?.textContent).toContain("Could not save");
+    expect(stackElement?.closest('[aria-hidden="true"]')).not.toBeNull();
   });
 
   it("keeps action toasts for 8 s and runs the action once", () => {

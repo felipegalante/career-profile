@@ -109,6 +109,11 @@ function Announcements({ toasts }: { toasts: ToastEntry[] }) {
  * Toasts are announced through always-mounted live regions kept apart from the visible stack:
  * success politely as status, danger assertively as an alert. The visible toasts hold the
  * interactive controls, so they stay out of the live regions. Timers pause while hovered or focused.
+ *
+ * An open modal hides everything outside it from assistive technology. `data-live-announcer`
+ * is the marker React Aria exempts from that, so the live regions keep announcing, including a
+ * toast raised as a dialog closes. The stack stays hidden with the rest of the page, so its
+ * buttons are not reachable by a screen reader's virtual cursor while the modal holds focus.
  */
 export function ToastProvider({ children }: { children: ReactNode }) {
   const [toasts, setToasts] = useState<ToastEntry[]>([]);
@@ -129,10 +134,10 @@ export function ToastProvider({ children }: { children: ReactNode }) {
       <section aria-label="Notifications" className={styles.region}>
         {toasts.map((toast) => <TimedToast key={toast.id} entry={toast} onDismiss={dismiss} />)}
       </section>
-      <VisuallyHidden role="status" aria-live="polite">
+      <VisuallyHidden role="status" aria-live="polite" data-live-announcer="true">
         <Announcements toasts={toasts.filter((toast) => toast.tone !== "danger")} />
       </VisuallyHidden>
-      <VisuallyHidden role="alert" aria-live="assertive">
+      <VisuallyHidden role="alert" aria-live="assertive" data-live-announcer="true">
         <Announcements toasts={toasts.filter((toast) => toast.tone === "danger")} />
       </VisuallyHidden>
     </ToastContext.Provider>
