@@ -33,7 +33,7 @@ const failLogin: Setup = async (page) => {
   await page.getByRole("textbox", { name: "Email" }).fill("maya@example.com");
   await page.getByLabel("Password", { exact: true }).fill("WrongPassword!1");
   await page.getByRole("button", { name: "Sign in" }).click();
-  await page.getByRole("alert").waitFor();
+  await page.locator("main").getByRole("alert").waitFor();
 };
 
 const mismatch: Setup = async (page) => {
