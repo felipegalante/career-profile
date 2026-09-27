@@ -1,5 +1,5 @@
 import { describe, expect, it, vi } from "vitest";
-import { fireEvent, render, screen, waitFor } from "@testing-library/react";
+import { fireEvent, render, screen, waitFor, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { AppShell, type AppShellProps } from "./AppShell";
 import { PageHeader } from "./PageHeader";
@@ -121,6 +121,16 @@ describe("AppShell", () => {
     renderShell();
     expect(screen.getByRole("button", { name: "Search or run a command" }).getAttribute("aria-keyshortcuts")).toBe("Meta+K Control+K");
     expect(screen.getByRole("button", { name: "Toggle navigation" }).getAttribute("aria-keyshortcuts")).toBe("Meta+B Control+B");
+  });
+
+  it("renders drawer account actions without a destination as buttons", async () => {
+    const user = userEvent.setup();
+    renderShell();
+    await user.click(screen.getByRole("button", { name: "Open navigation" }));
+    const account = within(screen.getByRole("dialog", { name: "Navigation" })).getByRole("list", { name: "Account" });
+    expect(within(account).getByRole("link", { name: "Settings" })).toBeTruthy();
+    expect(within(account).getByRole("button", { name: "Sign out" }).tagName).toBe("BUTTON");
+    expect(within(account).queryByRole("link", { name: "Sign out" })).toBeNull();
   });
 
   it("opens the account menu from the account button", async () => {

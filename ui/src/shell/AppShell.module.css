@@ -35,7 +35,7 @@
 
   /* Account menu: .user-menu-popover, .user-menu-item and .user-menu-sep from profile/avatar-menu.html. */
   .accountMenu{width:208px;background:var(--surface);border-radius:10px;box-shadow:var(--e2);padding:6px;outline:none}
-  .accountItem{height:38px;padding:0 10px;border-radius:7px;display:flex;align-items:center;gap:9px;color:var(--ink-2);font-weight:500;cursor:pointer;outline:none}
+  .accountItem{height:38px;padding:0 10px;border-radius:7px;display:flex;align-items:center;gap:9px;color:var(--ink-2);font-weight:500;cursor:pointer;outline:none;border:0;background:none;width:100%;text-align:left}
   .accountItem[data-hovered],.accountItem[data-focused]{background:var(--hover);color:var(--ink)}
   .accountItem[data-focus-visible]{outline:2px solid var(--ring);outline-offset:-2px}
   .accountDanger,.accountDanger[data-hovered],.accountDanger[data-focused]{color:var(--danger)}

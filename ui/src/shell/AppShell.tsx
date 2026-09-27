@@ -129,21 +129,17 @@ function NavigationDrawer({ isOpen, onOpenChange, navigation, currentItemId, acc
               </span>
             </div>
             <ul className={styles.nav} aria-label="Account">
-              {account.actions.map((action) => (
-                <li key={action.id}>
-                  <RACLink
-                    href={action.href}
-                    onPress={() => {
-                      action.onAction?.();
-                      close();
-                    }}
-                    className={cx(styles.accountItem, action.tone === "danger" && styles.accountDanger)}
-                  >
-                    <Icon name={action.icon} />
-                    {action.label}
-                  </RACLink>
-                </li>
-              ))}
+              {account.actions.map((action) => {
+                const itemProps = {
+                  onPress: () => {
+                    action.onAction?.();
+                    close();
+                  },
+                  className: cx(styles.accountItem, action.tone === "danger" && styles.accountDanger),
+                  children: <><Icon name={action.icon} />{action.label}</>,
+                };
+                return <li key={action.id}>{action.href ? <RACLink href={action.href} {...itemProps} /> : <RACButton {...itemProps} />}</li>;
+              })}
             </ul>
           </div>
         </RACDialog>
