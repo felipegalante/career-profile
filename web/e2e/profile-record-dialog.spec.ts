@@ -28,6 +28,7 @@ test("record dialog validates, blocks dismissal while saving, recovers from erro
 
   await dialog.getByRole("button", { name: "Save" }).click();
   await expect(dialog).toBeHidden();
-  await expect(page.getByRole("status").getByText("Experience added")).toBeVisible();
+  await expect(page.getByRole("region", { name: "Notifications" }).getByText("Experience added")).toBeVisible();
+  await expect(page.getByRole("status")).toContainText("Experience added");
   await expect(opener).toBeFocused();
 });

@@ -1,5 +1,5 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type HTMLAttributes, type ReactNode } from "react";
-import { Button as RACButton } from "react-aria-components";
+import { Button as RACButton, VisuallyHidden } from "react-aria-components";
 import { Icon } from "../../foundations/Icon";
 import { cx } from "../../foundations/classNames";
 import styles from "./Toast.module.css";
@@ -94,9 +94,21 @@ function TimedToast({ entry, onDismiss }: { entry: ToastEntry; onDismiss: (id: n
   );
 }
 
+/** Text-only copy of the current toasts of one tone; each keyed addition is announced once. */
+function Announcements({ toasts }: { toasts: ToastEntry[] }) {
+  return toasts.map((toast) => (
+    <div key={toast.id}>
+      <span>{toast.title}</span>
+      {toast.description ? <span> {toast.description}</span> : null}
+    </div>
+  ));
+}
+
 /**
- * Queues short-lived mutation feedback in a fixed top-right region. Success toasts are polite
- * status messages; danger toasts are assertive alerts. Timers pause while hovered or focused.
+ * Queues short-lived mutation feedback in a fixed top-right region, stacked in arrival order.
+ * Toasts are announced through always-mounted live regions kept apart from the visible stack:
+ * success politely as status, danger assertively as an alert. The visible toasts hold the
+ * interactive controls, so they stay out of the live regions. Timers pause while hovered or focused.
  */
 export function ToastProvider({ children }: { children: ReactNode }) {
   const [toasts, setToasts] = useState<ToastEntry[]>([]);
@@ -115,13 +127,14 @@ export function ToastProvider({ children }: { children: ReactNode }) {
     <ToastContext.Provider value={api}>
       {children}
       <section aria-label="Notifications" className={styles.region}>
-        <div role="status" aria-live="polite" className={styles.live}>
-          {toasts.filter((toast) => toast.tone !== "danger").map((toast) => <TimedToast key={toast.id} entry={toast} onDismiss={dismiss} />)}
-        </div>
-        <div role="alert" aria-live="assertive" className={styles.live}>
-          {toasts.filter((toast) => toast.tone === "danger").map((toast) => <TimedToast key={toast.id} entry={toast} onDismiss={dismiss} />)}
-        </div>
+        {toasts.map((toast) => <TimedToast key={toast.id} entry={toast} onDismiss={dismiss} />)}
       </section>
+      <VisuallyHidden role="status" aria-live="polite">
+        <Announcements toasts={toasts.filter((toast) => toast.tone !== "danger")} />
+      </VisuallyHidden>
+      <VisuallyHidden role="alert" aria-live="assertive">
+        <Announcements toasts={toasts.filter((toast) => toast.tone === "danger")} />
+      </VisuallyHidden>
     </ToastContext.Provider>
   );
 }

@@ -84,7 +84,7 @@ Not provided by the library: a command registry (the app passes only the command
 | Input | Invalid | Surface background with a 1px danger border; error text below in `--danger`. |
 | Select, filter | Open | Popover with `--e2`, rows 34px, the selected row checked. |
 | Dialog | Open | Focus moves inside and is trapped; Escape closes; focus returns to the trigger. Scrim clicks close only when `isDismissable`. While pending, nothing dismisses it. |
-| Toast | Shown | Success is announced politely, danger assertively. Plain toasts hide after 2600 ms; toasts with an action (Undo) after 8000 ms. The timer pauses while hovered or focused. Each toast has a Dismiss button. |
+| Toast | Shown | Toasts stack in arrival order. Success is announced politely, danger assertively, through live regions kept apart from the visible toasts. Plain toasts hide after 2600 ms; toasts with an action (Undo) after 8000 ms. The timer pauses while hovered or focused. Each toast has a Dismiss button. |
 | CatalogCombobox | Typing | Search waits 250 ms after the last keystroke; each new query aborts the previous request and stale responses are ignored. |
 | CatalogCombobox | Results | "Create custom {noun} “query”" first (when allowed and nothing matches exactly), then ranked options with the match in bold and right-aligned meta. Already-added values are visible but disabled. |
 | CatalogCombobox | Loading, no results, error | Skeleton rows; "No catalog matches" with a keyboard-reachable Create custom option; "Search failed." with a Retry option. Loading, no-results and error are announced. |
