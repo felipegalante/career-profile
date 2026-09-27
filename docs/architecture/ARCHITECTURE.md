@@ -56,7 +56,7 @@ Experience/Education/Certification services may call a derivation boundary that 
 
 ## Frontend architecture
 
-Feature pages share design-system primitives plus two higher-level reusable patterns:
+The `@career-profile/ui` workspace package ([ADR 0011](adr/0011-shared-ui-workspace-package.md)) provides tokens, primitives, the application shell and presentational compositions, built on React Aria Components ([ADR 0012](adr/0012-react-aria-components.md)) and CSS Modules over the artifact tokens ([ADR 0013](adr/0013-css-modules-over-artifact-tokens.md)). The package never imports GraphQL, the router or domain rules; `web` wires data, routing and permissions. Feature pages share design-system primitives plus two higher-level reusable patterns:
 
 - `CatalogCombobox`: search/select/custom behavior and dependent-parent gating.
 - `ProfileRecordDialog`: accessible dialog shell, form actions, loading/error conventions.

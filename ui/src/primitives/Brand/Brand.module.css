@@ -1,0 +1,6 @@
+/* .brand, .auth-brand and .logo from the artifacts. */
+@layer components{
+  .brand{display:flex;align-items:center;gap:10px;font-weight:600}
+  .sidebar{padding:4px 8px 18px;font-size:15px}
+  .logo{width:28px;height:28px;border-radius:8px;background:var(--brand);color:var(--brand-fg);display:flex;align-items:center;justify-content:center;font:600 11px/1 "Geist Mono",monospace;flex:none}
+}

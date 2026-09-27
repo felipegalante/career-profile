@@ -1,0 +1,36 @@
+/* .table-toolbar, .table-search, .filter-control, .table, .sort-head, .person, .pagination, .page-btn and .rows-select
+   from the artifacts (design-system/components/admin-table.html, admin/users.html). */
+@layer components{
+  .toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:16px 18px;border-bottom:1px solid var(--line)}
+  .search{flex:1 1 420px;min-width:280px;max-width:none}
+  .tools{display:flex;align-items:center;gap:8px;flex-wrap:wrap;flex:0 0 auto;margin-left:auto}
+  @media(max-width:720px){.toolbar{align-items:stretch}.search{flex-basis:100%;min-width:0}.tools{position:relative;margin-left:0;width:100%;overflow:auto;flex-wrap:nowrap}}
+
+  .filter{height:36px;display:inline-flex;align-items:center;gap:8px;padding:0 10px;border:0;border-radius:8px;background:var(--sunken);box-shadow:none;font-size:13px;color:var(--ink-2);cursor:pointer;white-space:nowrap}
+  .filter[data-hovered]{background:var(--hover);color:var(--ink)}
+  .filter[data-focus-visible]{outline:2px solid var(--ring);outline-offset:2px}
+
+  /* Positioned so visually hidden, absolutely positioned descendants cannot widen the page. */
+  .region{position:relative;overflow-x:auto}
+  .region:focus-visible{outline:2px solid var(--ring);outline-offset:-2px}
+  .table{width:100%;border-collapse:separate;border-spacing:0}
+  .table th{text-align:left;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);font-weight:600;padding:10px 12px;border-bottom:1px solid var(--line);white-space:nowrap}
+  .table td{padding:12px;border-bottom:1px solid var(--line);vertical-align:middle}
+  .table tr:last-child td{border-bottom:0}
+  .sortHead{display:inline-flex;align-items:center;gap:5px;color:inherit;border:0;background:none;padding:0;font:inherit;letter-spacing:inherit;text-transform:inherit;cursor:pointer;border-radius:4px}
+  .sortHead svg{width:13px;height:13px}
+  .person{display:flex;align-items:center;gap:10px}
+  .personName{font-weight:700}
+  .personMeta{font-size:12px;line-height:16px;color:var(--ink-3)}
+  .stateCell{padding:0}
+
+  .pagination{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 18px;border-top:1px solid var(--line);flex-wrap:wrap}
+  .range{font-size:12px;line-height:16px;color:var(--ink-2)}
+  .rows{display:flex;align-items:center;gap:7px;color:var(--ink-2);font-size:12px}
+  .pages{display:flex;align-items:center;gap:4px;margin:0;padding:0;list-style:none}
+  .page{min-width:32px;height:32px;border:0;border-radius:7px;background:transparent;display:inline-flex;align-items:center;justify-content:center;color:var(--ink-2);cursor:pointer}
+  .page[data-hovered]{background:var(--hover);color:var(--ink)}
+  .page[aria-current="page"]{background:var(--brand);color:white}
+  .page[data-disabled]{opacity:.35;cursor:not-allowed}
+  .gap{cursor:default}
+}

@@ -1,0 +1,20 @@
+/* Copied from the artifact .field, .input and .input-shell rules. */
+@layer components{
+  .field{display:flex;flex-direction:column;gap:6px}
+  .label{font-weight:500}
+  .help{font-size:12px;color:var(--ink-3)}
+  .error{color:var(--danger)}
+  .shell{position:relative}
+  .input{width:100%;height:40px;border:0;border-radius:8px;background:var(--sunken);box-shadow:inset 0 0 0 1px transparent;padding:10px 12px;line-height:20px;display:block;outline:none}
+  .input::placeholder{color:var(--ink-3)}
+  .input:focus{background:var(--surface);box-shadow:inset 0 0 0 1px var(--brand),0 0 0 3px var(--brand-tint)}
+  .input[data-invalid]{background:var(--surface);box-shadow:inset 0 0 0 1px var(--danger)}
+  .withIcon{padding-left:36px}
+  .withTrail{padding-right:40px}
+  .textarea{min-height:96px;height:auto;padding:10px 12px;line-height:20px;resize:none}
+  .lead,.trail{position:absolute;top:50%;transform:translateY(-50%);color:var(--ink-3);display:flex;align-items:center;justify-content:center}
+  .lead{left:11px;pointer-events:none}
+  .trail{right:10px}
+  .toggle{border:0;background:none;cursor:pointer;padding:3px;border-radius:6px;color:var(--ink-3);display:flex;align-items:center;justify-content:center}
+  .toggle[data-hovered]{background:var(--hover);color:var(--ink)}
+}

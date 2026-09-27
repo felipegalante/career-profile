@@ -12,8 +12,8 @@
     "db:up": "docker compose up -d",
     "db:down": "docker compose down",
     "db:migrate": "pnpm --filter api db:migrate",
-    "test": "pnpm --filter api test && pnpm --filter web test",
-    "typecheck": "pnpm --filter api typecheck && pnpm --filter web typecheck",
+    "test": "pnpm --filter api test && pnpm --filter @career-profile/ui test && pnpm --filter web test",
+    "typecheck": "pnpm --filter api typecheck && pnpm --filter @career-profile/ui typecheck && pnpm --filter web typecheck",
     "verify": "pnpm typecheck && pnpm test && pnpm build && pnpm --filter api verify"
   },
   "devDependencies": {

@@ -207,7 +207,7 @@ Static seed checks covered all rows: JSON parsing, CSV shape, seed-key duplicate
 
 **Why it matters:** mobile users lose Account/Focus access and table controls extend beyond the viewport. A standalone mobile mockup does not prove the desktop artifact responds correctly.
 
-**Resolution:** OPEN QUESTION Q09 for navigation presentation. Recommend the spec's drawer with the same primary destinations and Account actions; use a named, keyboard-scrollable table region or reviewed card rows. Test 320/390/768/1280 widths, zoom/reflow, virtual keyboard and sticky dialog footer.
+**Resolution:** Q09 resolved: a top bar with a navigation drawer holding the rail destinations and the Account actions ([Navigation](../../design/NAVIGATION.md)); tables scroll inside a named, keyboard-focusable region. Test 320/390/768/1280 widths, zoom/reflow, virtual keyboard and sticky dialog footer.
 
 ### R16 — Root tooling imports a package it does not own and uses old migrations
 
@@ -371,7 +371,7 @@ R16–R18 are concrete issues. `.codex/config.toml`'s `agents.enabled` and `max_
 | Q06 | Product; before 02 | Supported profile enums, title/completeness source, and Settings password-change scope. Recommend no invented metrics; add AC for any new password action. |
 | Q07 | Product + data; before 05 | Month/day precision, nullability and education status/current combinations. Recommend explicit month precision. |
 | Q08 | Product + architecture; lexical/identity rules before 03, parent rules before 05–07 | Rank tie-breaks, exact normalization, parent validity and strict board scope. A searchable Focus dialog already fits its specification; no new editor-mode gate. |
-| Q09 | Design; before 02 | Drawer vs old bottom subsection navigation. Recommend same primary destinations in responsive drawer. |
+| Q09 | Resolved 2026-09-22 | Top bar with a navigation drawer holding the rail destinations and Account actions; no bottom destination bar. |
 | Q10 | Product + security; before R1/R2 | Resume retention/providers/review/merge and factual-content limits. This gates planned initial-release work. |
 | Q11 | Resolved 2026-09-21 | Rendered indigo/Geist is the visual authority; reconcile written design tokens accordingly. |
 | Q12 | Resolved 2026-09-21 | Use immediate removal/dismissal with a brief Undo toast; persistence failures still restore the prior chip/counts. |

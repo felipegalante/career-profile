@@ -8,27 +8,31 @@
     "codegen": "graphql-codegen --config codegen.ts",
     "test": "vitest run",
     "test:e2e": "playwright test",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit && tsc --noEmit -p e2e",
+    "test:visual": "VISUAL=1 playwright test --project=visual"
   },
   "dependencies": {
+    "@career-profile/ui": "workspace:*",
     "graphql": "^17.0.2",
-    "react": "^19.2.8",
-    "react-dom": "^19.2.8",
+    "react": "catalog:",
+    "react-dom": "catalog:",
     "react-router": "^8.4.0"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
     "@graphql-codegen/cli": "^7.4.2",
     "@graphql-codegen/client-preset": "^6.2.0",
     "@graphql-typed-document-node/core": "^3.2.0",
     "@playwright/test": "^1.63.0",
     "@tailwindcss/vite": "^4.3.3",
     "@testing-library/react": "^16.3.2",
-    "@types/react": "^19.2.18",
-    "@types/react-dom": "^19.2.4",
+    "@types/node": "^24.13.6",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
     "@vitejs/plugin-react": "^6.0.5",
     "jsdom": "^30.0.0",
     "tailwindcss": "^4.3.3",
-    "typescript": "^7.0.2",
+    "typescript": "catalog:",
     "vite": "^8.2.1",
     "vitest": "^5.0.0"
   }

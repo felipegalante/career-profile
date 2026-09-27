@@ -43,6 +43,14 @@
 
 ## Frontend
 
+Shared UI (`ui/`) layers:
+
+- Vitest, Testing Library and `user-event` behavior tests per component, including a check that the design tokens match the artifact stylesheet;
+- the component gallery (`web/gallery.html`) with Playwright computed-style parity against the artifacts (intentional differences listed in `web/e2e/parity/deviations.ts`), axe WCAG 2.2 AA scans of every gallery page and open overlay, shortcut, drawer, combobox, dialog, table and drag behaviors, with drag verified on Chromium, Firefox and WebKit;
+- Linux screenshot baselines for a few gallery pages, run by the CI `visual` job (`pnpm --filter web test:visual` with `VISUAL=1`).
+
+Feature coverage:
+
 - shared `CatalogCombobox`: debounce, stale protection, keyboard, loading/no-results/error, custom option;
 - skill chip remove control: click/keyboard activation, drag isolation, lane count update, optimistic success and rollback on failure;
 - dependent child hidden until parent selected;

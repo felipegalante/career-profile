@@ -1,0 +1,41 @@
+/* .profile-hero, .profile-section, .record, .profile-placeholder and .focus-card from the artifacts (profile/profile.html, profile/overview-empty.html, focus/focus.html). */
+@layer components{
+  .hero{padding:20px 22px;display:flex;align-items:center;gap:14px}
+  .heroSummary{display:flex;flex-direction:column;min-width:0}
+  .heroName{font-size:21px;line-height:28px;font-weight:600;letter-spacing:-.015em}
+  .heroSubtitle{color:var(--ink-2)}
+  .heroStatus{margin-left:auto}
+
+  .section{margin-top:16px}
+  .head{padding:18px 20px 12px;display:flex;align-items:flex-start;justify-content:space-between;gap:16px}
+  .headPage{padding:20px 24px;align-items:center}
+  .title{margin:0;font-size:16px;line-height:24px;font-weight:600;letter-spacing:-.01em}
+  .description{font-size:12px;line-height:16px;color:var(--ink-3)}
+  .body{padding:0 20px 20px}
+  .flush{padding:0}
+
+  .record{padding:18px 20px}
+  .record + .record{box-shadow:inset 0 1px 0 var(--line)}
+  .compact{padding:0}
+  .recordHead{display:flex;justify-content:space-between;gap:16px}
+  .recordTitle{margin:0;font-size:16px;line-height:22px;font-weight:bold}
+  .recordSubtitle{margin:3px 0 0;color:var(--ink-2)}
+  .recordMeta{font-size:12px;line-height:16px;color:var(--ink-3)}
+
+  .placeholder{padding:18px 20px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+  .placeholder + .placeholder{box-shadow:inset 0 1px 0 var(--line)}
+  .placeholderCopy{display:flex;align-items:flex-start;gap:12px;min-width:0}
+  .placeholderIcon{width:38px;height:38px;border-radius:9px;background:var(--brand-tint);color:var(--brand-ink);display:flex;align-items:center;justify-content:center;flex:none}
+  .placeholderTitle{font-size:15px;line-height:20px;margin:0;font-weight:bold}
+  .placeholderDescription{margin:2px 0 0;color:var(--ink-2)}
+  @media(max-width:640px){.placeholder{align-items:flex-start;flex-direction:column}.placeholderAction{width:100%}}
+
+  .focusCard{padding:20px}
+  .focusHead{display:flex;align-items:center;justify-content:space-between;gap:16px}
+  .focusTitle{display:flex;align-items:center;gap:10px}
+  .focusIcon{width:36px;height:36px;border-radius:9px;background:var(--brand-tint);color:var(--brand-ink);display:flex;align-items:center;justify-content:center;flex:none}
+  .accent{background:var(--accent-tint);color:var(--accent)}
+  .info{background:var(--info-tint);color:var(--info)}
+  .focusLabel{margin:0;font-size:14px;line-height:20px;font-weight:bold}
+  .focusDescription{color:var(--ink-2)}
+}

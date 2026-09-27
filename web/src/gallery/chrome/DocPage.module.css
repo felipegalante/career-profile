@@ -1,0 +1,35 @@
+/* Documentation chrome copied from the artifact design-system pages (.ds, .ds-head, .specimen, .token-grid, .swatch). */
+@layer components{
+  .ds{max-width:1180px;margin:0 auto;padding:36px 40px 80px}
+  .head{display:flex;justify-content:space-between;gap:20px;align-items:flex-start;border-bottom:1px solid var(--line);padding-bottom:18px;margin-bottom:24px}
+  .head h1{margin:0;font-size:28px;line-height:34px}
+  .head p{margin:4px 0 0;color:var(--ink-2);max-width:720px}
+  .specimen{background:var(--surface);border-radius:12px;box-shadow:var(--e1);padding:20px}
+  .specimen h2{margin:0 0 4px;font-size:16px}
+  .specimen>p{margin:0 0 18px;color:var(--ink-2)}
+  .tokenGrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+  .swatch{height:92px;border-radius:10px;padding:12px;display:flex;align-items:flex-end;font-size:12px;font-weight:500;box-shadow:inset 0 0 0 1px rgb(0 0 0/.06)}
+  .unbacked{display:inline-flex;align-items:center;height:22px;padding:0 8px;border-radius:999px;background:var(--warning-tint);color:var(--warning);font-size:11px;font-weight:600;letter-spacing:.04em;text-transform:uppercase}
+  @media(max-width:860px){.ds{padding:24px 16px 60px}.tokenGrid{grid-template-columns:repeat(2,1fr)}}
+}
+@layer components{
+  .shortcutRow{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 0}
+  .shortcutRow + .shortcutRow{border-top:1px solid var(--line)}
+  .shortcutKeys{display:flex;align-items:center;gap:6px;flex:none}
+  .shortcutAction{font-weight:600}
+  .shortcutDesc{font-size:12px;color:var(--ink-2);margin-top:2px}
+  .demoNote{padding:10px 12px;border-radius:8px;background:var(--brand-tint);color:var(--brand-ink);font-size:12px}
+  .stat{padding:18px;background:var(--surface);border-radius:12px;box-shadow:var(--e1)}
+  .statNum{font:600 24px/30px "Geist Mono",monospace;letter-spacing:-.02em}
+  .statSub{color:var(--ink-2);margin-top:2px}
+  .mobileFrame{width:390px;height:760px;margin:28px auto;background:var(--canvas);border-radius:24px;box-shadow:0 0 0 8px #111827,0 22px 70px rgb(15 23 42/.22);overflow:hidden}
+  .mobileFrame iframe{display:block;border:0;width:100%;height:100%}
+  .editor{min-height:64px;padding:10px 12px;border-radius:8px;background:var(--sunken);outline:none}
+  .editor:focus{background:var(--surface);box-shadow:inset 0 0 0 1px var(--brand),0 0 0 3px var(--brand-tint)}
+}
+@layer components{
+  .flow{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+  .flowCard{min-width:160px;padding:14px 16px;border-radius:10px;background:var(--surface);box-shadow:var(--e1)}
+  .flowArrow{color:var(--ink-3);font-size:22px}
+  .note{padding:12px 14px;border-left:3px solid var(--brand);background:var(--brand-tint);border-radius:0 8px 8px 0;color:var(--brand-ink)}
+}

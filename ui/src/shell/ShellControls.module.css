@@ -1,0 +1,6 @@
+/* .command-trigger and .sidebar-toggle from the artifacts (design-system/shell/sidebar.html). */
+@layer components{
+  .trigger{height:34px;min-width:210px;border:0;border-radius:8px;background:var(--sunken);color:var(--ink-2);display:flex;align-items:center;justify-content:space-between;gap:12px;padding:0 10px;cursor:pointer}
+  .toggle{height:34px;padding:0 10px;border:0;border-radius:8px;background:var(--sunken);display:inline-flex;align-items:center;gap:8px;color:var(--ink-2);cursor:pointer}
+  .trigger:hover,.toggle:hover{background:var(--hover);color:var(--ink)}
+}

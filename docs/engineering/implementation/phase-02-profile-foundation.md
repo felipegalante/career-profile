@@ -8,7 +8,7 @@ Create the primary Profile workspace, Account personal-information experience an
 
 ## Dependencies
 
-01A required; 01B required only for setup-specific journeys. Resolve Q06 personal/settings/title/completeness scope and Q09 mobile navigation. Accept shell/Account route map. Incomplete-user guard remains active.
+01A required; 01B required only for setup-specific journeys. Resolve Q06 personal/settings/title/completeness scope; Q09 is resolved (top bar and navigation drawer). Accept shell/Account route map. Incomplete-user guard remains active.
 
 ## Product requirements covered
 
@@ -34,7 +34,7 @@ Profile repository selects by context user; validate nonblank names, nonfuture D
 
 ## Frontend work
 
-Build AppShell/sidebar/drawer/avatar menu/Account tabs and CommandPalette. Meta/Ctrl+B toggles without remount; Meta/Ctrl+K opens authorized context commands. Empty Profile renders all five placeholders, adding functional domain actions as slices land; do not render dead Save actions or claim them complete. Account supports all specified fields, cancel/discard, loading/error/retry. Resume Tools CTA and command arrive with the functional R1/R2 flows, not artifact availability. Slice 02C composes personal/career fields into the seven-step shell, supports optional skips and an explicit review/finish action. Missing optional editors are internal development scope until their domain slices; this is not complete onboarding feature acceptance.
+Compose AppShell (rail, drawer, account menu), Account tabs and CommandPalette from `@career-profile/ui`, supplying routes, role-filtered commands and account actions. Meta/Ctrl+B toggles without remount; Meta/Ctrl+K opens authorized context commands. Empty Profile renders all five placeholders, adding functional domain actions as slices land; do not render dead Save actions or claim them complete. Account supports all specified fields, cancel/discard, loading/error/retry. Resume Tools CTA and command arrive with the functional R1/R2 flows, not artifact availability. Slice 02C composes personal/career fields into the seven-step shell, supports optional skips and an explicit review/finish action. Missing optional editors are internal development scope until their domain slices; this is not complete onboarding feature acceptance.
 
 ## Design artifacts
 
