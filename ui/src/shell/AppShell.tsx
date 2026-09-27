@@ -6,6 +6,7 @@ import { cx } from "../foundations/classNames";
 import { Avatar } from "../primitives/Avatar/Avatar";
 import { Brand } from "../primitives/Brand/Brand";
 import { Button } from "../primitives/Button/Button";
+import { BLOCKING_DIALOG_ATTRIBUTE } from "../primitives/Dialog/Dialog";
 import { Tooltip } from "../primitives/Tooltip/Tooltip";
 import { ShellContext, type ShellState } from "./ShellContext";
 import { useShellShortcuts } from "./useShellShortcuts";
@@ -109,7 +110,7 @@ function AccountMenu({ account }: { account: ShellAccount }) {
 function NavigationDrawer({ isOpen, onOpenChange, navigation, currentItemId, account }: { isOpen: boolean; onOpenChange: (open: boolean) => void; navigation: ShellNavSection[]; currentItemId?: string; account: ShellAccount }) {
   const close = () => onOpenChange(false);
   return (
-    <ModalOverlay isOpen={isOpen} onOpenChange={onOpenChange} isDismissable className={styles.drawerOverlay}>
+    <ModalOverlay isOpen={isOpen} onOpenChange={onOpenChange} isDismissable {...{ [BLOCKING_DIALOG_ATTRIBUTE]: "" }} className={styles.drawerOverlay}>
       <Modal className={styles.drawer}>
         <RACDialog aria-label="Navigation" className={styles.drawerDialog}>
           <div className={styles.drawerHead}>

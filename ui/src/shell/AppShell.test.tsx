@@ -87,6 +87,17 @@ describe("AppShell", () => {
     expect(screen.queryByRole("dialog", { name: "Command palette" })).toBeNull();
   });
 
+  it("does not open the palette over the navigation drawer", async () => {
+    const user = userEvent.setup();
+    renderShell();
+    await user.click(screen.getByRole("button", { name: "Open navigation" }));
+    expect(screen.getByRole("dialog", { name: "Navigation" })).toBeTruthy();
+    const event = new KeyboardEvent("keydown", { key: "k", ctrlKey: true, bubbles: true, cancelable: true });
+    document.body.dispatchEvent(event);
+    expect(event.defaultPrevented).toBe(false);
+    expect(screen.queryByRole("dialog", { name: "Command palette" })).toBeNull();
+  });
+
   it("filters commands, runs the active one with Enter and closes", async () => {
     const user = userEvent.setup();
     renderShell();

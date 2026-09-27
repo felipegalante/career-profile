@@ -22,7 +22,7 @@ CommandPalette
 - Escape closes and restores focus to the invoking control;
 - text input filters commands client-side from the already-authorized command registry;
 - no-results state explains that no commands match;
-- blocking dialogs prevent the palette from opening on top of them.
+- blocking dialogs and the mobile navigation drawer prevent the palette from opening on top of them.
 
 ## Commands
 
