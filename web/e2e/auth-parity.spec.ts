@@ -90,11 +90,21 @@ for (const pair of pairs) {
   });
 }
 
-for (const [route, setup] of [["/login", undefined], ["/login", failLogin], ["/register", undefined], ["/register", mismatch], ["/set-password", undefined], ["/set-password#proof=example", undefined]] as Array<[string, Setup | undefined]>) {
+/** Each scan asserts the heading of the state it covers, so a fallback state cannot pass in its place. */
+const scans: Array<{ route: string; heading: string; setup?: Setup }> = [
+  { route: "/login", heading: "Sign in to Career Profile" },
+  { route: "/login", heading: "Sign in to Career Profile", setup: failLogin },
+  { route: "/register", heading: "Start your Career Profile" },
+  { route: "/register", heading: "Start your Career Profile", setup: mismatch },
+  { route: "/set-password", heading: "This setup link is unavailable" },
+  { route: "/set-password#proof=example", heading: "Set your password" },
+];
+
+for (const { route, heading, setup } of scans) {
   test(`${route}${setup ? " with errors" : ""} has no WCAG 2.2 AA violations`, async ({ page }) => {
     await mockApi(page, true);
     await page.goto(route);
-    await page.locator("main h1").waitFor();
+    await expect(page.getByRole("heading", { level: 1, name: heading })).toBeVisible();
     await setup?.(page);
     const results = await new AxeBuilder({ page }).withTags(WCAG_TAGS).analyze();
     expect(results.violations.map(({ id, nodes }) => ({ id, targets: nodes.map((node) => node.target.join(" ")) }))).toEqual([]);
