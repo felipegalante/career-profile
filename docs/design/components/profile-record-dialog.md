@@ -29,7 +29,7 @@ Exported from `@career-profile/ui`:
   title="Add work experience"
   isOpen={isOpen}
   onOpenChange={setOpen}
-  onSubmit={(event) => { event.preventDefault(); save(); }}
+  onSubmit={() => save()}
   isSaving={isSaving}              // Save shows "Saving…"; Cancel, close and Escape are disabled
   errorMessage={serverError}       // focused alert above the fields; values stay in the form
 >
@@ -37,4 +37,4 @@ Exported from `@career-profile/ui`:
 </ProfileRecordDialog>
 ```
 
-Fields are spaced 14px apart. Enter in a field submits the form. The dialog follows the artifact sizing (620px, at most the viewport width minus 48px), which already fills small screens.
+Fields are spaced 14px apart. Enter in a field submits the form. The dialog owns the form and prevents the native submission; `onSubmit` still receives the event, so the owner can read `new FormData(event.currentTarget)`. The dialog follows the artifact sizing (620px, at most the viewport width minus 48px), which already fills small screens.

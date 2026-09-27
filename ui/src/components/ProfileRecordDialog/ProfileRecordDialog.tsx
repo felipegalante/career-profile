@@ -9,6 +9,7 @@ export interface ProfileRecordDialogProps extends Pick<DialogProps, "isOpen" | "
   title: ReactNode;
   /** Domain fields. The owning form keeps their values, so they survive a failed save. */
   children: ReactNode;
+  /** Called on submit unless a save is in flight. The dialog owns the form, so native submission is already prevented. */
   onSubmit: (event: FormEvent<HTMLFormElement>) => void;
   /** While true the save button shows its pending label and the dialog cannot be dismissed. */
   isSaving?: boolean;
@@ -42,11 +43,8 @@ export function ProfileRecordDialog({ title, children, onSubmit, isSaving = fals
         id={formId}
         noValidate
         onSubmit={(event) => {
-          if (isSaving) {
-            event.preventDefault();
-            return;
-          }
-          onSubmit(event);
+          event.preventDefault();
+          if (!isSaving) onSubmit(event);
         }}
       >
         <Stack gap={14}>

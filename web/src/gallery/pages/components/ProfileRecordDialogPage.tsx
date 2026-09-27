@@ -33,8 +33,7 @@ function WorkExperienceDemo() {
         onOpenChange={setOpen}
         isSaving={isSaving}
         errorMessage={error}
-        onSubmit={(event) => {
-          event.preventDefault();
+        onSubmit={() => {
           if (!company) {
             setCompanyError("Select or create a company.");
             return;

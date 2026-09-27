@@ -7,7 +7,7 @@ import { TextField } from "../../primitives/TextField/TextField";
 
 function Harness({ onSubmit = vi.fn(), onOpenChange = vi.fn(), isSaving = false, errorMessage }: { onSubmit?: (event: FormEvent<HTMLFormElement>) => void; onOpenChange?: (open: boolean) => void; isSaving?: boolean; errorMessage?: string }) {
   return (
-    <ProfileRecordDialog title="Add work experience" isOpen onOpenChange={onOpenChange} onSubmit={(event) => { event.preventDefault(); onSubmit(event); }} isSaving={isSaving} errorMessage={errorMessage}>
+    <ProfileRecordDialog title="Add work experience" isOpen onOpenChange={onOpenChange} onSubmit={onSubmit} isSaving={isSaving} errorMessage={errorMessage}>
       <TextField label="Company" isRequired />
       <TextField label="Start Date" placeholder="Month / Year" />
     </ProfileRecordDialog>
@@ -21,6 +21,14 @@ describe("ProfileRecordDialog", () => {
     render(<Harness onSubmit={onSubmit} />);
     await user.click(screen.getByRole("button", { name: "Save" }));
     expect(onSubmit).toHaveBeenCalledTimes(1);
+  });
+
+  it("prevents the native form submission", async () => {
+    const user = userEvent.setup();
+    let isNativeSubmitPrevented: boolean | undefined;
+    render(<Harness onSubmit={(event) => { isNativeSubmitPrevented = event.isDefaultPrevented(); }} />);
+    await user.click(screen.getByRole("button", { name: "Save" }));
+    expect(isNativeSubmitPrevented).toBe(true);
   });
 
   it("closes from Cancel", async () => {
@@ -50,7 +58,7 @@ describe("ProfileRecordDialog", () => {
     function Failing() {
       const [error, setError] = useState<string>();
       return (
-        <ProfileRecordDialog title="Add work experience" isOpen onOpenChange={() => undefined} onSubmit={(event) => { event.preventDefault(); setError("We couldn’t save this record. Your entries are still here."); }} errorMessage={error}>
+        <ProfileRecordDialog title="Add work experience" isOpen onOpenChange={() => undefined} onSubmit={() => { setError("We couldn’t save this record. Your entries are still here."); }} errorMessage={error}>
           <TextField label="Company" />
         </ProfileRecordDialog>
       );
