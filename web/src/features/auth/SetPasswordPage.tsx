@@ -17,9 +17,10 @@ export function SetPasswordPage({ auth }: { auth: AuthState }) {
   const [error, setError] = useState<string | null>(proof ? null : UNAVAILABLE);
   const [pending, setPending] = useState(false);
 
-  // The one-time proof must not stay in the address bar or browser history.
+  // The one-time proof must not stay in the address bar or browser history. The router keeps its
+  // entry index in history.state, so the entry's state is carried over rather than cleared.
   useEffect(() => {
-    if (window.location.hash) window.history.replaceState(null, "", `${window.location.pathname}${window.location.search}`);
+    if (window.location.hash) window.history.replaceState(window.history.state, "", `${window.location.pathname}${window.location.search}`);
   }, []);
 
   async function submit(event: FormEvent) {
