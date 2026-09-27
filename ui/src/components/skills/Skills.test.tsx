@@ -35,6 +35,17 @@ describe("SkillBoard", () => {
     expect(within(lane("Beginner Technical skills")).getByText("No skills at this level")).toBeTruthy();
   });
 
+  it("counts and reveals exactly the skills a lane receives", async () => {
+    const user = userEvent.setup();
+    const skills = ["React", "PostgreSQL", "AWS", "Docker", "Redis"].map((label) => ({ id: label.toLowerCase(), label }));
+    render(<SkillBoard categories={[{ category: "TECHNICAL", lanes: [{ level: "INTERMEDIATE", skills }] }]} collapsedCount={3} />);
+    const intermediate = lane("Intermediate Technical skills");
+    expect(within(intermediate).getByText("Showing 3 of 5")).toBeTruthy();
+    await user.click(within(intermediate).getByRole("button", { name: "Show all 5" }));
+    expect(within(intermediate).getAllByRole("listitem")).toHaveLength(5);
+    expect(within(intermediate).getByText("Showing 5 of 5")).toBeTruthy();
+  });
+
   it("renders read-only chips in view mode", () => {
     render(<SkillBoard categories={categories} />);
     expect(screen.queryByRole("button", { name: /Remove/ })).toBeNull();

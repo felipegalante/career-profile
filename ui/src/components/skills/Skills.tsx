@@ -26,15 +26,14 @@ export interface SkillChipData {
 
 export interface SkillLaneData {
   level: Proficiency;
+  /** Every skill at this level; the lane's counts and Show all are derived from it. */
   skills: SkillChipData[];
-  /** Total skills at this level when `skills` is a partial page; defaults to `skills.length`. */
-  total?: number;
 }
 
 export interface SkillCategoryData {
   category: SkillCategory;
   lanes: SkillLaneData[];
-  /** Total skills in the category for the header badge; defaults to the sum of lane totals. */
+  /** Total skills in the category for the header badge, which can include lanes the card does not render; defaults to the sum of lane lengths. */
   total?: number;
 }
 
@@ -146,7 +145,7 @@ export interface ProficiencyLaneProps extends SkillLaneData {
 }
 
 /** One proficiency level of a category: indicator, "Showing n of m", chips and Show all / Show fewer. */
-export function ProficiencyLane({ category, level, skills, total }: ProficiencyLaneProps) {
+export function ProficiencyLane({ category, level, skills }: ProficiencyLaneProps) {
   const board = useBoard();
   const ref = useRef<HTMLElement>(null);
   const [isExpanded, setExpanded] = useState(false);
@@ -164,7 +163,6 @@ export function ProficiencyLane({ category, level, skills, total }: ProficiencyL
     },
   });
 
-  const count = total ?? skills.length;
   const collapsed = skills.slice(0, board.collapsedCount);
   const moved = skills.find((skill) => skill.id === board.lastMovedId);
   const visible = isExpanded ? skills : moved && !collapsed.includes(moved) ? [...collapsed, moved] : collapsed;
@@ -174,7 +172,7 @@ export function ProficiencyLane({ category, level, skills, total }: ProficiencyL
     <section ref={ref} {...dropProps} aria-label={`${proficiencyLabels[level]} ${categoryLabels[category]} skills`} className={cx(styles.lane, isAvailable && styles.dropAvailable, isDropTarget && styles.dragOver)} data-proficiency={level}>
       <div className={styles.laneHead}>
         <ProficiencyIndicator level={level} as="h4" />
-        <span className={styles.count}>Showing {visible.length} of {count}</span>
+        <span className={styles.count}>Showing {visible.length} of {skills.length}</span>
       </div>
       <ul className={chipStyles.list}>
         {visible.length === 0 ? <li className={styles.emptyLane}>No skills at this level</li> : null}
@@ -183,7 +181,7 @@ export function ProficiencyLane({ category, level, skills, total }: ProficiencyL
       {skills.length > visible.length || isExpanded ? (
         <div className={styles.more}>
           <Button variant="ghost" size="sm" onPress={() => setExpanded((current) => !current)} aria-expanded={isExpanded}>
-            {isExpanded ? "Show fewer" : `Show all ${count}`}
+            {isExpanded ? "Show fewer" : `Show all ${skills.length}`}
           </Button>
         </div>
       ) : null}
@@ -196,7 +194,7 @@ export type SkillCategoryCardProps = SkillCategoryData;
 /** Technical or Foundational card with a count badge and its proficiency lanes. */
 export function SkillCategoryCard({ category, lanes, total }: SkillCategoryCardProps) {
   const board = useBoard();
-  const count = total ?? lanes.reduce((sum, lane) => sum + (lane.total ?? lane.skills.length), 0);
+  const count = total ?? lanes.reduce((sum, lane) => sum + lane.skills.length, 0);
   const isBlocked = board.mode === "edit" && board.activeCategory !== null && board.activeCategory !== category;
   return (
     <Surface className={cx(styles.card, isBlocked && styles.blocked)} data-skill-category={category} aria-labelledby={`skill-card-${category}`}>
