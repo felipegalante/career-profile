@@ -100,7 +100,9 @@ pnpm dev
 - Database readiness: `http://localhost:3001/readyz`
 - GraphQL foundation API: `http://localhost:3001/graphql`
 
-`pnpm verify` creates and removes its own temporary database; it never migrates the database named in `DATABASE_URL`.
+`pnpm verify` creates and removes its own temporary database; it never migrates the database named in `DATABASE_URL`. The API database tests in `pnpm test` do the same, and are skipped when `DATABASE_URL` is unset outside CI.
+
+`pnpm --filter web test:e2e` starts its own web server (port 5310) and API (port 5311), so a running `pnpm dev` is never reused. The API runs against `career_profile_e2e`, which is recreated on every run on the server from `docker compose up -d`.
 
 ## Working with Codex
 
@@ -123,4 +125,4 @@ An ADR is not a place to store ordinary product requirements, UI choices, or acc
 
 ## Current state
 
-The repository contains the reviewed platform foundation and planning material. Product features are intentionally not implemented yet. Fastify, GraphQL Yoga, Drizzle ORM, PostgreSQL, and pnpm provide the foundation for later phases.
+The repository contains the reviewed platform foundation, the shared UI library, authentication (pending review) and planning material. Other product features are not implemented yet. Fastify, GraphQL Yoga, Drizzle ORM, PostgreSQL, and pnpm provide the foundation for later phases.

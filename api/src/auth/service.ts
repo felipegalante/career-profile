@@ -1,7 +1,7 @@
 import { createHmac, randomBytes } from "node:crypto";
 import { Algorithm, hash, verify } from "@node-rs/argon2";
 import { and, eq, gt, isNull, sql } from "drizzle-orm";
-import type { AppDatabase } from "../db.js";
+import type { AppDatabase, AppTransaction } from "../db.js";
 import { authAttemptWindows, passwordSetupGrants, sessions, userProfiles, users } from "../db/schema.js";
 import { AuthError } from "./errors.js";
 
@@ -63,7 +63,7 @@ export class AuthService {
     return { id: user.id, email: user.email, role: user.role, passwordSetupRequired: user.passwordSetupRequired, onboardingCompleted: user.onboardingCompletedAt !== null };
   }
 
-  private async createSession(tx: any, user: typeof users.$inferSelect): Promise<AuthSession> {
+  private async createSession(tx: AppTransaction, user: typeof users.$inferSelect): Promise<AuthSession> {
     const sessionToken = this.randomToken();
     const csrfToken = this.randomToken();
     const now = new Date();
@@ -118,20 +118,30 @@ export class AuthService {
     });
   }
 
-  async viewerForToken(token: string | undefined): Promise<Viewer | null> {
-    if (!token) return null;
+  /** The session and account a cookie names, or null when it no longer authenticates anyone. */
+  private async usableSession(token: string): Promise<{ session: typeof sessions.$inferSelect; user: typeof users.$inferSelect } | null> {
     const row = await this.database.db.select({ session: sessions, user: users }).from(sessions).innerJoin(users, eq(sessions.userId, users.id)).where(and(eq(sessions.tokenHash, this.fingerprint(token)), isNull(sessions.revokedAt))).limit(1);
     const record = row[0];
     if (!record || record.session.expiresAt <= new Date() || record.session.lastSeenAt.getTime() + SESSION_IDLE_MS <= Date.now() || record.session.credentialGeneration !== record.user.credentialGeneration) return null;
+    return record;
+  }
+
+  async viewerForToken(token: string | undefined): Promise<Viewer | null> {
+    if (!token) return null;
+    const record = await this.usableSession(token);
+    if (!record) return null;
     await this.database.db.update(sessions).set({ lastSeenAt: new Date(), updatedAt: new Date() }).where(eq(sessions.id, record.session.id));
     return this.viewer(record.user);
   }
 
+  // A cookie that no longer authenticates anyone (revoked, expired or reset) leaves the request
+  // anonymous, so it needs no CSRF token; the trusted-Origin check still applies. Requiring one
+  // would stop that browser from signing in or using a setup link until the cookie expired.
   async csrfValid(sessionToken: string | undefined, csrfToken: string | undefined): Promise<boolean> {
     if (!sessionToken) return true;
-    if (!csrfToken) return false;
-    const row = await this.database.db.select({ csrfTokenHash: sessions.csrfTokenHash }).from(sessions).where(and(eq(sessions.tokenHash, this.fingerprint(sessionToken)), isNull(sessions.revokedAt))).limit(1);
-    return row[0]?.csrfTokenHash === this.fingerprint(csrfToken);
+    const record = await this.usableSession(sessionToken);
+    if (!record) return true;
+    return csrfToken !== undefined && record.session.csrfTokenHash === this.fingerprint(csrfToken);
   }
 
   async logout(token: string | undefined): Promise<void> {
@@ -139,7 +149,7 @@ export class AuthService {
     await this.database.db.update(sessions).set({ revokedAt: new Date(), updatedAt: new Date() }).where(and(eq(sessions.tokenHash, this.fingerprint(token)), isNull(sessions.revokedAt)));
   }
 
-  // Used by Phase 10 and controlled fixtures; never exposed through public GraphQL.
+  // Not exposed through public GraphQL: the caller authorizes and audits issuing a proof.
   async issueSetupGrant(userId: string, purpose: "FIRST_PASSWORD" | "RESET"): Promise<string> {
     const proof = this.randomToken();
     const now = new Date();
@@ -154,7 +164,7 @@ export class AuthService {
     return proof;
   }
 
-  // Phase 10 invokes this lifecycle after its authorization and audit checks; it has no public GraphQL resolver.
+  // Not exposed through public GraphQL: the caller authorizes and audits a credential reset.
   async requirePasswordSetup(userId: string, purpose: "FIRST_PASSWORD" | "RESET"): Promise<string> {
     const proof = this.randomToken();
     const now = new Date();

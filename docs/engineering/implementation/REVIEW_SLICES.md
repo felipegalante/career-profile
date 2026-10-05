@@ -1,6 +1,6 @@
 # Reviewable delivery slices
 
-Status: **PLANNED; none implemented or tested.** Phase numbers remain stable as milestones. The rows below are separate review units, not a requirement to deliver an entire phase in one PR. Every behavioral slice includes its narrow DB/API/UI path, negative ownership cases, failures and acceptance evidence; do not split by technical layer. Infrastructure-only 00 is the deliberate exception.
+Status: **PLANNED**, except 00A and 00B (complete) and 01A and 01B (implemented and tested, pending human review). Phase numbers remain stable as milestones. The rows below are separate review units, not a requirement to deliver an entire phase in one PR. Every behavioral slice includes its narrow DB/API/UI path, negative ownership cases, failures and acceptance evidence; do not split by technical layer. Infrastructure-only 00 is the deliberate exception.
 
 A slice is too large if its reviewer cannot follow one user action, its transaction and its failure behavior together. Split at another user action before adding unrelated capability. Database migrations stay additive while later consumers are absent. Partial milestones are development checkpoints, not permission to publish incomplete features. Full criterion completion is tracked in [COVERAGE](COVERAGE.md).
 

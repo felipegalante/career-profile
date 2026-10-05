@@ -1,6 +1,5 @@
 import { randomUUID } from "node:crypto";
 import { spawn } from "node:child_process";
-import { once } from "node:events";
 import { existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
@@ -10,57 +9,10 @@ import { AuthService } from "../src/auth/service.js";
 import { loadEnvironmentFile } from "../src/config.js";
 import { createDatabase } from "../src/db.js";
 import { users } from "../src/db/schema.js";
+import { createTemporaryDatabase, runMigration, safeOutput } from "./temporary-database.js";
 import { validateSeeds } from "./validate-seeds.js";
 
 const apiDirectory = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-
-function requireDatabaseUrl(): URL {
-  const value = process.env.DATABASE_URL;
-  if (!value) throw new Error("DATABASE_URL is required for isolated verification.");
-
-  const url = new URL(value);
-  if ((url.protocol !== "postgres:" && url.protocol !== "postgresql:") || !url.pathname || url.pathname === "/") {
-    throw new Error("DATABASE_URL must name a PostgreSQL database for isolated verification.");
-  }
-  return url;
-}
-
-function temporaryDatabaseName(): string {
-  return `career_profile_verify_${randomUUID().replaceAll("-", "")}`;
-}
-
-function databaseUrlFor(url: URL, databaseName: string): string {
-  const result = new URL(url);
-  result.pathname = `/${databaseName}`;
-  return result.toString();
-}
-
-function databaseIdentifier(name: string): string {
-  if (!/^career_profile_verify_[a-f0-9]+$/.test(name)) {
-    throw new Error("Refusing to use an unsafe temporary database name.");
-  }
-  return `"${name}"`;
-}
-
-async function waitForDatabase(pool: pg.Pool): Promise<void> {
-  for (let attempt = 0; attempt < 15; attempt += 1) {
-    try {
-      await pool.query("SELECT 1");
-      return;
-    } catch {
-      await new Promise((resolve) => setTimeout(resolve, 1_000));
-    }
-  }
-
-  throw new Error("Could not connect to the PostgreSQL server for isolated verification.");
-}
-
-async function runMigration(databaseUrl: string): Promise<void> {
-  await runProcess(process.execPath, ["--import", "tsx", "scripts/migrate.ts"], {
-    ...process.env,
-    DATABASE_URL: databaseUrl,
-  });
-}
 
 async function verifyLegacyMigrationTransition(databaseUrl: string): Promise<void> {
   const pool = new pg.Pool({ connectionString: databaseUrl });
@@ -83,25 +35,6 @@ async function verifyLegacyMigrationTransition(databaseUrl: string): Promise<voi
     }
   } finally {
     await verificationPool.end();
-  }
-}
-
-async function runProcess(command: string, args: string[], environment: NodeJS.ProcessEnv): Promise<void> {
-  const child = spawn(command, args, {
-    cwd: apiDirectory,
-    env: environment,
-    stdio: ["ignore", "pipe", "pipe"],
-  });
-  let output = "";
-  child.stdout.on("data", (chunk) => {
-    output += String(chunk);
-  });
-  child.stderr.on("data", (chunk) => {
-    output += String(chunk);
-  });
-  const [exitCode] = (await once(child, "exit")) as [number | null];
-  if (exitCode !== 0) {
-    throw new Error(`Verification subprocess failed (${command} ${args.join(" ")}): ${safeOutput(output)}`);
   }
 }
 
@@ -347,43 +280,28 @@ async function smokeSetupGrantLifecycle(databaseUrl: string): Promise<void> {
   }
 }
 
-function safeOutput(value: string): string {
-  return value
-    .replaceAll(/postgres(?:ql)?:\/\/[^\s]+/gi, "[REDACTED_DATABASE_URL]")
-    .replaceAll(/password=[^\s]+/gi, "password=[REDACTED]")
-    .trim()
-    .slice(0, 2_000);
-}
-
 async function verify(): Promise<void> {
   loadEnvironmentFile();
-  const configuredUrl = requireDatabaseUrl();
-  const temporaryName = temporaryDatabaseName();
-  const temporaryUrl = databaseUrlFor(configuredUrl, temporaryName);
-  const maintenanceUrl = databaseUrlFor(configuredUrl, "postgres");
-  const maintenancePool = new pg.Pool({ connectionString: maintenanceUrl });
+  const database = await createTemporaryDatabase("verify");
   let api: ReturnType<typeof spawn> | undefined;
 
   try {
-    await waitForDatabase(maintenancePool);
-    await maintenancePool.query(`CREATE DATABASE ${databaseIdentifier(temporaryName)}`);
-    await runMigration(temporaryUrl);
-    await runMigration(temporaryUrl);
-    await verifyLegacyMigrationTransition(temporaryUrl);
+    await runMigration(database.url);
+    await runMigration(database.url);
+    await verifyLegacyMigrationTransition(database.url);
     await validateSeeds();
 
     const instanceId = randomUUID();
-    const started = await startApi(temporaryUrl, instanceId);
+    const started = await startApi(database.url, instanceId);
     api = started.child;
     await smokeApi(started.port, instanceId);
-    await smokeSetupGrantLifecycle(temporaryUrl);
+    await smokeSetupGrantLifecycle(database.url);
     console.log("Isolated verification passed.");
   } finally {
     try {
       if (api) await stopApi(api);
     } finally {
-      await maintenancePool.query(`DROP DATABASE IF EXISTS ${databaseIdentifier(temporaryName)} WITH (FORCE)`).catch(() => {});
-      await maintenancePool.end();
+      await database.drop();
     }
   }
 }

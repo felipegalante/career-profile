@@ -2,10 +2,16 @@
 
 ## Principles
 
-- Acceptance criteria drive behavioral coverage.
+- Acceptance criteria drive behavioral coverage. A test that proves a criterion tags it (`@AUTH-AC-006`) in runner metadata, and `pnpm check:acceptance` keeps those tags, the feature specs and the [coverage matrix](implementation/COVERAGE.md#evidence-and-status-vocabulary) consistent.
 - Business invariants belong at service/database layers rather than only UI tests.
 - Authorization/ownership boundaries require negative tests.
 - Shared catalog behavior is tested once deeply plus domain-specific parent/relationship behavior per feature.
+
+## Where tests run
+
+- **API unit tests** (`*.spec.ts`) need no database.
+- **API database tests** (`*.db.spec.ts`) run in `pnpm test` against one temporary database per run, created and migrated by `api/test/database-setup.ts` and dropped afterwards. They call GraphQL through Fastify `inject()` and isolate themselves with unique emails and client addresses rather than shared cleanup. Without `DATABASE_URL` they are skipped locally and fail in CI.
+- **Browser journeys** that need real persistence run against the actual API on `career_profile_e2e`, recreated at the start of each Playwright run. State the API cannot create through public operations (for example a setup proof) comes from `api/test/e2e-fixture.ts`. Browser tests of UI states and visual baselines mock GraphQL.
 
 ## Unit/domain
 
