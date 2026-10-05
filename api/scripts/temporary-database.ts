@@ -8,6 +8,7 @@ import pg from "pg";
 const apiDirectory = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
 export type TemporaryDatabasePurpose = "test" | "verify";
+export const BROWSER_TEST_DATABASE = "career_profile_e2e";
 export type TemporaryDatabase = { url: string; drop(): Promise<void> };
 
 export function requireDatabaseUrl(): URL {
@@ -29,7 +30,7 @@ function databaseUrlFor(url: URL, databaseName: string): string {
 
 // Only names this module generates may reach CREATE/DROP DATABASE, which cannot be parameterized.
 function databaseIdentifier(name: string): string {
-  if (!/^career_profile_(?:test|verify)_[a-f0-9]+$/.test(name)) {
+  if (name !== BROWSER_TEST_DATABASE && !/^career_profile_(?:test|verify)_[a-f0-9]+$/.test(name)) {
     throw new Error("Refusing to use an unsafe temporary database name.");
   }
   return `"${name}"`;
@@ -70,6 +71,27 @@ export async function createTemporaryDatabase(purpose: TemporaryDatabasePurpose)
       await maintenancePool.end();
     },
   };
+}
+
+export function browserTestDatabaseUrl(): string {
+  return databaseUrlFor(requireDatabaseUrl(), BROWSER_TEST_DATABASE);
+}
+
+/**
+ * Replaces the browser-test database with an empty one. Browser journeys reuse one name so an
+ * interrupted run leaves nothing behind that the next run does not remove.
+ */
+export async function recreateBrowserTestDatabase(): Promise<string> {
+  const identifier = databaseIdentifier(BROWSER_TEST_DATABASE);
+  const maintenancePool = new pg.Pool({ connectionString: databaseUrlFor(requireDatabaseUrl(), "postgres") });
+  try {
+    await waitForDatabase(maintenancePool);
+    await maintenancePool.query(`DROP DATABASE IF EXISTS ${identifier} WITH (FORCE)`);
+    await maintenancePool.query(`CREATE DATABASE ${identifier}`);
+  } finally {
+    await maintenancePool.end();
+  }
+  return browserTestDatabaseUrl();
 }
 
 /** Applies migrations through the same script operators run, rather than an in-process shortcut. */
