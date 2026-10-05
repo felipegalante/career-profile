@@ -14,7 +14,8 @@
     "db:migrate": "pnpm --filter api db:migrate",
     "test": "pnpm --filter api test && pnpm --filter @career-profile/ui test && pnpm --filter web test && pnpm --filter @career-profile/acceptance test",
     "typecheck": "pnpm --filter api typecheck && pnpm --filter @career-profile/ui typecheck && pnpm --filter web typecheck && pnpm --filter @career-profile/acceptance typecheck",
-    "verify": "pnpm typecheck && pnpm test && pnpm build && pnpm --filter api verify"
+    "check:acceptance": "pnpm --filter @career-profile/acceptance check",
+    "verify": "pnpm typecheck && pnpm test && pnpm check:acceptance && pnpm build && pnpm --filter api verify"
   },
   "devDependencies": {
     "concurrently": "^10.0.5"

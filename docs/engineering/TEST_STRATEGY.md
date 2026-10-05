@@ -2,7 +2,7 @@
 
 ## Principles
 
-- Acceptance criteria drive behavioral coverage.
+- Acceptance criteria drive behavioral coverage. A test that proves a criterion tags it (`@AUTH-AC-006`) in runner metadata, and `pnpm check:acceptance` keeps those tags, the feature specs and the [coverage matrix](implementation/COVERAGE.md#evidence-and-status-vocabulary) consistent.
 - Business invariants belong at service/database layers rather than only UI tests.
 - Authorization/ownership boundaries require negative tests.
 - Shared catalog behavior is tested once deeply plus domain-specific parent/relationship behavior per feature.
