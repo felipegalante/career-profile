@@ -16,7 +16,7 @@ async function expectDestination(page: Page, path: "/onboarding" | "/profile") {
 }
 
 test.describe("authentication against the API", () => {
-  test("a registered session survives a reload, ends on sign-out and cannot be replayed", async ({ context, page }) => {
+  test("a registered session survives a reload, ends on sign-out and cannot be replayed", { tag: ["@AUTH-AC-001", "@AUTH-AC-004", "@AUTH-AC-007", "@AUTH-AC-008"] }, async ({ context, page }) => {
     const email = `journey-${randomUUID()}@careerprofile.test`;
     await page.goto("/register");
     await page.getByLabel("Email").fill(email);
@@ -43,7 +43,7 @@ test.describe("authentication against the API", () => {
     await expectDestination(page, "/onboarding");
   });
 
-  test("a first-password link signs a new account in to onboarding and cannot be used twice", async ({ page }) => {
+  test("a first-password link signs a new account in to onboarding and cannot be used twice", { tag: ["@AUTH-AC-005", "@AUTH-AC-008"] }, async ({ page }) => {
     const fixture = createSetupFixture("first-password");
     await page.goto(`/set-password#proof=${fixture.proof}`);
     await choosePassword(page);
@@ -59,7 +59,7 @@ test.describe("authentication against the API", () => {
     await expect(page.getByRole("main").getByRole("alert")).toContainText("invalid, expired, or already used");
   });
 
-  test("a reset link returns an account that finished onboarding to the profile", async ({ page }) => {
+  test("a reset link returns an account that finished onboarding to the profile", { tag: ["@AUTH-AC-006", "@AUTH-AC-008"] }, async ({ page }) => {
     const fixture = createSetupFixture("reset");
     await page.goto(`/set-password#proof=${fixture.proof}`);
     await choosePassword(page);

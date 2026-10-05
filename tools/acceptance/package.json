@@ -1,0 +1,19 @@
+{
+  "name": "@career-profile/acceptance",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/criteria.ts"
+  },
+  "scripts": {
+    "check": "node --import tsx src/cli.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.6",
+    "tsx": "^4.23.12",
+    "typescript": "catalog:",
+    "vitest": "^5.0.0"
+  }
+}

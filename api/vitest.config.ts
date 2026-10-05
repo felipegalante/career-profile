@@ -1,4 +1,5 @@
 import { createRequire } from "node:module";
+import { criterionTags } from "@career-profile/acceptance";
 import { defineConfig } from "vitest/config";
 
 const require = createRequire(import.meta.url);
@@ -11,6 +12,10 @@ export default defineConfig({
     alias: [{ find: /^graphql$/, replacement: require.resolve("graphql") }],
   },
   test: {
+    // A test cites the acceptance criteria it proves as tags (`@AUTH-AC-001`). Declaring exactly the
+    // criteria in the feature specs makes a tag that names no criterion fail the run.
+    tags: criterionTags(),
+    strictTags: true,
     projects: [
       {
         extends: true,

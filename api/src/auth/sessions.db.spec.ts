@@ -23,7 +23,7 @@ describe.skipIf(!databaseUrl)("sign-in sessions", () => {
     return { email, session: registered.session };
   }
 
-  it("signs in with valid credentials and resolves the viewer from the new session cookie", async () => {
+  it("signs in with valid credentials and resolves the viewer from the new session cookie", { tags: ["@AUTH-AC-004"] }, async () => {
     const { email } = await registeredAccount();
     const request = graphqlClient(api);
 
@@ -36,7 +36,7 @@ describe.skipIf(!databaseUrl)("sign-in sessions", () => {
     expect(viewer.data?.viewer?.email).toBe(email);
   });
 
-  it("returns one indistinguishable failure for an unknown email, a wrong password and an account awaiting setup", async () => {
+  it("returns one indistinguishable failure for an unknown email, a wrong password and an account awaiting setup", { tags: ["@AUTH-AC-004"] }, async () => {
     const { email } = await registeredAccount();
     const awaitingSetup = await insertSetupRequiredUser(api.database, { onboardingCompleted: false });
 
@@ -68,7 +68,7 @@ describe.skipIf(!databaseUrl)("sign-in sessions", () => {
     expect(locked.session).toBeUndefined();
   });
 
-  it("revokes the session on logout so a replayed cookie no longer resolves a viewer", async () => {
+  it("revokes the session on logout so a replayed cookie no longer resolves a viewer", { tags: ["@AUTH-AC-007"] }, async () => {
     const { session } = await registeredAccount();
     const request = graphqlClient(api);
 
@@ -82,7 +82,7 @@ describe.skipIf(!databaseUrl)("sign-in sessions", () => {
     expect(replayed.data?.viewer).toBeNull();
   });
 
-  it("treats a revoked session cookie as signed out, so the browser holding it can sign in again", async () => {
+  it("treats a revoked session cookie as signed out, so the browser holding it can sign in again", { tags: ["@AUTH-AC-004"] }, async () => {
     const { email, session } = await registeredAccount();
     const request = graphqlClient(api);
     await request(LOGOUT, { session });

@@ -43,7 +43,7 @@ describe.skipIf(!databaseUrl)("password setup and reset", () => {
     return { id: registered.data.register.viewer.id, email, session: registered.session };
   }
 
-  it("establishes a first password from a valid proof and leaves onboarding incomplete", async () => {
+  it("establishes a first password from a valid proof and leaves onboarding incomplete", { tags: ["@AUTH-AC-005"] }, async () => {
     const account = await insertSetupRequiredUser(api.database, { onboardingCompleted: false });
     const proof = await api.auth.issueSetupGrant(account.id, "FIRST_PASSWORD");
 
@@ -57,7 +57,7 @@ describe.skipIf(!databaseUrl)("password setup and reset", () => {
     expect(signedIn.data?.login.viewer.email).toBe(account.email);
   });
 
-  it("rejects unknown, expired, superseded and replayed proofs with the same error", async () => {
+  it("rejects unknown, expired, superseded and replayed proofs with the same error", { tags: ["@AUTH-AC-005", "@AUTH-AC-006"] }, async () => {
     const expiredAccount = await insertSetupRequiredUser(api.database, { onboardingCompleted: false });
     const expiredProof = await api.auth.issueSetupGrant(expiredAccount.id, "FIRST_PASSWORD");
     await api.database.db.update(passwordSetupGrants).set({ expiresAt: new Date(Date.now() - 60_000) }).where(eq(passwordSetupGrants.userId, expiredAccount.id));
@@ -79,7 +79,7 @@ describe.skipIf(!databaseUrl)("password setup and reset", () => {
     expect(await accountState(expiredAccount.id)).toMatchObject({ passwordSetupRequired: true, passwordHash: null });
   });
 
-  it("enforces the password policy without consuming the proof", async () => {
+  it("enforces the password policy without consuming the proof", { tags: ["@AUTH-AC-005"] }, async () => {
     const account = await insertSetupRequiredUser(api.database, { onboardingCompleted: false });
     const proof = await api.auth.issueSetupGrant(account.id, "FIRST_PASSWORD");
 
@@ -90,7 +90,7 @@ describe.skipIf(!databaseUrl)("password setup and reset", () => {
     expect(retried.data?.setPassword.viewer.passwordSetupRequired).toBe(false);
   });
 
-  it("revokes sessions and the old password on reset, and keeps onboarding completed after the new password", async () => {
+  it("revokes sessions and the old password on reset, and keeps onboarding completed after the new password", { tags: ["@AUTH-AC-006"] }, async () => {
     const account = await registeredAccount();
     await completeOnboarding(api.database, account.id);
 
@@ -109,7 +109,7 @@ describe.skipIf(!databaseUrl)("password setup and reset", () => {
     expect(signedIn.data?.login.viewer.onboardingCompleted).toBe(true);
   });
 
-  it("accepts a reset proof from the browser that still holds the session the reset revoked", async () => {
+  it("accepts a reset proof from the browser that still holds the session the reset revoked", { tags: ["@AUTH-AC-006"] }, async () => {
     const account = await registeredAccount();
     const proof = await api.auth.requirePasswordSetup(account.id, "RESET");
 
@@ -119,7 +119,7 @@ describe.skipIf(!databaseUrl)("password setup and reset", () => {
     expect(established.data?.setPassword.viewer.passwordSetupRequired).toBe(false);
   });
 
-  it("invalidates the proof from an earlier reset when the account is reset again", async () => {
+  it("invalidates the proof from an earlier reset when the account is reset again", { tags: ["@AUTH-AC-006"] }, async () => {
     const account = await registeredAccount();
     const firstProof = await api.auth.requirePasswordSetup(account.id, "RESET");
     const secondProof = await api.auth.requirePasswordSetup(account.id, "RESET");
@@ -128,7 +128,7 @@ describe.skipIf(!databaseUrl)("password setup and reset", () => {
     expect((await setPassword(secondProof)).errors).toBeUndefined();
   });
 
-  it("does not issue a session to a sign-in that verified the old password before a reset committed", async () => {
+  it("does not issue a session to a sign-in that verified the old password before a reset committed", { tags: ["@AUTH-AC-006"] }, async () => {
     const account = await registeredAccount();
     const blocker = new pg.Client({ connectionString: databaseUrl! });
     await blocker.connect();

@@ -12,7 +12,7 @@ afterEach(() => {
 });
 
 describe("authentication screens", () => {
-  it("renders accessible password visibility controls and blocks mismatched confirmation", async () => {
+  it("renders accessible password visibility controls and blocks mismatched confirmation", { tags: ["@AUTH-AC-001", "@AUTH-AC-002"] }, async () => {
     render(<App />);
     expect(await screen.findByRole("heading", { name: "Start your Career Profile" })).toBeTruthy();
     const password = screen.getByLabelText("Password");

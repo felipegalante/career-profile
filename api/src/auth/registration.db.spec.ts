@@ -21,7 +21,7 @@ describe.skipIf(!databaseUrl)("public registration", () => {
     return api.database.db.select().from(users).where(eq(users.normalizedEmail, email.toLowerCase()));
   }
 
-  it("creates one USER with a profile, a hashed password and a working session", async () => {
+  it("creates one USER with a profile, a hashed password and a working session", { tags: ["@AUTH-AC-001", "@AUTH-AC-003"] }, async () => {
     const request = graphqlClient(api);
     const email = uniqueEmail("register");
 
@@ -43,7 +43,7 @@ describe.skipIf(!databaseUrl)("public registration", () => {
     expect(viewer.data?.viewer?.email).toBe(email);
   });
 
-  it("rejects an invalid email or a weak password with a field error and creates no account", async () => {
+  it("rejects an invalid email or a weak password with a field error and creates no account", { tags: ["@AUTH-AC-001"] }, async () => {
     const request = graphqlClient(api);
     const weakEmail = uniqueEmail("weak");
 
@@ -57,7 +57,7 @@ describe.skipIf(!databaseUrl)("public registration", () => {
     expect(await accountsFor(weakEmail)).toHaveLength(0);
   });
 
-  it("rejects a role in the registration input, whether as a variable or a literal", async () => {
+  it("rejects a role in the registration input, whether as a variable or a literal", { tags: ["@AUTH-AC-003"] }, async () => {
     const request = graphqlClient(api);
     const variableEmail = uniqueEmail("forged-variable");
     const literalEmail = uniqueEmail("forged-literal");
@@ -75,7 +75,7 @@ describe.skipIf(!databaseUrl)("public registration", () => {
     expect(await accountsFor(literalEmail)).toHaveLength(0);
   });
 
-  it("creates exactly one account when registrations for the same normalized email race", async () => {
+  it("creates exactly one account when registrations for the same normalized email race", { tags: ["@AUTH-AC-001"] }, async () => {
     const email = uniqueEmail("race");
     const attempts = await Promise.all([
       graphqlClient(api)<RegisterData>(REGISTER, { variables: { input: { email, password: VALID_PASSWORD } } }),
