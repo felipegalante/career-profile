@@ -366,9 +366,9 @@ R16–R18 are concrete issues. `.codex/config.toml`'s `agents.enabled` and `max_
 | Q01 | Resolved 2026-09-21 | Admin-issued, high-entropy, short-lived, one-use setup link through an approved trusted channel; only its keyed hash is stored. |
 | Q02 | Resolved 2026-09-21 | Derived-supported `×` dismisses from Skills while preserving sources; reviewed mappings attach automatically. Dismissals persist across source saves and manual re-add restores visibility. |
 | Q03 | Product; before 04 | Which deterministic custom-skill classifier/fallback is valid, or should the input contract change? |
-| Q04 | Product + design; before 02C only for additional resume guarantees | Follow the seven-step feature spec and required fields. Is an exact saved-step resume position required beyond persisted profile values? Do not add a progress store without that requirement; reconcile stale artifacts. |
+| Q04 | Resolved 2026-10-04 | No saved step position: a returning user restarts at the first step with saved values filled in. The seven-step spec stays authoritative; stale artifacts still need reconciling. |
 | Q05 | Resolved 2026-09-21 | Resume Tools is an active initial-release Profile capability, delivered with R1/R2 rather than a placeholder in Phase 02. |
-| Q06 | Product; before 02 | Supported profile enums, title/completeness source, and Settings password-change scope. Recommend no invented metrics; add AC for any new password action. |
+| Q06 | Resolved 2026-10-04 | Any ISO 3166-1 country; English or French; fixed employment-status and career-goal lists (Personal Information spec); no profile title or completion metric; Settings adds self-service password change (AUTH-AC-009 to 011). |
 | Q07 | Product + data; before 05 | Month/day precision, nullability and education status/current combinations. Recommend explicit month precision. |
 | Q08 | Product + architecture; lexical/identity rules before 03, parent rules before 05–07 | Rank tie-breaks, exact normalization, parent validity and strict board scope. A searchable Focus dialog already fits its specification; no new editor-mode gate. |
 | Q09 | Resolved 2026-09-22 | Top bar with a navigation drawer holding the rail destinations and Account actions; no bottom destination bar. |

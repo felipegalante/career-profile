@@ -16,12 +16,12 @@ Allow users to review and maintain the core personal/career-context fields used 
 - phone number (optional);
 - date of birth (optional);
 - location/city (optional);
-- postal code (optional);
-- country (required after onboarding);
-- preferred language (required after onboarding);
+- postal code (optional; free text, because formats vary by country);
+- country (required after onboarding): any ISO 3166-1 country, stored as its two-letter code and shown by name;
+- preferred language (required after onboarding): English or French;
 - LinkedIn URL (optional);
-- employment status (optional);
-- career goal (optional).
+- employment status (optional): Employed full-time, Employed part-time, Self-employed, Unemployed, Student or Retired;
+- career goal (optional): Find a job, Explore new opportunities, Change careers, Advance in my current field or Develop new skills.
 
 The initial product intentionally does not collect ethnicity, community membership, or gender identity.
 
@@ -46,7 +46,8 @@ One accessible form with Save and Cancel. Cancel does not persist local changes.
 - names cannot be whitespace-only;
 - LinkedIn URL, when supplied, must be a valid URL;
 - date of birth cannot be in the future;
-- country/preferred language must be valid supported values.
+- country must be an ISO 3166-1 country and preferred language must be English or French;
+- employment status and career goal, when supplied, must be one of the listed options.
 
 ## Planned GraphQL
 

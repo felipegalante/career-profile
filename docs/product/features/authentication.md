@@ -51,6 +51,17 @@ This intentionally simple project flow does not include email delivery or verifi
 
 Admin reset returns the account to `passwordSetupRequired = true` and invalidates credentials/sessions as defined by the security implementation. It does not automatically change onboarding completion.
 
+## Self-service password change
+
+A signed-in user changes their password from the Settings tab of the Account page. The form asks for the current password and a new password with verification, each using the shared `PasswordInput`.
+
+- The current password must be correct, and wrong attempts are throttled like sign-in.
+- The new password follows the registration policy and must match its verification.
+- On success the current session stays signed in and every other session for the account is signed out.
+- Settings shows when the password was last changed: at registration, at first-password or reset setup, or at a change.
+
+Accounts awaiting first-password setup or a reset cannot sign in, so they use their setup link instead.
+
 ## Session behavior
 
 - server-managed session;
@@ -68,6 +79,9 @@ Admin reset returns the account to `passwordSetupRequired = true` and invalidate
 - **AUTH-AC-006:** Password-reset accounts are required to establish a new password at next access.
 - **AUTH-AC-007:** Logout invalidates the active session.
 - **AUTH-AC-008:** After authentication/password setup, incomplete onboarding routes to onboarding and completed users route to `/profile`.
+- **AUTH-AC-009:** A signed-in user can change their password from Account Settings by entering the correct current password and a verified new password that meets the policy; a wrong current password or an invalid new password changes nothing.
+- **AUTH-AC-010:** Changing the password keeps the current session signed in and signs out every other session for the account.
+- **AUTH-AC-011:** Account Settings shows when the password was last changed.
 
 ## Authentication presentation
 

@@ -1,6 +1,6 @@
 # Revised implementation plan
 
-Status: **IN PROGRESS**. This plan is the output of the [architecture readiness review](../reviews/architecture-readiness.md); it supersedes the earlier delivery sequence in `../IMPLEMENTATION_PLAN.md`, not product requirements or accepted ADRs. **Phase 00 is complete and Phase 01 is complete pending human review.** All other product implementation is Not Started. Resume import and generation are planned initial-release phases, gated by Q10.
+Status: **IN PROGRESS**. This plan is the output of the [architecture readiness review](../reviews/architecture-readiness.md); it supersedes the earlier delivery sequence in `../IMPLEMENTATION_PLAN.md`, not product requirements or accepted ADRs. **Phases 00 and 01 are complete.** All other product implementation is Not Started; Phase 02 is next. Resume import and generation are planned initial-release phases, gated by Q10.
 
 ## Read first
 
@@ -14,8 +14,8 @@ Status: **IN PROGRESS**. This plan is the output of the [architecture readiness 
 | Phase | Deliverable / independently reviewable slice | Status |
 | --- | --- | --- |
 | [00 Foundation](phase-00-foundation.md) | Reproducible runtime, safe verification and minimal Yoga/Drizzle wiring | COMPLETE |
-| [01 Authentication](phase-01-authentication.md) | Separate session and approved password-setup slices | IN REVIEW |
-| [02 Profile and shell](phase-02-profile-foundation.md) | Account/Profile, shell, and an early required-fields onboarding journey | PLANNED |
+| [01 Authentication](phase-01-authentication.md) | Separate session and approved password-setup slices | COMPLETE |
+| [02 Profile and shell](phase-02-profile-foundation.md) | Account/Profile, shell, self-service password change, and an early required-fields onboarding journey | PLANNED; Q06 resolved |
 | [03 Catalog skill slice](phase-03-catalog-infrastructure.md) | Search → add catalog skill → reload, with MANUAL provenance | PLANNED |
 | [04 Skills core](phase-04-skills.md) | Separate custom-skill, proficiency/drag, and removal slices | PLANNED; Q03 gate |
 | [05 Work Experience](phase-05-work-experience.md) | Company/title form, CRUD and first real derived-source reconciliation | PLANNED |

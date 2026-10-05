@@ -13,7 +13,7 @@ Provide one primary workspace for managing the user's professional profile. Work
 
 The page contains:
 
-- compact identity header with avatar/initials, display name, location, and profile-completion indicator;
+- compact identity header with avatar/initials, display name and location;
 - single compact `Resume tools` header CTA that opens a modal with `Import a resume` and `Generate an AI resume`;
 - Work Experience section with add/edit actions;
 - Skills section with Technical and Foundational proficiency lanes and edit behavior;
@@ -36,6 +36,17 @@ The user identity control at the bottom of the desktop navigation opens an accou
 - Sign Out
 
 `Profile` and `Settings` open the same Account page using two tabs. Personal information is therefore accessed through the account menu rather than primary profile navigation.
+
+## Account page
+
+The `Profile` tab shows and edits [personal information](personal-information.md). The `Settings` tab holds password and session controls: [changing the password](authentication.md#self-service-password-change) with its last-changed date, and signing out of the current browser.
+
+## Not in the initial release
+
+- a profile title or headline;
+- a profile-completion percentage or indicator.
+
+Neither has a defined source or formula, so the title and `82% complete` shown in the Profile artifact are illustrative only.
 
 ## Resume tools
 

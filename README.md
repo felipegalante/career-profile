@@ -125,4 +125,4 @@ An ADR is not a place to store ordinary product requirements, UI choices, or acc
 
 ## Current state
 
-The repository contains the reviewed platform foundation, the shared UI library, authentication (pending review) and planning material. Other product features are not implemented yet. Fastify, GraphQL Yoga, Drizzle ORM, PostgreSQL, and pnpm provide the foundation for later phases.
+The repository contains the reviewed platform foundation, the shared UI library, authentication and planning material. Other product features are not implemented yet. Fastify, GraphQL Yoga, Drizzle ORM, PostgreSQL, and pnpm provide the foundation for later phases.

@@ -25,7 +25,7 @@ Onboarding reuses the same persistent profile models and shared catalog selector
 
 ### Personal details
 
-Required: first name, last name, country, preferred language.
+Required: first name, last name, country, preferred language (supported values are listed in [Personal Information](personal-information.md)).
 Optional: phone number, date of birth, city/location, postal code, LinkedIn URL.
 
 ### Career context
@@ -64,6 +64,7 @@ Onboarding uses the same two-panel public/authentication shell as Sign In and Cr
 - Completion is explicit through `onboardingCompletedAt`.
 - Optional steps can be skipped without placeholder records.
 - Returning to a previous step does not lose persisted completed-step data.
+- Onboarding does not record which step a user last viewed. A user who leaves before finishing returns to the first step, with every value saved so far filled in.
 
 ## Acceptance criteria
 

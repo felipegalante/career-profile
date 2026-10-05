@@ -8,11 +8,11 @@ Create the primary Profile workspace, Account personal-information experience an
 
 ## Dependencies
 
-01A required; 01B required only for setup-specific journeys. Resolve Q06 personal/settings/title/completeness scope; Q09 is resolved (top bar and navigation drawer). Accept shell/Account route map. Incomplete-user guard remains active.
+01A required; 01B required only for setup-specific journeys. Q06 is resolved (supported values in the Personal Information spec, no profile title or completion metric, and self-service password change in Settings) and Q09 is resolved (top bar and navigation drawer). Accept shell/Account route map. Incomplete-user guard remains active.
 
 ## Product requirements covered
 
-[Profile](../../product/features/profile-shell-overview.md) PRO-AC-001–011, [Personal Information](../../product/features/personal-information.md) PER-AC-001–005 and [Application Shell](../../product/features/application-shell.md) APP-AC-001–008. PRO-AC-002 finishes with Work/Skills/Education/Certifications in 03–07; PRO-AC-004 is fulfilled in active R1/R2, not by an inert Phase 02 CTA.
+[Profile](../../product/features/profile-shell-overview.md) PRO-AC-001–011, [Personal Information](../../product/features/personal-information.md) PER-AC-001–005, [Application Shell](../../product/features/application-shell.md) APP-AC-001–008 and [Authentication](../../product/features/authentication.md#self-service-password-change) AUTH-AC-009 to 011 (slice 02D). PRO-AC-002 finishes with Work/Skills/Education/Certifications in 03–07; PRO-AC-004 is fulfilled in active R1/R2, not by an inert Phase 02 CTA.
 
 ## Technical design
 
@@ -22,11 +22,11 @@ Profile service owns personal fields and viewer projection. Shell owns routes/st
 
 ## Database work
 
-Add personal fields and timestamps to base user_profiles; backfill one profile per existing user. Required-on-completion names/country/language may be null before completion. Validate DOB/URLs and supported enums; no ethnicity/community/gender fields. Slice 02C introduces idempotent completion under a user/profile transaction, validating required saved fields before setting onboarding_completed_at; no progress table. No completeness score/title column without Q06. Update profile with ownership protection; seed empty/partial/complete identities.
+Add personal fields and timestamps to base user_profiles; backfill one profile per existing user. Required-on-completion names/country/language may be null before completion. Validate DOB/URLs and supported enums; no ethnicity/community/gender fields. Slice 02C introduces idempotent completion under a user/profile transaction, validating required saved fields before setting onboarding_completed_at; no progress table. No completeness score or title column. Slice 02D adds `password_changed_at` to users, set at registration, setup and change. Update profile with ownership protection; seed empty/partial/complete identities using the supported country, language and career values.
 
 ## GraphQL work
 
-viewer.profile, updateProfile(input). Stable field errors, UNAUTHENTICATED, NOT_FOUND/inaccessible ownership and validation errors. Ordinary full-form updates use documented last-committed-write behavior; do not impose revision tokens on every CRUD operation. Slice 02C adds completeOnboarding using saved names/country/language and returning canonical completion state; clients cannot supply the timestamp. No ordinary userId argument. Only approved Settings operations: sign-out exists; self-password-change requires separately approved AC, reauthentication and service contract before implementation.
+viewer.profile, updateProfile(input). Stable field errors, UNAUTHENTICATED, NOT_FOUND/inaccessible ownership and validation errors. Ordinary full-form updates use documented last-committed-write behavior; do not impose revision tokens on every CRUD operation. Slice 02C adds completeOnboarding using saved names/country/language and returning canonical completion state; clients cannot supply the timestamp. No ordinary userId argument. Settings operations: sign-out exists, and slice 02D adds `changePassword(input)`, which requires the current password and reuses the auth service's hashing, throttling and credential-generation rules.
 
 ## Backend work
 
@@ -34,7 +34,7 @@ Profile repository selects by context user; validate nonblank names, nonfuture D
 
 ## Frontend work
 
-Compose AppShell (rail, drawer, account menu), Account tabs and CommandPalette from `@career-profile/ui`, supplying routes, role-filtered commands and account actions. Meta/Ctrl+B toggles without remount; Meta/Ctrl+K opens authorized context commands. Empty Profile renders all five placeholders, adding functional domain actions as slices land; do not render dead Save actions or claim them complete. Account supports all specified fields, cancel/discard, loading/error/retry. Resume Tools CTA and command arrive with the functional R1/R2 flows, not artifact availability. Slice 02C composes personal/career fields into the seven-step shell, supports optional skips and an explicit review/finish action. Missing optional editors are internal development scope until their domain slices; this is not complete onboarding feature acceptance.
+Compose AppShell (rail, drawer, account menu), Account tabs and CommandPalette from `@career-profile/ui`, supplying routes, role-filtered commands and account actions. Meta/Ctrl+B toggles without remount; Meta/Ctrl+K opens authorized context commands. Empty Profile renders all five placeholders, adding functional domain actions as slices land; do not render dead Save actions or claim them complete. Account supports all specified fields, cancel/discard, loading/error/retry. Slice 02D adds the change-password form to Settings, using `PasswordField` for every password input. Resume Tools CTA and command arrive with the functional R1/R2 flows, not artifact availability. Slice 02C composes personal/career fields into the seven-step shell, supports optional skips and an explicit review/finish action. Missing optional editors are internal development scope until their domain slices; this is not complete onboarding feature acceptance.
 
 ## Design artifacts
 
@@ -54,7 +54,7 @@ Profile load/update duration and safe error codes; no personal-field logging. Ca
 
 ## Acceptance criteria
 
-PER passes; APP shell mechanics pass, while contextual commands remain partial until domain actions exist; shell preserves local forms/route on collapse. PRO structure/empty/account/admin visibility criteria pass; populated-domain mobile and focused-surface checks remain partial until the real domains arrive. Later-domain management is recorded partial until 03–08 and Resume Tools until R1/R2. Required-fields onboarding can complete with all optional steps skipped in 02C; full onboarding acceptance waits for 09. No invented completion percentage or Settings action.
+PER passes; APP shell mechanics pass, while contextual commands remain partial until domain actions exist; shell preserves local forms/route on collapse. PRO structure/empty/account/admin visibility criteria pass; populated-domain mobile and focused-surface checks remain partial until the real domains arrive. Later-domain management is recorded partial until 03–08 and Resume Tools until R1/R2. Required-fields onboarding can complete with all optional steps skipped in 02C; full onboarding acceptance waits for 09. No completion percentage or profile title. AUTH-AC-009 to 011 pass with 02D.
 
 ## Risks
 
