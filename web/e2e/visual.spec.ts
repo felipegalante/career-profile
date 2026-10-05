@@ -26,3 +26,14 @@ for (const target of pages) {
     await expect(page).toHaveScreenshot(`${target.name}.png`, { fullPage: true, animations: "disabled", caret: "hide" });
   });
 }
+
+for (const target of [{ route: "/login", name: "app-login-1280", width: 1280 }, { route: "/register", name: "app-register-390", width: 390 }]) {
+  test(`${target.name} matches its baseline @visual`, async ({ page }) => {
+    await page.route("**/graphql", (route) => route.fulfill({ contentType: "application/json", body: JSON.stringify({ data: { viewer: null } }) }));
+    await page.setViewportSize({ width: target.width, height: 900 });
+    await page.goto(target.route);
+    await expect(page.locator("h1").first()).toBeVisible();
+    await settle(page);
+    await expect(page).toHaveScreenshot(`${target.name}.png`, { fullPage: true, animations: "disabled", caret: "hide" });
+  });
+}

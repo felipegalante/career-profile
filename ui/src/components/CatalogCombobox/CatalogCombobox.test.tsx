@@ -128,13 +128,16 @@ describe("CatalogCombobox", () => {
     const user = userEvent.setup();
     const search = vi.fn<CatalogSearch<string | undefined>>().mockRejectedValueOnce(new Error("offline")).mockResolvedValue(companies);
     render(<Harness search={search} />);
-    await user.type(input(), "shop");
+    // One input event, so the rejection lands on "shop" however long the debounce takes;
+    // typing key by key can let a partial query consume it on a loaded runner.
+    await user.click(input());
+    await user.paste("shop");
     const listbox = await screen.findByRole("listbox");
     expect(await within(listbox).findByText("Search failed.")).toBeTruthy();
     expect(within(listbox).queryByText("No catalog matches")).toBeNull();
     await user.click(screen.getByRole("option", { name: "Retry search" }));
     expect(await screen.findByRole("option", { name: "Shopify" })).toBeTruthy();
-    expect(search).toHaveBeenCalledTimes(2);
+    expect(search.mock.calls.map(([query]) => query)).toEqual(["shop", "shop"]);
   });
 
   it("shows plain no-results copy when custom values are not allowed", async () => {

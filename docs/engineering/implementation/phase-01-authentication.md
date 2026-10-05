@@ -34,7 +34,7 @@ Implement email normalization, ten-character mixed-class policy already specifie
 
 ## Frontend work
 
-Routes /login, /register, /set-password with shared auth illustration, auth-scoped field/error controls, PasswordInput, field errors, pending/disabled submission and network retry preserving safe form state. Route established sessions according to onboarding state. Introduce client operation generation and a typed fetch wrapper here. Keep viewer/session state small; a cache library is not required for login alone. Clear any private state on logout/account change and cancel old requests. Add route loading/error boundary and direct-link handling. No password/token persistence in localStorage.
+Routes /login, /register, /set-password (in `web/src/features/auth`, composed from `@career-profile/ui` and checked against the auth artifacts by `web/e2e/auth-parity.spec.ts`) with shared auth illustration, auth-scoped field/error controls, PasswordInput, field errors, pending/disabled submission and network retry preserving safe form state. Route established sessions according to onboarding state. Introduce client operation generation and a typed fetch wrapper here. Keep viewer/session state small; a cache library is not required for login alone. Clear any private state on logout/account change and cancel old requests. Add route loading/error boundary and direct-link handling. No password/token persistence in localStorage.
 
 ## Design artifacts
 
