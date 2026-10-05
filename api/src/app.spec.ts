@@ -148,4 +148,31 @@ describe("foundation API", () => {
       await app.close();
     }
   });
+
+  it("reports variables that do not match their input type as a validation failure, not an internal error", async () => {
+    const app = createApp({ ping: async () => {} });
+
+    try {
+      const response = await app.inject({
+        headers: { "content-type": "application/json", origin: "http://localhost:5173", "x-csrf-request": "1" },
+        method: "POST",
+        payload: {
+          query: "mutation Register($input: CredentialsInput!) { register(input: $input) { viewer { email } } }",
+          variables: { input: { email: "a@b.test", password: "ValidPassword!1", role: "ADMIN" } },
+        },
+        url: "/graphql",
+      });
+      const payload = response.json<{ data?: unknown; errors: Array<{ extensions: { code: string; requestId: string } }> }>();
+
+      expect(response.statusCode).toBe(400);
+      expect(payload.data).toBeUndefined();
+      expect(payload.errors).toHaveLength(1);
+      expect(payload.errors[0]?.extensions).toEqual({
+        code: "GRAPHQL_VALIDATION_FAILED",
+        requestId: response.headers["x-request-id"],
+      });
+    } finally {
+      await app.close();
+    }
+  });
 });

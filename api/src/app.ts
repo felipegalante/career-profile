@@ -110,7 +110,7 @@ export function createApp(options: CreateAppOptions = {}) {
       { cookies: request.cookies, ip: request.ip, requestId: request.id, setCookies }
     );
     const body = await response.text();
-    const responseBody = appendRequestId(body, request.id);
+    const responseBody = appendRequestId(body, request.id, response.status);
     const errorCode = errorCodeFromGraphqlResponse(responseBody);
 
     for (const [name, value] of response.headers) {
@@ -150,16 +150,20 @@ function errorCodeFromGraphqlResponse(body: string): string {
   }
 }
 
-function appendRequestId(body: string, requestId: string): string {
+function appendRequestId(body: string, requestId: string, status: number): string {
   try {
     const payload = JSON.parse(body) as { errors?: Array<{ extensions?: Record<string, unknown> }> };
     if (!payload.errors) return body;
 
+    // Variable values that do not match their declared input types are rejected before any
+    // resolver runs. Yoga answers them with 400 but leaves them uncoded; they report the same
+    // client fault that document validation reports for an inline literal.
+    const uncodedErrorCode = status === 400 ? "GRAPHQL_VALIDATION_FAILED" : "INTERNAL";
     for (const error of payload.errors) {
       const originalCode = error.extensions?.code;
       error.extensions = {
         ...error.extensions,
-        code: originalCode && originalCode !== "INTERNAL_SERVER_ERROR" ? originalCode : "INTERNAL",
+        code: originalCode === "INTERNAL_SERVER_ERROR" ? "INTERNAL" : originalCode || uncodedErrorCode,
         requestId,
       };
     }

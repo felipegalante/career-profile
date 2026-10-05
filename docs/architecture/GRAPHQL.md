@@ -106,6 +106,8 @@ updateSkillProficiency(id: ID!, proficiency: SkillProficiency!): UserSkill!
 
 Expose stable application codes through `extensions.code`; never leak database internals. Catalog-related examples include `CATALOG_VALUE_NOT_VISIBLE`, `DUPLICATE_CUSTOM_VALUE`, `INVALID_PARENT_SELECTION`, and domain-specific validation errors.
 
+A request that does not conform to the schema is rejected before any resolver runs with `GRAPHQL_VALIDATION_FAILED`, whether the nonconforming value is an inline literal or a variable (for example, an undeclared `role` field in `CredentialsInput`). It carries no `fieldErrors`. `VALIDATION_FAILED` with `fieldErrors` is reserved for schema-valid input that breaks an application rule, such as a weak password.
+
 ## Admin user management
 
 ```graphql
