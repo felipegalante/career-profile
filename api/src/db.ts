@@ -8,6 +8,8 @@ export type AppDatabase = {
   ping(): Promise<void>;
 };
 
+export type AppTransaction = Parameters<Parameters<AppDatabase["db"]["transaction"]>[0]>[0];
+
 export function createDatabase(connectionString: string): AppDatabase {
   const pool = new pg.Pool({ connectionString });
   const db = drizzle(pool);

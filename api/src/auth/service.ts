@@ -1,7 +1,7 @@
 import { createHmac, randomBytes } from "node:crypto";
 import { Algorithm, hash, verify } from "@node-rs/argon2";
 import { and, eq, gt, isNull, sql } from "drizzle-orm";
-import type { AppDatabase } from "../db.js";
+import type { AppDatabase, AppTransaction } from "../db.js";
 import { authAttemptWindows, passwordSetupGrants, sessions, userProfiles, users } from "../db/schema.js";
 import { AuthError } from "./errors.js";
 
@@ -63,7 +63,7 @@ export class AuthService {
     return { id: user.id, email: user.email, role: user.role, passwordSetupRequired: user.passwordSetupRequired, onboardingCompleted: user.onboardingCompletedAt !== null };
   }
 
-  private async createSession(tx: any, user: typeof users.$inferSelect): Promise<AuthSession> {
+  private async createSession(tx: AppTransaction, user: typeof users.$inferSelect): Promise<AuthSession> {
     const sessionToken = this.randomToken();
     const csrfToken = this.randomToken();
     const now = new Date();
@@ -139,7 +139,7 @@ export class AuthService {
     await this.database.db.update(sessions).set({ revokedAt: new Date(), updatedAt: new Date() }).where(and(eq(sessions.tokenHash, this.fingerprint(token)), isNull(sessions.revokedAt)));
   }
 
-  // Used by Phase 10 and controlled fixtures; never exposed through public GraphQL.
+  // Not exposed through public GraphQL: the caller authorizes and audits issuing a proof.
   async issueSetupGrant(userId: string, purpose: "FIRST_PASSWORD" | "RESET"): Promise<string> {
     const proof = this.randomToken();
     const now = new Date();
@@ -154,7 +154,7 @@ export class AuthService {
     return proof;
   }
 
-  // Phase 10 invokes this lifecycle after its authorization and audit checks; it has no public GraphQL resolver.
+  // Not exposed through public GraphQL: the caller authorizes and audits a credential reset.
   async requirePasswordSetup(userId: string, purpose: "FIRST_PASSWORD" | "RESET"): Promise<string> {
     const proof = this.randomToken();
     const now = new Date();
