@@ -1,6 +1,6 @@
 # Phase 01 — Authentication and account states
 
-Status: **IN PROGRESS**. Implement as independently reviewable 01A and 01B slices. Read the [readiness decisions](../reviews/architecture-readiness.md), [data contracts](../reviews/data-contracts.md), [API/frontend contracts](../reviews/api-frontend-contracts.md), and [coverage matrix](COVERAGE.md) with the owning feature specifications.
+Status: **IN REVIEW**. Implementation: **Complete pending human review**; AUTH-AC-001 to 007 have executed evidence and AUTH-AC-008 route decisions pass, with its full journey closing in 09 and 10 (see [coverage](COVERAGE.md)). Delivered as 01A and 01B slices. Read the [readiness decisions](../reviews/architecture-readiness.md), [data contracts](../reviews/data-contracts.md), [API/frontend contracts](../reviews/api-frontend-contracts.md), and [coverage matrix](COVERAGE.md) with the owning feature specifications.
 
 ## Objective
 
