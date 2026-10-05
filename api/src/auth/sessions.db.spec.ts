@@ -82,6 +82,18 @@ describe.skipIf(!databaseUrl)("sign-in sessions", () => {
     expect(replayed.data?.viewer).toBeNull();
   });
 
+  it("treats a revoked session cookie as signed out, so the browser holding it can sign in again", async () => {
+    const { email, session } = await registeredAccount();
+    const request = graphqlClient(api);
+    await request(LOGOUT, { session });
+
+    const signedIn = await request<LoginData>(LOGIN, { session, variables: { input: { email, password: VALID_PASSWORD } } });
+
+    expect(signedIn.statusCode).toBe(200);
+    expect(signedIn.data?.login.viewer.email).toBe(email);
+    expect(signedIn.session?.sessionToken).not.toBe(session.sessionToken);
+  });
+
   it("refuses a mutation that carries a session cookie without its CSRF token and keeps the session", async () => {
     const { session } = await registeredAccount();
     const request = graphqlClient(api);

@@ -109,6 +109,16 @@ describe.skipIf(!databaseUrl)("password setup and reset", () => {
     expect(signedIn.data?.login.viewer.onboardingCompleted).toBe(true);
   });
 
+  it("accepts a reset proof from the browser that still holds the session the reset revoked", async () => {
+    const account = await registeredAccount();
+    const proof = await api.auth.requirePasswordSetup(account.id, "RESET");
+
+    const established = await graphqlClient(api)<SetPasswordData>(SET_PASSWORD, { session: account.session, variables: { input: { proof, password: NEW_PASSWORD } } });
+
+    expect(established.statusCode).toBe(200);
+    expect(established.data?.setPassword.viewer.passwordSetupRequired).toBe(false);
+  });
+
   it("invalidates the proof from an earlier reset when the account is reset again", async () => {
     const account = await registeredAccount();
     const firstProof = await api.auth.requirePasswordSetup(account.id, "RESET");

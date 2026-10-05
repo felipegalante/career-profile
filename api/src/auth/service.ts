@@ -118,20 +118,30 @@ export class AuthService {
     });
   }
 
-  async viewerForToken(token: string | undefined): Promise<Viewer | null> {
-    if (!token) return null;
+  /** The session and account a cookie names, or null when it no longer authenticates anyone. */
+  private async usableSession(token: string): Promise<{ session: typeof sessions.$inferSelect; user: typeof users.$inferSelect } | null> {
     const row = await this.database.db.select({ session: sessions, user: users }).from(sessions).innerJoin(users, eq(sessions.userId, users.id)).where(and(eq(sessions.tokenHash, this.fingerprint(token)), isNull(sessions.revokedAt))).limit(1);
     const record = row[0];
     if (!record || record.session.expiresAt <= new Date() || record.session.lastSeenAt.getTime() + SESSION_IDLE_MS <= Date.now() || record.session.credentialGeneration !== record.user.credentialGeneration) return null;
+    return record;
+  }
+
+  async viewerForToken(token: string | undefined): Promise<Viewer | null> {
+    if (!token) return null;
+    const record = await this.usableSession(token);
+    if (!record) return null;
     await this.database.db.update(sessions).set({ lastSeenAt: new Date(), updatedAt: new Date() }).where(eq(sessions.id, record.session.id));
     return this.viewer(record.user);
   }
 
+  // A cookie that no longer authenticates anyone (revoked, expired or reset) leaves the request
+  // anonymous, so it needs no CSRF token; the trusted-Origin check still applies. Requiring one
+  // would stop that browser from signing in or using a setup link until the cookie expired.
   async csrfValid(sessionToken: string | undefined, csrfToken: string | undefined): Promise<boolean> {
     if (!sessionToken) return true;
-    if (!csrfToken) return false;
-    const row = await this.database.db.select({ csrfTokenHash: sessions.csrfTokenHash }).from(sessions).where(and(eq(sessions.tokenHash, this.fingerprint(sessionToken)), isNull(sessions.revokedAt))).limit(1);
-    return row[0]?.csrfTokenHash === this.fingerprint(csrfToken);
+    const record = await this.usableSession(sessionToken);
+    if (!record) return true;
+    return csrfToken !== undefined && record.session.csrfTokenHash === this.fingerprint(csrfToken);
   }
 
   async logout(token: string | undefined): Promise<void> {
