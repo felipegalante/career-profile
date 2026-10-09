@@ -1,6 +1,6 @@
 # Reviewable delivery slices
 
-Status: **PLANNED**, except 00A and 00B (complete) and 01A and 01B (implemented and tested, pending human review). Phase numbers remain stable as milestones. The rows below are separate review units, not a requirement to deliver an entire phase in one PR. Every behavioral slice includes its narrow DB/API/UI path, negative ownership cases, failures and acceptance evidence; do not split by technical layer. Infrastructure-only 00 is the deliberate exception.
+Status: **PLANNED**, except 00A, 00B, 01A and 01B (complete). Phase numbers remain stable as milestones. The rows below are separate review units, not a requirement to deliver an entire phase in one PR. Every behavioral slice includes its narrow DB/API/UI path, negative ownership cases, failures and acceptance evidence; do not split by technical layer. Infrastructure-only 00 is the deliberate exception.
 
 A slice is too large if its reviewer cannot follow one user action, its transaction and its failure behavior together. Split at another user action before adding unrelated capability. Database migrations stay additive while later consumers are absent. Partial milestones are development checkpoints, not permission to publish incomplete features. Full criterion completion is tracked in [COVERAGE](COVERAGE.md).
 
@@ -10,9 +10,10 @@ A slice is too large if its reviewer cannot follow one user action, its transact
 | 00B | Minimal Yoga/Fastify adapter and one Drizzle migration workflow | Real request/error test and empty DB/rerun; no domain UI or speculative client tooling. |
 | 01A | Register, sign in/out, viewer/session and incomplete-user guard | AUTH-AC-001–004/007; fixture routing for 008, cookies/CSRF/throttles; Q11 for styled UI. Q01 does not block this slice. |
 | 01B | Approved proof-based password establishment and credential invalidation | Q01; AUTH-AC-005/006 service/form evidence, expiry/replay/reset race. Admin issuance/action UI remains 10B/10C. |
-| 02A | Account personal fields: read/edit/cancel with owner validation | PER-AC-001–005; Q06 fields, required values and URL/date negatives. |
+| 02A | Account personal fields: read/edit/cancel with owner validation | PER-AC-001–005; supported values from the Personal Information spec, required values and URL/date negatives. |
 | 02B | Profile shell, navigation and static command list | APP criteria and Profile shell criteria; Q09; role/context keys, modal focus, reload/back and mobile (Q09 resolved: drawer). Later domain commands, including Resume Tools, stay explicitly partial until their functional phases. |
 | 02C | Seven-step onboarding frame, personal/career save and explicit finish after optional skips | Required names/country/language cannot be bypassed; timestamp once; register → skip optional sections → Profile. Reuse 02A fields. Optional editors are integrated as they arrive, and the complete onboarding feature is not yet accepted. No invented stored-step cursor. |
+| 02D | Change password from Account Settings | AUTH-AC-009 to 011; current-password check and throttle, policy and verification, current session kept and other sessions signed out, last-changed date, and a change racing a reset or sign-in. Reuse the 01B credential-generation lifecycle. |
 | 03A | View/count lanes and search global skills | SKL-AC-001–004; real ranked query, bounded results, stale-response/keyboard tests. Minimal CatalogCombobox consumer. |
 | 03B | Add catalog skill and reload it at Intermediate | SKL-AC-005/006; persisted MANUAL source, duplicate race; preserve proficiency on source attachment. Onboarding adapter can use the same add service, but its full chip acceptance waits for 04C. |
 | 04A | Create a private custom skill atomically | Q03; SKL-AC-007/008/013, cross-owner lookup and normalized collision; canceled draft writes nothing. |

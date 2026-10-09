@@ -23,6 +23,7 @@ This inventory distinguishes **routes/pages** from focused **component/dialog st
 | ACC-01 | Account · Profile tab | Route/tab | Initial | [Personal information](features/personal-information.md) | `profile/account.html` |
 | ACC-02 | Account · Settings tab | Route/tab | Initial | [Personal information](features/personal-information.md) | `profile/account-settings.html` |
 | ACC-03 | Edit profile information | Dialog | Initial | [Personal information](features/personal-information.md) | `profile/personal-edit.html` |
+| ACC-04 | Change password | Dialog | Initial | [Authentication](features/authentication.md#self-service-password-change) | Not yet designed; `profile/account-settings.html` shows only its trigger |
 | EXP-01 | Work Experience section populated | Profile section | Initial | [Work Experience](features/work-experience.md) | `experience/experience.html` |
 | EXP-02 | Work Experience empty | Profile section state | Initial | [Work Experience](features/work-experience.md) | `experience/experience-empty.html` |
 | EXP-03 | Add/edit Work Experience | Dialog | Initial | [Work Experience](features/work-experience.md) | `experience/experience-add.html` |
